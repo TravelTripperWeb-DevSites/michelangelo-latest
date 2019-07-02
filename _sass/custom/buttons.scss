@@ -1,86 +1,98 @@
 .btn {
   border-radius: 5px;
 
-  &--primary {
+  &--cta {
     position: relative;
     display: inline-block;
-    padding: 15px 30px 12px;
-    font-family: $family-secondary;
-    font-size: $display8-size;
+    padding: 14px 24px 11px;
+    font-family: $family-primary;
+    font-size: $base-font-size;
+    font-weight: $display4-weight;
     color: $white;
-    text-transform: uppercase;
-    letter-spacing: 3.5px;
-    background-color: $secondary;
-    border: 0;
+    letter-spacing: normal;
+    background-color: $primary;
+    border: solid 1px $primary;
     border-radius: 0;
     @include transition(.3s);
 
-    span {
-      position: absolute;
-      top: 18px;
-      right: 15px;
-      @include transition(.3s);
+    &:hover {
+      color: $primary;
+      text-decoration: none;
+      background-color: $white;
+      border: solid 1px $primary;
     }
+  }
+
+  &--primary {
+    position: relative;
+    display: inline-block;
+    padding: 14px 24px 11px;
+    font-family: $family-primary;
+    font-size: $base-font-size;
+    font-weight: $display2-weight;
+    color: $primary;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: $white;
+    border: solid 1px $primary;
+    border-radius: 0;
+    @include transition(.3s);
 
     &:hover {
+      color: $white;
       text-decoration: none;
-      background-color: $terciary;
+      background-color: $primary;
+      border: solid 1px $primary;
+    }
 
-      span {
-        right: 12px;
-      }
+    &.disabled, &:disabled {
+      color: $primary;
+      pointer-events: visible !important;
+      cursor: not-allowed;
+      background: $white;
+      border: solid 1px $primary;
+      opacity: .5;
     }
   }
 
   &--secondary {
-    padding: 15px 30px 12px;
-    font-family: $family-secondary;
-    font-size: $display8-size;
-    color: $black;
+    position: relative;
+    display: inline-block;
+    padding: 14px 24px 11px;
+    font-family: $family-primary;
+    font-size: $base-font-size;
+    font-weight: $display2-weight;
+    color: $white;
     text-transform: uppercase;
-    letter-spacing: 3.5px;
-    background-color: $white;
-    border: 1px solid $secondary;
+    letter-spacing: 2px;
+    background-color: $primary;
+    border: solid 1px $primary;
+    border-radius: 0;
     @include transition(.3s);
+
     &:hover {
-      color: $white;
-      background-color: $secondary;
-    }
-
-    &--light {
-      border: 1px solid $white;
-      &:hover {
-        background-color: $primary;
-        border: 1px solid $white;
-      }
-    }
-
-    &--transparent {
-      color: $white;
-      background: transparent;
-      border: 1px solid $white;
-      &:hover {
-        color: $primary;
-        background-color: $white;
-        border: 1px solid $white;
-      }
+      color: $primary;
+      text-decoration: none;
+      background-color: $white;
+      border: solid 1px $primary;
     }
   }
 
-  &--terciary {
-    padding: 15px 30px 12px;
-    font-family: $family-secondary;
-    font-size: $display8-size;
-    color: $gray-900;
+  &--readmore {
+    padding: 0;
+    font-size: $display7-size;
+    font-weight: $display4-weight;
+    line-height: 24px;
     text-transform: uppercase;
-    letter-spacing: 3.5px;
-    background-color: transparent;
-    border: 1px solid $secondary;
-    @include transition(.3s);
+    border: 0;
+    border-radius: none;
+
+    span {
+      font-size: $display8-size;
+    }
 
     &:hover {
-      color: $white;
-      background-color: $secondary;
+      opacity: .6;
     }
   }
 }
@@ -92,20 +104,16 @@
 .prev, .next {
   @include transition(.3s);
   display: inline-block;
-  width: 36px;
-  height: 36px;
-  padding: 6px 0 0 12px;
+  width: 40px;
+  height: 40px;
+  padding: 8px 0 0 14px;
   color: $white;
-  background-color: $secondary;
-  border: solid 1px $white;
-  border-radius: 0;
+  background-color: transparent;
+  border: 0;
+  border-radius: none;
   &:hover {
-    background-color: $primary;
+    opacity: .6;
   }
-}
-
-:focus {
-  outline: none;
 }
 
 button {
