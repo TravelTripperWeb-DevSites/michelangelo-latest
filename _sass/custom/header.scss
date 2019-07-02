@@ -8,7 +8,7 @@
     @include transition(.3s);
 
     @include media-breakpoint-up(md) {
-      width: 186px;
+      width: 189px;
     }
 
     img {
@@ -52,12 +52,15 @@
   }
 
   .nav {
+    max-width: 710px;
+    margin: 0 auto;
+
     &__link {
       position: relative;
       padding: 24px 12px;
       font-family: $family-primary;
       font-size: $display7-size;
-      font-weight: $display2-weight;
+      font-weight: $display3-weight;
       color: $white;
       letter-spacing: normal;
 
@@ -133,7 +136,6 @@
 
   .brand-bar {
     height: 100px;
-    border-bottom: 2px solid $primary;
     @include transition(.3s);
   }
 
@@ -199,5 +201,5 @@
 }
 
 .is-fixed-top+.main {
-  padding-top: 166px;
+  padding-top: 0;
 }
