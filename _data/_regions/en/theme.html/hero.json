@@ -7,7 +7,7 @@
     "skip_h1": true,
     "hero_image": {
       "mask_color": "#000000",
-      "mask_opacity": "50",
+      "mask_opacity": ".5",
       "image": {
         "name": "michelangelo-exterior",
         "content_type": "image/jpeg",
