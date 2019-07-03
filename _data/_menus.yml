@@ -8,3 +8,8 @@ main:
   - page_id: _pages/offers.html
   - page_id: _pages/gallery.html
   - page_id: _pages/contact.html
+  - folder: false
+    url_localized: ''
+    page_id: _pages/amenities.html
+    label_localized:
+      en: Services
