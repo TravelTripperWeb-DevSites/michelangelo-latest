@@ -72,7 +72,8 @@
 
     &__link {
       position: relative;
-      padding: 24px 12px;
+      margin: 0;
+      padding: 24px 0;
       font-family: $family-primary;
       font-size: $display7-size;
       font-weight: $display3-weight;
@@ -205,9 +206,6 @@
     @include transition(.3s);
 
     .brand-bar {
-      .nav {
-        display: flex;
-      }
       .navbar-brand {
         max-width: 142px;
         margin: 0;
@@ -228,6 +226,13 @@
       &__logo-secondary {
         display: inline-block;
         margin-top: 0;
+      }
+      &__link {
+        color: $primary !important;
+
+        &:hover {
+          color: $primary !important;
+        }
       }
     }
 
