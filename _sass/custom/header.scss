@@ -137,13 +137,14 @@
 
   .brand-bar {
     position: relative;
+    max-width: 1344px;
     height: 100px;
     @include transition(.3s);
 
     .booking-widget-button {
       position: absolute;
       top: 30px;
-      right: 0;
+      right: 15px;
     }
   }
 
