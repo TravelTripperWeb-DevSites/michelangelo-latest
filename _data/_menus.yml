@@ -11,6 +11,9 @@ main:
     items: 
   - page_id: _pages/rooms.html
     items: 
+    url_localized: ''
+    label_localized:
+      en: Rooms & Suites
   - page_id: _pages/offers.html
     items: 
   - page_id: _pages/gallery.html
