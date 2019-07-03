@@ -32,6 +32,9 @@
       "mask_opacity": ".5"
     },
     "skip_h1": true,
-    "_template": "hero"
+    "_template": "hero",
+    "hero_html": {
+      "content": "<h1 class=\"h1 light\">The Michelangelo, Italian-Inspired Hotel in Manhattan</h1>"
+    }
   }
 ]
