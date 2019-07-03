@@ -21,6 +21,12 @@ main:
       en: Specials
   - folder: false
     url_localized: ''
+    page_id: _pages/events.html
+    label_localized:
+      en: Corporate Events
+    items: 
+  - folder: false
+    url_localized: ''
     page_id: _pages/dining.html
     label_localized:
       en: Dining
@@ -29,8 +35,3 @@ main:
     items: 
   - page_id: _pages/contact.html
     items: 
-  - folder: false
-    url_localized: ''
-    page_id: _pages/events.html
-    label_localized:
-      en: Corporate Events
