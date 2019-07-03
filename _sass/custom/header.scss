@@ -1,3 +1,16 @@
+.booking-widget-button {
+  .btn {
+    @include media-breakpoint-only(xs) {
+      padding: 10px 30px 8px 15px;
+      letter-spacing: normal;
+
+      span {
+        top: 12px;
+      }
+    }
+  }
+}
+
 .navbar {
   height: auto !important;
   padding: 0;
@@ -139,6 +152,10 @@
     margin: 0 auto;
     @include transition(.3s);
 
+    .nav {
+      display: none;
+    }
+
     .booking-widget-button {
       position: absolute;
       top: 30px;
@@ -158,7 +175,7 @@
     }
   }
 
-  &.sticky {
+  &.inner-pages {
     background: $terciary;
     @include transition(.3s);
 
@@ -182,17 +199,42 @@
       }
     }
   }
-}
 
-.booking-widget-button {
-  .btn {
-    @include media-breakpoint-only(xs) {
-      padding: 10px 30px 8px 15px;
-      letter-spacing: normal;
+  &.sticky {
+    background: $terciary;
+    @include transition(.3s);
 
-      span {
-        top: 12px;
+    .brand-bar {
+      .nav {
+        display: flex;
       }
+      .navbar-brand {
+        max-width: 142px;
+        margin: 0;
+      }
+    }
+
+    .greedy-bar {
+      position: absolute;
+      right: 0;
+      left: 0;
+      max-width: 710px;
+    }
+
+    .nav {
+      &__logo {
+        display: none;
+      }
+      &__logo-secondary {
+        display: inline-block;
+        margin-top: 0;
+      }
+    }
+
+    .booking-widget-button {
+      position: relative;
+      top: inherit;
+      right: inherit;
     }
   }
 }
