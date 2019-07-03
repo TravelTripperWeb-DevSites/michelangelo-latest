@@ -19,12 +19,13 @@ main:
     url_localized: ''
     label_localized:
       en: Specials
-  - page_id: _pages/gallery.html
-    items: 
-  - page_id: _pages/contact.html
-    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/dining.html
     label_localized:
       en: Dining
+    items: 
+  - page_id: _pages/gallery.html
+    items: 
+  - page_id: _pages/contact.html
+    items: 
