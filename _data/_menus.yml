@@ -9,8 +9,6 @@ main:
     label_localized:
       en: Services
     items: 
-  - page_id: _pages/about.html
-    items: 
   - page_id: _pages/rooms.html
     items: 
   - page_id: _pages/offers.html
