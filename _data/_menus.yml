@@ -3,13 +3,19 @@ main:
   depth: 2
   name: Top Menu
   items:
-  - page_id: _pages/about.html
-  - page_id: _pages/rooms.html
-  - page_id: _pages/offers.html
-  - page_id: _pages/gallery.html
-  - page_id: _pages/contact.html
   - folder: false
     url_localized: ''
     page_id: _pages/amenities.html
     label_localized:
       en: Services
+    items: 
+  - page_id: _pages/about.html
+    items: 
+  - page_id: _pages/rooms.html
+    items: 
+  - page_id: _pages/offers.html
+    items: 
+  - page_id: _pages/gallery.html
+    items: 
+  - page_id: _pages/contact.html
+    items: 
