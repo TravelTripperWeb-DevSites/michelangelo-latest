@@ -21,15 +21,15 @@ main:
       en: Specials
   - folder: false
     url_localized: ''
-    page_id: _pages/events.html
-    label_localized:
-      en: Corporate Events
-    items: 
-  - folder: false
-    url_localized: ''
     page_id: _pages/dining.html
     label_localized:
       en: Dining
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/events.html
+    label_localized:
+      en: Corporate Events
     items: 
   - page_id: _pages/gallery.html
     items: 
