@@ -2,6 +2,7 @@
   height: auto !important;
   padding: 0;
   background: transparent;
+  @include transition(.3s);
 
   .navbar-brand {
     width: 100px;
@@ -89,10 +90,8 @@
 
     &__logo {
       display: inline-block;
-      width: 250px;
-      @media (max-width: 460px) {
-        width: 180px;
-      }
+      margin-top: 24px;
+
       img {
         width: 100%;
         height: auto !important;
@@ -101,10 +100,8 @@
 
     &__logo-secondary {
       display: none;
-      width: 250px;
-      @media (max-width: 460px) {
-        width: 180px;
-      }
+      margin-top: 24px;
+
       img {
         width: 100%;
         height: auto;
@@ -139,6 +136,7 @@
     position: relative;
     max-width: 1344px;
     height: 100px;
+    margin: 0 auto;
     @include transition(.3s);
 
     .booking-widget-button {
@@ -161,14 +159,8 @@
   }
 
   &.sticky {
-
-    .navbar-brand {
-      width: 100px;
-
-      @include media-breakpoint-up(md) {
-        width: 130px;
-      }
-    }
+    background: $terciary;
+    @include transition(.3s);
 
     .nav {
       &__logo {
@@ -177,10 +169,6 @@
       &__logo-secondary {
         display: inline-block;
       }
-    }
-
-    .brand-bar {
-      height: 68px;
     }
 
     .nav--device {
