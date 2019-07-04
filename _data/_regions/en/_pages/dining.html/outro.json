@@ -11,5 +11,8 @@
       "tabindex": "-1"
     },
     "layout": "8_4"
+  },
+  {
+    "_template": "1_col"
   }
 ]
