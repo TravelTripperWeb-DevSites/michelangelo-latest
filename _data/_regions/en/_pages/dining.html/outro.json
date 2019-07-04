@@ -15,7 +15,7 @@
   {
     "_template": "1_col",
     "html": {
-      "content": "<h1 class=\"h1 text-center\">Dining at The Michelangelo Hotel in NYC</h1>"
+      "content": "<h1 class=\"h1 text-center py-md-3 py-5\">Dining at The Michelangelo Hotel in NYC</h1>"
     }
   }
 ]
