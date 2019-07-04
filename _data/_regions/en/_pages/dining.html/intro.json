@@ -3,12 +3,11 @@
     "_template": "1_col",
     "html": {
       "content": "<h1 class=\"h1 text-center py-md-3 py-5\">Dining at The Michelangelo Hotel in NYC</h1>",
-      "custom_classes": "",
-      "style": "light text-primary"
+      "custom_classes": ""
     },
     "advanced_options": {
       "tabindex": "-1",
-      "custom_classes": "dine__headeing"
+      "custom_classes": "dine__heading"
     },
     "container_classes": "container-fluid"
   }
