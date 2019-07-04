@@ -13,6 +13,7 @@
     },
     "layout": "8_4",
     "col1_type": "html",
-    "col2_type": "html"
+    "col2_type": "html",
+    "include_gap": true
   }
 ]
