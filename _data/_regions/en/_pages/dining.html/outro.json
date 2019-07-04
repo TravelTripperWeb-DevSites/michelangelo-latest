@@ -2,6 +2,7 @@
   {
     "_template": "2_col",
     "advanced_options": {
+      "tabindex": "-1"
     },
     "layout": "8_4",
     "col2_html": {
