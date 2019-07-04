@@ -1,22 +1,6 @@
 [
   {
     "_template": "2_col",
-    "advanced_options": {
-      "tabindex": "-1",
-      "custom_classes": "dine-headeing"
-    },
-    "layout": "",
-    "col2_html": {
-      "content": ""
-    },
-    "col1_html": {
-      "content": "<h2 class=\"h2\">&nbsp;</h2>",
-      "custom_classes": null
-    },
-    "container_classes": "container-fluid"
-  },
-  {
-    "_template": "2_col",
     "col1_html": {
       "content": "<h2 class=\"h2\">Visit The Lounge</h2>\n<hr />\n<p>Drawing inspiration from the local Italian trattoria, our ospiti, or guests, are treated to an Italian culinary experience curated by the world renowned Chef Mara of Osteria Da Fiore in Venice. We invite you to sample our homemade mozzarella and indulge in one of our famous Neapolitan pizzas. The Lounge at The Michelangelo Hotel in NYC is also the perfect place to enjoy a perfect espresso or sip a glass of vino after a day out in Manhattan.</p>\n<p>&nbsp;Start your day with a delightful breakfast, quick lunch or pre-theatre dinner. Enjoy classic favorites from morning to night with a tastefully-designed in room dining menu.</p>"
     },
