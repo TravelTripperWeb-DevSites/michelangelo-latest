@@ -9,7 +9,10 @@
       "content": "<p>Click Here For Our Full Lounge Menu</p>\n<p>Click Here For Our In Room Dining Menu</p>\n<p>Opening Hours</p>\n<p>12pm-1am (Last call at 12:30am)</p>\n<p>Contacts</p>\n<p>152 West 51st Street New York, NY 10019</p>\n<p>(212) 261-8892</p>\n<p>tdespirt@michelangelohotel.com</p>\n<p>The Lounge at The Michelangelo Hotel is accessible. For more information, please view our Accessibility Statement.</p>"
     },
     "col1_html": {
-      "content": "<h2 class=\"h2\">Visit The Lounge</h2>\n<p>Drawing inspiration from the local Italian trattoria, our ospiti, or guests, are treated to an Italian culinary experience curated by the world renowned Chef Mara of Osteria Da Fiore in Venice. We invite you to sample our homemade mozzarella and indulge in one of our famous Neapolitan pizzas. The Lounge at The Michelangelo Hotel in NYC is also the perfect place to enjoy a perfect espresso or sip a glass of vino after a day out in Manhattan.</p>\n<p>Start your day with a delightful breakfast, quick lunch or pre-theatre dinner. Enjoy classic favorites from morning to night with a tastefully-designed in room dining menu.</p>"
+      "content": "<h2 class=\"h2\">Visit The Lounge</h2>\n<p>Drawing inspiration from the local Italian trattoria, our ospiti, or guests, are treated to an Italian culinary experience curated by the world renowned Chef Mara of Osteria Da Fiore in Venice. We invite you to sample our homemade mozzarella and indulge in one of our famous Neapolitan pizzas. The Lounge at The Michelangelo Hotel in NYC is also the perfect place to enjoy a perfect espresso or sip a glass of vino after a day out in Manhattan.</p>\n<p>Start your day with a delightful breakfast, quick lunch or pre-theatre dinner. Enjoy classic favorites from morning to night with a tastefully-designed in room dining menu.</p>",
+      "custom_classes": [
+        "inner: p-4"
+      ]
     }
   }
 ]
