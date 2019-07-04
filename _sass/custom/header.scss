@@ -147,6 +147,10 @@
       border: 0;
       @include transition(.3s);
 
+      @include media-breakpoint-up(lg) {
+
+      }
+
       .nav__link {
         padding: 10px 15px;
         font-family: $family-secondary;
@@ -224,6 +228,8 @@
     .nav__logo-secondary {
       display: inline-block;
     }
+
+
   }
 
   .greedy__hidden-links {
@@ -280,6 +286,27 @@
         &:hover {
           color: $primary !important;
         }
+      }
+      &--device {
+        top: 100px;
+        right: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+        @include transition(.3s);
+
+        &.is-active {
+          opacity: 1;
+          @include transition(.3s);
+
+          .nav__link {
+            &:before {
+              display: none;
+            }
+          }
+        }
+
+
       }
     }
 
