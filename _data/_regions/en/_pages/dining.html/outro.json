@@ -6,6 +6,10 @@
     },
     "col2_html": {
       "content": "<p>Click Here For Our Full Lounge Menu</p>\n<p>Click Here For Our In Room Dining Menu</p>\n<p>Opening Hours</p>\n<p>12pm-1am (Last call at 12:30am)</p>\n<p>Contacts</p>\n<p>152 West 51st Street New York, NY 10019</p>\n<p>(212) 261-8892</p>\n<p>tdespirt@michelangelohotel.com</p>\n<p>The Lounge at The Michelangelo Hotel is accessible. For more information, please view our Accessibility Statement.</p>"
-    }
+    },
+    "advanced_options": {
+      "tabindex": "-1"
+    },
+    "layout": "4_8"
   }
 ]
