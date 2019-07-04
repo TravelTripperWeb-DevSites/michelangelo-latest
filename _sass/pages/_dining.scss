@@ -5,6 +5,7 @@
     background-color: $terciary;
   }
   &__content {
+    max-width: 1080px;
     margin: 48px auto;
     .col--left {
       hr {
