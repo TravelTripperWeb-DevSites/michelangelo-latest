@@ -1,9 +1,11 @@
 [
   {
-    "content": "<h1 class=\"h1 text-center py-md-3 \">Dining at The Michelangelo Hotel in NYC</h1>",
-    "_template": "html"
-  },
-  {
-    "_template": "model_mosaic"
+    "_template": "1_col",
+    "html": {
+      "content": "<h1 class=\"h1 text-center py-md-3 py-5\">Dining at The Michelangelo Hotel in NYC</h1>"
+    },
+    "advanced_options": {
+    },
+    "container_classes": " "
   }
 ]
