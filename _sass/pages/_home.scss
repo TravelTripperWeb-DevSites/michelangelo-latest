@@ -12,9 +12,12 @@
 
   .col {
     &--left {
+
       .col-html-content {
-        max-width: 415px;
-        
+        @include media-breakpoint-up(md) {
+          max-width: 415px;
+        }
+
         @include media-breakpoint-up(lg) {
           margin-left: 60px;
         }
@@ -25,6 +28,13 @@
     }
     &--right {
       @extend .objectfit;
+      @include media-breakpoint-down(sm) {
+        display: none;
+      }
     }
+  }
+
+  .morecontent {
+    display: none;
   }
 }

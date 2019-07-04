@@ -2,7 +2,7 @@
   {
     "_template": "2_col",
     "col1_html": {
-      "content": "<h2 class=\"h2 mb-3\" tabindex=\"0\">Stay in Times Square</h2>\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Italian flair and cosmopolitan appeal</h3>\n<div class=\"seperator\">&nbsp;</div>\n<p tabindex=\"0\">The Michelangelo New York - Starhotels Collezione combines elegance and practicality, design features and classic luxury details; a stylish reflection of the city&rsquo;s eclectic multicultural spirit. In the heart of Manhattan, near Times Square and Rockefeller Center, its unique blend of opulence and authentic Italian hospitality makes it one of the finest luxury hotels in New York.</p>\n<p><a class=\"btn btn--readmore\">Read More <span class=\"far fa-plus\"></span></a></p>",
+      "content": "<h2 class=\"h2 mb-3\" tabindex=\"0\">Stay in Times Square</h2>\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Italian flair and cosmopolitan appeal</h3>\n<div class=\"seperator\"></div>\n<p tabindex=\"0\">The Michelangelo New York - Starhotels Collezione combines elegance and practicality, design features and classic luxury details; a stylish reflection of the city&rsquo;s eclectic multicultural spirit. In the heart of Manhattan, near Times Square and Rockefeller Center, its unique blend of opulence and authentic Italian hospitality makes it one of the finest luxury hotels in New York.</p><p class=\"morecontent\">more content</p>\n<p><a class=\"btn btn--readmore readmore-btn\">Read More <span class=\"far fa-plus\"></span></a></p>",
       "custom_classes": [
         "inner: w-100 d-flex flex-column h-100 justify-content-center"
       ]
