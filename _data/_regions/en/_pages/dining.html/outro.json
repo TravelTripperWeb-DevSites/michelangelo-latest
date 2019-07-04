@@ -13,6 +13,9 @@
     "layout": "8_4"
   },
   {
-    "_template": "1_col"
+    "_template": "1_col",
+    "html": {
+      "content": "<h1 class=\"h1 text-center\">Dining at The Michelangelo Hotel in NYC</h1>"
+    }
   }
 ]
