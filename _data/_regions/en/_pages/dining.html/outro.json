@@ -2,16 +2,18 @@
   {
     "_template": "2_col",
     "advanced_options": {
-      "tabindex": "-1"
+      "tabindex": "-1",
+      "custom_classes": "dine-headeing"
     },
-    "layout": "8_4",
+    "layout": "",
     "col2_html": {
       "content": ""
     },
     "col1_html": {
       "content": "<h2 class=\"h2\">&nbsp;</h2>",
       "custom_classes": null
-    }
+    },
+    "container_classes": "container-fluid"
   },
   {
     "_template": "2_col",
