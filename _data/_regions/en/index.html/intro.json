@@ -20,6 +20,14 @@
     }
   },
   {
-    "_template": "2_col"
+    "_template": "2_col",
+    "advanced_options": {
+      "tabindex": "-1",
+      "custom_classes": "homecontent"
+    },
+    "col1_type": "html",
+    "col2_type": "html",
+    "include_gap": true,
+    "container_classes": ""
   }
 ]
