@@ -32,3 +32,12 @@
   margin-bottom: 24px;
   border-bottom: solid 1px $primary;
 }
+
+.inner-hero {
+  height: 240px;
+  margin-top: 169px;
+  @include media-breakpoint-up(md) {
+    height: 600px;
+    margin-top: 169px;
+  }
+}

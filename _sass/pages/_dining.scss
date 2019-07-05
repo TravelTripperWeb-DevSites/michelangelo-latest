@@ -1,2 +1,25 @@
 // Dining Page Elements
 // ==========================================================================
+.dine {
+  &__heading {
+    background-color: $terciary;
+  }
+  &__content {
+    max-width: 1080px;
+    margin: 48px auto;
+    .col--left {
+      hr {
+        width: 302px;
+        margin-bottom: 24px;
+        background: $primary;
+      }
+      p {
+        max-width: 627px;
+      }
+    }
+    a {
+      color: $primary;
+      text-decoration: underline;
+    }
+  }
+}
