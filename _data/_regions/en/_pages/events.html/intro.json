@@ -10,6 +10,7 @@
     "advanced_options": {
       "custom_classes": "meetings"
     },
-    "include_gap": true
+    "include_gap": true,
+    "style": "brand-alt text-primary"
   }
 ]
