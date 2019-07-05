@@ -1,0 +1,15 @@
+[
+  {
+    "_template": "2_col",
+    "col1_html": {
+      "content": "<h1 class=\"h1\">Corporate Event Venue at The Michelangelo Hotel in Midtown</h1>"
+    },
+    "col2_html": {
+      "content": "<h2 class=\"h2 mb-3\">Luxury Meetings &amp; Events</h2>\n<hr />\n<p>With four meeting rooms accommodating up to 80 people, The Michelangelo is a sophisticated corporate event venue for a prestigious event in the heart of New York. Authentic artwork, Murano glass, splendid marble floors, impressive chandeliers, wonderful velvets and precious imported silks welcome event guests to a warm, stylish atmosphere of authentic Italian luxury. The hotel&rsquo;s catering service, a dedicated professional staff and the elegant, enchanting ambience make every event a resounding success.</p>\n<p>The Michelangelo New York meeting and corporate event spaces in NYC are accessible. For more information, please view our <a href=\"../\">Accessibility Statement</a>.</p>"
+    },
+    "advanced_options": {
+      "custom_classes": "meetings my-48"
+    },
+    "include_gap": true
+  }
+]
