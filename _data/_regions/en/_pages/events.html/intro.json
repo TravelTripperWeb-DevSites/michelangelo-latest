@@ -11,6 +11,6 @@
       "custom_classes": "meetings"
     },
     "include_gap": true,
-    "style": "brand-alt text-primary"
+    "style": "dark text-white"
   }
 ]
