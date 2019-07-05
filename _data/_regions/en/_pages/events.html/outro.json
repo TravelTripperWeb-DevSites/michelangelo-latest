@@ -1,5 +1,11 @@
 [
   {
-    "_template": "2_col"
+    "_template": "2_col",
+    "advanced_options": {
+      "tabindex": "-1"
+    },
+    "container_classes": " ",
+    "col2_type": "html",
+    "col1_type": "html"
   }
 ]
