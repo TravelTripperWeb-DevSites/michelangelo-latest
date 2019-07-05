@@ -4,6 +4,9 @@
     "advanced_options": {
       "custom_classes": "offers-intro"
     },
-    "layout": "7_5"
+    "layout": "7_5",
+    "col1_html": {
+      "content": "<p class=\"h1\">Explore Our New York Vacation Packages</p>"
+    }
   }
 ]
