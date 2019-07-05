@@ -10,6 +10,7 @@
     },
     "col2_html": {
       "content": "<h2 class=\"h2\">Special Offers</h2>\n<p>At The Michelangelo, you&rsquo;ll experience our thoughtful service even before you book. Browse our carefully-designed New York vacation packages and specials to find a creative Manhattan hotel deal for every type of traveler and all vacation goals.</p>"
-    }
+    },
+    "style": "black text-white"
   }
 ]
