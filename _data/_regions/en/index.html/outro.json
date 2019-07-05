@@ -1,5 +1,13 @@
 [
   {
-    "_template": "2_col"
+    "_template": "2_col",
+    "advanced_options": {
+      "custom_classes": "homelocation",
+      "tabindex": "-1"
+    },
+    "container_classes": " ",
+    "include_gap": true,
+    "col1_type": "html",
+    "col2_type": "html"
   }
 ]
