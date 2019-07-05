@@ -9,7 +9,7 @@
     "col2_type": "html",
     "col1_type": "html",
     "col1_html": {
-      "content": "<div class=\"rfp__contant ml-auto\"><h3 class=\"h3 mb-3\">Request for Proposal</h3>\n<hr />\n<p>We would be delighted to provide you with a meeting or event proposal for our hotel. Submit a request to find out more about our opulent NYC corporate event venue, and look forward to an exciting affair.</p>\n<p><a class=\"btn btn--secondary\" href=\"../requestforproposal/\">Submit Your RFP</a></p></div>",
+      "content": "<div class=\"rfp__contant ml-auto\">\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Request for Proposal</h3>\n<hr />\n<p tabindex=\"0\">We would be delighted to provide you with a meeting or event proposal for our hotel. Submit a request to find out more about our opulent NYC corporate event venue, and look forward to an exciting affair.</p>\n<a class=\"btn btn--secondary\" href=\"../requestforproposal/\">Submit Your RFP</a></div>",
       "custom_classes": [
         "inner: w-100 d-flex flex-column h-100 justify-content-center"
       ]
