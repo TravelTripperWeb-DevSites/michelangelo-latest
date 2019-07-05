@@ -69,15 +69,22 @@
       <div data-tt-class-name="btn" ttweb-room-component="BookingButton">
         {% t 'rooms.buttons.book' %}
       </div>
-    </div>    
+    </div>
   </div>
   <div class="c-room__image-group">
     <div class="c-room__featured-image" {% if sync %}ttweb-room-component="RoomPrimaryImage"{% endif %}>
       {% assign featured_image = room.featured_image | default: room.images[0] %}
       {% include components/image image=featured_image max_width=600 %}
     </div>
-    <div class="c-room__images" {% if sync %}ttweb-room-component="RoomImageList"{% endif %}>
-      {% assign sliderImages = room.images %}
+    {% comment %}
+      <div class="c-room__images" {% if sync %}ttweb-room-component="RoomImageList"{% endif %}>
+        {% assign sliderImages = room.images %}
+        {% assign sliderId = "room" | append: room.id | append: "slider" %}
+        {% include components/slider id=sliderId %}
+      </div>
+    {% endcomment %}
+    <div class="c-room__images" {% if sync %}ttweb-room-component="RoomPrimaryImage"{% endif %}>
+      {% assign sliderImages = sliderImages[0] %}
       {% assign sliderId = "room" | append: room.id | append: "slider" %}
       {% include components/slider id=sliderId %}
     </div>
