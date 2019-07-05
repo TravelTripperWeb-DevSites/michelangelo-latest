@@ -257,33 +257,47 @@
     }
   }
 
-  &.inner-pages {
-    background: $terciary;
+  &.inner-page-nav {
+    background: $white;
     @include transition(.3s);
 
+    @include media-breakpoint-up(md) {
+      background: $terciary;
+    }
+
+    .navbar__burger {
+      &:before {
+        color: $primary;
+      }
+    }
+
     .nav {
+
+      &__link {
+        color: $primary;
+
+        &:after {
+          background: $primary;
+        }
+      }
+
       &__logo {
         display: none;
       }
       &__logo-secondary {
         display: inline-block;
-      }
-    }
+        margin-top: 0;
 
-    .nav--device {
-      top: 132px;
-      height: calc(100vh - 132px);
-      overflow-y: scroll;
-
-      @include media-breakpoint-up(sm) {
-        height: auto;
-        overflow-y: inherit;
+        @include media-breakpoint-up(md) {
+          margin-top: 24px;
+        }
       }
     }
   }
 
   &.nav--active {
     background: $white;
+    @include transition(.3s);
 
     @include media-breakpoint-up(md) {
       background: $terciary;
@@ -315,7 +329,7 @@
 
   &.sticky {
     background: $white;
-    @include transition(.3s);
+    @include transition(all .3s);
 
     @include media-breakpoint-up(md) {
       background: $terciary;
@@ -360,6 +374,7 @@
       }
       &__logo-secondary {
         display: inline-block;
+        margin-top: 0;
       }
       &__link {
         color: $primary !important;
@@ -390,8 +405,6 @@
             }
           }
         }
-
-
       }
     }
 
@@ -405,8 +418,26 @@
 
 .is-fixed-top+.main {
   padding-top: 103px;
+  @include transition(all .3s);
 
   @include media-breakpoint-up(md) {
     padding-top: 0;
+  }
+
+  &.inner-page-body {
+    padding-top: 0;
+  }
+}
+
+
+.inner-page-body {
+  margin-top: 103px;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 169px;
+  }
+
+  &.stky {
+    margin-top: 103px;
   }
 }
