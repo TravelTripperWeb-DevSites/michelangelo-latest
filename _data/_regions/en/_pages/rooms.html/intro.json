@@ -30,6 +30,9 @@
         "alt": "michelangelo-rooms-intro"
       },
       "_template": "image"
+    },
+    "col1_html": {
+      "content": "<h1 class=\"h1\">Stay in Our Beautiful Hotel Suites in NYC</h1>"
     }
   }
 ]
