@@ -1,0 +1,14 @@
+{
+  "name_localized": {
+    "en": "Government &amp; Military Rate"
+  },
+  "short_description_localized": {
+    "en": "U.S. government employees, active servicemen and servicewomen, and veterans save 10% off our Best Available Rate. Must present valid government ID at time of check-in. This rate plan is fully flexible."
+  },
+  "description_localized": {
+    "en": null
+  },
+  "image": {
+  },
+  "reztrip_offer_id": "GOV"
+}
