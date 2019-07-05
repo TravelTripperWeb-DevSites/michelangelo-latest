@@ -43,6 +43,11 @@
   .col-html-content {
     @extend .objectfit;
 
+    * {
+      width: auto;
+      height: auto;
+    }
+
     &__inner {
       position: relative;
     }
@@ -50,6 +55,10 @@
       @include absolute-position(0,0,0,0,auto,auto);
       padding: 24px;
       background-color: rgba($primary, .5);
+    }
+
+    p {
+      @extend .light;
     }
   }
 }
