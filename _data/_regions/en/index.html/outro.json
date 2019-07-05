@@ -5,7 +5,7 @@
       "custom_classes": "homelocation",
       "tabindex": "-1"
     },
-    "container_classes": " ",
+    "container_classes": "container-fluid",
     "include_gap": true,
     "col1_type": "html",
     "col2_type": "html",
