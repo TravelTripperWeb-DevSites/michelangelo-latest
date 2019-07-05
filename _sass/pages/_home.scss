@@ -39,7 +39,7 @@
   }
 }
 
-.homecontent {
+.pagecontent {
   display: flex;
   justify-content: center;
   margin-top: 48px;
@@ -63,7 +63,9 @@
       position: relative;
       line-height: 0;
 
-
+      img {
+        min-height: 295px;
+      }
     }
 
     &__floating {
