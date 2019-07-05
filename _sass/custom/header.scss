@@ -14,17 +14,27 @@
 .navbar {
   height: auto !important;
   padding: 0;
-  background: transparent;
+  background: $white;
   @include transition(.3s);
 
+  @include media-breakpoint-up(md) {
+    background: transparent;
+  }
+
   .greedy-bar {
+    max-width: 100%;
     margin: 0 auto;
+    border-top: solid 1px $secondary;
 
     @include media-breakpoint-up(md) {
-      max-width: 400px;
+      border-top: 0;
     }
 
     @include media-breakpoint-up(lg) {
+      max-width: 500px;
+    }
+
+    @include media-breakpoint-up(xl) {
       max-width: 800px;
     }
 
@@ -32,11 +42,12 @@
 
   .navbar-brand {
     width: 100px;
-    margin: 0 auto;
+    margin: 0;
     @include transition(.3s);
 
     @include media-breakpoint-up(md) {
       width: 189px;
+      margin: 0 auto;
     }
 
     img {
@@ -47,25 +58,32 @@
 
   &__burger {
     position: relative;
-    margin: 0 auto;
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
     background: transparent;
 
     @include media-breakpoint-up(md) {
+      width: 4rem;
+      height: 4rem;
       margin-top: 3px;
       margin-right: inherit;
       margin-bottom: inherit;
-      margin-left: 8px;
     }
 
     &:before {
       position: absolute;
-      top: 18px;
-      left: 23px;
+      top: 7px;
       font-family: 'Font Awesome 5 Pro';
       font-size: 18px;
       font-weight: 400;
-      color: $white;
+      color: $primary;
       content: '\f0c9';
+
+      @include media-breakpoint-up(md) {
+        top: 18px;
+        color: $white;
+      }
     }
 
     &:hover {
@@ -76,12 +94,15 @@
       background: transparent;
 
       &:before {
-        top: 16px;
-        left: 24px;
+        top: 7px;
         font-size: 20px;
         font-weight: 300;
         color: $primary;
         content: '\f00d';
+
+        @include media-breakpoint-up(md) {
+          top: 18px;
+        }
       }
     }
   }
@@ -91,29 +112,44 @@
     &__link {
       position: relative;
       margin: 0 15px;
-      padding: 24px 0;
+      padding: 10px 0;
       font-family: $family-primary;
       font-size: $display7-size;
       font-weight: $display3-weight;
-      color: $white;
+      color: $primary;
       letter-spacing: normal;
+
+      @include media-breakpoint-up(md) {
+        padding: 24px 0;
+        color: $white;
+      }
 
       &:after {
         position: absolute;
         right: 0;
         bottom: 12px;
         left: 0;
+        display: none;
         width: 100%;
         height: 1px;
         content: '';
-        background: $white;
+        background: $primary;
         opacity: 0;
         @include transition(.3s);
+
+        @include media-breakpoint-up(md) {
+          display: block;
+          background: $white;
+        }
       }
 
       &:hover, &.active {
-        color: $white !important;
+        color: $primary;
         text-decoration: none !important;
+
+        @include media-breakpoint-up(md) {
+          color: $white;
+        }
 
         &:after {
           bottom: 22px;
@@ -123,8 +159,13 @@
     }
 
     &__logo {
-      display: inline-block;
-      margin-top: 24px;
+      display: none;
+      margin-top: 5px;
+
+      @include media-breakpoint-up(md) {
+        display: inline-block;
+        margin-top: 24px
+      }
 
       img {
         width: 100%;
@@ -133,8 +174,13 @@
     }
 
     &__logo-secondary {
-      display: none;
-      margin-top: 24px;
+      display: inline-block;
+      margin-top: 5px;
+
+      @include media-breakpoint-up(md) {
+        display: none;
+        margin-top: 24px;
+      }
 
       img {
         width: 100%;
@@ -143,12 +189,14 @@
     }
 
     &--device {
-      top: 169px;
+      top: 103px;
+      height: calc(100vh - 103px);
+      overflow-y: scroll;
       border: 0;
       @include transition(.3s);
 
       @include media-breakpoint-up(lg) {
-
+        top: 169px;
       }
 
       .nav__link {
@@ -156,6 +204,10 @@
         font-family: $family-secondary;
         font-size: $display3-size;
         font-weight: $display3-weight;
+
+        &:after {
+          display: none;
+        }
 
         &:hover {
           color: $primary !important;
@@ -167,9 +219,13 @@
   .brand-bar {
     position: relative;
     max-width: 1344px;
-    height: 100px;
+    height: 61px;
     margin: 0 auto;
     @include transition(.3s);
+
+    @include media-breakpoint-up(md) {
+      height: 100px;
+    }
 
     .nav {
       display: none;
@@ -177,8 +233,12 @@
 
     .booking-widget-button {
       position: absolute;
-      top: 30px;
+      top: 5px;
       right: 15px;
+
+      @include media-breakpoint-up(md) {
+        top: 30px;
+      }
     }
   }
 
@@ -220,7 +280,11 @@
   }
 
   &.nav--active {
-    background: $terciary;
+    background: $white;
+
+    @include media-breakpoint-up(md) {
+      background: $terciary;
+    }
 
     .nav__logo {
       display: none;
@@ -244,8 +308,12 @@
   }
 
   &.sticky {
-    background: $terciary;
+    background: $white;
     @include transition(.3s);
+
+    @include media-breakpoint-up(md) {
+      background: $terciary;
+    }
 
     .navbar__burger {
       background: transparent;
@@ -263,9 +331,15 @@
     }
 
     .greedy-bar {
-      position: absolute;
+      position: relative;
       right: 0;
       left: 0;
+
+      @include media-breakpoint-up(md) {
+        position: absolute;
+        right: 0;
+        left: 0;
+      }
     }
 
     .nav {
@@ -274,7 +348,6 @@
       }
       &__logo-secondary {
         display: inline-block;
-        margin-top: 0;
       }
       &__link {
         color: $primary !important;
@@ -319,5 +392,5 @@
 }
 
 .is-fixed-top+.main {
-  padding-top: 0;
+  padding-top: 103px;
 }
