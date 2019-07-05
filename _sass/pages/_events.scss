@@ -5,7 +5,8 @@
 .meetings {
   display: flex;
   justify-content: center;
-  padding: 48px 0;
+  padding-top: 48px;
+  padding-bottom: 48px;
   background: $terciary;
   .row {
     max-width: 1064px;
@@ -19,11 +20,16 @@
       max-width: 410px;
       margin-bottom: 24px;
     }
+    p {
+      &:nth-last-child(1) {
+        margin-bottom: 0;
+      }
+    }
   }
 }
 
 .rfp {
-  padding: 48px 0;
+  margin-top: 48px;
   .col--left {
     hr {
       max-width: 411px;
@@ -31,7 +37,11 @@
     }
   }
   &__contant {
-    max-width: 411px;
-    margin-right: 130px;
+    width: 100%;
+    margin-right: 0;
+    @include media-breakpoint-up(md) {
+      max-width: 411px;
+      margin-right: 109px;
+    }
   }
 }
