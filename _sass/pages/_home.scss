@@ -5,3 +5,77 @@
     z-index: 1;
   }
 }
+
+.pageintro {
+  max-width: 1310px;
+  margin-top: 48px;
+
+  .col {
+    &--left {
+
+      .col-html-content {
+        @include media-breakpoint-up(md) {
+          max-width: 415px;
+        }
+
+        @include media-breakpoint-up(lg) {
+          margin-left: 60px;
+        }
+        @include media-breakpoint-up(xl) {
+          margin-left: 120px;
+        }
+      }
+    }
+    &--right {
+      @extend .objectfit;
+      @include media-breakpoint-down(sm) {
+        display: none;
+      }
+    }
+  }
+
+  .morecontent {
+    display: none;
+  }
+}
+
+.pagecontent {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: $terciary;
+
+  .row {
+    max-width: 1064px;
+  }
+
+  .col-html-content {
+    @extend .objectfit;
+
+    * {
+      width: auto;
+      height: auto;
+    }
+
+    &__inner {
+      position: relative;
+      line-height: 0;
+
+      img {
+        min-height: 295px;
+      }
+    }
+
+    &__floating {
+      @include absolute-position(0,0,0,0,auto,auto);
+      padding: 24px;
+      background-color: rgba($primary, .5);
+    }
+
+    p {
+      @extend .light;
+    }
+  }
+}

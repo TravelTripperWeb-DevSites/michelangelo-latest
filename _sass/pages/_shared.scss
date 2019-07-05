@@ -28,6 +28,15 @@
   }
 }
 
+.seperator {
+  margin-bottom: 24px;
+  border-bottom: solid 1px $primary;
+}
+
+.seperator-white {
+  margin-bottom: 24px;
+  border-bottom: solid 1px $white;
+}
 
 .inner-hero {
   height: 240px;
