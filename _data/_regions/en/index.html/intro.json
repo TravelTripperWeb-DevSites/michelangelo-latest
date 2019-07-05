@@ -23,7 +23,7 @@
     "_template": "2_col",
     "advanced_options": {
       "tabindex": "-1",
-      "custom_classes": "homecontent"
+      "custom_classes": "pagecontent"
     },
     "col1_type": "html",
     "col2_type": "html",
