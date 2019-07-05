@@ -27,11 +27,12 @@
     border-top: solid 1px $secondary;
 
     @include media-breakpoint-up(md) {
+      max-width: 400px;
       border-top: 0;
     }
 
     @include media-breakpoint-up(lg) {
-      max-width: 500px;
+      max-width: 80%;
     }
 
     @include media-breakpoint-up(xl) {
@@ -41,7 +42,7 @@
   }
 
   .navbar-brand {
-    width: 100px;
+    width: 120px;
     margin: 0;
     @include transition(.3s);
 
@@ -94,14 +95,16 @@
       background: transparent;
 
       &:before {
-        top: 7px;
-        font-size: 20px;
+        top: 4px;
+        right: 17px;
+        font-size: 22px;
         font-weight: 300;
         color: $primary;
         content: '\f00d';
 
         @include media-breakpoint-up(md) {
-          top: 18px;
+          top: 15px;
+          right: inherit;
         }
       }
     }
@@ -179,7 +182,7 @@
 
       @include media-breakpoint-up(md) {
         display: none;
-        margin-top: 24px;
+        margin-top: 0;
       }
 
       img {
@@ -189,13 +192,13 @@
     }
 
     &--device {
-      top: 103px;
+      top: 100px;
       height: calc(100vh - 103px);
       overflow-y: scroll;
       border: 0;
       @include transition(.3s);
 
-      @include media-breakpoint-up(lg) {
+      @include media-breakpoint-up(md) {
         top: 169px;
       }
 
@@ -233,7 +236,7 @@
 
     .booking-widget-button {
       position: absolute;
-      top: 5px;
+      top: inherit;
       right: 15px;
 
       @include media-breakpoint-up(md) {
@@ -291,8 +294,11 @@
     }
     .nav__logo-secondary {
       display: inline-block;
-    }
 
+      @include media-breakpoint-up(md) {
+        margin-top: 24px;
+      }
+    }
 
   }
 
@@ -313,6 +319,12 @@
 
     @include media-breakpoint-up(md) {
       background: $terciary;
+    }
+
+    &.nav--active {
+      .nav__logo-secondary {
+        margin-top: 0;
+      }
     }
 
     .navbar__burger {
@@ -393,4 +405,8 @@
 
 .is-fixed-top+.main {
   padding-top: 103px;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 0;
+  }
 }
