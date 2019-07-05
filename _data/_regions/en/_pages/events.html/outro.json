@@ -22,6 +22,9 @@
     "_template": "2_col",
     "col1_html": {
       "content": "<p>ssfsd</p>"
+    },
+    "col2_html": {
+      "content": "<p>awdadsads</p>"
     }
   }
 ]
