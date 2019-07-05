@@ -4,7 +4,7 @@
     "advanced_options": {
       "custom_classes": "intro-with-image"
     },
-    "container_classes": " ",
+    "container_classes": " align-items-center",
     "col2_type": "image",
     "col1_type": "html",
     "col2_image": {
