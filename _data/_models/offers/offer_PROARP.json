@@ -28,7 +28,8 @@
     "caption": "Hotel Lobby",
     "description": "The Picture showcases the elegance of the lobby with two velvet couches, two ottomans and two lounge chairs. Above the couch hangs an old painting. The walls are covered with silk panels.",
     "alt": "Hotel Lobby",
-    "original_url": "https://d31f902anbz5po.cloudfront.net/966/44417_2_master.jpg"
+    "original_url": "https://d31f902anbz5po.cloudfront.net/966/44417_2_master.jpg",
+    "git_file_name": "_assets/image_data/AARP-Rate-Hotel-Lobby.json"
   },
   "reztrip_offer_id": "PROARP"
 }

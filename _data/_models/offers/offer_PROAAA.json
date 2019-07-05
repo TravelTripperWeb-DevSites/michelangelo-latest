@@ -28,7 +28,8 @@
     "caption": "AAA Logo",
     "description": "The Picture shows the AAA logo",
     "alt": "AAA Logo",
-    "original_url": "https://d31f902anbz5po.cloudfront.net/966/43743_3_master.jpg"
+    "original_url": "https://d31f902anbz5po.cloudfront.net/966/43743_3_master.jpg",
+    "git_file_name": "_assets/image_data/AAA-Rate-AAA-Logo.json"
   },
   "reztrip_offer_id": "PROAAA"
 }
