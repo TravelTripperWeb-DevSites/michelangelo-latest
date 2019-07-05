@@ -1,5 +1,8 @@
 [
   {
-    "_template": "2_col"
+    "_template": "2_col",
+    "col1_html": {
+      "content": "<h1 class=\"h1\">Corporate Event Venue at The Michelangelo Hotel in Midtown</h1>"
+    }
   }
 ]
