@@ -40,6 +40,17 @@
 }
 
 .homecontent {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: $terciary;
+
+  .row {
+    max-width: 1064px;
+  }
+
   .col-html-content {
     @extend .objectfit;
 
@@ -50,7 +61,11 @@
 
     &__inner {
       position: relative;
+      line-height: 0;
+
+
     }
+
     &__floating {
       @include absolute-position(0,0,0,0,auto,auto);
       padding: 24px;
