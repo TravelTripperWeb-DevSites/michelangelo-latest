@@ -38,3 +38,18 @@
     display: none;
   }
 }
+
+.homecontent {
+  .col-html-content {
+    @extend .objectfit;
+
+    &__inner {
+      position: relative;
+    }
+    &__floating {
+      @include absolute-position(0,0,0,0,auto,auto);
+      padding: 24px;
+      background-color: rgba($primary, .5);
+    }
+  }
+}
