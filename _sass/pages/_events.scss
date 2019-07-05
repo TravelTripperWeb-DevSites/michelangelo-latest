@@ -5,4 +5,26 @@
 .meetings {
   padding: 48px 0;
   background: $terciary;
+  .row {
+    max-width: 1064px;
+  }
+  .col--right {
+    hr {
+      max-width: 410px;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+.rfp {
+  .col--left {
+    hr {
+      max-width: 411px;
+      margin-bottom: 24px;
+    }
+  }
+  &__contant {
+    max-width: 411px;
+    margin-right: 130px;
+  }
 }
