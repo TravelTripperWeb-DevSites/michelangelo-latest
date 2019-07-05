@@ -25,6 +25,10 @@
     },
     "col2_html": {
       "content": "<p>awdadsads</p>"
+    },
+    "advanced_options": {
+      "tabindex": "0",
+      "custom_classes": "pagecontent"
     }
   }
 ]
