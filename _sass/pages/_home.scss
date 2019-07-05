@@ -90,7 +90,7 @@
       @include absolute-position(0,0,0,0,auto,auto);
       padding: 24px;
       background-color: rgba($primary, .8);
-      transition: all .6s;
+      transition: all .6s cubic-bezier(.275,0,0,1);
 
       @include media-breakpoint-up(md) {
         @include absolute-position(0,-100%,0,100%,auto,auto);
