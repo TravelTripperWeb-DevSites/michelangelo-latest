@@ -35,12 +35,14 @@
 }
 
 .seperator {
+  width: 100%;
   height: 1px;
   margin-bottom: 24px;
   border-bottom: solid 1px $primary;
 }
 
 .seperator-white {
+  width: 100%;
   height: 1px;
   margin-bottom: 24px;
   border-bottom: solid 1px $white;
@@ -53,6 +55,22 @@
     height: 600px;
     margin-top: 169px;
   }
+}
+
+.mt-48 {
+  margin-top: 48px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.pt-48 {
+  padding-top: 48px;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
 }
 
 .intro-with-image {
@@ -122,11 +140,60 @@
   }
 }
 
-.pt-48 {
-  padding-top: 48px;
+.main {
+  position: relative;
 }
-.pb-48 {
-  padding-bottom: 48px;
+
+.ttweb-brg-banner {
+  position: absolute;
+  top: 0;
+}
+
+.newsletter-signup {
+  padding: 25px 0;
+  color: $white;
+  text-align: center;
+  background: $secondary;
+
+  @include media-breakpoint-up(md) {
+    text-align: left;
+  }
+
+  .container {
+    max-width: 780px;
+    margin: 0 auto;
+  }
+
+  &__intro {
+    @include make-col-ready;
+
+    @include media-breakpoint-up(md) {
+      @include make-col(6);
+    }
+  }
+
+  &__form {
+    @include make-col-ready;
+
+    @include media-breakpoint-up(md) {
+      @include make-col(6);
+    }
+
+    label {
+      font-size: $display9-size;
+      color: $white;
+      text-transform: none;
+      letter-spacing: normal;
+
+      a {
+        color: $white;
+      }
+    }
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 input[type=date], input[type=number] {
