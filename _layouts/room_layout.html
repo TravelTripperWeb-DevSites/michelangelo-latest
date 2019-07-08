@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% assign room = page.data %}
+{% include components/room %}
+
+<section class="room-booking-widget pt-48 pb-48">
+  <p class="h2 text-center">Your Reservation</p>
+  <p class="overline text-center">BEST RATE GUARANTEE</p>
+  <form class="room-booking-widget__form" action="index.html" method="post">
+    <div class="room-booking-widget__form__wrap">
+      <div class="room-booking-widget__form__dates">
+        <div class="full-width">
+          <label for="arrival-date">Arrival</label>
+          <input type="date" id="arrival-date" aria-label="Enter Arrival Date" name="" value="">
+        </div>
+        <div class="full-width">
+          <label for="departure-date">Departure</label>
+          <input type="date" id="departure-date" aria-label="Enter Departure Date" name="" value="">
+        </div>
+      </div>
+      <div class="room-booking-widge__form__extra-fields">
+
+      </div>
+    </div>
+  </form>
+</section>

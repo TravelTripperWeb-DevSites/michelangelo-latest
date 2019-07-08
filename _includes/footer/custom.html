@@ -1,3 +1,17 @@
+<section class="newsletter-signup">
+  <div class="container">
+    <div class="row">
+      <div class="newsletter-signup__intro">
+        <p class="h4 light mb-2">{% t 'join_our_newsletter' %}</p>
+        <p class="uppercase mb-3 mb-md-0 light">{% t 'newsletter_signup_intro' %}</p>
+      </div>
+      <div class="newsletter-signup__form">
+        {% include forms/jotform/newsletter.html %}
+      </div>
+    </div>
+  </div>
+</section>
+
 <div class="copyright m-2">
   &copy; {{ "now" | date: "%Y" }}
 </div>

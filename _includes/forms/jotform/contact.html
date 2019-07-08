@@ -1,0 +1,37 @@
+<form class="contact__wrap" action="https://submit.jotform.me/submit/{{ site.data.forms.jotform.contact-id }}/" method="post" name="form_{{ site.data.forms.jotform.contact-id }}"
+    id="{{ site.data.forms.jotform.contact-id }}" accept-charset="utf-8">
+    <input type="hidden" name="formID" value="{{ site.data.forms.jotform.contact-id }}">
+    <div class="col-md-6">
+      <label for="input_5">First Name</label>
+      <input class="form-control custom-input" type="text" id="input_5" name="q5_firstName"  placeholder="John" required>
+    </div>
+    <div class="col-md-6">
+      <label for="input_6">Last Name</label>
+      <input class="form-control custom-input" type="text" id="input_6" name="q6_lastName" placeholder="Doe" >
+    </div>
+    <div class="col-md-6">
+      <label for="input_7">Phone Number</label>
+      <input class="form-control custom-input" type="text" id="input_7" name="q7_phone" placeholder="555-555-5555" >
+    </div>
+    <div class="col-md-6">
+      <label for="input_3">Email Address*</label>
+      <input class="form-control custom-input" type="email" id="input_3" name="q3_emailAddress" placeholder="Your Email" required>
+    </div>
+    <div class="col-md-12">
+      <label for="input_8">Comments</label>
+      <textarea id="input_8" name="q8_comment" cols="40" rows="8" placeholder="Place comments here…"></textarea>
+    </div>
+    <div class="form-check mb-4">
+    <input class="form-check-input" type="checkbox" aria-label="agree"  name="q4_agreeTo[]" value="Yes" required>
+    <p class="form-check-label small" for="input_14_0">
+      I agree with  <a href="/terms/"> Terms of Service</a> &  <a href="/privacy/">Privacy Policy</a>
+    </p>
+  </div>
+    <button class="btn btn btn--secondary" type="submit" id="input_2">Submit</button>
+    <input type="hidden" id="simple_spc" name="simple_spc" value="{{ site.data.forms.jotform.contact-id }}">
+    <script type="text/javascript">
+        document.getElementById("si" + "mple" + "_spc").value = "{{ site.data.forms.jotform.contact-id }}-{{ site.data.forms.jotform.contact-id }}";
+    </script>
+</form>
+
+<script type="text/javascript">JotForm.ownerView=true;</script>
