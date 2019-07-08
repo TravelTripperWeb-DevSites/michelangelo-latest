@@ -28,11 +28,23 @@ readyDoc(function() {
       roomsList[i].querySelector(".ttweb-room-size__units").innerHTML = "";
     }
   }, 5000);
-  
+
   setTimeout(function() {
     if(document.getElementById("preloader")) {
       document.getElementById("preloader").style.display = "none";
     }
   }, 5500);
+
+  document.addEventListener('click', function(event) {
+    if (event.target.classList.contains('readmore-btn')) {
+      if (event.target.parentNode.classList.contains("expanded")) {
+        event.target.parentNode.classList.remove("expanded");
+        event.target.innerHTML = "Read More +";
+      } else {
+        event.target.parentNode.classList.add("expanded");
+        event.target.innerHTML = "Read Less -";
+      }
+    }
+  }, false);
 
 });
