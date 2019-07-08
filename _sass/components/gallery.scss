@@ -25,11 +25,11 @@ img.objectfit, .objectfit img {
   @include make-container();
   @include make-container-max-widths();
   .gallery-nav {
-    list-style: none;
+    justify-content: center;
     margin: 0;
     padding: 0;
+    list-style: none;
     @include make-row();
-    justify-content: center;
     li {
       margin: $grid-gutter-width / 2;
       &.active {
