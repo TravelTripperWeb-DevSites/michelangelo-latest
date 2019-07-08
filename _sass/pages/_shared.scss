@@ -130,3 +130,34 @@
   position: absolute;
   top: 0;
 }
+
+.newsletter-signup {
+  padding: 25px 0;
+  color: $white;
+  background: $secondary;
+
+  .container {
+    max-width: 780px;
+    margin: 0 auto;
+  }
+
+  &__intro {
+    @include make-col-ready;
+
+    @include media-breakpoint-up(md) {
+      @include make-col(5);
+    }
+  }
+
+  &__form {
+    @include make-col-ready;
+
+    @include media-breakpoint-up(md) {
+      @include make-col(7);
+    }
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
