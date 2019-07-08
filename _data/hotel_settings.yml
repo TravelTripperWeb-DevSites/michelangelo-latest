@@ -12,8 +12,8 @@ address:
   zip_code: 10019
 default_currency: USD
 default_timezone: America/New_York
-_hotel_id: 
-_portal_id: 
+_hotel_id: NYCMIC
+_portal_id: michelangelohotel
 __EDITABLE_FIELDS__:
   name:
     required: true
@@ -61,13 +61,13 @@ logo:
   name: themichelangelo-white
   content_type: image/svg+xml
   date_added: 2019-07-02-081151
-  format: 
+  format:
   url: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562069511/h5cexwy85w5oz5woukmc.svg"
   url_raw: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562069511/h5cexwy85w5oz5woukmc.svg"
   resource_type: raw
   size: 16948
   path: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562069511/h5cexwy85w5oz5woukmc.svg"
-  file_size: 
+  file_size:
   alt: The Michelangelo New York
   caption: ''
   description: ''
@@ -75,13 +75,13 @@ logo_secondary:
   name: themichelangelo-bronze
   content_type: image/svg+xml
   date_added: 2019-07-02-081219
-  format: 
+  format:
   url: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562069539/teqwsryijcum3undsflp.svg"
   url_raw: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562069539/teqwsryijcum3undsflp.svg"
   resource_type: raw
   size: 16948
   path: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562069539/teqwsryijcum3undsflp.svg"
-  file_size: 
+  file_size:
   alt: The Michelangelo New York
   caption: ''
   description: ''
