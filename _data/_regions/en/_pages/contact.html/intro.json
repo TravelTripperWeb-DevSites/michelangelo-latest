@@ -10,6 +10,9 @@
     "include_gap": false,
     "col1_type": "html",
     "col2_type": "html",
-    "container_classes": "container-fluid"
+    "container_classes": "container-fluid",
+    "col2_html": {
+      "content": "<h2 class=\"h2 mb-3 \" tabindex=\"0\">Contact Us</h2>\n<hr />\n<p>We&rsquo;re standing by to answer all your questions and provide you with more information on our accommodations, services, dining, location and much more. Contact us today!</p>"
+    }
   }
 ]
