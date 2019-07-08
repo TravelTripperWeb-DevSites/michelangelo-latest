@@ -12,13 +12,15 @@
     max-width: 1064px;
   }
   .col--right {
-    padding-left: 12px;
+    padding-left: 0;
     @include media-breakpoint-up(md) {
       padding-left: 83px;
     }
     hr {
       max-width: 410px;
       margin-bottom: 24px;
+      border-top: 1px solid $primary;
+      border-bottom: 0;
     }
     p {
       &:nth-last-child(1) {
@@ -43,6 +45,8 @@
     hr {
       max-width: 411px;
       margin-bottom: 24px;
+      border-top: 1px solid $primary;
+      border-bottom: 0;
     }
   }
   .col--right {

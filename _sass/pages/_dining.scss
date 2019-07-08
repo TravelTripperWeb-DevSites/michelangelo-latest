@@ -11,15 +11,20 @@
       hr {
         width: 302px;
         margin-bottom: 24px;
-        background: $primary;
+        border-top: 1px solid $primary;
+        border-bottom: 0;
       }
       p {
-        max-width: 627px;
+        width: 100%;
+        @include media-breakpoint-up(md) {
+          max-width: 627px;
+        }
       }
     }
     a {
       color: $primary;
       text-decoration: underline;
+      word-break: break-all;
     }
   }
 }

@@ -1,2 +1,24 @@
 // Contact Page Elements
 // ==========================================================================
+
+
+.contact {
+  padding-bottom: 48px;
+  background-color: $terciary;
+
+  &__wrap {
+    @include make-row();
+    max-width: 650px;
+    margin: auto;
+    .form-control {
+      margin-bottom: 24px;
+    }
+    .form-check {
+      p,
+      a {
+        font-size: .625rem;
+        color: #535353;
+      }
+    }
+  }
+}
