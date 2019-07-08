@@ -6,7 +6,7 @@
       "custom_classes": ""
     },
     "advanced_options": {
-      "tabindex": "-1",
+      "tabindex": "0",
       "custom_classes": "dine__heading"
     },
     "container_classes": "container-fluid"
