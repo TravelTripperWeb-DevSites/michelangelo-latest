@@ -12,14 +12,21 @@
       margin: 0;
       label {
         display: block;
+        margin: 15px 0 5px;
         text-align: center;
       }
       input {
         display: block;
         width: 100%;
+        padding: 0 0 10px 30px;
+        font-size: 36px;
+        color: #263746;
+        text-align: center;
         border: 0;
+        line-height: 36px;
       }
       .full-width, .half-width {
+        margin-bottom: 2px;
         border: 1px solid $border-clr;
       }
     }
