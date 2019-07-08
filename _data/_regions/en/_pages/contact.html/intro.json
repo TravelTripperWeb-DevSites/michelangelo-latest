@@ -7,7 +7,7 @@
     "advanced_options": {
       "custom_classes": "twocol-content"
     },
-    "include_gap": true,
+    "include_gap": false,
     "col1_type": "html",
     "col2_type": "html",
     "container_classes": "container-fluid"
