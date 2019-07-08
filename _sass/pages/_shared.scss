@@ -131,49 +131,6 @@
   top: 0;
 }
 
-.newsletter-signup {
-  padding: 25px 0;
-  color: $white;
-  text-align: center;
-  background: $secondary;
-
-  @include media-breakpoint-up(md) {
-    text-align: left;
-  }
-
-  .container {
-    max-width: 780px;
-    margin: 0 auto;
-  }
-
-  &__intro {
-    @include make-col-ready;
-
-    @include media-breakpoint-up(md) {
-      @include make-col(6);
-    }
-  }
-
-  &__form {
-    @include make-col-ready;
-
-    @include media-breakpoint-up(md) {
-      @include make-col(6);
-    }
-
-    label {
-      font-size: $display9-size;
-      color: $white;
-      text-transform: none;
-      letter-spacing: normal;
-
-      a {
-        color: $white;
-      }
-    }
-  }
-}
-
 .uppercase {
   text-transform: uppercase;
 }
