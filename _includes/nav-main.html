@@ -1,7 +1,7 @@
 {% comment %}
   note the nav.is-fixed-top must immediately precede div.main for div.main top-margin to work property
 {% endcomment %}
-<nav class="navbar greedy is-fixed-top nav--main" id="js-navbar--main">
+<nav class="navbar greedy is-fixed-top nav--main {% if page.url != '/' %}inner-page-nav{% endif %}" id="js-navbar--main">
   <div class="container brand-bar">
     <a class="navbar-brand" href="/">
       <span class="nav__logo"
