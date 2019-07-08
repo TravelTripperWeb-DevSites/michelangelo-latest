@@ -121,3 +121,22 @@
 .pb-48 {
   padding-bottom: 48px;
 }
+
+input[type=date], input[type=number] {
+  &:focus {
+    outline: 0;
+  }
+  &::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+  }
+
+  &::-webkit-calendar-picker-indicator {
+    font-size: $display6-size;
+  }
+  &::-webkit-clear-button
+  {
+    display: none;
+    -webkit-appearance: none;
+  }
+}

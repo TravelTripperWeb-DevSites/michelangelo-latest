@@ -5,23 +5,44 @@ layout: default
 {% assign room = page.data %}
 {% include components/room %}
 
-<section class="room-booking-widget pt-48 pb-48">
+<section class="room-booking-widget pt-48 pb-48 hide-mobile">
   <p class="h2 text-center">Your Reservation</p>
   <p class="overline text-center">BEST RATE GUARANTEE</p>
-  <form class="room-booking-widget__form" action="index.html" method="post">
+  <form class="room-booking-widget__form" action="https://michelangelohotel.reztrip.com/search/?currency=USD&locale=en" method="get">
     <div class="room-booking-widget__form__wrap">
       <div class="room-booking-widget__form__dates">
         <div class="full-width">
-          <label for="arrival-date">Arrival</label>
-          <input type="date" id="arrival-date" aria-label="Enter Arrival Date" name="" value="">
+          <div class="field-inner">
+            <label for="arrival-date">Arrival</label>
+            <input type="date" id="arrival-date" name="arrival_date" aria-label="Enter Arrival Date" value="">
+          </div>
         </div>
         <div class="full-width">
-          <label for="departure-date">Departure</label>
-          <input type="date" id="departure-date" aria-label="Enter Departure Date" name="" value="">
+          <div class="field-inner">
+            <label for="departure-date">Departure</label>
+            <input type="date" id="departure-date" name="departure_date" aria-label="Enter Departure Date">
+          </div>
         </div>
       </div>
-      <div class="room-booking-widge__form__extra-fields">
-
+      <div class="room-booking-widget__form__extra-fields">
+        <div class="field-wrap">
+          <div class="half-width">
+            <div class="field-inner">
+              <label for="no-of-adults">Adults</label>
+              <input type="number" id="no-of-adults" name="adults" aria-label="Number of Adults" value="01" min="1">
+            </div>
+          </div>
+          <div class="half-width">
+            <div class="field-inner">
+              <label for="no-of-children">Children</label>
+              <input type="number" id="no-of-children" name="children" aria-label="Number of Adults" value="00" min="0">
+            </div>
+          </div>
+        </div>
+        <div class="button-wrap">
+          <input type="hidden" name="selected_room" value="{{room.reztrip_room_id}}">
+          <button class="btn btn--secondary" type="submit" name="button">Check Availability</button>
+        </div>
       </div>
     </div>
   </form>
