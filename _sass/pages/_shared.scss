@@ -29,12 +29,14 @@
 }
 
 .seperator {
+  width: 100%;
   height: 1px;
   margin-bottom: 24px;
   border-bottom: solid 1px $primary;
 }
 
 .seperator-white {
+  width: 100%;
   height: 1px;
   margin-bottom: 24px;
   border-bottom: solid 1px $white;
@@ -47,4 +49,20 @@
     height: 600px;
     margin-top: 169px;
   }
+}
+
+.mt-48 {
+  margin-top: 48px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.pt-48 {
+  padding-top: 48px;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
 }
