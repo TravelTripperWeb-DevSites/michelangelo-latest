@@ -134,7 +134,12 @@
 .newsletter-signup {
   padding: 25px 0;
   color: $white;
+  text-align: center;
   background: $secondary;
+
+  @include media-breakpoint-up(md) {
+    text-align: left;
+  }
 
   .container {
     max-width: 780px;
@@ -145,7 +150,7 @@
     @include make-col-ready;
 
     @include media-breakpoint-up(md) {
-      @include make-col(5);
+      @include make-col(6);
     }
   }
 
@@ -153,7 +158,18 @@
     @include make-col-ready;
 
     @include media-breakpoint-up(md) {
-      @include make-col(7);
+      @include make-col(6);
+    }
+
+    label {
+      font-size: $display9-size;
+      color: $white;
+      text-transform: none;
+      letter-spacing: normal;
+
+      a {
+        color: $white;
+      }
     }
   }
 }
