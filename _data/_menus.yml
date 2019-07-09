@@ -76,6 +76,12 @@ footer:
       en: Partners
     items: 
   - folder: false
+    url_localized:
+      en: https://www.starhotelscollezione.com/en/footer/egift.html
+    label_localized:
+      en: E-Gift
+    items: 
+  - folder: false
     url_localized: ''
     page_id: _pages/amenities.html
     label_localized:
@@ -91,12 +97,6 @@ footer:
     url_localized: ''
     label_localized:
       en: Specials
-  - folder: false
-    url_localized:
-      en: https://www.starhotelscollezione.com/en/footer/egift.html
-    label_localized:
-      en: E-Gift
-    items: 
   - folder: false
     url_localized:
       en: http://starhotelsspa.sites.altamiraweb.com/
