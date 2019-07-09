@@ -46,17 +46,72 @@
 
   &__address {
     @include make-col-ready;
+    text-align: center;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       @include make-col(6);
+      text-align: left;
     }
   }
   &__credits {
     @include make-col-ready;
     text-align: center;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       @include make-col(6);
     }
+
+    span {
+      display: block;
+      margin: 0 auto;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .awards {
+      max-width: 370px;
+      margin: 0 auto;
+    }
+
+    .starhotels-logo {
+      width: 154px;
+    }
+
+    .lifestyle-logo {
+      width: 90px;
+    }
+
+    .iprefer-logo {
+      width: 52px;
+    }
+
+    .traveller-logo {
+      width: 47px;
+    }
+
+    .handy-logo {
+      width: 93px;
+    }
+
+  }
+}
+
+.bl-1 {
+  border-top: solid 1px $secondary;
+  border-left: 0;
+
+  @include media-breakpoint-up(lg) {
+    border-top: 0;
+    border-left: solid 1px $secondary;
+  }
+}
+
+.mw-475 {
+  max-width: 100%;
+
+  @include media-breakpoint-up(xl) {
+    max-width: 475px;
   }
 }
