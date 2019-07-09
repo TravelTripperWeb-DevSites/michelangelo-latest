@@ -105,12 +105,6 @@ footer:
     label_localized:
       en: Terms of Use
     items: 
-  - folder: false
-    url_localized: ''
-    page_id: _pages/amenities.html
-    label_localized:
-      en: Services
-    items: 
   - page_id: _pages/rooms.html
     items: 
     url_localized: ''
