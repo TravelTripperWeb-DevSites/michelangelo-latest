@@ -7,7 +7,7 @@
     },
     "advanced_options": {
       "tabindex": "0",
-      "custom_classes": "dine__heading"
+      "custom_classes": "innperpage-heading"
     },
     "container_classes": "container-fluid"
   }
