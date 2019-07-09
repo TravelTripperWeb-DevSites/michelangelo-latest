@@ -47,6 +47,16 @@ __EDITABLE_FIELDS__:
         type: string
       country:
         type: string
+  starhotels_logo:
+    type: image
+  lifestyle_logo:
+    type: image
+  iprefer_logo:
+    type: image
+  traveller_logo:
+    type: image
+  handy_logo:
+    type: image
   map_zoom:
     type: integer
   latitude:
