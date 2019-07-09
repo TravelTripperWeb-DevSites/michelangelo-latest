@@ -70,6 +70,12 @@ footer:
       en: Press
     items: 
   - folder: false
+    url_localized:
+      en: https://www.starhotelscollezione.com/en/footer/partners/
+    label_localized:
+      en: Partners
+    items: 
+  - folder: false
     url_localized: ''
     page_id: _pages/amenities.html
     label_localized:
@@ -85,12 +91,6 @@ footer:
     url_localized: ''
     label_localized:
       en: Specials
-  - folder: false
-    url_localized:
-      en: https://www.starhotelscollezione.com/en/footer/partners/
-    label_localized:
-      en: Partners
-    items: 
   - folder: false
     url_localized:
       en: https://www.starhotelscollezione.com/en/footer/egift.html
