@@ -103,6 +103,16 @@
   </ul>
 </section>
 
-<div class="copyright m-2">
-  &copy; {{ "now" | date: "%Y" }}
+<div class="copyright d-block d-md-flex justify-content-between">
+  <span>STARHOTELS INTERNATIONAL CORPORATION - {{ "now" | date: "%Y" }} ALL RIGHTS RESERVED<br>REGISTERED OFFICE 152 WEST 51ST STREET - NEW YORK, NY 10019 USA<br>TAX ID 13-3661271</span>
+  <div class="social">
+    <ul class="d-flex justify-content-between">
+      {% if site.data.social.instagram.username %}
+      <li><a href="https://www.instagram.com/{{ site.data.social.instagram.username }}/" target="_blank" title="Twitter"><i class="fab fa-instagram"></i></a></li>
+      {% endif %}
+      {% if site.data.social.facebook.username %}
+      <li><a href="https://www.facebook.com/{{ site.data.social.facebook.username }}/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+      {% endif %}
+    </ul>
+  </div>
 </div>
