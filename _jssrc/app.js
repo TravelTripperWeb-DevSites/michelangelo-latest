@@ -16,4 +16,16 @@ readyDoc(function() {
     }
   });
 
+  document.addEventListener('click', function(event) {
+    if (event.target.classList.contains('readmore-btn')) {
+      if (event.target.parentNode.classList.contains("expanded")) {
+        event.target.parentNode.classList.remove("expanded");
+        event.target.innerHTML = "Read More +";
+      } else {
+        event.target.parentNode.classList.add("expanded");
+        event.target.innerHTML = "Read Less -";
+      }
+    }
+  }, false);
+
 });

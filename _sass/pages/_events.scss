@@ -12,7 +12,6 @@
     max-width: 1064px;
   }
   .col--right {
-    padding-left: 0;
     @include media-breakpoint-up(md) {
       padding-left: 83px;
     }
