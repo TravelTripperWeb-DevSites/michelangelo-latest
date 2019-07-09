@@ -101,6 +101,12 @@ footer:
     items: 
   - folder: false
     url_localized: ''
+    page_id: _pages/terms.html
+    label_localized:
+      en: Terms of Use
+    items: 
+  - folder: false
+    url_localized: ''
     page_id: _pages/amenities.html
     label_localized:
       en: Services
@@ -120,10 +126,4 @@ footer:
       en: https://www.starhotelscollezione.com/en/footer/note-legali/
     label_localized:
       en: Legal Notice (Italy)
-    items: 
-  - folder: false
-    url_localized: ''
-    page_id: _pages/terms.html
-    label_localized:
-      en: Terms of Use
     items: 
