@@ -104,3 +104,8 @@ footer:
       en: https://www.starhotelscollezione.com/en/footer/note-legali/
     label_localized:
       en: Legal Notice (Italy)
+  - folder: false
+    url_localized: ''
+    page_id: _pages/sitemap.html
+    label_localized:
+      en: Sitemap
