@@ -12,6 +12,26 @@
   </div>
 </section>
 
+<section class="contact-block">
+  <div class="container">
+    <div class="row">
+      <div class="contact-block__address">
+        <div class="d-flex justify-content-between py-5">
+          <p class="mb-0"><a href="{{ site.data.hotel_settings.get_directions_url }}"><span class="uppercase">{{ site.data.hotel_settings.name }}</span><br />{{ site.data.hotel_settings.address.street1 }}<br>{{ site.data.hotel_settings.address.state }}, {{ site.data.hotel_settings.address.city }} {{ site.data.hotel_settings.address.zip_code }}<br>{{ site.data.hotel_settings.address.country }}</a></p>
+          <p class="mb-0">
+            <a href="tel:{{ site.data.hotel_settings.phone_number }}">{{ site.data.hotel_settings.phone_number }}</a><br />
+            <a href="tel:{{ site.data.hotel_settings.alternate_number }}">{{ site.data.hotel_settings.alternate_number }}</a><br />
+            <a href="mailto:{{ site.data.hotel_settings.email }}">{{ site.data.hotel_settings.email }}</a>
+          </p>
+        </div>
+      </div>
+      <div class="contact-block__credits">
+
+      </div>
+    </div>
+  </div>
+</section>
+
 <div class="copyright m-2">
   &copy; {{ "now" | date: "%Y" }}
 </div>

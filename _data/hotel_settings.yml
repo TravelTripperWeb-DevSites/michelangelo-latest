@@ -2,7 +2,7 @@
 latitude: 40.761505
 longitude: -73.982593
 map_zoom: 12
-name: The Michelangelo New York
+name: The Michelangelo
 email: reservations@michelangelohotel.com
 phone_number: "+1 212 7651900"
 address:
@@ -10,6 +10,7 @@ address:
   state: New York
   city: NY
   zip_code: 10019
+  country: USA
 default_currency: USD
 default_timezone: America/New_York
 _hotel_id: NYCMIC
@@ -43,6 +44,8 @@ __EDITABLE_FIELDS__:
       city:
         type: string
       zip_code:
+        type: string
+      country:
         type: string
   map_zoom:
     type: integer
