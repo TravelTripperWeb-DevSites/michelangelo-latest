@@ -32,8 +32,12 @@ main:
       en: Corporate Events
     items:
   - page_id: _pages/gallery.html
+    label_localized:
+      en: Gallery
     items:
   - page_id: _pages/contact.html
+    label_localized:
+      en: Contact
     items:
 mobile:
   depth: 2
