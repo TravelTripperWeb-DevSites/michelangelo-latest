@@ -27,12 +27,67 @@
       </div>
       <div class="contact-block__credits">
         <div class="py-5">
-          <img src="/" alt="StarHotels" />
+          <span class="starhotels__logo"
+            data-live-edit-settings='hotel_settings'
+            data-live-edit-settings-field='starhotels_logo'
+            data-live-editable-type='image'
+          >
+            {% if site.data.hotel_settings.starhotels_logo and site.data.hotel_settings.starhotels_logo.url and site.data.hotel_settings.starhotels_logo.url != '' %}
+              {% assign logo_url = site.data.hotel_settings.starhotels_logo.url_xsmall | default: site.data.hotel_settings.starhotels_logo.url %}
+              <img src="{{logo_url}}" alt="{{site.data.hotel_settings.starhotels_logo.alt | default: 'Logo' }}" />
+            {% else %}
+              <span class="condensed-hotel-name">{{site.data.hotel_settings.name}}</span>
+            {% endif %}
+          </span>
           <div class="d-flex justify-content-around">
-            <img src="/" alt="Lifestyle" />
-            <img src="/" alt="I Prefer" />
-            <img src="/" alt="Traveller" />
-            <img src="/" alt="Handy" />
+            <span class="lifestyle__logo"
+              data-live-edit-settings='hotel_settings'
+              data-live-edit-settings-field='lifestyle_logo'
+              data-live-editable-type='image'
+            >
+              {% if site.data.hotel_settings.lifestyle_logo and site.data.hotel_settings.lifestyle_logo.url and site.data.hotel_settings.lifestyle_logo.url != '' %}
+                {% assign logo_url = site.data.hotel_settings.lifestyle_logo.url_xsmall | default: site.data.hotel_settings.lifestyle_logo.url %}
+                <img src="{{logo_url}}" alt="{{site.data.hotel_settings.lifestyle_logo.alt | default: 'Logo' }}" />
+              {% else %}
+                <span class="condensed-hotel-name">{{site.data.hotel_settings.name}}</span>
+              {% endif %}
+            </span>
+            <span class="iprefer__logo"
+              data-live-edit-settings='hotel_settings'
+              data-live-edit-settings-field='iprefer_logo'
+              data-live-editable-type='image'
+            >
+              {% if site.data.hotel_settings.iprefer_logo and site.data.hotel_settings.iprefer_logo.url and site.data.hotel_settings.iprefer_logo.url != '' %}
+                {% assign logo_url = site.data.hotel_settings.iprefer_logo.url_xsmall | default: site.data.hotel_settings.iprefer_logo.url %}
+                <img src="{{logo_url}}" alt="{{site.data.hotel_settings.iprefer_logo.alt | default: 'Logo' }}" />
+              {% else %}
+                <span class="condensed-hotel-name">{{site.data.hotel_settings.name}}</span>
+              {% endif %}
+            </span>
+            <span class="traveller__logo"
+              data-live-edit-settings='hotel_settings'
+              data-live-edit-settings-field='traveller_logo'
+              data-live-editable-type='image'
+            >
+              {% if site.data.hotel_settings.traveller_logo and site.data.hotel_settings.traveller_logo.url and site.data.hotel_settings.traveller_logo.url != '' %}
+                {% assign logo_url = site.data.hotel_settings.traveller_logo.url_xsmall | default: site.data.hotel_settings.traveller_logo.url %}
+                <img src="{{logo_url}}" alt="{{site.data.hotel_settings.traveller_logo.alt | default: 'Logo' }}" />
+              {% else %}
+                <span class="condensed-hotel-name">{{site.data.hotel_settings.name}}</span>
+              {% endif %}
+            </span>
+            <span class="handy__logo"
+              data-live-edit-settings='hotel_settings'
+              data-live-edit-settings-field='handy_logo'
+              data-live-editable-type='image'
+            >
+              {% if site.data.hotel_settings.handy_logo and site.data.hotel_settings.handy_logo.url and site.data.hotel_settings.handy_logo.url != '' %}
+                {% assign logo_url = site.data.hotel_settings.handy_logo.url_xsmall | default: site.data.hotel_settings.handy_logo.url %}
+                <img src="{{logo_url}}" alt="{{site.data.hotel_settings.handy_logo.alt | default: 'Logo' }}" />
+              {% else %}
+                <span class="condensed-hotel-name">{{site.data.hotel_settings.name}}</span>
+              {% endif %}
+            </span>
           </div>
         </div>
       </div>
