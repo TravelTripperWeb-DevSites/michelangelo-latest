@@ -41,7 +41,27 @@ main:
     items:
 mobile:
   depth: 2
-  name: Top Menu
+  name: Mobile Menu
+  items:
+  - folder: false
+    url_localized: ''
+    page_id: _pages/amenities.html
+    label_localized:
+      en: Services
+    items:
+  - page_id: _pages/rooms.html
+    items:
+    url_localized: ''
+    label_localized:
+      en: Rooms & Suites
+  - page_id: _pages/offers.html
+    items:
+    url_localized: ''
+    label_localized:
+      en: Specials
+footer:
+  depth: 2
+  name: Footer Menu
   items:
   - folder: false
     url_localized: ''
