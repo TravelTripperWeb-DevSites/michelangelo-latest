@@ -114,3 +114,8 @@ footer:
     page_id: _pages/terms.html
     label_localized:
       en: Terms of Use
+  - folder: false
+    url_localized: ''
+    page_id: _pages/accessibility-statement.html
+    label_localized:
+      en: Accessibility Statement
