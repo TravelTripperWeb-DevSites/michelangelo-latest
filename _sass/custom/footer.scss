@@ -43,7 +43,7 @@
 
 .contact-block {
   background: $terciary;
-  
+
   &__address {
     @include make-col-ready;
 
@@ -53,6 +53,7 @@
   }
   &__credits {
     @include make-col-ready;
+    text-align: center;
 
     @include media-breakpoint-up(md) {
       @include make-col(6);
