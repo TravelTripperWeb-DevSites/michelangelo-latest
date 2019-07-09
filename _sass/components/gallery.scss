@@ -22,34 +22,45 @@ img.objectfit, .objectfit img {
 }
 
 .filtered-galleries {
-  @include make-container();
-  @include make-container-max-widths();
+  max-width: 100%;
+  background-color: $terciary;
+  @include media-breakpoint-down(sm) {
+    padding: 0 12px;
+  }
   .gallery-nav {
     justify-content: center;
-    margin: 0;
     padding: 0;
+    font-size: $display6-size;
+    font-weight: 700;
     list-style: none;
     @include make-row();
+    margin: 0 0 33px;
     li {
       margin: $grid-gutter-width / 2;
-      &.active {
-        text-decoration: underline;
+      .filter--option {
+        @include transition(.3s);
+        &.active {
+          text-decoration: underline;
+        }
       }
+
     }
   }
   .gallery-items {
-    margin: 0;
+    @include make-row();
+    max-width: 1062px;
+    margin: 0 auto;
     padding: 0;
     list-style: none;
-    @include make-row();
     li {
       @include make-col-ready;
+      height: 185px;
+      padding: 0 0 12px;
       @include media-breakpoint-up(sm) {
         @include make-col(6);
+        height: 300px;
+        padding: 0 12px 24px;
       }
-
-      height: 300px;
-      padding: $grid-gutter-width / 2;
       .lightbox-item {
         width: 100%;
         height: 100%;

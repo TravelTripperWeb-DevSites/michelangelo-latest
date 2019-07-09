@@ -144,11 +144,6 @@
   position: relative;
 }
 
-.ttweb-brg-banner {
-  position: absolute;
-  top: 0;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -193,4 +188,8 @@ input[type=date], input[type=number] {
     height: 32px;
     margin: auto;
   }
+}
+
+.innperpage-heading {
+  background-color: $terciary;
 }
