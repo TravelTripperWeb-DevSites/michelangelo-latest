@@ -64,6 +64,12 @@ footer:
   name: Footer Menu
   items:
   - folder: false
+    url_localized:
+      en: https://www.starhotelscollezione.com/en/footer/media-centre/
+    label_localized:
+      en: Press
+    items: 
+  - folder: false
     url_localized: ''
     page_id: _pages/amenities.html
     label_localized:
@@ -81,41 +87,43 @@ footer:
       en: Specials
   - folder: false
     url_localized:
-      en: https://www.starhotelscollezione.com/en/footer/media-centre/
-    label_localized:
-      en: Press
-  - folder: false
-    url_localized:
       en: https://www.starhotelscollezione.com/en/footer/partners/
     label_localized:
       en: Partners
+    items: 
   - folder: false
     url_localized:
       en: https://www.starhotelscollezione.com/en/footer/egift.html
     label_localized:
       en: E-Gift
+    items: 
   - folder: false
     url_localized:
       en: http://starhotelsspa.sites.altamiraweb.com/
     label_localized:
       en: Careers
+    items: 
   - folder: false
     url_localized:
       en: https://www.starhotelscollezione.com/en/footer/note-legali/
     label_localized:
       en: Legal Notice (Italy)
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/sitemap.html
     label_localized:
       en: Sitemap
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/terms.html
     label_localized:
       en: Terms of Use
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/accessibility-statement.html
     label_localized:
       en: Accessibility Statement
+    items: 
