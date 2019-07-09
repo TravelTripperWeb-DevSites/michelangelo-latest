@@ -84,3 +84,8 @@ footer:
       en: https://www.starhotelscollezione.com/en/footer/media-centre/
     label_localized:
       en: Press
+  - folder: false
+    url_localized:
+      en: https://www.starhotelscollezione.com/en/footer/partners/
+    label_localized:
+      en: Partners
