@@ -109,3 +109,8 @@ footer:
     page_id: _pages/sitemap.html
     label_localized:
       en: Sitemap
+  - folder: false
+    url_localized: ''
+    page_id: _pages/terms.html
+    label_localized:
+      en: Terms of Use
