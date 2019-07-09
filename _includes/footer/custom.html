@@ -16,7 +16,7 @@
   <div class="container">
     <div class="row">
       <div class="contact-block__address">
-        <div class="d-flex justify-content-between py-5">
+        <div class="d-block d-lg-flex justify-content-between py-5 mw-475">
           <p class="mb-0"><a href="{{ site.data.hotel_settings.get_directions_url }}"><span class="uppercase">{{ site.data.hotel_settings.name }}</span><br />{{ site.data.hotel_settings.address.street1 }}<br>{{ site.data.hotel_settings.address.state }}, {{ site.data.hotel_settings.address.city }} {{ site.data.hotel_settings.address.zip_code }}<br>{{ site.data.hotel_settings.address.country }}</a></p>
           <p class="mb-0">
             <a href="tel:{{ site.data.hotel_settings.phone_number }}">{{ site.data.hotel_settings.phone_number }}</a><br />
@@ -26,8 +26,8 @@
         </div>
       </div>
       <div class="contact-block__credits">
-        <div class="py-5">
-          <span class="starhotels__logo"
+        <div class="my-0 my-lg-5 py-5 py-lg-0 bl-1">
+          <span class="starhotels-logo mb-2"
             data-live-edit-settings='hotel_settings'
             data-live-edit-settings-field='starhotels_logo'
             data-live-editable-type='image'
@@ -39,8 +39,8 @@
               <span class="condensed-hotel-name">{{site.data.hotel_settings.name}}</span>
             {% endif %}
           </span>
-          <div class="d-flex justify-content-around">
-            <span class="lifestyle__logo"
+          <div class="d-flex justify-content-around awards">
+            <span class="lifestyle-logo"
               data-live-edit-settings='hotel_settings'
               data-live-edit-settings-field='lifestyle_logo'
               data-live-editable-type='image'
@@ -52,7 +52,7 @@
                 <span class="condensed-hotel-name">{{site.data.hotel_settings.name}}</span>
               {% endif %}
             </span>
-            <span class="iprefer__logo"
+            <span class="iprefer-logo"
               data-live-edit-settings='hotel_settings'
               data-live-edit-settings-field='iprefer_logo'
               data-live-editable-type='image'
@@ -64,7 +64,7 @@
                 <span class="condensed-hotel-name">{{site.data.hotel_settings.name}}</span>
               {% endif %}
             </span>
-            <span class="traveller__logo"
+            <span class="traveller-logo"
               data-live-edit-settings='hotel_settings'
               data-live-edit-settings-field='traveller_logo'
               data-live-editable-type='image'
@@ -76,7 +76,7 @@
                 <span class="condensed-hotel-name">{{site.data.hotel_settings.name}}</span>
               {% endif %}
             </span>
-            <span class="handy__logo"
+            <span class="handy-logo"
               data-live-edit-settings='hotel_settings'
               data-live-edit-settings-field='handy_logo'
               data-live-editable-type='image'
