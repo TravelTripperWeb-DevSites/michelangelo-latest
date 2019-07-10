@@ -11,18 +11,19 @@ readyDoc(function() {
   //To add a margin on scroll to "main" body block
   var mainBlock = document.querySelector(".main");
   window.addEventListener("scroll", function() {
-    if(window.scrollY > 0) {
+    if (window.scrollY > 0) {
       mainBlock.classList.add("stky");
     } else {
       mainBlock.classList.remove("stky");
     }
   });
 
+  // converting room size from square feet to square meters in room listing page
   setTimeout(function() {
     var roomsList = document.querySelectorAll(".c-room-list__items .c-room");
-    for(let i = 0; i < roomsList.length; i++ ) {
+    for (let i = 0; i < roomsList.length; i++) {
       var sizeInFeet = Number(roomsList[i].querySelector(".ttweb-room-size__value").innerHTML);
-      var sizeInMeters = Math.round(sizeInFeet/10.764);
+      var sizeInMeters = Math.round(sizeInFeet / 10.764);
       //log(sizeInMeters);
       roomsList[i].querySelector(".size_in_meters").innerHTML = sizeInMeters;
       roomsList[i].querySelector(".ttweb-room-size__units").innerHTML = "";
@@ -30,10 +31,20 @@ readyDoc(function() {
   }, 5000);
 
   setTimeout(function() {
-    if(document.getElementById("preloader")) {
+    if (document.getElementById("preloader")) {
       document.getElementById("preloader").style.display = "none";
     }
   }, 5500);
+
+  // converting room size from square feet to square meters in room details page
+
+  setTimeout(function() {
+    if (document.querySelector(".room-details-intro")) {
+      document.querySelector(".room-details-intro .size_in_meters").innerText = Math.round(document.querySelector(".room-details-intro .size_in_feet")
+        .innerText.match(/\d+/g)
+        .map(Number)[0] / 10.764);
+    }
+  }, 2000);
 
   document.addEventListener('click', function(event) {
     if (event.target.classList.contains('readmore-btn')) {
@@ -47,7 +58,7 @@ readyDoc(function() {
     }
   }, false);
 
-  setTimeout(function(){
+  setTimeout(function() {
     if (document.getElementsByClassName("room-item")[0]) {
       var bannerSlider = tns({
         container: '.room-item',
@@ -63,4 +74,40 @@ readyDoc(function() {
     }
   }, 2000);
 
+  if (document.getElementById("arrival-date")) {
+
+    var arrivalDateField = document.getElementById("arrival-date");
+    var departureDateField = document.getElementById("departure-date");
+
+    var todaysDate = new Date();
+    var todaysDateFormatted = formatDate(todaysDate);
+
+    var tomorrowsDate = todaysDate.setDate(todaysDate.getDate() + 1);
+    var tomorrowsDateFormatted = formatDate(tomorrowsDate);
+
+    arrivalDateField.value = todaysDateFormatted;
+    departureDateField.value = tomorrowsDateFormatted;
+
+    arrivalDateField.onchange = function() {
+      var updatedArrivalDate = new Date(arrivalDateField.value);
+      var updatedDepartureDate = updatedArrivalDate.setDate(updatedArrivalDate.getDate() + 1);
+      var updatedDepartureDateFormatted = formatDate(updatedDepartureDate);
+      departureDateField.value = updatedDepartureDateFormatted;
+    }
+
+  }
+
 });
+
+
+function formatDate(date) {
+  var d = new Date(date),
+    month = '' + (d.getMonth() + 1),
+    day = '' + d.getDate(),
+    year = d.getFullYear();
+
+  if (month.length < 2) month = '0' + month;
+  if (day.length < 2) day = '0' + day;
+
+  return [year, month, day].join('-');
+}
