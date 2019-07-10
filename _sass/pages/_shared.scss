@@ -193,3 +193,16 @@ input[type=date], input[type=number] {
 .innperpage-heading {
   background-color: $terciary;
 }
+
+
+
+.sitemap {
+  max-width: 300px;
+  ul {
+    padding: 0;
+    li {
+      line-height: 30px;
+      list-style: none;
+    }
+  }
+}

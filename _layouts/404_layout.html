@@ -2,9 +2,7 @@
 layout: default
 ---
 
-{% regionblock content type:html %}
-  <h1>{% t 'page_not_found.header' %}</h1>
-{% endregionblock %}
+
 
 
 {% comment %}
@@ -24,11 +22,11 @@ layout: default
 
 {% region outro, type:mixed %}
 
-<div class="w-50 text-center m-auto">
-  <ul>
+<div class="sitemap text-center m-auto pt-48 pb-48">
+  <h2 class="h2 mb-3" tabindex="0">Sitemap</h2>
+  <ul >
     {% assign items = site.data._menus.main.items %}
     {% include nav/nav-item-list.html items=items %}
-
     {% assign items = site.data._menus.footer.items %}
     {% include nav/nav-item-list.html items=items %}
     </ul>
