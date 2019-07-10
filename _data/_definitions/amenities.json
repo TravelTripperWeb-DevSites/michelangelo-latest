@@ -4,8 +4,8 @@
     "localizable": true
   },
   "description": {
-    "type": "text",
-    "localizable": true   
+    "type": "richtext",
+    "localizable": true
   },
   "images": {
     "type": "image",
