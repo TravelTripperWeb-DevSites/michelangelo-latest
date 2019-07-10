@@ -1,13 +1,3 @@
 [
-  {
-    "_template": "2_col",
-    "col1_html": {
-      "content": "<h1 class=\"h1\">Terms of use</h1>"
-    },
-    "col2_html": {
-      "content": ""
-    },
-    "advanced_options": {
-    }
-  }
+
 ]
