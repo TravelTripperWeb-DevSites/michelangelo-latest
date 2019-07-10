@@ -23,3 +23,13 @@ layout: default
 {% endcomment %}
 
 {% region outro, type:mixed %}
+
+<div class="w-50 text-center m-auto">
+  <ul>
+    {% assign items = site.data._menus.main.items %}
+    {% include nav/nav-item-list.html items=items %}
+
+    {% assign items = site.data._menus.footer.items %}
+    {% include nav/nav-item-list.html items=items %}
+    </ul>
+</div>
