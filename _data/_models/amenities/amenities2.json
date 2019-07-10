@@ -28,5 +28,8 @@
       "caption": "",
       "description": ""
     }
-  ]
+  ],
+  "description_localized": {
+    "en": "<ul>\n<li>In-room movies with complimentary international satellite stations</li>\n<li>In-room laptop safes</li>\n<li>ADA-compliant rooms</li>\n<li>Complimentary handy smartphone for use throughout your stay. No need to purchase an international plan!</li>\n</ul>"
+  }
 }
