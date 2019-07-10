@@ -5,7 +5,7 @@
       "content": "<h1 class=\"h1 text-center py-md-3 py-5\">Terms of use</h1>"
     },
     "advanced_options": {
-      "tabindex": "0",
+      "tabindex": "-1",
       "custom_classes": "innperpage-heading"
     },
     "container_classes": "container-fluid"
