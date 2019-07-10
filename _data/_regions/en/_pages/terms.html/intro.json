@@ -1,5 +1,8 @@
 [
   {
-    "_template": "1_col"
+    "_template": "1_col",
+    "html": {
+      "content": "<h1 class=\"h1 text-center\">Terms of use</h1>"
+    }
   }
 ]
