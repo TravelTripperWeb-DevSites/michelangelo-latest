@@ -2,7 +2,7 @@
   {
     "_template": "1_col",
     "html": {
-      "content": "<h1 class=\"h1 text-center\">Terms of use</h1>"
+      "content": "<h1 class=\"h1 text-center py-md-3 py-5\">Terms of use</h1>"
     },
     "advanced_options": {
       "tabindex": "0",
