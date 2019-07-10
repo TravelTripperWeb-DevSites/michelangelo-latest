@@ -6,7 +6,7 @@
       "custom_classes": ""
     },
     "advanced_options": {
-      "tabindex": "0",
+      "tabindex": "-1",
       "custom_classes": "innperpage-heading"
     },
     "container_classes": "container-fluid"
