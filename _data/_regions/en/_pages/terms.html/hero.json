@@ -28,6 +28,7 @@
         "description": ""
       }
     },
-    "_template": "hero"
+    "_template": "hero",
+    "skip_h1": true
   }
 ]
