@@ -9,6 +9,9 @@
     "include_gap": false,
     "col1_html": {
       "content": "<h1 class=\"h1 \">Accessibility Statement</h1>"
+    },
+    "col2_html": {
+      "content": ""
     }
   }
 ]
