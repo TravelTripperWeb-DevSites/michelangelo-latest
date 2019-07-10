@@ -1,5 +1,8 @@
 [
   {
-    "_template": "2_col"
+    "_template": "2_col",
+    "col1_html": {
+      "content": "<h1 class=\"h1\">Page Not Found</h1>"
+    }
   }
 ]
