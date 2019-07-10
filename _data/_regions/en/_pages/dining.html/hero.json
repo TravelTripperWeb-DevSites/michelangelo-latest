@@ -1,7 +1,8 @@
 [
   {
     "advanced_options": {
-      "custom_classes": "inner-hero"
+      "custom_classes": "inner-hero",
+      "tabindex": "-1"
     },
     "hero_image": {
       "image": {
