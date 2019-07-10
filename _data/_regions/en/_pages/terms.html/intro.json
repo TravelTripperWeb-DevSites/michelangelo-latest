@@ -3,6 +3,10 @@
     "_template": "1_col",
     "html": {
       "content": "<h1 class=\"h1 text-center\">Terms of use</h1>"
+    },
+    "advanced_options": {
+      "tabindex": "0",
+      "custom_classes": "innperpage-heading"
     }
   }
 ]
