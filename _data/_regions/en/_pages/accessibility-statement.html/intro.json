@@ -1,5 +1,10 @@
 [
   {
-    "_template": "2_col"
+    "_template": "2_col",
+    "advanced_options": {
+      "custom_classes": "twocol-content"
+    },
+    "container_classes": "container-fluid",
+    "include_gap": true
   }
 ]
