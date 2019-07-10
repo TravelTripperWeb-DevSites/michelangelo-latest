@@ -48,4 +48,20 @@ readyDoc(function () {
       }
     }
   }, false);
+
+  setTimeout(function () {
+    if (document.getElementsByClassName("room-item")[0]) {
+      var bannerSlider = tns({
+        container: '.room-item',
+        "items": 1,
+        "slideBy": "page",
+        "mouseDrag": true,
+        "swipeAngle": false,
+        "speed": 400,
+        navContainer: "#bannerSlider",
+        prevButton: "#bannerSliderPrev",
+        nextButton: "#bannerSliderNext"
+      });
+    }
+  }, 2000);
 });

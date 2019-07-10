@@ -184,3 +184,108 @@
     }
   }
 }
+
+.room-details-hero {
+  position: relative;
+  height: 600px;
+  .hero-banner {
+    display: block;
+    height: 100%;
+    div {
+      height: 100%;
+    }
+  }
+  .slider-control {
+    a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 130px;
+      height: 100%;
+      font-size: 40px;
+      span {
+        position: absolute;
+        top: 50%;
+        right: 40px;
+        left: 0;
+        width: 30px;
+        margin: auto;
+        padding: 0;
+        transform: translateY(-50%);
+        .fas {
+          font-weight: 500;
+        }
+      }
+      &.next-slide {
+        right: 0;
+        left: auto;
+        span {
+          right: 0;
+          left: 40px;
+        }
+      }
+    }
+  }
+}
+
+.room-detils-banner {
+  padding: 27px 0;
+  background-color: $terciary;
+  &__inner {
+    @include make-container;
+    max-width: 1080px;
+    padding: 0 12px;
+  }
+  &__row {
+    @include make-row;
+    margin: 0;
+  }
+  &__left {
+    @include make-col-ready;
+    @include media-breakpoint-up(md) {
+      @include make-col(7);
+    }
+    padding: 0;
+  }
+  &__right {
+    @include make-col-ready;
+    @include media-breakpoint-up(md) {
+      @include make-col(5);
+      text-align: right;
+    }
+    padding: 0;
+  }
+}
+
+.room-details-intro {
+  @include make-container;
+  max-width: 1080px;
+  padding: 0 12px;
+  &__row {
+    @include make-row;
+    margin: 0;
+  }
+  &__left {
+    @include make-col-ready;
+    @include media-breakpoint-up(md) {
+      @include make-col(7);
+    }
+    padding: 0;
+    .h2 {
+      margin-bottom: 18px;
+    }
+    hr {
+      max-width: 400px;
+      margin-bottom: 18px;
+      background-color: $primary;
+    }
+  }
+  &__right {
+    @include make-col-ready;
+    @include media-breakpoint-up(md) {
+      @include make-col(5);
+      text-align: right;
+    }
+    padding: 0;
+  }
+}

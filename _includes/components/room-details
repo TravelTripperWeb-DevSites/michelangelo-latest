@@ -1,25 +1,67 @@
 
 {% assign sync = include.sync_content %}
+{% assign room_detail = page.data %}
 
-<div class="c-room" ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}" {% tabindex %}>
-  <div class="c-room__image-group">
-    <div class="c-room__featured-image objectfit" {% if sync %}ttweb-room-component="RoomPrimaryImage"{% endif %}>
-      {% assign featured_image = room.featured_image | default: room.images[0] %}
-      {% include components/image image=featured_image max_width=600 %}
+<div class="room-details-hero">
+  <div class="hero hero-banner" ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}">
+    <div class="room-item objectfit" {% if sync %}ttweb-room-component="RoomImageList"{% endif %}>
+      {% for pic in room_detail.images %}
+        {% include components/image image=pic %}
+      {% endfor %}
     </div>
-    {% comment %}
-    <div class="c-room__images" {% if sync %}ttweb-room-component="RoomImageList"{% endif %}>
-      {% assign sliderImages = room.images %}
-      {% assign sliderId = "room" | append: room.id | append: "slider" %}
-      {% include components/slider id=sliderId %}
-    </div>
-    <div class="c-room__images" {% if sync %}ttweb-room-component="RoomPrimaryImage"{% endif %}>
-      {% assign sliderImages = sliderImages[0] %}
-      {% assign sliderId = "room" | append: room.id | append: "slider" %}
-      {% include components/slider id=sliderId %}
-    </div>
-    {% endcomment %}
   </div>
+  <div class="slider-control">
+    <a href="javascript:void(0);" class="prev-slide gradient-rtl" title="Previous Slide" tabindex="-1" id="bannerSliderPrev">
+      <span class="prev">
+        <i class="fas fa-chevron-left"></i>
+      </span>
+    </a>
+    <div class="slider-nav" id="bannerSlider" style="display:none;">
+      {% for pic in room_detail.images %}
+      <span></span>
+      {% endfor %}
+    </div>
+    <a href="javascript:void(0);" class="next-slide gradient-ltr" title="Next Slide" tabindex="-1"  id="bannerSliderNext">
+      <span class="next">
+        <i class="fas fa-chevron-right"></i>
+      </span>
+    </a>
+  </div>
+</div>
+
+<section class="room-detils-banner mb-48" ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}">
+  <div class="room-detils-banner__inner">
+    <div class="room-detils-banner__row">
+      <div class="room-detils-banner__left">
+        <h1 class="h1" {% if sync %}ttweb-room-component="RoomName"{% endif %}>{{ room.name }}</h1>
+      </div>
+      <div class="room-detils-banner__right">
+        <div class="c-room__rate" ttweb-room-component="CrossOutRateContainer" data-tt-show-error="true"></div>
+        <div data-tt-class-name="btn btn--secondary" ttweb-room-component="BookingButton">
+          {% t 'rooms.buttons.book' %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="room-details-intro">
+  <div class="room-details-intro__row">
+    <div class="room-details-intro__left">
+      <h2 class="h2">Room Details</h2>
+      <hr>
+      <div class="c-room__description" {% if sync %}ttweb-room-component="RoomDescription"{% endif %}>
+        {{ room.description }}
+      </div>
+    </div>
+    <div class="room-details-intro__right">
+
+    </div>
+  </div>
+</section>
+
+{% comment %}
+<div class="c-room" ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}" {% tabindex %}>
   <div class="c-room__text-group">
     <div class="c-room__name" >
       <a href="{{ room.id | permalink: model_dir: 'rooms' }}" {% if sync %}ttweb-room-component="RoomName"{% endif %}>{{ room.name }}</a>
@@ -68,3 +110,4 @@
     </div>
   </div>
 </div>
+{% endcomment %}
