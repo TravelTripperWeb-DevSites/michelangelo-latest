@@ -6,7 +6,8 @@
     },
     "advanced_options": {
       "tabindex": "0",
-      "custom_classes": "innerpage-heading"
-    }
+      "custom_classes": "innperpage-heading"
+    },
+    "container_classes": "container-fluid"
   }
 ]
