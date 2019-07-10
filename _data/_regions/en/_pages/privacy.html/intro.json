@@ -5,7 +5,8 @@
       "content": "<h1 class=\"h1 text-center  my-md-3 my-5\">Privacy Policy</h1>"
     },
     "advanced_options": {
-      "tabindex": "0"
+      "tabindex": "0",
+      "custom_classes": "innerpage-heading"
     }
   }
 ]
