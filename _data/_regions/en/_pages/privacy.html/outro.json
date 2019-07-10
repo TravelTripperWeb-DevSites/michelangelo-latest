@@ -1,5 +1,8 @@
 [
   {
-    "_template": "1_col"
+    "_template": "1_col",
+    "html": {
+      "content": "<p>Dear Customer,</p>\n<p>At Starhotels, we have always paid attention to the protection of the personal data of all our Customers. Consequently, we are currently implementing a privacy management system based on the principles introduced by the new Regulation (EU) 2016/679, applicable from 25 May 2018.</p>\n<p>To this end, we began a project to analyse the data processed and our organisational, management and control tools, to check that the rules of behaviour and the procedures adopted are such to ensure an adequate level of protection.</p>\n<p>Your personal data will be processed by Starhotels, as the Data controller, in a way that is both transparent and relevant and in accordance with the principles of lawfulness, and necessity under the current applicable provisions. However, we invite you to read our extended and updated personal data processing policy available at <a href=\"../customer-information/\">customer-information</a></p>\n<p>We thank you for your attention and look forward to welcoming you to our hotels.</p>\n<p>Starhotels Team</p>"
+    }
   }
 ]
