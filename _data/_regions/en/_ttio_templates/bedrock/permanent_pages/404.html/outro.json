@@ -8,6 +8,8 @@
       "content": "<p>We're sorry but it looks like that page doesn't exist anymore. Please view the Sitemap below or go back to the <a href=\"../\">homepage</a>.</p>"
     },
     "advanced_options": {
+      "tabindex": "-1",
+      "custom_classes": "twocol-content"
     },
     "style": "brand-alt text-primary"
   }
