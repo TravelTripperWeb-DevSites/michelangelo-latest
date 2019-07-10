@@ -32,12 +32,16 @@ main:
       en: Corporate Events
     items:
   - page_id: _pages/gallery.html
+    label_localized:
+      en: Gallery
     items:
   - page_id: _pages/contact.html
+    label_localized:
+      en: Contact
     items:
 mobile:
   depth: 2
-  name: Top Menu
+  name: Mobile Menu
   items:
   - folder: false
     url_localized: ''
@@ -55,3 +59,66 @@ mobile:
     url_localized: ''
     label_localized:
       en: Specials
+footer:
+  depth: 2
+  name: Footer Menu
+  items:
+  - folder: false
+    target: _blank
+    url_localized:
+      en: https://www.starhotelscollezione.com/en/footer/media-centre/
+    label_localized:
+      en: Press
+    items:
+  - folder: false
+    target: _blank
+    url_localized:
+      en: https://www.starhotelscollezione.com/en/footer/partners/
+    label_localized:
+      en: Partners
+    items:
+  - folder: false
+    target: _blank
+    url_localized:
+      en: https://www.starhotelscollezione.com/en/footer/egift.html
+    label_localized:
+      en: E-Gift
+    items:
+  - folder: false
+    target: _blank
+    url_localized:
+      en: http://starhotelsspa.sites.altamiraweb.com/
+    label_localized:
+      en: Careers
+    items:
+  - folder: false
+    url_localized: ''
+    page_id: _pages/sitemap.html
+    label_localized:
+      en: Sitemap
+    items:
+  - folder: false
+    url_localized: ''
+    page_id: _pages/accessibility-statement.html
+    label_localized:
+      en: Accessibility Statement
+    items:
+  - folder: false
+    url_localized: ''
+    page_id: _pages/terms.html
+    label_localized:
+      en: Terms of Use
+    items:
+  - folder: false
+    url_localized: ''
+    page_id: _pages/privacy.html
+    label_localized:
+      en: Privacy Policy
+    items:
+  - folder: false
+    target: _blank
+    url_localized:
+      en: https://www.starhotelscollezione.com/en/footer/note-legali/
+    label_localized:
+      en: Legal Notice (Italy)
+    items:

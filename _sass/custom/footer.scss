@@ -1,3 +1,7 @@
+footer {
+  background: $terciary;
+}
+
 .newsletter-signup {
   padding: 25px 0;
   color: $white;
@@ -43,19 +47,120 @@
 
 .contact-block {
   background: $terciary;
-  
+
   &__address {
     @include make-col-ready;
+    text-align: center;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       @include make-col(6);
+      text-align: left;
+    }
+
+    p {
+      font-size: $display10-size;
     }
   }
   &__credits {
     @include make-col-ready;
+    text-align: center;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       @include make-col(6);
     }
+
+    span {
+      display: block;
+      margin: 0 auto;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .awards {
+      max-width: 470px;
+      margin: 0 auto;
+    }
+
+    .starhotels-logo {
+      width: 154px;
+    }
+
+    .lifestyle-logo {
+      width: 90px;
+    }
+
+    .iprefer-logo {
+      width: 52px;
+    }
+
+    .traveller-logo {
+      width: 47px;
+    }
+
+    .handy-logo {
+      width: 93px;
+    }
+
+  }
+}
+
+.bl-1 {
+  border-top: solid 1px $secondary;
+  border-left: 0;
+
+  @include media-breakpoint-up(lg) {
+    border-top: 0;
+    border-left: solid 1px $secondary;
+  }
+}
+
+.mw-475 {
+  max-width: 100%;
+  margin: 0 auto;
+
+  @include media-breakpoint-up(xl) {
+    max-width: 475px;
+  }
+}
+
+.footer-nav {
+  border-top: solid 1px $secondary;
+  border-bottom: solid 1px $secondary;
+
+  ul {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+  li {
+    list-style: none;
+    a {
+      margin: 0;
+      font-size: $display10-size;
+      font-weight: $display2-weight;
+    }
+  }
+}
+
+.copyright {
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 25px 15px;
+  font-size: $display8-size;
+  font-weight: $display2-weight;
+  text-transform: uppercase;
+}
+
+.social {
+  
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
   }
 }
