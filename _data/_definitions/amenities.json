@@ -8,8 +8,7 @@
     "localizable": true
   },
   "images": {
-    "type": "image",
-    "multiple": true
+    "type": "image"
   },
   "order": {
     "type": "integer",
