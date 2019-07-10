@@ -2,10 +2,11 @@
   {
     "_template": "2_col",
     "advanced_options": {
-      "custom_classes": "twocol-content"
+      "custom_classes": "twocol-content",
+      "tabindex": "-1"
     },
     "container_classes": "container-fluid",
-    "include_gap": true,
+    "include_gap": false,
     "col1_html": {
       "content": "<h1 class=\"h1 \">Accessibility Statement</h1>"
     }
