@@ -377,9 +377,9 @@
   .overline {
     margin-bottom: 14px;
     &.mt-48 {
-      margin-top: 0;
+      margin-top: 48px;
       @include media-breakpoint-up(md) {
-        margin-top: 48px;
+        margin-top: 0;
       }
     }
   }
