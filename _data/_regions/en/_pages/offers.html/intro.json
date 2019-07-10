@@ -2,7 +2,8 @@
   {
     "_template": "2_col",
     "advanced_options": {
-      "custom_classes": "offers-intro"
+      "custom_classes": "offers-intro",
+      "tabindex": "-1"
     },
     "layout": "7_5",
     "col1_html": {
