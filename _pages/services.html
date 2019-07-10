@@ -15,37 +15,35 @@ meta_tags:
   <div class="pagecopy__row">
     <div class="pagecopy__left">
       <div class="pagecopy__intro">
+        {% regionblock services_intro_heading, type:header %}
         <h2 class="h2">See What Make Us One of the Best Hotels in NYC</h2>
+        {% endregionblock %}
+        {% regionblock services_intro_text, type:text %}
         <p>Whether visiting for business or pleasure, The Michelangelo’s unique Italian hospitality translates into a range of luxury services. Guests are indulged with breakfast in the Lobby Lounge, complete with the finest coffee, as well as convenient services like same-day laundry and dry cleaning. As one of NYC’s best hotels, The Michelangelo lifestyle creates an oasis amidst the rush of the Big Apple.</p>
+        {% endregionblock %}
       </div>
+      {% assign services = site.data._models.hotel-services | sort: 'order' %}
+      {% for item in services %}
       <div class="pagecopy__left__item">
-        <h3 class="h3">The Michelangelo Concierge</h3>
-        <p>As the premier Italian hotel in New York City, our specialized concierge team is dedicated to ensure that your stay at our top NYC hotel is a memorable one. An urban oasis, this luxury hotel is blocks away from the city's famed Times Square, along with Radio City Music Hall, Lincoln Center for the Performing Arts and New York City's stunning Central Park. Our Concierge makes it easy to experience everything to the fullest.</p>
-        <a href="" class="btn btn--readmore">Read More <span class="far fa-plus"></span></a>
-      </div>
-      <div class="pagecopy__left__item">
-        <h3 class="h3">Ticket to the town</h3>
-        <p>Take advantage of our exclusive Ticket to the Town and explore a number of local restaurants, clubs and attractions, all with special discounts and perks. This ticket is included in your Residence Fee, allowing you to experience the best of the area during your stay.</p>
+        <h3 class="h3" tabindex="0">{{ item.title }}</h3>
+
+        <div tabindex="0">{{ item.description }}</div>
+
+        {% if item.more_content %}
+        <div tabindex="0" class="more-content">{{ item.more_content }}</div>
+        {% endif %}
+
+        {% if item.images %}
         <div class="services-slider">
           <div class="services-slider__wrap">
+            {% for carousel in item.images %}
             <div class="services-slider__item">
               <div class="services-slider__content">
-                <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562063731/zcnn5rd3jczaizvzq0vu.png" alt="">
-                <p>Free Gift w/ Purchase $50 or More - 420 9th Ave, New York, NY</p>
+                <img src="{{ carousel.url_medium }}" alt="{{ carousel.alt }}">
+                <p tabindex="0">{{ carousel.description }}</p>
               </div>
             </div>
-            <div class="services-slider__item">
-              <div class="services-slider__content">
-                <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562063731/zcnn5rd3jczaizvzq0vu.png" alt="">
-                <p>Free Gift w/ Purchase $50 or More - 420 9th Ave, New York, NY</p>
-              </div>
-            </div>
-            <div class="services-slider__item">
-              <div class="services-slider__content">
-                <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562063731/zcnn5rd3jczaizvzq0vu.png" alt="">
-                <p>Free Gift w/ Purchase $50 or More - 420 9th Ave, New York, NY</p>
-              </div>
-            </div>
+            {% endfor %}
           </div>
           <div class="slider-control">
             <div class="slide-prev" id="servicesSliderPrev"><span><i class="far fa-chevron-left"></i></span></div>
@@ -57,15 +55,14 @@ meta_tags:
             <div class="slide-next" id="servicesSliderNext"><span><i class="far fa-chevron-right"></i></span></div>
           </div>
         </div>
+        {% endif %}
       </div>
-      <div class="pagecopy__left__item">
-        <h3 class="h3">NOMI Beauty</h3>
-        <p>The Michelangelo is pleased to partner with NOMI Beauty, the premier in-room hair and makeup service provider. NOMI Beauty is your go-to beauty solution while traveling, making it effortless to get ready for your important business meeting, social event, or exciting night out in the city. Their elite team of expertly-trained hair stylists and makeup artists are hand-picked and guarantee consistent, high quality results.</p>
-        <a href="" class="btn btn--readmore">Read More <span class="far fa-plus"></span></a>
-      </div>
+      {% endfor %}
     </div>
     <div class="pagecopy__right">
+      {% regionblock amenities_intro_heading, type:header %}
       <p class="h3">Hotel Amenities</p>
+      {% endregionblock %}
       <div class="pagecopy__right__item">
         <h4 class="h4">24h Free Internet Wi-Fi</h4>
         <div class="pagecopy__right__content">
