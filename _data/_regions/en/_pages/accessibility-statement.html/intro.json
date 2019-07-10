@@ -5,6 +5,9 @@
       "custom_classes": "twocol-content"
     },
     "container_classes": "container-fluid",
-    "include_gap": true
+    "include_gap": true,
+    "col1_html": {
+      "content": "<h1 class=\"h1 \">Accessibility Statement</h1>"
+    }
   }
 ]
