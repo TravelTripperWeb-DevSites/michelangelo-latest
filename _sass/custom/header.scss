@@ -429,7 +429,6 @@
   }
 }
 
-
 .inner-page-body {
   margin-top: 103px;
 
@@ -440,4 +439,8 @@
   &.stky {
     margin-top: 103px;
   }
+}
+
+body, a {
+  color: $primary;
 }

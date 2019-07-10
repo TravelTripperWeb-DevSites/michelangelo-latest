@@ -18,6 +18,27 @@ readyDoc(function() {
     }
   });
 
+  // Prevent Double Click on ipad and iphone devices
+  if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+    var elements = document.getElementsByClassName('btn--secondary');
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].addEventListener('touchend', function() {});
+    }
+  }
+
+  //Footer Accordion Menu
+  function toggleDocs(event) {
+    if (window.innerWidth <= 768 && event.target && event.target.className == 'accordion') {
+      var next = event.target.nextElementSibling;
+      if (next.style.display == "block") {
+        next.style.display = "none";
+      } else {
+        next.style.display = "block";
+      }
+    }
+  }
+  document.addEventListener('click', toggleDocs, true);
+
   setTimeout(function() {
     var roomsList = document.querySelectorAll(".c-room-list__items .c-room");
     for(let i = 0; i < roomsList.length; i++ ) {

@@ -20,6 +20,19 @@ readyDoc(function () {
     }
   });
 
+  //Footer Accordion Menu
+  function toggleDocs(event) {
+    if (window.innerWidth <= 768 && event.target && event.target.className == 'accordion') {
+      var next = event.target.nextElementSibling;
+      if (next.style.display == "block") {
+        next.style.display = "none";
+      } else {
+        next.style.display = "block";
+      }
+    }
+  }
+  document.addEventListener('click', toggleDocs, true);
+
   setTimeout(function () {
     var roomsList = document.querySelectorAll(".c-room-list__items .c-room");
     for (var i = 0; i < roomsList.length; i++) {

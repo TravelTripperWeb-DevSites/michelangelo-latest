@@ -125,6 +125,10 @@ footer {
   }
 }
 
+.accordion {
+  cursor: pointer;
+}
+
 .footer-nav {
   border-top: solid 1px $secondary;
   border-bottom: solid 1px $secondary;
@@ -141,6 +145,7 @@ footer {
       margin: 0;
       font-size: $display10-size;
       font-weight: $display2-weight;
+      color: $primary;
     }
   }
 }
@@ -155,12 +160,23 @@ footer {
 }
 
 .social {
-  
+
   ul {
+    width: 300px;
     padding: 0;
   }
 
   li {
     list-style: none;
+
+    a {
+      font-size: $display5-size;
+      color: $primary;
+      @include transition(all .3s);
+
+      &:hover {
+        opacity: .6;
+      }
+    }
   }
 }
