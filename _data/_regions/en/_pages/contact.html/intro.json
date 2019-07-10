@@ -5,7 +5,8 @@
       "content": "<h1 class=\"h1 text-center text-md-left mb-3 mb-md-0\" tabindex=\"0\" >Contact the Michelangelo Hotel<br /> New York</h1>"
     },
     "advanced_options": {
-      "custom_classes": "twocol-content"
+      "custom_classes": "twocol-content",
+      "tabindex": "-1"
     },
     "include_gap": false,
     "col1_type": "html",
