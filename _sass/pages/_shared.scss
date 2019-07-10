@@ -1,6 +1,12 @@
 // Shared Page Elements
 // ==========================================================================
 
+* {
+  &:focus {
+    outline: 0;
+  }
+}
+
 .skip-main {
   position: absolute;
   top: auto;
@@ -29,12 +35,14 @@
 }
 
 .seperator {
+  width: 100%;
   height: 1px;
   margin-bottom: 24px;
   border-bottom: solid 1px $primary;
 }
 
 .seperator-white {
+  width: 100%;
   height: 1px;
   margin-bottom: 24px;
   border-bottom: solid 1px $white;
@@ -42,11 +50,27 @@
 
 .inner-hero {
   height: 240px;
-  margin-top: 169px;
+  margin-top: 103px;
   @include media-breakpoint-up(md) {
     height: 600px;
     margin-top: 169px;
   }
+}
+
+.mt-48 {
+  margin-top: 48px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.pt-48 {
+  padding-top: 48px;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
 }
 
 .intro-with-image {
@@ -108,16 +132,64 @@
     &--right {
       .col-image-content {
         img {
-          max-height: 700px;
+          display: block;
+          line-height: 0;
         }
       }
     }
   }
 }
 
-.pt-48 {
-  padding-top: 48px;
+.main {
+  position: relative;
 }
-.pb-48 {
-  padding-bottom: 48px;
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+input[type=date], input[type=number] {
+  &:focus {
+    outline: 0;
+  }
+  &::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+  }
+
+  &::-webkit-calendar-picker-indicator {
+    font-size: $display6-size;
+  }
+  &::-webkit-clear-button
+  {
+    display: none;
+    -webkit-appearance: none;
+  }
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba($primary, .9);
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    margin: auto;
+  }
+}
+
+.innperpage-heading {
+  background-color: $terciary;
 }

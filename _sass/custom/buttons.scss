@@ -83,6 +83,7 @@
     font-size: $display7-size;
     font-weight: $display4-weight;
     line-height: 24px;
+    color: $primary;
     text-transform: uppercase;
     border: 0;
     border-radius: 0;
@@ -133,7 +134,14 @@ button {
   border: 0;
   border-radius: 0;
   @include placeholder-text($family-primary, $base-font-size, $gray-500)
+
+  &.custom-select {
+    font-family: $family-primary;
+    font-size: $base-font-size;
+    color: $gray-500;
+  }
 }
+
 
 label {
   margin-bottom: 10px;

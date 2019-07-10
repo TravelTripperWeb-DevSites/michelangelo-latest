@@ -1,5 +1,114 @@
 // Rooms & Room Details Page Elements
 // ==========================================================================
+.rooms-list-wrap {
+  background-color: $terciary;
+  .c-room-list {
+    max-width: 1090px;
+    padding: 0;
+    &__items {
+      @include make-row();
+      margin: 0;
+      .c-room {
+        @include make-col-ready;
+        @include media-breakpoint-up(md) {
+          @include make-col(6);
+        }
+        display: block;
+        margin: 0 0 24px;
+        padding: 0 12px;
+        text-align: center;
+        &__featured-image {
+          display: block;
+        }
+        &__image-group {
+          display: block;
+          flex: none;
+          max-width: 100%;
+          padding: 0;
+          order: 0 !important;
+          picture {
+            display: block;
+            line-height: 0;
+          }
+        }
+        &__text-group {
+          display: block;
+          flex: none;
+          max-width: 100%;
+          padding: 20px 15px 24px;
+          background-color: $white;
+          order: 1 !important;
+          @include media-breakpoint-up(sm) {
+            padding: 20px 24px 24px;
+          }
+        }
+        &__name {
+          margin-bottom: 15px;
+        }
+        &__info {
+          display: block;
+          @include media-breakpoint-up(sm) {
+            display: flex;
+            margin-bottom: 24px;
+          }
+          &__size, &__guests {
+            display: flex;
+            width: 100%;
+            margin-bottom: 24px;
+            font-size: $display7-size;
+            line-height: $display5-size;
+            color: $primary;
+            text-transform: uppercase;
+            border-bottom: 1px solid $primary;
+            @include media-breakpoint-up(sm) {
+              width: 50%;
+              margin-bottom: 0;
+            }
+          }
+          &__size {
+            @include media-breakpoint-up(sm) {
+              margin-right: 12px;
+            }
+          }
+          &__guests {
+            @include media-breakpoint-up(sm) {
+              margin-left: 12px;
+            }
+          }
+          &__field {
+            display: block;
+            width: 50%;
+            text-align: left;
+          }
+          &__value {
+            display: block;
+            width: 50%;
+            text-align: right;
+          }
+        }
+        &__buttons {
+          .btn--primary {
+            margin-right: 5px;
+            font-size: $display7-size;
+            @include media-breakpoint-up(sm) {
+              margin-right: 12px;
+              font-size: $base-font-size;
+            }
+          }
+          .btn--secondary {
+            margin-left: 5px;
+            font-size: $display7-size;
+            @include media-breakpoint-up(sm) {
+              margin-left: 12px;
+              font-size: $base-font-size;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 .room-booking-widget {
   max-width: 630px;
   margin: auto;
@@ -17,28 +126,61 @@
       }
       input {
         display: block;
-        width: 100%;
-        padding: 0 0 10px 30px;
-        font-size: 36px;
-        color: #263746;
+        max-width: 208px;
+        height: 48px;
+        margin: auto;
+        padding: 0 0 10px;
+        font-size: $display3-size;
+        line-height: $display3-size;
+        color: $primary;
         text-align: center;
         border: 0;
-        line-height: 36px;
       }
       .full-width, .half-width {
-        margin-bottom: 2px;
-        border: 1px solid $border-clr;
+        margin-bottom: 0;
+        .field-inner {
+          margin: 0 0 2px 2px;
+          border: 1px solid $border-clr;
+        }
+      }
+      .half-width {
+        display: inline-block;
+        width: 50%;
+        height: fit-content;
+        input {
+          max-width: 100%;
+        }
+      }
+      .field-wrap {
+        display: flex;
       }
     }
     &__dates {
       @include make-col-ready;
-      @include make-col(5.9);
+      @include media-breakpoint-up(md) {
+        @include make-col(5.9);
+      }
       padding: 0;
     }
     &__extra-fields {
       @include make-col-ready;
-      @include make-col(6.1);
+      @include media-breakpoint-up(md) {
+        @include make-col(6.1);
+      }
       padding: 0;
+    }
+    .button-wrap {
+      margin: 0 0 0 2px;
+      button {
+        width: 100%;
+        height: 88px;
+      }
+    }
+  }
+  &.hide-mobile {
+    display: none;
+    @include media-breakpoint-up(md) {
+      display: block;
     }
   }
 }
