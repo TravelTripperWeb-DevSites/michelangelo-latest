@@ -427,12 +427,16 @@
         }
       }
       &--device {
-        top: 100px;
+        top: 103px;
         right: 0;
         left: 0;
         width: 100%;
         opacity: 0;
         @include transition(.3s);
+
+        @include media-breakpoint-up(md) {
+          top: 100px;
+        }
 
         &.is-active {
           opacity: 1;
