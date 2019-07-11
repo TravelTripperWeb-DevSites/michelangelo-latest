@@ -29,10 +29,10 @@
         {% endif %}
       </span>
     </a>
-    <div class="booking-widget-button">
-      <div class="languages">
+    <div class="booking-widget-button d-flex justify-content-end align-items-center">
+      <div class="languages d-none d-sm-block">
         {% if site.languages.size > 1 %}
-          <ul class="languages__nav">
+          <ul class="languages__nav mb-0 mr-3">
             <li>{% t 'language_name', site.active_lang %}</li>
             {% for lang in site.languages %}
               {% if lang != site.active_lang %}
