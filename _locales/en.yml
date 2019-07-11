@@ -16,6 +16,9 @@ en:
     learn_more: Learn More
     read_more: Read More
     book_now: Book Now
+    discover: Discover
+    discover_more: Discover More
+    explore: Explore
     select: Select
   page_not_found:
     header: Page Not Found
