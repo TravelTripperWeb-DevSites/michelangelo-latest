@@ -96,9 +96,8 @@
 </section>
 
 <section class="footer-nav">
-  <p class="d-flex justify-content-between d-md-none w-100 toggle-items" type="button" tabindex="0">
-    <span>{% t 'additional_links' %}</span> <i class="fas fa-angle-right"></i>
-  </p>
+  <p class="d-block w-100 toggle-items" type="button" tabindex="0">{% t 'additional_links' %}</p>
+
   <div class="toggle-items__body">
     <ul class="d-block d-md-flex justify-content-around">
       {% assign items = site.data._menus.footer.items %}
@@ -107,8 +106,8 @@
   </div>
 </section>
 
-<div class="copyright d-block d-md-flex justify-content-between">
-  <span>STARHOTELS INTERNATIONAL CORPORATION - {{ "now" | date: "%Y" }} ALL RIGHTS RESERVED<br>REGISTERED OFFICE 152 WEST 51ST STREET - NEW YORK, NY 10019 USA<br>TAX ID 13-3661271</span>
+<div class="copyright d-block d-md-flex justify-content-between align-items-center">
+  <span class="mb-3 mb-md-0 d-block">STARHOTELS INTERNATIONAL CORPORATION - {{ "now" | date: "%Y" }} ALL RIGHTS RESERVED<br>REGISTERED OFFICE 152 WEST 51ST STREET - NEW YORK, NY 10019 USA<br>TAX ID 13-3661271</span>
   <div class="social">
     <ul class="d-flex justify-content-between">
       {% if site.data.social.facebook.username %}

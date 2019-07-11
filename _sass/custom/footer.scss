@@ -132,16 +132,30 @@ footer {
 
 .footer-nav {
   border-top: solid 1px $secondary;
-  border-bottom: solid 1px $secondary;
+  border-bottom: 0;
+
+  @include media-breakpoint-up(md) {
+    border-bottom: solid 1px $secondary;
+  }
 
   ul {
     max-width: 850px;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 0 15px 30px;
+
+    @include media-breakpoint-up(md) {
+      padding: 30px 0;
+    }
   }
 
   li {
+    text-align: center;
     list-style: none;
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+
     a {
       margin: 0;
       font-size: $display10-size;
@@ -151,20 +165,59 @@ footer {
   }
 }
 
+.toggle-items {
+  position: relative;
+  padding: 10px 15px;
+  color: $white;
+  background: $secondary;
+
+  &:before {
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    font-family: 'Font Awesome 5 Pro';
+    font-size: 18px;
+    font-weight: 400;
+    color: $white;
+    content: '\f054';
+  }
+
+  &.expanded {
+    &:before {
+      content: '\f078';
+    }
+  }
+
+  &__body {
+    display: none;
+  }
+}
+
 .copyright {
   max-width: 1070px;
   margin: 0 auto;
-  padding: 25px 15px;
+  padding: 10px 15px;
   font-size: $display8-size;
   font-weight: $display2-weight;
+  text-align: center;
   text-transform: uppercase;
+
+  @include media-breakpoint-up(md) {
+    padding: 25px 15px;
+    text-align: left;
+  }
 }
 
 .social {
 
   ul {
     width: 300px;
+    margin: 0 auto 25px;
     padding: 0;
+
+    @include media-breakpoint-up(md) {
+      margin: 0;
+    }
   }
 
   li {
