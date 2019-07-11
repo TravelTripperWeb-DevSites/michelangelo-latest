@@ -1,8 +1,8 @@
 {% assign sync = include.sync_content %}
 
-<div class="offer-detail container-fluid" data-tt-rate-code="{{offer.reztrip_offer_id}}" ttweb-component="Offer">
+<div class="offer-detail container-fluid">
   <div class="row c-2-col__row">
-    <div class="col-md-5 col--left">
+    <div class="col-md-5 col--left" data-tt-rate-code="{{offer.reztrip_offer_id}}" ttweb-component="Offer">
       <div class="content-block">
         <h1 class="h1" tabindex="0" {% if sync %}ttweb-offer-component="OfferTitle"{% endif %}>{{ offer.name }}</h1>
         <div class="select">
@@ -37,8 +37,52 @@
       </div>
     </div>
     <div class="col-md-7 col--right">
-      <div class="image"{% if sync %}ttweb-offer-component="OfferImage"{% endif %}></div>
-      <div class="booking-widget"></div>
+      <div data-tt-rate-code="{{offer.reztrip_offer_id}}" ttweb-component="Offer">
+        <div class="image"{% if sync %}ttweb-offer-component="OfferImage"{% endif %}></div>
+      </div>
+
+      <div class="room-booking-widget pt-48 pb-48 hide-mobile">
+        <p class="h2 text-center" tabindex="0">Your Reservation</p>
+        <p class="overline text-center" tabindex="0">BEST RATE GUARANTEE</p>
+        <form class="room-booking-widget__form" action="https://michelangelohotel.reztrip.com/search" method="get">
+          <div class="room-booking-widget__form__wrap">
+            <div class="room-booking-widget__form__dates">
+              <div class="full-width">
+                <div class="field-inner">
+                  <label for="arrival-date">Arrival</label>
+                  <input type="date" id="arrival-date" name="arrival_date" aria-label="Enter Arrival Date" value="">
+                </div>
+              </div>
+              <div class="full-width">
+                <div class="field-inner">
+                  <label for="departure-date">Departure</label>
+                  <input type="date" id="departure-date" name="departure_date" aria-label="Enter Departure Date">
+                </div>
+              </div>
+            </div>
+            <div class="room-booking-widget__form__extra-fields">
+              <div class="field-wrap">
+                <div class="half-width">
+                  <div class="field-inner">
+                    <label for="no-of-adults">Adults</label>
+                    <input type="number" id="no-of-adults" name="adults" aria-label="Number of Adults" value="01" min="1">
+                  </div>
+                </div>
+                <div class="half-width">
+                  <div class="field-inner">
+                    <label for="no-of-children">Children</label>
+                    <input type="number" id="no-of-children" name="children" aria-label="Number of Adults" value="00" min="0">
+                  </div>
+                </div>
+              </div>
+              <div class="button-wrap">
+                <input type="hidden" name="selected_room" value="{{room.reztrip_room_id}}">
+                <button class="btn btn--secondary" type="submit" name="button">Check Availability</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </div>
