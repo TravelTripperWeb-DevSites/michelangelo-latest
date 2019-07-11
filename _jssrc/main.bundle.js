@@ -101,29 +101,28 @@ readyDoc(function () {
       });
     }
   }, 2000);
+  setTimeout(function () {
+    if (document.getElementById("arrival-date")) {
+      var arrivalDateField = document.getElementById("arrival-date");
+      var departureDateField = document.getElementById("departure-date");
 
-  if (document.getElementById("arrival-date")) {
+      var todaysDate = new Date();
+      var todaysDateFormatted = formatDate(todaysDate);
 
-    var arrivalDateField = document.getElementById("arrival-date");
-    var departureDateField = document.getElementById("departure-date");
+      var tomorrowsDate = todaysDate.setDate(todaysDate.getDate() + 1);
+      var tomorrowsDateFormatted = formatDate(tomorrowsDate);
 
-    var todaysDate = new Date();
-    var todaysDateFormatted = formatDate(todaysDate);
+      arrivalDateField.value = todaysDateFormatted;
+      departureDateField.value = tomorrowsDateFormatted;
 
-    var tomorrowsDate = todaysDate.setDate(todaysDate.getDate() + 1);
-    var tomorrowsDateFormatted = formatDate(tomorrowsDate);
-
-    arrivalDateField.value = todaysDateFormatted;
-    departureDateField.value = tomorrowsDateFormatted;
-
-    arrivalDateField.onchange = function () {
-      var updatedArrivalDate = new Date(arrivalDateField.value);
-      var updatedDepartureDate = updatedArrivalDate.setDate(updatedArrivalDate.getDate() + 1);
-      var updatedDepartureDateFormatted = formatDate(updatedDepartureDate);
-      departureDateField.value = updatedDepartureDateFormatted;
-    };
-  }
-
+      arrivalDateField.onchange = function () {
+        var updatedArrivalDate = new Date(arrivalDateField.value);
+        var updatedDepartureDate = updatedArrivalDate.setDate(updatedArrivalDate.getDate() + 1);
+        var updatedDepartureDateFormatted = formatDate(updatedDepartureDate);
+        departureDateField.value = updatedDepartureDateFormatted;
+      };
+    }
+  }, 2000);
   if (document.getElementsByClassName("services-slider__wrap")[0]) {
     var roomSlider = tns({
       container: '.services-slider__wrap',
