@@ -8,6 +8,8 @@ repository:
 default_lang: en
 languages:
 - en
+- fr
+- it
 include:
 - _ttio_templates
 - _pages
