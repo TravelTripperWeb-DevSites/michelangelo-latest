@@ -56,7 +56,6 @@
       <ul class="nav d-flex d-sm-none justify-content-between">
         {% assign items = site.data._menus.mobile.items %}
         {% include nav/nav-item-list.html items=items %}
-        {% include nav/language-nav.html %}
       </ul>
       <a role="button" aria-label="menu" aria-expanded="false" data-target="navMenu" class="navbar__burger greedy-nav--menu">
         <!-- <span aria-hidden="true"></span>
@@ -66,5 +65,19 @@
     </div>
   </div>
   <ul class="nav--device greedy__hidden-links" navMenu>
+    <div class="d-block d-md-none lang-mobile">
+      {% if site.languages.size > 1 %}
+        <ul class="languages__nav">
+          <li>{% t 'language_name', site.active_lang %}</li>
+          {% for lang in site.languages %}
+            {% if lang != site.active_lang %}
+              <li>
+                <a href="{{page | permalink, locale: lang}}">{% t 'language_name', lang %}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
   </ul>
 </nav>
