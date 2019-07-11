@@ -43,8 +43,16 @@
           }
         }
         &__name {
-          min-height: 72px;
+          min-height: auto;
           margin-bottom: 25px;
+
+          @include media-breakpoint-up(md) {
+            min-height: 100px;
+          }
+
+          @include media-breakpoint-up(lg) {
+            min-height: 72px;
+          }
         }
         &__info {
           display: block;
