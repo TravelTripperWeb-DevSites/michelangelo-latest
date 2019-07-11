@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   max-width: 100%;
-  margin-top: 170px;
   margin-bottom: 48px;
   background-color: $terciary;
 
@@ -125,7 +124,7 @@
         &:last-child {
           margin-right: 0;
         }
-        
+
         a {
           color: $primary;
         }
