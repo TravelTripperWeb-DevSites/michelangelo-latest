@@ -42,7 +42,6 @@ readyDoc(function () {
       if (event.target.parentNode.classList.contains("expanded")) {
         event.target.parentNode.classList.remove("expanded");
         event.target.innerHTML = "Read More <span class='far fa-plus'></span>";
-        event.target.classList.contains("morecontent").focus();
       } else {
         event.target.parentNode.classList.add("expanded");
         event.target.innerHTML = "Read Less <span class='far fa-minus'></span>";

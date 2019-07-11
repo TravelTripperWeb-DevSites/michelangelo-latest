@@ -2,11 +2,10 @@
   {
     "_template": "1_col",
     "html": {
-      "content": "<h1 class=\"h1 text-center py-md-3 py-5\" tabindex=\"0\">Dining at The Michelangelo Hotel in NYC</h1>",
-      "custom_classes": ""
+      "content": "<h1 class=\"h1 text-center  my-md-3 my-5\">Privacy Policy</h1>"
     },
     "advanced_options": {
-      "tabindex": "-1",
+      "tabindex": "0",
       "custom_classes": "innperpage-heading"
     },
     "container_classes": "container-fluid"

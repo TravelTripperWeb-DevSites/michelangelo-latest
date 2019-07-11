@@ -2,7 +2,7 @@
 // ==========================================================================
 
 
-.contact {
+.form-section {
   padding-bottom: 48px;
   background-color: $terciary;
 
@@ -13,11 +13,26 @@
     .form-control {
       margin-bottom: 24px;
     }
+
+    input[type='checkbox']{
+      margin: 10px;
+      vertical-align: middle;
+    }
+    input[type='radio']{
+      margin: 10px;
+      vertical-align: middle;
+    }
+
+
     .form-check {
       p,
       a {
         font-size: .625rem;
         color: #535353;
+      }
+      input[type='checkbox']{
+        margin-top: .3rem;
+        margin-left: -1.25rem;
       }
     }
   }
