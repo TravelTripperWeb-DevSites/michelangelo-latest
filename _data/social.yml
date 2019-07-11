@@ -1,17 +1,25 @@
 ---
 twitter:
   username: michelangelony
+foursquare:
+  username: the-michelangelo-hotel/4b563c76f964a520c10628e3
+linkedin:
+  username: starhotels
+youtube:
+  channel: UCmsGOmKmB062-AlsgIV5uSA
+pinterest:
+  username: michelangelony
 facebook:
   username: MichelangeloHotel
-  app_id: 
-  publisher: 
-og_image: 
+  app_id:
+  publisher:
+og_image:
 instagram:
   username: michelangelohotelny
 social:
-  type: 
-  name: 
-  links: 
+  type:
+  name:
+  links:
 __EDITABLE_FIELDS__:
   instagram:
     label: Instagram Account

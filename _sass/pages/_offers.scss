@@ -1,0 +1,138 @@
+.offers-intro {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin-bottom: 48px;
+  background-color: $terciary;
+
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+  }
+
+  .row {
+    max-width: 1110px;
+    margin: 48px 0;
+  }
+
+  h1 {
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 20px;
+    }
+  }
+
+  h2 {
+    position: relative;
+    margin-bottom: 24px;
+
+    @include media-breakpoint-up(md) {
+      padding-bottom: 24px;
+      &:after {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        content: '';
+        background-color: $primary;
+      }
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.c-offer-list {
+  max-width: 1140px;
+}
+
+.c-offer {
+  margin-bottom: 18px !important;
+  padding-right: 12px !important;
+  padding-left: 12px !important;
+
+  &__image {
+    height: 288px;
+  }
+
+  &__content {
+    position: relative;
+    top: -7px;
+    padding: 24px;
+    text-align: center;
+    background-color: $terciary;
+
+    h3 {
+      margin-bottom: 20px;
+
+      @include media-breakpoint-up(md) {
+        min-height: 72px;
+      }
+    }
+  }
+
+  &__select {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    margin-left: 20px;
+
+    span {
+      display: none;
+    }
+  }
+}
+
+.offer-detail {
+  margin-top: 210px;
+  margin-bottom: 40px;
+
+  .content-block {
+    @include media-breakpoint-up(xl) {
+      max-width: 310px;
+      margin-left: 165px;
+    }
+
+    .h1 {
+      margin-bottom: 24px;
+    }
+
+    .select {
+      span {
+        display: none;
+      }
+    }
+
+    .btn--secondary {
+      margin-bottom: 48px;
+    }
+
+    .seperator {
+      padding-bottom: 24px;
+    }
+
+    ul {
+      margin: 10px 0 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        margin-right: 14px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        a {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  .col--right {
+    padding: 0;
+  }
+}

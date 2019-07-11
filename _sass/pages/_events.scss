@@ -12,8 +12,10 @@
     max-width: 1064px;
   }
   .col--right {
+    text-align: center;
     @include media-breakpoint-up(md) {
       padding-left: 83px;
+      text-align: left;
     }
     hr {
       max-width: 410px;
@@ -21,9 +23,10 @@
       border-top: 1px solid $primary;
       border-bottom: 0;
     }
-    p {
-      &:nth-last-child(1) {
-        margin-bottom: 0;
+
+    .morecontent {
+      @include media-breakpoint-up(md) {
+        display: block;
       }
     }
   }

@@ -1,5 +1,6 @@
 ---
 en:
+  language_name: EN
   attractions:
     categories:
       all: All
@@ -15,10 +16,13 @@ en:
     learn_more: Learn More
     read_more: Read More
     book_now: Book Now
+    discover: Discover
+    discover_more: Discover More
+    explore: Explore
     select: Select
   page_not_found:
     header: Page Not Found
-  language_name: English
+
   header:
     book_now_button: Book Now
     language: Language
@@ -44,7 +48,7 @@ en:
       description: Explore our one-of-a-kind offers
       link: View All Offers
     buttons:
-      book: Book Offer
+      book: Book Now
       view_all: View All Special Offers
   posts:
     none: No Blog Posts Yet!

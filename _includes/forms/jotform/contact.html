@@ -1,4 +1,4 @@
-<form class="contact__wrap" action="https://submit.jotform.me/submit/{{ site.data.forms.jotform.contact-id }}/" method="post" name="form_{{ site.data.forms.jotform.contact-id }}"
+<form class="form-section__wrap" action="https://submit.jotform.me/submit/{{ site.data.forms.jotform.contact-id }}/" method="post" name="form_{{ site.data.forms.jotform.contact-id }}"
     id="{{ site.data.forms.jotform.contact-id }}" accept-charset="utf-8">
     <input type="hidden" name="formID" value="{{ site.data.forms.jotform.contact-id }}">
     <div class="col-md-6">
@@ -23,7 +23,7 @@
     </div>
     <div class="form-check mb-3 col-md-12 pl-4">
     <input class="form-check-input" type="checkbox" aria-label="agree"  name="q4_agreeTo[]" value="Yes" required>
-    <p class="form-check-label small" for="input_14_0">
+    <p class="form-check-label small" for="input_14_0" tabindex="0">
       I agree with  <a href="/terms/"> Terms of Service</a> &  <a href="/privacy/">Privacy Policy</a>
     </p>
   </div>
@@ -35,5 +35,3 @@
         document.getElementById("si" + "mple" + "_spc").value = "{{ site.data.forms.jotform.contact-id }}-{{ site.data.forms.jotform.contact-id }}";
     </script>
 </form>
-
-<script type="text/javascript">JotForm.ownerView=true;</script>

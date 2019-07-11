@@ -11,10 +11,30 @@
   }
 }
 
+.languages {
+  &__nav {
+
+    li {
+      display: inline-block;
+      padding: 0 5px;
+      font-size: $display8-size;
+      font-weight: $display4-weight;
+      color: $white;
+      list-style: none;
+
+      a {
+        color: $white;
+        opacity: .5;
+      }
+    }
+  }
+}
+
 .navbar {
   height: auto !important;
   padding: 0;
   background: $white;
+  box-shadow: 0 1px 8px rgba(0,0,0,.2);
   @include transition(.3s);
 
   @include media-breakpoint-up(md) {
@@ -262,7 +282,7 @@
     @include transition(.3s);
 
     @include media-breakpoint-up(md) {
-      background: $terciary;
+      background: $quaternary;
     }
 
     .navbar__burger {
@@ -300,7 +320,7 @@
     @include transition(.3s);
 
     @include media-breakpoint-up(md) {
-      background: $terciary;
+      background: $quaternary;
     }
 
     .nav__logo {
@@ -320,7 +340,7 @@
     right: 0;
     left: 0;
     text-align: center;
-    background: $terciary;
+    background: $quaternary;
 
     @include media-breakpoint-up(md) {
       background: $white;
@@ -332,7 +352,13 @@
     @include transition(all .3s);
 
     @include media-breakpoint-up(md) {
-      background: $terciary;
+      background: $quaternary;
+    }
+
+    .languages {
+      li,a {
+        color: $primary;
+      }
     }
 
     &.nav--active {
@@ -429,6 +455,13 @@
   }
 }
 
+.is-fixed-top {
+  .languages {
+    li,a {
+      color: $primary;
+    }
+  }
+}
 
 .inner-page-body {
   margin-top: 103px;
@@ -440,4 +473,8 @@
   &.stky {
     margin-top: 103px;
   }
+}
+
+body, a {
+  color: $primary;
 }

@@ -1,5 +1,6 @@
 ---
 it:
+  language_name: IT
   header:
     book_now_button: PRENOTA ORA
     language: Lingua
@@ -10,7 +11,7 @@ it:
   rooms:
     price_per_night: x Notte
     buttons:
-      book: PRENOTA QUESTA CAMERA    
+      book: PRENOTA QUESTA CAMERA
   dining:
     buttons:
       make_a_reservation: Make A Reservation

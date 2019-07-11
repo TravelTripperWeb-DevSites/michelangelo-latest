@@ -96,22 +96,40 @@
 </section>
 
 <section class="footer-nav">
-  <a class="d-flex justify-content-between d-md-none w-100" href="#"><span>{% t 'additional_links' %}</span> <i class="fas fa-angle-right"></i></a>
-  <ul class="d-block d-md-flex justify-content-around">
-    {% assign items = site.data._menus.footer.items %}
-    {% include nav/nav-item-list.html items=items %}
-  </ul>
+  <p class="w-100 toggle-items mb-0" type="button" tabindex="0">{% t 'additional_links' %}</p>
+
+  <div class="toggle-items__body">
+    <ul class="d-block d-md-flex justify-content-around">
+      {% assign items = site.data._menus.footer.items %}
+      {% include nav/nav-item-list.html items=items %}
+    </ul>
+  </div>
 </section>
 
-<div class="copyright d-block d-md-flex justify-content-between">
-  <span>STARHOTELS INTERNATIONAL CORPORATION - {{ "now" | date: "%Y" }} ALL RIGHTS RESERVED<br>REGISTERED OFFICE 152 WEST 51ST STREET - NEW YORK, NY 10019 USA<br>TAX ID 13-3661271</span>
+<div class="copyright d-block d-md-flex justify-content-between align-items-center">
+  <span class="mb-3 mb-md-0 d-block">STARHOTELS INTERNATIONAL CORPORATION - {{ "now" | date: "%Y" }} ALL RIGHTS RESERVED<br>REGISTERED OFFICE 152 WEST 51ST STREET - NEW YORK, NY 10019 USA<br>TAX ID 13-3661271</span>
   <div class="social">
     <ul class="d-flex justify-content-between">
-      {% if site.data.social.instagram.username %}
-      <li><a href="https://www.instagram.com/{{ site.data.social.instagram.username }}/" target="_blank" title="Twitter"><i class="fab fa-instagram"></i></a></li>
-      {% endif %}
       {% if site.data.social.facebook.username %}
-      <li><a href="https://www.facebook.com/{{ site.data.social.facebook.username }}/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="https://www.facebook.com/{{ site.data.social.facebook.username }}/" target="_blank" title="Follow us on Facebook"><i class="fab fa-facebook-square"></i></a></li>
+      {% endif %}
+      {% if site.data.social.twitter.username %}
+      <li><a href="https://twitter.com/{{ site.data.social.twitter.username }}/" target="_blank" title="Follow us on Twitter"><i class="fab fa-twitter"></i></a></li>
+      {% endif %}
+      {% if site.data.social.youtube.channel %}
+      <li><a href="https://www.youtube.com/channel/{{ site.data.social.youtube.channel }}/" target="_blank" title="Follow us on Youtube"><i class="fab fa-youtube"></i></a></li>
+      {% endif %}
+      {% if site.data.social.pinterest.username %}
+      <li><a href="https://www.pinterest.it/{{ site.data.social.pinterest.username }}/" target="_blank" title="Follow us on Pinterest"><i class="fab fa-pinterest"></i></a></li>
+      {% endif %}
+      {% if site.data.social.instagram.username %}
+      <li><a href="https://www.instagram.com/{{ site.data.social.instagram.username }}/" target="_blank" title="Follow us on Instagram"><i class="fab fa-instagram"></i></a></li>
+      {% endif %}
+      {% if site.data.social.foursquare.username %}
+      <li><a href="https://it.foursquare.com/v/{{ site.data.social.foursquare.username }}/" target="_blank" title="Follow us on Foursquare"><i class="fab fa-foursquare"></i></a></li>
+      {% endif %}
+      {% if site.data.social.linkedin.username %}
+      <li><a href="https://www.linkedin.com/company/starhotels/{{ site.data.social.linkedin.username }}/" target="_blank" title="Follow us on Linkedin"><i class="fab fa-linkedin"></i></a></li>
       {% endif %}
     </ul>
   </div>

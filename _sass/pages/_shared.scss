@@ -50,7 +50,7 @@
 
 .inner-hero {
   height: 240px;
-  margin-top: 169px;
+  margin-top: 103px;
   @include media-breakpoint-up(md) {
     height: 600px;
     margin-top: 169px;
@@ -90,15 +90,16 @@
   .col {
     &--left {
       .col-html-content {
-        max-width: 520px;
-        padding: 0 12px;
+        padding: 48px 12px;
+
         @include media-breakpoint-up(md) {
-          padding: 0 20px;
+          max-width: 520px;
+          padding: 48px 20px;
         }
         @include media-breakpoint-up(xl) {
           margin-right: 120px;
           margin-left: auto;
-          padding: 0;
+          padding: 48px 0;
         }
         .h1 {
           margin-bottom: 20px;
@@ -121,8 +122,10 @@
           }
         }
         p {
-          display: none;
           margin-bottom: 24px;
+        }
+
+        .morecontent {
           @include media-breakpoint-up(md) {
             display: block;
           }
@@ -205,4 +208,30 @@ input[type=date], input[type=number] {
 
 .innperpage-heading {
   background-color: $terciary;
+}
+
+//slider control
+.slider-control {
+  position: absolute;
+  display: flex;
+
+  &__arrows {
+    display: flex;
+  }
+
+  .slide-prev, .slide-next {
+    cursor: pointer;
+  }
+}
+
+
+.sitemap {
+  max-width: 300px;
+  ul {
+    padding: 0;
+    li {
+      line-height: 30px;
+      list-style: none;
+    }
+  }
 }

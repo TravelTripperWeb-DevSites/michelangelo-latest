@@ -1,0 +1,23 @@
+{
+  "title": {
+    "required": true,
+    "localizable": true,
+    "required": true
+  },
+  "description": {
+    "localizable": true,
+    "type": "richtext",
+    "required": true
+  },
+  "more_content": {
+    "localizable": true,
+    "type": "richtext"
+  },
+  "images": {
+    "type": "image",
+    "multiple": true
+  },
+  "order": {
+    "type": "order"
+  }
+}

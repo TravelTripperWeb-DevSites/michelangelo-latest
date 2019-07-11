@@ -26,9 +26,9 @@
   &--primary {
     position: relative;
     display: inline-block;
-    padding: 14px 24px 11px;
+    padding: 10px 18px 8px;
     font-family: $family-primary;
-    font-size: $base-font-size;
+    font-size: $display7-size;
     font-weight: $display2-weight;
     color: $primary;
     text-transform: uppercase;
@@ -37,6 +37,11 @@
     border: solid 1px $primary;
     border-radius: 0;
     @include transition(.3s);
+
+    @include media-breakpoint-up(lg) {
+      padding: 14px 24px 11px;
+      font-size: $base-font-size;
+    }
 
     &:hover {
       color: $white;
@@ -58,9 +63,9 @@
   &--secondary {
     position: relative;
     display: inline-block;
-    padding: 14px 24px 11px;
+    padding: 10px 18px 8px;
     font-family: $family-primary;
-    font-size: $base-font-size;
+    font-size: $display7-size;
     font-weight: $display2-weight;
     color: $white;
     text-transform: uppercase;
@@ -69,6 +74,11 @@
     border: solid 1px $primary;
     border-radius: 0;
     @include transition(.3s);
+
+    @include media-breakpoint-up(lg) {
+      padding: 14px 24px 11px;
+      font-size: $base-font-size;
+    }
 
     &:hover {
       color: $primary;
@@ -134,7 +144,14 @@ button {
   border: 0;
   border-radius: 0;
   @include placeholder-text($family-primary, $base-font-size, $gray-500)
+
+  &.custom-select {
+    font-family: $family-primary;
+    font-size: $base-font-size;
+    color: $gray-500;
+  }
 }
+
 
 label {
   margin-bottom: 10px;
