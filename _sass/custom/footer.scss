@@ -1,3 +1,7 @@
+footer {
+  background: $terciary;
+}
+
 .newsletter-signup {
   padding: 25px 0;
   color: $white;
@@ -52,6 +56,10 @@
       @include make-col(6);
       text-align: left;
     }
+
+    p {
+      font-size: $display10-size;
+    }
   }
   &__credits {
     @include make-col-ready;
@@ -71,7 +79,7 @@
     }
 
     .awards {
-      max-width: 370px;
+      max-width: 470px;
       margin: 0 auto;
     }
 
@@ -110,13 +118,20 @@
 
 .mw-475 {
   max-width: 100%;
+  margin: 0 auto;
 
   @include media-breakpoint-up(xl) {
     max-width: 475px;
   }
 }
 
+.accordion {
+  cursor: pointer;
+}
+
 .footer-nav {
+  border-top: solid 1px $secondary;
+  border-bottom: solid 1px $secondary;
 
   ul {
     max-width: 850px;
@@ -126,5 +141,42 @@
 
   li {
     list-style: none;
+    a {
+      margin: 0;
+      font-size: $display10-size;
+      font-weight: $display2-weight;
+      color: $primary;
+    }
+  }
+}
+
+.copyright {
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 25px 15px;
+  font-size: $display8-size;
+  font-weight: $display2-weight;
+  text-transform: uppercase;
+}
+
+.social {
+
+  ul {
+    width: 300px;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+
+    a {
+      font-size: $display5-size;
+      color: $primary;
+      @include transition(all .3s);
+
+      &:hover {
+        opacity: .6;
+      }
+    }
   }
 }
