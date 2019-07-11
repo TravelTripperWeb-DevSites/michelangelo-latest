@@ -51,10 +51,10 @@ readyDoc(function () {
     if (event.target.classList.contains('readmore-btn')) {
       if (event.target.parentNode.classList.contains("expanded")) {
         event.target.parentNode.classList.remove("expanded");
-        event.target.innerHTML = "Read More +";
+        event.target.innerHTML = "Read More <span class='far fa-plus'></span>";
       } else {
         event.target.parentNode.classList.add("expanded");
-        event.target.innerHTML = "Read Less -";
+        event.target.innerHTML = "Read Less <span class='far fa-minus'></span>";
       }
     }
 

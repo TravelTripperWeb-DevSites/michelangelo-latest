@@ -1,4 +1,68 @@
 ---
 fr:
   language_name: FR
-  our_instagrm: Notre Instagram
+  attractions:
+    categories:
+      all: All
+    buttons:
+      get_directions: Get Directions
+  instagram:
+    tag_link: "@%{handle}"
+    profile_link: Our Instagram
+  book_now: Reserver
+  search: Search
+  find_rooms: Find Rooms
+  cta:
+    learn_more: Learn More
+    read_more: Read More
+    book_now: Book Now
+    discover: Découvrir
+    explore: Explorer
+    select: Select
+  page_not_found:
+    header: Page Not Found
+
+  header:
+    book_now_button: Book Now
+    language: Language
+    language_name: English
+  brg:
+    label: Best Rate
+    tonights_rate: Tonight's Rate
+  dining:
+    none: Dining options coming soon!
+    buttons:
+      make_a_reservation: Make a Reservation
+      view_menu: View Menu
+      view_all: View All Dining Options
+  events:
+    none: No Events Yet!
+  offers:
+    none: No Offers Available.
+    rate_pre_label: "avg. "
+    rate_post_label: " / night"
+    not_available: ""
+    cross_sell:
+      title: Featured Offers
+      description: Explore our one-of-a-kind offers
+      link: View All Offers
+    buttons:
+      book: Book Offer
+      view_all: View All Special Offers
+  posts:
+    none: No Blog Posts Yet!
+  rooms:
+    guest_size_max: Max %{size} Adults
+    accessible: Accessible Rooms
+    price_per_night: / Night
+    buttons:
+      book: Book Room
+  galleries:
+    filters:
+      all: All
+  carousels:
+    next: "Next"
+    previous:  "Prev"
+  join_our_newsletter:  Join Our Newsletter
+  newsletter_signup_intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  additional_links: Additional Links
