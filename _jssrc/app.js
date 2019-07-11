@@ -11,12 +11,14 @@ readyDoc(function() {
   //To add a margin on scroll to "main" body block
   var mainBlock = document.querySelector(".main");
   window.addEventListener("scroll", function() {
-    if(window.scrollY > 0) {
+    if (window.scrollY > 0) {
       mainBlock.classList.add("stky");
     } else {
       mainBlock.classList.remove("stky");
     }
   });
+
+  // converting room size from square feet to square meters in room listing page
 
   // Prevent Double Click on ipad and iphone devices
   if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
@@ -28,9 +30,9 @@ readyDoc(function() {
 
   setTimeout(function() {
     var roomsList = document.querySelectorAll(".c-room-list__items .c-room");
-    for(let i = 0; i < roomsList.length; i++ ) {
+    for (let i = 0; i < roomsList.length; i++) {
       var sizeInFeet = Number(roomsList[i].querySelector(".ttweb-room-size__value").innerHTML);
-      var sizeInMeters = Math.round(sizeInFeet/10.764);
+      var sizeInMeters = Math.round(sizeInFeet / 10.764);
       //log(sizeInMeters);
       roomsList[i].querySelector(".size_in_meters").innerHTML = sizeInMeters;
       roomsList[i].querySelector(".ttweb-room-size__units").innerHTML = "";
@@ -38,10 +40,20 @@ readyDoc(function() {
   }, 5000);
 
   setTimeout(function() {
-    if(document.getElementById("preloader")) {
+    if (document.getElementById("preloader")) {
       document.getElementById("preloader").style.display = "none";
     }
   }, 5500);
+
+  // converting room size from square feet to square meters in room details page
+
+  setTimeout(function() {
+    if (document.querySelector(".room-details-intro")) {
+      document.querySelector(".room-details-intro .size_in_meters").innerText = Math.round(document.querySelector(".room-details-intro .size_in_feet")
+        .innerText.match(/\d+/g)
+        .map(Number)[0] / 10.764);
+    }
+  }, 2000);
 
   document.addEventListener('click', function(event) {
 
@@ -75,41 +87,93 @@ readyDoc(function() {
 
   }, false);
 
-  if(document.getElementsByClassName("services-slider__wrap")[0]) {
-   var roomSlider = tns({
-     container: '.services-slider__wrap',
-     "items": 1,
-     "slideBy": "page",
-     "mouseDrag": true,
-     "swipeAngle": false,
-     "speed": 400,
-     navContainer:"#servicesSlider",
-     prevButton: "#servicesSliderPrev",
-     nextButton: "#servicesSliderNext",
-   });
- }
+  setTimeout(function() {
+    if (document.getElementsByClassName("room-item")[0]) {
+      var bannerSlider = tns({
+        container: '.room-item',
+        "items": 1,
+        "slideBy": "page",
+        "mouseDrag": true,
+        "swipeAngle": false,
+        "speed": 400,
+        navContainer: "#bannerSlider",
+        prevButton: "#bannerSliderPrev",
+        nextButton: "#bannerSliderNext",
+      });
+    }
+  }, 2000);
 
-var dwidth = window.innerWidth;
+  if (document.getElementById("arrival-date")) {
 
-if(dwidth < 768) {
+    var arrivalDateField = document.getElementById("arrival-date");
+    var departureDateField = document.getElementById("departure-date");
 
-   if(document.getElementsByClassName("amenities-slider")[0]) {
-    var amenitiesSlider = tns({
-      container: '.amenities-slider',
+    var todaysDate = new Date();
+    var todaysDateFormatted = formatDate(todaysDate);
+
+    var tomorrowsDate = todaysDate.setDate(todaysDate.getDate() + 1);
+    var tomorrowsDateFormatted = formatDate(tomorrowsDate);
+
+    arrivalDateField.value = todaysDateFormatted;
+    departureDateField.value = tomorrowsDateFormatted;
+
+    arrivalDateField.onchange = function() {
+      var updatedArrivalDate = new Date(arrivalDateField.value);
+      var updatedDepartureDate = updatedArrivalDate.setDate(updatedArrivalDate.getDate() + 1);
+      var updatedDepartureDateFormatted = formatDate(updatedDepartureDate);
+      departureDateField.value = updatedDepartureDateFormatted;
+    }
+
+  }
+
+  if (document.getElementsByClassName("services-slider__wrap")[0]) {
+    var roomSlider = tns({
+      container: '.services-slider__wrap',
       "items": 1,
       "slideBy": "page",
       "mouseDrag": true,
       "swipeAngle": false,
       "speed": 400,
-      "autoHeight": true,
-      navContainer:"#amenitiesSlider",
-      prevButton: "#amenitiesSliderPrev",
-      nextButton: "#amenitiesSliderNext",
+      navContainer: "#servicesSlider",
+      prevButton: "#servicesSliderPrev",
+      nextButton: "#servicesSliderNext",
     });
   }
-}
+
+  var dwidth = window.innerWidth;
+
+  if (dwidth < 768) {
+
+    if (document.getElementsByClassName("amenities-slider")[0]) {
+      var amenitiesSlider = tns({
+        container: '.amenities-slider',
+        "items": 1,
+        "slideBy": "page",
+        "mouseDrag": true,
+        "swipeAngle": false,
+        "speed": 400,
+        "autoHeight": true,
+        navContainer: "#amenitiesSlider",
+        prevButton: "#amenitiesSliderPrev",
+        nextButton: "#amenitiesSliderNext",
+      });
+    }
+  }
 
 });
+
+
+function formatDate(date) {
+  var d = new Date(date),
+    month = '' + (d.getMonth() + 1),
+    day = '' + d.getDate(),
+    year = d.getFullYear();
+
+  if (month.length < 2) month = '0' + month;
+  if (day.length < 2) day = '0' + day;
+
+  return [year, month, day].join('-');
+}
 
 function pinterestShare(img, desc) {
   window.open(
