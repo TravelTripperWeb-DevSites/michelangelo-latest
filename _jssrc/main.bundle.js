@@ -52,8 +52,6 @@ readyDoc(function () {
       if (event.target.parentNode.classList.contains("expanded")) {
         event.target.parentNode.classList.remove("expanded");
         event.target.innerHTML = "Read More <span class='far fa-plus'></span>";
-        var morecontent = event.target.querySelector('.morecontent');
-        morecontent.focus();
       } else {
         event.target.parentNode.classList.add("expanded");
         event.target.innerHTML = "Read Less <span class='far fa-minus'></span>";
@@ -63,9 +61,11 @@ readyDoc(function () {
     //For footer accordion
     if (window.innerWidth <= 768 && event.target.classList.contains('toggle-items')) {
 
-      var element = event.target.querySelector('.fas');
-      element.classList.toggle("fa-angle-down");
-      element.classList.toggle("fa-angle-right");
+      if (event.target.classList.contains("expanded")) {
+        event.target.classList.remove("expanded");
+      } else {
+        event.target.classList.add("expanded");
+      }
 
       var next = event.target.nextElementSibling;
       if (next.style.display == "block") {

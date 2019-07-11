@@ -61,12 +61,15 @@ footer {
       font-size: $display10-size;
     }
   }
+
   &__credits {
     @include make-col-ready;
+    padding: 0;
     text-align: center;
 
     @include media-breakpoint-up(lg) {
       @include make-col(6);
+      padding: 0 15px;
     }
 
     span {
@@ -125,28 +128,82 @@ footer {
   }
 }
 
-.toggle-items {
-  display: block;
-  cursor: pointer;
-}
-
 .footer-nav {
   border-top: solid 1px $secondary;
-  border-bottom: solid 1px $secondary;
+  border-bottom: 0;
+
+  @include media-breakpoint-up(md) {
+    border-bottom: solid 1px $secondary;
+  }
 
   ul {
     max-width: 850px;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 30px 15px;
+
+    @include media-breakpoint-up(md) {
+      padding: 30px 0;
+    }
   }
 
   li {
+    text-align: center;
     list-style: none;
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+
     a {
       margin: 0;
+      padding: 5px 0;
       font-size: $display10-size;
       font-weight: $display2-weight;
       color: $primary;
+
+      @include media-breakpoint-up(md) {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.toggle-items {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  color: $white;
+  cursor: pointer;
+  background: $secondary;
+
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+
+  &:before {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-family: 'Font Awesome 5 Pro';
+    font-size: 18px;
+    font-weight: 400;
+    color: $white;
+    content: '\f105';
+  }
+
+  &.expanded {
+    &:before {
+      content: '\f107';
+    }
+  }
+
+  &__body {
+    display: none;
+    background: $quaternary;
+
+    @include media-breakpoint-up(md) {
+      display: block;
+      background: transparent;
     }
   }
 }
@@ -157,14 +214,24 @@ footer {
   padding: 25px 15px;
   font-size: $display8-size;
   font-weight: $display2-weight;
+  text-align: center;
   text-transform: uppercase;
+
+  @include media-breakpoint-up(md) {
+    text-align: left;
+  }
 }
 
 .social {
 
   ul {
     width: 300px;
+    margin: 0 auto;
     padding: 0;
+
+    @include media-breakpoint-up(md) {
+      margin: 0;
+    }
   }
 
   li {

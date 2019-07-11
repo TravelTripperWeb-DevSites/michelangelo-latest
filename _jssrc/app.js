@@ -59,9 +59,11 @@ readyDoc(function() {
     //For footer accordion
     if (window.innerWidth <= 768 && event.target.classList.contains('toggle-items')) {
 
-      var element = event.target.querySelector('.fas');
-      element.classList.toggle("fa-angle-down");
-      element.classList.toggle("fa-angle-right");
+      if (event.target.classList.contains("expanded")) {
+        event.target.classList.remove("expanded");
+      } else {
+        event.target.classList.add("expanded");
+      }
 
       var next = event.target.nextElementSibling;
       if (next.style.display == "block") {

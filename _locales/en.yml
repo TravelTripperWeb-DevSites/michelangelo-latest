@@ -1,5 +1,6 @@
 ---
 en:
+  language_name: EN
   attractions:
     categories:
       all: All
@@ -18,7 +19,7 @@ en:
     select: Select
   page_not_found:
     header: Page Not Found
-  language_name: English
+
   header:
     book_now_button: Book Now
     language: Language
