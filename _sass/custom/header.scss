@@ -47,12 +47,12 @@
     border-top: solid 1px $secondary;
 
     @include media-breakpoint-up(md) {
-      max-width: 400px;
+      max-width: 350px;
       border-top: 0;
     }
 
     @include media-breakpoint-up(lg) {
-      max-width: 80%;
+      max-width: 50%;
     }
 
     @include media-breakpoint-up(xl) {
@@ -213,8 +213,9 @@
 
     &--device {
       top: 100px;
-      height: calc(100vh - 103px);
+      height: calc(100vh - 153px);
       overflow-y: scroll;
+      background: $terciary;
       border: 0;
       @include transition(.3s);
 
@@ -222,8 +223,12 @@
         top: 169px;
       }
 
+      li {
+        padding-bottom: 0;
+      }
+
       .nav__link {
-        padding: 10px 15px;
+        padding: 0 15px;
         font-family: $family-secondary;
         font-size: $display3-size;
         font-weight: $display3-weight;
@@ -285,6 +290,12 @@
       background: $quaternary;
     }
 
+    .languages__nav {
+      li, a {
+        color: $primary;
+      }
+    }
+
     .navbar__burger {
       &:before {
         color: $primary;
@@ -334,17 +345,19 @@
       }
     }
 
+    .languages {
+      li,a {
+        color: $primary;
+      }
+    }
+
   }
 
   .greedy__hidden-links {
     right: 0;
     left: 0;
     text-align: center;
-    background: $quaternary;
-
-    @include media-breakpoint-up(md) {
-      background: $white;
-    }
+    background: $terciary;
   }
 
   &.sticky {
@@ -459,6 +472,10 @@
   .languages {
     li,a {
       color: $primary;
+
+      @include media-breakpoint-up(md) {
+        color: $white;
+      }
     }
   }
 }
@@ -477,4 +494,23 @@
 
 body, a {
   color: $primary;
+}
+
+.lang-mobile {
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  background: $terciary;
+  box-shadow: 0 -1px 9px rgba(0,0,0,.1);
+
+  ul {
+    margin: 15px 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  li, a {
+    color: $primary !important;
+  }
 }
