@@ -1,0 +1,78 @@
+
+.h1,.h2,.h3,.h4,.h5, .h6 {
+  display: block;
+  margin: 0;
+  font-weight: normal;
+}
+
+.h1 {
+  font-family: $family-secondary;
+  font-size: $display2-size;
+  line-height: 48px;
+  color: $primary;
+  letter-spacing: normal;
+
+  @include media-breakpoint-up(md) {
+    font-size: $display1-size;
+    line-height: 54px;
+  }
+}
+
+.h2 {
+  font-family: $family-secondary;
+  font-size: $display3-size;
+  line-height: 48px;
+  color: $primary;
+  letter-spacing: normal;
+}
+
+.h3 {
+  font-family: $family-primary;
+  font-size: $display4-size;
+  font-weight: $display1-weight;
+  line-height: 36px;
+  color: $primary;
+  text-transform: uppercase;
+  letter-spacing: normal;
+}
+
+.h4 {
+  font-family: $family-secondary;
+  font-size: $display5-size;
+  line-height: 30px;
+  color: $primary;
+  letter-spacing: normal;
+}
+
+.overline {
+  margin: 0;
+  font-family: $family-primary;
+  font-size: $display8-size;
+  font-weight: $display3-weight;
+  line-height: 18px;
+  color: $primary;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: $family-primary;
+  font-size: $base-font-size;
+  font-weight: $display2-weight;
+  line-height: 24px;
+  color: $primary;
+  letter-spacing: normal;
+
+  &.small {
+    font-size: $display7-size;
+    line-height: 18px;
+  }
+}
+
+.light {
+  color: $white !important;
+}
+
+.dark {
+  color: $black !important;
+}

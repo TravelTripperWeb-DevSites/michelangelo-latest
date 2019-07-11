@@ -1,0 +1,24 @@
+---
+layout: no_hero_layout
+---
+<div class="preloader" id="preloader">
+  <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562590704/tndaevvgo7mu12l67egq.gif" alt="Loading">
+</div>
+<section class="rooms-list-wrap pt-48 pb-48">
+  {% if site.data._models.rooms %}
+    {% assign rooms = site.data._models.rooms | sort:"order" %}
+    <div class="c-room-list">
+      <div class="c-room-list__items">
+        {% for room in rooms %}
+          {% include components/room sync_content=true %}
+        {% endfor %}
+      </div>
+    </div>
+  {% else %}
+    {% regionblock no_list_items, type:html %}
+      {% t 'rooms.none' %}
+    {% endregionblock %}
+  {% endif %}
+</section>
+
+{{ content }}

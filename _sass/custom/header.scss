@@ -1,0 +1,480 @@
+.booking-widget-button {
+  .btn {
+    @include media-breakpoint-only(xs) {
+      padding: 10px 15px 8px;
+      letter-spacing: normal;
+
+      span {
+        top: 12px;
+      }
+    }
+  }
+}
+
+.languages {
+  &__nav {
+
+    li {
+      display: inline-block;
+      padding: 0 5px;
+      font-size: $display8-size;
+      font-weight: $display4-weight;
+      color: $white;
+      list-style: none;
+
+      a {
+        color: $white;
+        opacity: .5;
+      }
+    }
+  }
+}
+
+.navbar {
+  height: auto !important;
+  padding: 0;
+  background: $white;
+  box-shadow: 0 1px 8px rgba(0,0,0,.2);
+  @include transition(.3s);
+
+  @include media-breakpoint-up(md) {
+    background: transparent;
+  }
+
+  .greedy-bar {
+    max-width: 100%;
+    margin: 0 auto;
+    border-top: solid 1px $secondary;
+
+    @include media-breakpoint-up(md) {
+      max-width: 400px;
+      border-top: 0;
+    }
+
+    @include media-breakpoint-up(lg) {
+      max-width: 80%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      max-width: 800px;
+    }
+
+  }
+
+  .navbar-brand {
+    width: 120px;
+    margin: 0;
+    @include transition(.3s);
+
+    @include media-breakpoint-up(md) {
+      width: 189px;
+      margin: 0 auto;
+    }
+
+    img {
+      width: 100%;
+      height: 100% !important;
+    }
+  }
+
+  &__burger {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+    background: transparent;
+
+    @include media-breakpoint-up(md) {
+      width: 4rem;
+      height: 4rem;
+      margin-top: 3px;
+      margin-right: inherit;
+      margin-bottom: inherit;
+    }
+
+    &:before {
+      position: absolute;
+      top: 7px;
+      font-family: 'Font Awesome 5 Pro';
+      font-size: 18px;
+      font-weight: 400;
+      color: $primary;
+      content: '\f0c9';
+
+      @include media-breakpoint-up(md) {
+        top: 18px;
+        color: $white;
+      }
+    }
+
+    &:hover {
+      background: transparent;
+    }
+
+    &.is-active {
+      background: transparent;
+
+      &:before {
+        top: 4px;
+        right: 17px;
+        font-size: 22px;
+        font-weight: 300;
+        color: $primary;
+        content: '\f00d';
+
+        @include media-breakpoint-up(md) {
+          top: 15px;
+          right: inherit;
+        }
+      }
+    }
+  }
+
+  .nav {
+
+    &__link {
+      position: relative;
+      margin: 0 15px;
+      padding: 10px 0;
+      font-family: $family-primary;
+      font-size: $display7-size;
+      font-weight: $display3-weight;
+      color: $primary;
+      letter-spacing: normal;
+
+      @include media-breakpoint-up(md) {
+        padding: 24px 0;
+        color: $white;
+      }
+
+      &:after {
+        position: absolute;
+        right: 0;
+        bottom: 12px;
+        left: 0;
+        display: none;
+        width: 100%;
+        height: 1px;
+        content: '';
+        background: $primary;
+        opacity: 0;
+        @include transition(.3s);
+
+        @include media-breakpoint-up(md) {
+          display: block;
+          background: $white;
+        }
+      }
+
+      &:hover, &.active {
+        color: $primary;
+        text-decoration: none !important;
+
+        @include media-breakpoint-up(md) {
+          color: $white;
+        }
+
+        &:after {
+          bottom: 22px;
+          opacity: 1;
+        }
+      }
+    }
+
+    &__logo {
+      display: none;
+      margin-top: 5px;
+
+      @include media-breakpoint-up(md) {
+        display: inline-block;
+        margin-top: 24px
+      }
+
+      img {
+        width: 100%;
+        height: auto !important;
+      }
+    }
+
+    &__logo-secondary {
+      display: inline-block;
+      margin-top: 5px;
+
+      @include media-breakpoint-up(md) {
+        display: none;
+        margin-top: 0;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    &--device {
+      top: 100px;
+      height: calc(100vh - 103px);
+      overflow-y: scroll;
+      border: 0;
+      @include transition(.3s);
+
+      @include media-breakpoint-up(md) {
+        top: 169px;
+      }
+
+      .nav__link {
+        padding: 10px 15px;
+        font-family: $family-secondary;
+        font-size: $display3-size;
+        font-weight: $display3-weight;
+
+        &:after {
+          display: none;
+        }
+
+        &:hover {
+          color: $primary !important;
+        }
+      }
+    }
+  }
+
+  .brand-bar {
+    position: relative;
+    max-width: 1344px;
+    height: 61px;
+    margin: 0 auto;
+    @include transition(.3s);
+
+    @include media-breakpoint-up(md) {
+      height: 100px;
+    }
+
+    .nav {
+      display: none;
+    }
+
+    .booking-widget-button {
+      position: absolute;
+      top: inherit;
+      right: 15px;
+
+      @include media-breakpoint-up(md) {
+        top: 30px;
+      }
+    }
+  }
+
+  .subnav {
+    padding: 10px 0;
+    background: $white;
+    border: solid 1px $gray-300;
+
+    .nav__link {
+      padding: 10px 15px !important;
+      text-transform: none;
+      letter-spacing: normal;
+    }
+  }
+
+  &.inner-page-nav {
+    background: $white;
+    @include transition(.3s);
+
+    @include media-breakpoint-up(md) {
+      background: $quaternary;
+    }
+
+    .navbar__burger {
+      &:before {
+        color: $primary;
+      }
+    }
+
+    .nav {
+
+      &__link {
+        color: $primary;
+
+        &:after {
+          background: $primary;
+        }
+      }
+
+      &__logo {
+        display: none;
+      }
+      &__logo-secondary {
+        display: inline-block;
+        margin-top: 0;
+
+        @include media-breakpoint-up(md) {
+          margin-top: 24px;
+        }
+      }
+    }
+  }
+
+  &.nav--active {
+    background: $white;
+    @include transition(.3s);
+
+    @include media-breakpoint-up(md) {
+      background: $quaternary;
+    }
+
+    .nav__logo {
+      display: none;
+    }
+    .nav__logo-secondary {
+      display: inline-block;
+
+      @include media-breakpoint-up(md) {
+        margin-top: 24px;
+      }
+    }
+
+  }
+
+  .greedy__hidden-links {
+    right: 0;
+    left: 0;
+    text-align: center;
+    background: $quaternary;
+
+    @include media-breakpoint-up(md) {
+      background: $white;
+    }
+  }
+
+  &.sticky {
+    background: $white;
+    @include transition(all .3s);
+
+    @include media-breakpoint-up(md) {
+      background: $quaternary;
+    }
+
+    .languages {
+      li,a {
+        color: $primary;
+      }
+    }
+
+    &.nav--active {
+      .nav__logo-secondary {
+        margin-top: 0;
+      }
+    }
+
+    .navbar__burger {
+      background: transparent;
+
+      &:before {
+        color: $primary;
+      }
+    }
+
+    .brand-bar {
+      .navbar-brand {
+        max-width: 142px;
+        margin: 0;
+      }
+    }
+
+    .greedy-bar {
+      position: relative;
+      right: 0;
+      left: 0;
+
+      @include media-breakpoint-up(md) {
+        position: absolute;
+        right: 0;
+        left: 0;
+      }
+    }
+
+    .nav {
+      &__logo {
+        display: none;
+      }
+      &__logo-secondary {
+        display: inline-block;
+        margin-top: 0;
+      }
+      &__link {
+        color: $primary !important;
+
+        &:after {
+          background: $primary;
+        }
+
+        &:hover {
+          color: $primary !important;
+        }
+      }
+      &--device {
+        top: 100px;
+        right: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+        @include transition(.3s);
+
+        &.is-active {
+          opacity: 1;
+          @include transition(.3s);
+
+          .nav__link {
+            &:before {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    .booking-widget-button {
+      position: relative;
+      top: inherit;
+      right: inherit;
+    }
+  }
+}
+
+.is-fixed-top+.main {
+  padding-top: 103px;
+  @include transition(all .3s);
+
+  @include media-breakpoint-up(md) {
+    padding-top: 0;
+  }
+
+  &.inner-page-body {
+    padding-top: 0;
+  }
+}
+
+.is-fixed-top {
+  .languages {
+    li,a {
+      color: $primary;
+    }
+  }
+}
+
+.inner-page-body {
+  margin-top: 103px;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 169px;
+  }
+
+  &.stky {
+    margin-top: 103px;
+  }
+}
+
+body, a {
+  color: $primary;
+}

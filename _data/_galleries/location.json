@@ -1,0 +1,51 @@
+{
+  "name": "Location",
+  "photos": [
+    {
+      "name": "near-by-newyork-city-locations",
+      "content_type": "image/jpeg",
+      "date_added": "2019-07-05-083729",
+      "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,g_faces,h_140,w_140/v1562330250/nppem4z7vkx2qan5khds.jpg",
+      "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_300,w_300/v1562330250/nppem4z7vkx2qan5khds.jpg",
+      "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_768,w_768/v1562330250/nppem4z7vkx2qan5khds.jpg",
+      "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_992,w_992/v1562330250/nppem4z7vkx2qan5khds.jpg",
+      "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562330250/nppem4z7vkx2qan5khds.jpg",
+      "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_1920,w_1920/v1562330250/nppem4z7vkx2qan5khds.jpg",
+      "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562330250/nppem4z7vkx2qan5khds.jpg",
+      "width": 1040,
+      "height": 852,
+      "format": "jpg",
+      "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1562330250/nppem4z7vkx2qan5khds.jpg",
+      "resource_type": "image",
+      "size": 211183,
+      "git_file_name": "_assets/image_data/near-by-newyork-city-locations.jpg.json",
+      "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562330250/nppem4z7vkx2qan5khds.jpg",
+      "file_size": null,
+      "alt": "Newyork City Location"
+    },
+    {
+      "name": "nyc-empire-state-building",
+      "content_type": "image/jpeg",
+      "date_added": "2019-07-05-041535",
+      "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,g_faces,h_140,w_140/v1562314536/pkdfzj40grpm9dx1cf0b.jpg",
+      "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_300,w_300/v1562314536/pkdfzj40grpm9dx1cf0b.jpg",
+      "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_768,w_768/v1562314536/pkdfzj40grpm9dx1cf0b.jpg",
+      "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_992,w_992/v1562314536/pkdfzj40grpm9dx1cf0b.jpg",
+      "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562314536/pkdfzj40grpm9dx1cf0b.jpg",
+      "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_1920,w_1920/v1562314536/pkdfzj40grpm9dx1cf0b.jpg",
+      "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562314536/pkdfzj40grpm9dx1cf0b.jpg",
+      "width": 1040,
+      "height": 612,
+      "format": "jpg",
+      "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1562314536/pkdfzj40grpm9dx1cf0b.jpg",
+      "resource_type": "image",
+      "size": 120873,
+      "git_file_name": "_assets/image_data/nyc-empire-state-building.jpg.json",
+      "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562314536/pkdfzj40grpm9dx1cf0b.jpg",
+      "file_size": null,
+      "alt": "NYC Empire State Building"
+    }
+  ],
+  "description": "",
+  "id": "location"
+}

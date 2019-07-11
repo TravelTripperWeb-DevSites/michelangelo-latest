@@ -1,0 +1,48 @@
+
+{% assign sync = include.sync_content %}
+
+<div class="c-room" ttweb-component="Room" data-tt-selected-room="{{room.reztrip_room_id}}" {% tabindex %}>
+  <div class="c-room__image-group">
+    <div class="c-room__featured-image objectfit" {% if sync %}ttweb-room-component="RoomPrimaryImage"{% endif %}>
+      {% assign featured_image = room.featured_image | default: room.images[0] %}
+      {% include components/image image=featured_image max_width=600 %}
+    </div>
+    {% comment %}
+    <div class="c-room__images" {% if sync %}ttweb-room-component="RoomImageList"{% endif %}>
+      {% assign sliderImages = room.images %}
+      {% assign sliderId = "room" | append: room.id | append: "slider" %}
+      {% include components/slider id=sliderId %}
+    </div>
+    <div class="c-room__images" {% if sync %}ttweb-room-component="RoomPrimaryImage"{% endif %}>
+      {% assign sliderImages = sliderImages[0] %}
+      {% assign sliderId = "room" | append: room.id | append: "slider" %}
+      {% include components/slider id=sliderId %}
+    </div>
+    {% endcomment %}
+  </div>
+  <div class="c-room__text-group">
+    <div class="c-room__name" >
+      <a class="h3" href="/rooms/room_{{ room.reztrip_room_id | downcase }}/" {% if sync %}ttweb-room-component="RoomName"{% endif %}>{{ room.name }}</a>
+    </div>
+    <div class="c-room__info">
+      <div class="c-room__info__size">
+        <span class="c-room__info__field">SQM/SQF</span>
+        <span class="c-room__info__value"><span class="size_in_meters"></span> - <span class="size_in_feet" {% if sync %}ttweb-room-component="RoomSize"{% endif %}>{{ room.size }}</span></span>
+      </div>
+      <div class="c-room__info__guests">
+        <span class="c-room__info__field">Max Guests</span>
+        <span class="c-room__info__value">
+          {% if room.guest_size_max and room.guest_size_max > 0 %}
+            {% t 'rooms.guest_size_max', size:room.guest_size_max %}
+          {% endif %}
+        </span>
+      </div>
+    </div>
+    <div class="c-room__buttons">
+      <a class="btn btn--primary" href="/rooms/room_{{ room.reztrip_room_id | downcase }}/">Discover</a>
+      <div data-tt-class-name="btn btn--secondary" ttweb-room-component="BookingButton">
+        {% t 'rooms.buttons.book' %}
+      </div>
+    </div>
+  </div>
+</div>
