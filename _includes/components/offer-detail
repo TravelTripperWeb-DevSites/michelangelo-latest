@@ -1,0 +1,44 @@
+{% assign sync = include.sync_content %}
+
+<div class="offer-detail container-fluid" data-tt-rate-code="{{offer.reztrip_offer_id}}" ttweb-component="Offer">
+  <div class="row c-2-col__row">
+    <div class="col-md-5 col--left">
+      <div class="content-block">
+        <h1 class="h1" tabindex="0" {% if sync %}ttweb-offer-component="OfferTitle"{% endif %}>{{ offer.name }}</h1>
+        <div class="select">
+          <div class="btn--secondary" data-tt-class-name="btn" ttweb-offer-component="OfferBookingButton">
+            {% t 'offers.buttons.book' %}
+          </div>
+        </div>
+        <h2 class="h2" tabindex="0">Offer Details</h2>
+        <div class="seperator">&nbsp;</div>
+        <div tabindex="0">
+          <p class="p1" {% if sync %}ttweb-offer-component="OfferDescription"{% endif %}>{{ offer.description }}</p>
+        </div>
+        <p tabindex="0" class="overline">Terms & Conditions</p>
+        <p tabindex="0" class="p1" {% if sync %}ttweb-offer-component="PolicyDescription"{% endif %}>{{ offer.policy_description }}</p>
+        <p class="overline" tabindex="0">SHARE</p>
+        <ul>
+        {% assign title = offer.name | replace: "'", "" %}
+        {% assign siteurl = site.data.hotel_settings.site_url %}
+        <li>
+          <a href="https://www.facebook.com/sharer/sharer.php?s=100&p[title]={{ title }}&p[url]={{ siteurl }}{{ page.url }}&p[summary]={{ offer.short_description | strip_html | truncatewords: 20 | remove: '<p>' | remove: '</p>'}}&p[images][0]={{offer.image.url_large}}" target="_blank" title="Share on Facebook"> <i class="fab fa-facebook"></i> </a>
+        </li>
+        <li>
+          <a href="" target="_blank" title="Share on Twitter"> <i class="fab fa-twitter"></i> </a>
+        </li>
+        <li>
+          <a href="" target="_blank" title="Share on Pinterest" onclick="pinterestShare('{{offer.image.url}}', '{{ title }}')"> <i class="fab fa-pinterest"></i> </a>
+        </li>
+        <li>
+          <a href="" target="_blank" title="Share on Linkdin"> <i class="fab fa-linkedin"></i> </a>
+        </li>
+      </ul>
+      </div>
+    </div>
+    <div class="col-md-7 col--right">
+      <div class="image"{% if sync %}ttweb-offer-component="OfferImage"{% endif %}></div>
+      <div class="booking-widget"></div>
+    </div>
+  </div>
+</div>
