@@ -28,19 +28,6 @@ readyDoc(function () {
     }
   }
 
-  //Footer Accordion Menu
-  function toggleDocs(event) {
-    if (window.innerWidth <= 768 && event.target && event.target.className == 'accordion') {
-      var next = event.target.nextElementSibling;
-      if (next.style.display == "block") {
-        next.style.display = "none";
-      } else {
-        next.style.display = "block";
-      }
-    }
-  }
-  document.addEventListener('click', toggleDocs, true);
-
   setTimeout(function () {
     var roomsList = document.querySelectorAll(".c-room-list__items .c-room");
     for (var _i = 0; _i < roomsList.length; _i++) {
@@ -59,6 +46,8 @@ readyDoc(function () {
   }, 5500);
 
   document.addEventListener('click', function (event) {
+
+    //For Readmore hidden text
     if (event.target.classList.contains('readmore-btn')) {
       if (event.target.parentNode.classList.contains("expanded")) {
         event.target.parentNode.classList.remove("expanded");
@@ -66,6 +55,21 @@ readyDoc(function () {
       } else {
         event.target.parentNode.classList.add("expanded");
         event.target.innerHTML = "Read Less <span class='far fa-minus'></span>";
+      }
+    }
+
+    //For footer accordion
+    if (window.innerWidth <= 768 && event.target.classList.contains('toggle-items')) {
+
+      var element = event.target.querySelector('.fas');
+      element.classList.toggle("fa-angle-down");
+      element.classList.toggle("fa-angle-right");
+
+      var next = event.target.nextElementSibling;
+      if (next.style.display == "block") {
+        next.style.display = "none";
+      } else {
+        next.style.display = "block";
       }
     }
   }, false);
