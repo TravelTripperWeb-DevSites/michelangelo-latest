@@ -110,3 +110,18 @@ if(dwidth < 768) {
 }
 
 });
+
+function pinterestShare(img, desc) {
+  window.open(
+    "//www.pinterest.com/pin/create/button/" +
+    "?url=" +
+    window.location.href +
+    "&media=" +
+    img +
+    "&description=" +
+    desc,
+    "pinIt",
+    "toolbar=no, scrollbars=no, resizable=no, top=0, right=0"
+  );
+  return false;
+}
