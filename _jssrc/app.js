@@ -61,4 +61,24 @@ readyDoc(function() {
    });
  }
 
+var dwidth = window.innerWidth;
+
+if(dwidth < 768) {
+
+   if(document.getElementsByClassName("amenities-slider")[0]) {
+    var amenitiesSlider = tns({
+      container: '.amenities-slider',
+      "items": 1,
+      "slideBy": "page",
+      "mouseDrag": true,
+      "swipeAngle": false,
+      "speed": 400,
+      "autoHeight": true,
+      navContainer:"#amenitiesSlider",
+      prevButton: "#amenitiesSliderPrev",
+      nextButton: "#amenitiesSliderNext",
+    });
+  }
+}
+
 });

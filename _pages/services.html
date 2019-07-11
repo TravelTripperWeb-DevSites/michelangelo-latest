@@ -30,7 +30,8 @@ meta_tags:
         <div tabindex="0">{{ item.description }}</div>
 
         {% if item.more_content %}
-        <div tabindex="0" class="more-content">{{ item.more_content }}</div>
+        <div tabindex="0" class="morecontent">{{ item.more_content }}</div>
+        <a href="javascript:void(0);" class="btn btn--readmore readmore-btn">Read More <span class="far fa-plus"></span></a>
         {% endif %}
 
         {% if item.images %}
@@ -46,13 +47,13 @@ meta_tags:
             {% endfor %}
           </div>
           <div class="slider-control">
-            <div class="slide-prev" id="servicesSliderPrev"><span><i class="far fa-chevron-left"></i></span></div>
+            <a href="javascript:void(0);" class="slide-prev" id="servicesSliderPrev" aria-label="Press enter for previous slide"><span><i class="far fa-chevron-left"></i></span></a>
             <div class="slider-nav" id="servicesSlider">
               <span></span>
               <span></span>
               <span></span>
             </div>
-            <div class="slide-next" id="servicesSliderNext"><span><i class="far fa-chevron-right"></i></span></div>
+            <a href="javascript:void(0);" class="slide-next" id="servicesSliderNext" aria-label="Press enter for next slide"><span><i class="far fa-chevron-right"></i></span></a>
           </div>
         </div>
         {% endif %}
@@ -63,21 +64,31 @@ meta_tags:
       {% regionblock amenities_intro_heading, type:header %}
       <p class="h3">Hotel Amenities</p>
       {% endregionblock %}
-
-      {% assign hotel-amenities = site.data._models.amenities | sort: 'order' %}
-      {% for item in hotel-amenities %}
-      <div class="pagecopy__right__item">
-        <h4 class="h4">{{ item.name }}</h4>
-        <div class="pagecopy__right__content">
-          <div class="pagecopy__right__content__icon">
-            <img src="{{ item.images.url_small }}" alt="{{ item.alt }}">
-          </div>
-          <div class="pagecopy__right__content__info">
-            {{ item.description }}
+      <div class="amenities-slider">
+        {% assign hotel-amenities = site.data._models.amenities | sort: 'order' %}
+        {% for item in hotel-amenities %}
+        <div class="pagecopy__right__item">
+          <h4 class="h4" tabindex="0">{{ item.name }}</h4>
+          <div class="pagecopy__right__content">
+            <div class="pagecopy__right__content__icon">
+              <img src="{{ item.images.url_small }}" alt="{{ item.images.alt }}" tabindex="0">
+            </div>
+            <div class="pagecopy__right__content__info" tabindex="0">
+              {{ item.description }}
+            </div>
           </div>
         </div>
+        {% endfor %}
       </div>
-      {% endfor %}
+      <div class="slider-control">
+        <a class="slide-prev" id="amenitiesSliderPrev" aria-label="Press enter for previous slide"><span><i class="far fa-chevron-left"></i></span></a>
+        <div class="slider-nav" id="amenitiesSlider">
+          {% for item in hotel-amenities %}
+          <span></span>
+          {% endfor %}
+        </div>
+        <a class="slide-next" id="amenitiesSliderNext" aria-label="Press enter for next slide"><span><i class="far fa-chevron-right"></i></span></a>
+      </div>
     </div>
   </div>
 </section>

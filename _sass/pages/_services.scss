@@ -5,6 +5,7 @@
   @include make-container;
   max-width: 1120px;
   margin-top: 48px;
+  margin-bottom: 48px;
 
   &__row {
     @include make-row;
@@ -25,8 +26,23 @@
         margin-bottom: 24px;
       }
 
-      .more-content {
-        display: none;
+      p {
+        a {
+          color: $primary;
+          text-decoration: underline;
+        }
+      }
+
+      ul {
+        margin: 0 0 24px;
+        padding: 0;
+
+        li {
+          font-weight: 300;
+          line-height: 24px;
+          color: $primary;
+          list-style-position: inside;
+        }
       }
     }
   }
@@ -76,7 +92,7 @@
       justify-content: space-between;
       transform: translateY(-50%);
 
-      @include media-breakpoint-up(md) {
+      @include media-breakpoint-up(lg) {
         right: 30px;
         left: 30px;
       }
@@ -88,6 +104,10 @@
         @include media-breakpoint-up(md) {
           font-size: 40px;
         }
+      }
+
+      .slider-nav {
+        display: none;
       }
     }
   }
@@ -114,7 +134,10 @@
     &__item {
       margin-bottom: 24px;
       padding-bottom: 24px;
-      border-bottom: solid 1px $primary;
+
+      @include media-breakpoint-up(md) {
+        border-bottom: solid 1px $primary;
+      }
 
       .h4 {
         margin-bottom: 24px;
@@ -140,10 +163,13 @@
 
       &__info {
         @include make-col-ready;
+        width: 80%;
+        margin: 0 auto;
         padding-right: 0;
 
         @include media-breakpoint-up(md) {
           @include make-col(9);
+          margin: 0;
           padding-left: 24px;
         }
 
@@ -164,19 +190,26 @@
         }
       }
     }
-  }
-}
 
-//slider control
-.slider-control {
-  position: absolute;
-  display: flex;
+    .slider-control {
+      top: 50%;
+      right: 10px;
+      left: 10px;
+      justify-content: space-between;
+      transform: translateY(-50%);
 
-  &__arrows {
-    display: flex;
-  }
+      @include media-breakpoint-up(md) {
+        display: none;
+      }
 
-  .slide-prev, .slide-next {
-    cursor: pointer;
+      i {
+        font-size: 20px;
+        color: $primary;
+      }
+
+      .slider-nav {
+        display: none;
+      }
+    }
   }
 }

@@ -193,3 +193,17 @@ input[type=date], input[type=number] {
 .innperpage-heading {
   background-color: $terciary;
 }
+
+//slider control
+.slider-control {
+  position: absolute;
+  display: flex;
+
+  &__arrows {
+    display: flex;
+  }
+
+  .slide-prev, .slide-next {
+    cursor: pointer;
+  }
+}
