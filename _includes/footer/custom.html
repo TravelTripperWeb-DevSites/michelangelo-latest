@@ -96,10 +96,10 @@
 </section>
 
 <section class="footer-nav">
-  <p class="d-flex justify-content-between d-md-none w-100 accordion" type="button" tabindex="0">
+  <p class="d-flex justify-content-between d-md-none w-100 toggle-items" type="button" tabindex="0">
     <span>{% t 'additional_links' %}</span> <i class="fas fa-angle-right"></i>
   </p>
-  <div class="accordion__body">
+  <div class="toggle-items__body">
     <ul class="d-block d-md-flex justify-content-around">
       {% assign items = site.data._menus.footer.items %}
       {% include nav/nav-item-list.html items=items %}
