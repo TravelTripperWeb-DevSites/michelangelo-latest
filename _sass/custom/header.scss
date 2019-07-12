@@ -460,7 +460,7 @@
 }
 
 .is-fixed-top+.main {
-  padding-top: 103px;
+  padding-top: 127px;
   @include transition(all .3s);
 
   @include media-breakpoint-up(md) {
@@ -473,6 +473,8 @@
 }
 
 .is-fixed-top {
+  top: 24px !important;
+
   .languages {
     li,a {
       color: $primary;

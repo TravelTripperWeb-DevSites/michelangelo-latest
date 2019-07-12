@@ -1,0 +1,16 @@
+<section class="top-bar">
+  <div class="top-bar__wrap d-flex justify-content-start align-items-center">
+    <ul class="drop-down closed">
+      <li class="p-0"><a class="dropnav-button">Starhotels Collezione</a></li>
+      {% assign items = site.data._menus.starhotels.items %}
+      {% for item in items %}
+        {% assign url = item.url %}
+        {% assign text = item.label %}
+        <li>
+          <p class="overline">{{ item.tagline }}</p>
+          <a class="" href="{{url}}" {% if item.target %}target="{{ item.target }}"{% endif %}>{{text}}{% if page.url == url %}<span class="sr-only">(current)</span>{% endif %}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
