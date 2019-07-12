@@ -22,8 +22,8 @@ meta_tags:
 <section class="specialoffers mt-48">
   <div class="specialoffers__wrap">
     <div class="specialoffers__intro">
-      <h4 class="overline" tabindex="0">Get a great deal at our Manhattan hotel</h4>
-      <h3 class="h3" tabindex="0">Special Offers</h3>
+      <h4 class="overline" tabindex="0">{% t 'offers.cross_sell.description' %}</h4>
+      <h3 class="h3" tabindex="0">{% t 'offers.cross_sell.title' %}</h3>
     </div>
     <div class="specialoffers__row">
       {% assign offers = site.data._models.offers | sort: 'order' %}
@@ -35,7 +35,7 @@ meta_tags:
         </a>
         <h3 class="h4"><a href="{{ offer.id | permalink: model_dir: 'offers' }}">{{ offer.name }}</a></h3>
         <p tabindex="0">{{ offer.short_description }}</p>
-        <a class="btn btn--primary" href="{{ offer.id | permalink: model_dir: 'offers' }}">View More</a>
+        <a class="btn btn--primary" href="{{ offer.id | permalink: model_dir: 'offers' }}">{% t 'cta.view_more' %}</a>
       </div>
       {% endfor %}
     </div>

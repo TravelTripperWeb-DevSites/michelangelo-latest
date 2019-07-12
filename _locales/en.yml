@@ -20,6 +20,7 @@ en:
     discover_more: Discover More
     explore: Explore
     select: Select
+    view_more: View More
   page_not_found:
     header: Page Not Found
 
@@ -28,7 +29,7 @@ en:
     language: Language
     language_name: English
   brg:
-    label: Best Rate
+    label: Best Rate Guarantee
     tonights_rate: Tonight's Rate
   dining:
     none: Dining options coming soon!
@@ -44,8 +45,8 @@ en:
     rate_post_label: " / night"
     not_available: ""
     cross_sell:
-      title: Featured Offers
-      description: Explore our one-of-a-kind offers
+      title: Special offers
+      description: Get a great deal at our Manhattan hotel
       link: View All Offers
     buttons:
       book: Book Now
@@ -53,9 +54,15 @@ en:
   posts:
     none: No Blog Posts Yet!
   rooms:
-    guest_size_max: Max %{size} Adults
+    max_guests: Max Guests
+    guest_size_max: "%{size}"
     accessible: Accessible Rooms
     price_per_night: / Night
+    room_size: SQM/SQF
+    room_details: Room Details
+    room_features: Room Features
+    complimentary_amenities: Complimentary Amenities
+    amenities_available: Amenities Available
     buttons:
       book: Book Room
   galleries:
@@ -67,3 +74,9 @@ en:
   join_our_newsletter:  Join Our Newsletter
   newsletter_signup_intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   additional_links: Additional Links
+  your_reservartion: Your Reservation
+  arrival: Arrival
+  departure: Departure
+  adults: Adults
+  children: Children
+  check_availability: Check Availability
