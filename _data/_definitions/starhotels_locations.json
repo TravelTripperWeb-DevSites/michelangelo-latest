@@ -6,7 +6,8 @@
   },
   "menus": {
     "required": true,
-    "label": "Choose Hotel Name & Url",
+    "multiple": true,
+    "label": "Choose Hotel",
     "type": "model",
     "display_field": "name",
     "model_name": "starhotels_menu"
