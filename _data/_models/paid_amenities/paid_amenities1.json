@@ -1,5 +1,49 @@
 {
   "name_localized": {
     "en": "Wireless High Speed Internet Access"
-  }
+  },
+  "paid_amenities": [
+    {
+      "name": {
+        "en": "Wireless High Speed Internet Access"
+      },
+      "order": "1"
+    },
+    {
+      "name": {
+        "en": "In-room movies"
+      },
+      "order": "2"
+    },
+    {
+      "name": {
+        "en": "In-room refreshment centers"
+      },
+      "order": "3"
+    },
+    {
+      "name": {
+        "en": "Room service"
+      },
+      "order": "4"
+    },
+    {
+      "name": {
+        "en": "Same day laundry and pressing service"
+      },
+      "order": "5"
+    },
+    {
+      "name": {
+        "en": "24-hour valet parking"
+      },
+      "order": "6"
+    },
+    {
+      "name": {
+        "en": "NOMI Service"
+      },
+      "order": "7"
+    }
+  ]
 }
