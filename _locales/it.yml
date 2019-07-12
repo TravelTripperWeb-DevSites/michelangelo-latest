@@ -8,18 +8,19 @@ it:
       get_directions: Get Directions
   instagram:
     tag_link: "@%{handle}"
-    profile_link: Our Instagram
+    profile_link: Il nostro Instagram
   book_now: Prenota
   search: Search
   find_rooms: Find Rooms
   cta:
     learn_more: Learn More
     read_more: Read More
-    book_now: Book Now
-    discover: Discover
+    book_now: Prenota ora
+    discover: Dettagli
     discover_more: Discover More
     explore: Explore
     select: Select
+    view_more: Scopri di più
   page_not_found:
     header: Page Not Found
 
@@ -28,7 +29,7 @@ it:
     language: Language
     language_name: English
   brg:
-    label: Best Rate
+    label: Miglior Tariffa Garantita
     tonights_rate: Tonight's Rate
   dining:
     none: Dining options coming soon!
@@ -44,8 +45,8 @@ it:
     rate_post_label: " / night"
     not_available: ""
     cross_sell:
-      title: Featured Offers
-      description: Explore our one-of-a-kind offers
+      title: Special offers
+      description: Get a great deal at our Manhattan hotel
       link: View All Offers
     buttons:
       book: Book Now
@@ -53,11 +54,17 @@ it:
   posts:
     none: No Blog Posts Yet!
   rooms:
-    guest_size_max: Max %{size} Adults
+    max_guests: N° Ospiti
+    guest_size_max: "%{size}"
     accessible: Accessible Rooms
     price_per_night: / Night
+    room_size: Area Mq
+    room_details: Dettagli della camera
+    room_features: Servizi in Camera
+    complimentary_amenities: Servizi inclusi
+    amenities_available: Servizi a pagamento
     buttons:
-      book: Book Room
+      book: Book Now
   galleries:
     filters:
       all: All
@@ -67,3 +74,9 @@ it:
   join_our_newsletter:  Join Our Newsletter
   newsletter_signup_intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   additional_links: Additional Links
+  your_reservartion: La tua Prenotazione
+  arrival: Arrivo
+  departure: Partenza
+  adults: Adulti
+  children: Bambini
+  check_availability: Prenota

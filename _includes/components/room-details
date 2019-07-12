@@ -41,7 +41,7 @@
           <span class="rate-text"> | Tonight Only </span>
         </div>
         <div data-tt-class-name="btn btn--secondary" ttweb-room-component="BookingButton">
-          {% t 'rooms.buttons.book' %}
+          {% t 'cta.book_now' %}
         </div>
       </div>
     </div>
@@ -51,7 +51,7 @@
 <section class="room-details-intro mb-48">
   <div class="room-details-intro__row">
     <div class="room-details-intro__left">
-      <h2 class="h2">Room Details</h2>
+      <h2 class="h2">{% t 'rooms.room_details' %}</h2>
       <hr>
       <div class="c-room__description" {% if sync %}ttweb-room-component="RoomDescription"{% endif %}>
         <p>
@@ -62,11 +62,11 @@
     <div class="room-details-intro__right">
       <div class="room-details-intro__info">
         <div class="room-details-intro__info__size">
-          <span class="room-details-intro__info__field">SQM/SQF</span>
+          <span class="room-details-intro__info__field">{% t 'rooms.room_size' %}</span>
           <span class="room-details-intro__info__value"><span class="size_in_meters"></span> - <span class="size_in_feet" {% if sync %}ttweb-room-component="RoomSize"{% endif %}>{{ room.size }}</span></span>
         </div>
         <div class="room-details-intro__info__guests">
-          <span class="room-details-intro__info__field">Max Guests</span>
+          <span class="room-details-intro__info__field">{% t 'rooms.max_guests' %}</span>
           <span class="room-details-intro__info__value">
             {% if room.guest_size_max and room.guest_size_max > 0 %}
               {% t 'rooms.guest_size_max', size:room.guest_size_max %}
@@ -79,10 +79,10 @@
 </section>
 
 <section class="room-amenities mb-48">
-  <h3 class="h3 text-center">Room Features</h3>
+  <h3 class="h3 text-center">{% t 'rooms.room_features' %}</h3>
   <div class="room-amenities__wrap">
     <div class="room-amenities__left">
-      <h4 class="overline">COMPLIMENTARY AMENITIES</h4>
+      <h4 class="overline">{% t 'rooms.complimentary_amenities' %}</h4>
       <ul class="room-amenities__list">
         {% for amenity in room.amenities %}
         <li tabindex="0">{{ amenity.name }}</li>
@@ -90,7 +90,7 @@
       </ul>
     </div>
     <div class="room-amenities__right">
-      <h4 class="overline mt-48">AMENITIES AVAILABLE FOR A NOMINAL FEE</h4>
+      <h4 class="overline mt-48">{% t 'rooms.amenities_available' %}</h4>
       <ul class="room-amenities__list">
         <li> Wireless High Speed Internet Access </li>
         <li> Swimming Pool </li>
