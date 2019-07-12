@@ -1,0 +1,9 @@
+{
+  "name": {
+    "required": true,
+    "localizable": true
+  },
+  "order": {
+    "type": "integer"
+  }
+}
