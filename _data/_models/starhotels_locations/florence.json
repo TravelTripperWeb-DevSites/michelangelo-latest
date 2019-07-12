@@ -1,5 +1,7 @@
 {
   "title_localized": {
     "en": "Florence"
-  }
+  },
+  "order": 1,
+  "menus": "starhotels_menu1"
 }
