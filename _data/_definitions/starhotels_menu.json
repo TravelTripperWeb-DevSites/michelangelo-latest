@@ -1,9 +1,0 @@
-{
-  "name": {
-    "required": true,
-    "localizable": true
-  },
-  "url": {
-    "required": true
-  }
-}

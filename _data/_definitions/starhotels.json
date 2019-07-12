@@ -5,12 +5,17 @@
     "localizable": true
   },
   "menus": {
+    "type": "nested",
     "required": true,
     "multiple": true,
-    "label": "Choose Hotel",
-    "type": "model",
-    "display_field": "name",
-    "model_name": "starhotels_menu"
+    "fields": {
+      "name": {
+        "required": true
+      },
+      "url": {
+        "required": true
+      }
+    }
   },
   "order": {
     "type": "integer",

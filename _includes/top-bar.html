@@ -2,12 +2,14 @@
   <div class="top-bar__wrap d-flex justify-content-start align-items-center">
     <ul class="drop-down closed">
       <li class="p-0"><a class="dropnav-button">Starhotels Collezione</a></li>
-      {% assign items = site.data._models.starhotels_locations %}
-      {% for item in items %}
+      {% assign locations = site.data._models.starhotels %}
+      
+
+      {% for location in locations %}
         <li>
-          <p class="overline">{{ item.title }}</p>
-          {% for menu in item.menus %}
-          <a class="d-block" href="{{ menu.url}}" target="_blank">{{ menu.name }}</a>
+          <p class="overline">{{ location.title }}</p>
+          {% for starhotels_menuItem in starhotels_menu %}
+            <a class="d-block" href="{{ starhotels_menuItem.url}}" target="_blank">{{ starhotels_menuItem.name }}</a>
           {% endfor %}
         </li>
       {% endfor %}
