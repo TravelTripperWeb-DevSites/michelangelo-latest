@@ -3,5 +3,16 @@
     "label": "Location Name",
     "required": true,
     "localizable": true
+  },
+  "menus": {
+    "required": true,
+    "label": "Choose Hotel Name & Url",
+    "type": "model",
+    "display_field": "name",
+    "model_name": "starhotels_menu"
+  },
+  "order": {
+    "type": "integer",
+    "required": true
   }
 }
