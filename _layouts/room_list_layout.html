@@ -8,7 +8,7 @@ layout: no_hero_layout
   {% if site.data._models.rooms %}
     {% assign rooms = site.data._models.rooms | sort:"order" %}
     <div class="c-room-list">
-      <div class="c-room-list__items">
+      <div class="c-room-list__items" tabindex="-1">
         {% for room in rooms %}
           {% include components/room sync_content=true %}
         {% endfor %}
