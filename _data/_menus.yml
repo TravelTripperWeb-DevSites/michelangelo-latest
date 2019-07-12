@@ -138,7 +138,7 @@ footer:
     items:
 starhotels:
   depth: 2
-  name: Footer Menu
+  name: StarHotels Menu
   items:
   - folder: false
     target: _blank
