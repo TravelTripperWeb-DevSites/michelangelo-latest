@@ -1,18 +1,19 @@
 <section class="top-bar">
-  <div class="top-bar__wrap d-flex justify-content-start align-items-center">
+  <div class="top-bar__wrap d-flex justify-content-start align-items-top">
     <ul class="drop-down closed">
       <li class="p-0"><a class="dropnav-button">Starhotels Collezione</a></li>
-      {% assign locations = site.data._models.starhotels %}
-      
-
-      {% for location in locations %}
+      <li><a class="overline" href="{{ site.data.hotel_settings.organization_url }}">HOME COLLEZIONE</a><hr class="mt-2"></li>
+      {% assign items = site.data._models.starhotels | sort: "order" %}
+      {% for item in items %}
         <li>
-          <p class="overline">{{ location.title }}</p>
-          {% for starhotels_menuItem in starhotels_menu %}
-            <a class="d-block" href="{{ starhotels_menuItem.url}}" target="_blank">{{ starhotels_menuItem.name }}</a>
+          <p class="overline">{{ item.title }}</p>
+          {% for menu in item.menus %}
+            <a class="d-block" href="{{ menu.url}}" target="_blank">{{ menu.name }}</a>
           {% endfor %}
         </li>
       {% endfor %}
     </ul>
+    <a class="lnk pl-1" href="{{ site.data.hotel_settings.organization_url }}" target="_blank">{{ site.data.hotel_settings.organization_name }}.com</a>
+    <a class="lnk br-0" href="https://www.iamstar.it/" target="_blank">I Am Star</a>
   </div>
 </section>
