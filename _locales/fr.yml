@@ -48,7 +48,7 @@ fr:
       description: Get a great deal at our Manhattan hotel
       link: View All Offers
     buttons:
-      book: Book Offer
+      book: Reservez
       view_all: View All Special Offers
   posts:
     none: No Blog Posts Yet!
