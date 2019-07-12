@@ -408,13 +408,16 @@
     }
 
     .nav {
+      
       &__logo {
         display: none;
       }
+
       &__logo-secondary {
         display: inline-block;
         margin-top: 0;
       }
+
       &__link {
         color: $primary !important;
 
@@ -426,6 +429,7 @@
           color: $primary !important;
         }
       }
+
       &--device {
         top: 103px;
         right: 0;
