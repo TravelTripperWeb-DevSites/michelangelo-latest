@@ -408,13 +408,16 @@
     }
 
     .nav {
+      
       &__logo {
         display: none;
       }
+
       &__logo-secondary {
         display: inline-block;
         margin-top: 0;
       }
+
       &__link {
         color: $primary !important;
 
@@ -426,6 +429,7 @@
           color: $primary !important;
         }
       }
+
       &--device {
         top: 103px;
         right: 0;
@@ -460,7 +464,7 @@
 }
 
 .is-fixed-top+.main {
-  padding-top: 103px;
+  padding-top: 127px;
   @include transition(all .3s);
 
   @include media-breakpoint-up(md) {
@@ -473,6 +477,8 @@
 }
 
 .is-fixed-top {
+  top: 24px !important;
+
   .languages {
     li,a {
       color: $primary;
