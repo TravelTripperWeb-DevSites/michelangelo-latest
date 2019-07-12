@@ -1,0 +1,18 @@
+<section class="top-bar">
+  <div class="top-bar__wrap d-flex justify-content-start align-items-center">
+    <ul class="drop-down closed">
+      <li class="p-0"><a class="dropnav-button">Starhotels Collezione</a></li>
+      {% assign locations = site.data._models.starhotels %}
+      
+
+      {% for location in locations %}
+        <li>
+          <p class="overline">{{ location.title }}</p>
+          {% for starhotels_menuItem in starhotels_menu %}
+            <a class="d-block" href="{{ starhotels_menuItem.url}}" target="_blank">{{ starhotels_menuItem.name }}</a>
+          {% endfor %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

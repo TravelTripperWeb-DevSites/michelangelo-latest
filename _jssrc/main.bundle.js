@@ -86,6 +86,13 @@ readyDoc(function () {
     }
   }, false);
 
+  //TopBar DropDown
+  document.querySelector('.dropnav-button').addEventListener('click', function () {
+    // Toggle the CSS closed class which reduces the height of the UL thus
+    // hiding all LI apart from the first
+    this.parentNode.parentNode.classList.toggle('closed');
+  }, false);
+
   setTimeout(function () {
     if (document.getElementsByClassName("room-item")[0]) {
       var bannerSlider = tns({
