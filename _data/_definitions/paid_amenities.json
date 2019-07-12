@@ -1,0 +1,15 @@
+{
+  "paid_amenities": {
+    "type": "nested",
+    "multiple": true,
+    "fields": {
+      "name": {
+        "required": true,
+        "localizable": true
+      },
+      "order": {
+        "type": "integer"
+      }
+    }
+  }
+}
