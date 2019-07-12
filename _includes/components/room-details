@@ -84,22 +84,19 @@
     <div class="room-amenities__left">
       <h4 class="overline" tabindex="0">COMPLIMENTARY AMENITIES</h4>
       <ul class="room-amenities__list">
-        {% for amenity in room.amenities %}
-        <li tabindex="0">{{ amenity.name }}</li>
+        {% assign complimentary_amenities = site.data._models.complimentary_amenities[0].complimentary_amenities %}
+        {% for amenity in complimentary_amenities %}
+          <li tabindex="0">{{ amenity.name }}</li>
         {% endfor %}
       </ul>
     </div>
     <div class="room-amenities__right">
       <h4 class="overline mt-48" tabindex="0">AMENITIES AVAILABLE FOR A NOMINAL FEE</h4>
       <ul class="room-amenities__list">
-        <li> Wireless High Speed Internet Access </li>
-        <li> Swimming Pool </li>
-        <li> In-room movies </li>
-        <li> In-room refreshment centers </li>
-        <li> Room service </li>
-        <li> Same day laundry and pressing service </li>
-        <li> 24-hour valet parking </li>
-        <li> NOMI Service </li>
+        {% assign paid_amenities = site.data._models.paid_amenities[0].paid_amenities %}
+        {% for amenity in paid_amenities %}
+          <li tabindex="0">{{ amenity.name }}</li>
+        {% endfor %}
       </ul>
     </div>
   </div>
