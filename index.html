@@ -26,8 +26,8 @@ meta_tags:
       <h3 class="h3" tabindex="0">Special Offers</h3>
     </div>
     <div class="specialoffers__row">
-      {% assign offers = site.data._models.offers | sort: 'order' | limit: 3 %}
-      {% for offer in offers %}
+      {% assign offers = site.data._models.offers | sort: 'order' %}
+      {% for offer in offers limit: 3 %}
       <div class="specialoffers__item">
         <a href="{{ offer.id | permalink: model_dir: 'offers' }}">
           {% assign featured_image = offer.image | default: offer.image %}
