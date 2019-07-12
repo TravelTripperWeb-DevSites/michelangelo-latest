@@ -1,0 +1,7 @@
+{
+  "title": {
+    "label": "Location Name",
+    "required": true,
+    "localizable": true
+  }
+}
