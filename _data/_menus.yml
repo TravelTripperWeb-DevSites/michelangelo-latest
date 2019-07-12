@@ -136,31 +136,3 @@ footer:
     label_localized:
       en: Legal Notice (Italy)
     items:
-starhotels:
-  depth: 2
-  name: StarHotels Menu
-  items:
-  - folder: false
-    target: _blank
-    tagline: Dummy
-    url_localized:
-      en: https://www.starhotelscollezione.com/en/footer/media-centre/
-    label_localized:
-      en: Press
-    items:
-  - folder: false
-    target: _blank
-    tagline: Dummy
-    url_localized:
-      en: https://www.starhotelscollezione.com/en/footer/partners/
-    label_localized:
-      en: Partners
-    items:
-  - folder: false
-    target: _blank
-    tagline: Dummy
-    url_localized:
-      en: https://www.starhotelscollezione.com/en/footer/egift.html
-    label_localized:
-      en: E-Gift
-    items:
