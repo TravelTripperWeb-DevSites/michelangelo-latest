@@ -235,3 +235,11 @@ input[type=date], input[type=number] {
     }
   }
 }
+
+.br-0 {
+  border: 0;
+
+  &:before {
+    display: none;
+  }
+}

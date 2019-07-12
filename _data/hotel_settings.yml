@@ -68,19 +68,21 @@ email_concierge: themichelangelo@cityexperts.com
 alternate_number: "+1 212 5416604"
 concierge_number: "+1 212-261-8920"
 site_url: https://www.michelangelohotel.com/
+organization_name: Starhotels
+organization_url: https://www.starhotelscollezione.com/
 _root_path: https://rt3api-prd.ttaws.com
 _ttweb_plugins_version: v3.2.3
 logo:
   name: themichelangelo-white
   content_type: image/svg+xml
   date_added: 2019-07-02-081151
-  format: 
+  format:
   url: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562069511/h5cexwy85w5oz5woukmc.svg"
   url_raw: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562069511/h5cexwy85w5oz5woukmc.svg"
   resource_type: raw
   size: 16948
   path: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562069511/h5cexwy85w5oz5woukmc.svg"
-  file_size: 
+  file_size:
   alt: The Michelangelo New York
   caption: ''
   description: ''
@@ -88,13 +90,13 @@ logo_secondary:
   name: themichelangelo-bronze
   content_type: image/svg+xml
   date_added: 2019-07-02-081219
-  format: 
+  format:
   url: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562069539/teqwsryijcum3undsflp.svg"
   url_raw: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562069539/teqwsryijcum3undsflp.svg"
   resource_type: raw
   size: 16948
   path: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562069539/teqwsryijcum3undsflp.svg"
-  file_size: 
+  file_size:
   alt: The Michelangelo New York
   caption: ''
   description: ''
@@ -116,31 +118,31 @@ starhotels_logo:
   resource_type: image
   size: 18108
   path: "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562662360/yltlvpr5njlq2xvhgsjp.png"
-  file_size: 
+  file_size:
   alt: Star Hotels
 lifestyle_logo:
   name: preferred-lifestyle-black
   content_type: image/svg+xml
   date_added: 2019-07-09-045315
-  format: 
+  format:
   url: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562662395/tjfmqlzurgknwti5mgko.svg"
   url_raw: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562662395/tjfmqlzurgknwti5mgko.svg"
   resource_type: raw
   size: 16861
   path: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562662395/tjfmqlzurgknwti5mgko.svg"
-  file_size: 
+  file_size:
   alt: Preferred Lifestyle
 iprefer_logo:
   name: iprefer-black
   content_type: image/svg+xml
   date_added: 2019-07-09-045353
-  format: 
+  format:
   url: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562662433/ttqewi91zjt8p8t8g0yf.svg"
   url_raw: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562662433/ttqewi91zjt8p8t8g0yf.svg"
   resource_type: raw
   size: 13160
   path: "//res.cloudinary.com/traveltripperweb/raw/upload/v1562662433/ttqewi91zjt8p8t8g0yf.svg"
-  file_size: 
+  file_size:
   alt: I Prefer
 traveller_logo:
   name: condenast
@@ -160,7 +162,7 @@ traveller_logo:
   resource_type: image
   size: 20952
   path: "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562662475/bxjrabinf9hvsuhmknfz.png"
-  file_size: 
+  file_size:
   alt: Condenast
 handy_logo:
   name: handy-badge-mono-dark-hori
@@ -180,5 +182,5 @@ handy_logo:
   resource_type: image
   size: 21412
   path: "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562662513/xjo9qzxwgmvfosmfejap.png"
-  file_size: 
+  file_size:
   alt: Travel with Handy Smartphone

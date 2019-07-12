@@ -4,7 +4,7 @@
   z-index: 31;
   width: 100%;
   height: 24px;
-  padding: 5px 0 9px;
+  padding: 6px 0 8px;
   overflow: visible;
   font-size: $display11-size;
   font-weight: $display3-weight;
@@ -17,11 +17,11 @@
 
   .drop-down {
     position: relative;
-    width: 200px;
-    height: 300px; // 172px = (38 (li) + 5 (li border)) * 4 (number of li)
+    width: auto;
+    height: 600px;
     margin: 0;
     padding: 0;
-    overflow: hidden; // When ul height is reduced, ensure overflowing li are not shown */
+    overflow: hidden;
     text-align: center;
     list-style: none;
     background: $terciary;
@@ -42,7 +42,7 @@
     }
 
     li {
-      padding: 5px 10px;
+      padding: 5px 20px;
       font-family: $family-secondary;
       font-size: $display8-size;
 
@@ -64,15 +64,41 @@
         cursor: pointer;
 
         a {
+          position: relative;
+
           &:after {
             margin-left: 5px;
             font-family: 'Font Awesome 5 Pro';
             font-weight: $display4-weight;
             content: '\f106';
           }
+          &:before {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            width: 1px;
+            height: 10px;
+            content: '';
+            background: $primary;
+          }
         }
       }
     }
 
+  }
+
+  .lnk {
+    position: relative;
+    padding: 0 20px;
+
+    &:before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 1px;
+      height: 10px;
+      content: '';
+      background: $primary;
+    }
   }
 }
