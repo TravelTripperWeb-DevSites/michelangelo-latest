@@ -10,7 +10,7 @@
         <a href="{{ offer.id | permalink: model_dir: 'offers' }}" {% if sync %}ttweb-offer-component="OfferTitle"{% endif %}>{{ offer.name }}</a>
       </h3>
     </div>
-    <a class="btn btn--primary" href="{{ offer.id | permalink: model_dir: 'offers' }}">Discover</a>
+    <a class="btn btn--primary" href="{{ offer.id | permalink: model_dir: 'offers' }}">{% t 'cta.discover' %}</a>
     <div class="c-offer__select">
       <div class="btn--secondary" data-tt-class-name="btn" ttweb-offer-component="OfferBookingButton">
         {% t 'offers.buttons.book' %}

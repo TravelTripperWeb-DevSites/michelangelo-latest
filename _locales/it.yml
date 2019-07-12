@@ -64,7 +64,8 @@ it:
     complimentary_amenities: Servizi inclusi
     amenities_available: Servizi a pagamento
     buttons:
-      book: Book Now
+      book: Prenota ora
+      book_offer: Prenota ora
   galleries:
     filters:
       all: All
