@@ -10,16 +10,16 @@ main:
       en: Services
       fr: Services
       it: Servizi
-    items:
+    items: 
   - page_id: _pages/rooms.html
-    items:
+    items: 
     url_localized: ''
     label_localized:
       en: Rooms & Suites
       fr: Chambre & Suites
       it: Camere & Suite
   - page_id: _pages/offers.html
-    items:
+    items: 
     url_localized: ''
     label_localized:
       en: Specials
@@ -32,7 +32,7 @@ main:
       en: Dining
       fr: ''
       it: ''
-    items:
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/events.html
@@ -40,19 +40,19 @@ main:
       en: Corporate Events
       fr: Événements d'entreprise
       it: Meeting ed Eventi
-    items:
+    items: 
   - page_id: _pages/gallery.html
     label_localized:
       en: Gallery
       fr: Galerie
       it: Gallery
-    items:
+    items: 
   - page_id: _pages/contact.html
     label_localized:
       en: Contact
       fr: Contact
       it: Contatti
-    items:
+    items: 
 mobile:
   depth: 2
   name: Mobile Menu
@@ -62,14 +62,14 @@ mobile:
     page_id: _pages/amenities.html
     label_localized:
       en: Services
-    items:
+    items: 
   - page_id: _pages/rooms.html
-    items:
+    items: 
     url_localized: ''
     label_localized:
       en: Rooms & Suites
   - page_id: _pages/offers.html
-    items:
+    items: 
     url_localized: ''
     label_localized:
       en: Specials
@@ -83,59 +83,59 @@ footer:
       en: https://www.starhotelscollezione.com/en/footer/media-centre/
     label_localized:
       en: Press
-    items:
+    items: 
   - folder: false
     target: _blank
     url_localized:
       en: https://www.starhotelscollezione.com/en/footer/partners/
     label_localized:
       en: Partners
-    items:
+    items: 
   - folder: false
     target: _blank
     url_localized:
       en: https://www.starhotelscollezione.com/en/footer/egift.html
     label_localized:
       en: E-Gift
-    items:
+    items: 
   - folder: false
     target: _blank
     url_localized:
       en: http://starhotelsspa.sites.altamiraweb.com/
     label_localized:
       en: Careers
-    items:
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/sitemap.html
     label_localized:
       en: Sitemap
-    items:
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/accessibility-statement.html
     label_localized:
       en: Accessibility Statement
-    items:
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/terms.html
     label_localized:
       en: Terms of Use
-    items:
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/privacy.html
     label_localized:
       en: Privacy Policy
-    items:
+    items: 
   - folder: false
     target: _blank
     url_localized:
       en: https://www.starhotelscollezione.com/en/footer/note-legali/
     label_localized:
       en: Legal Notice (Italy)
-    items:
+    items: 
 starhotels:
   depth: 2
   name: StarHotels Menu
@@ -144,10 +144,10 @@ starhotels:
     target: _blank
     tagline: Dummy
     url_localized:
-      en: https://www.starhotelscollezione.com/en/footer/media-centre/
+      en: https://www.starhotelscollezione.com/en/our-hotels/helvetia-and-bristol-florence/
     label_localized:
-      en: Press
-    items:
+      en: Helvetia & Bristol
+    items: 
   - folder: false
     target: _blank
     tagline: Dummy
@@ -155,7 +155,7 @@ starhotels:
       en: https://www.starhotelscollezione.com/en/footer/partners/
     label_localized:
       en: Partners
-    items:
+    items: 
   - folder: false
     target: _blank
     tagline: Dummy
@@ -163,4 +163,4 @@ starhotels:
       en: https://www.starhotelscollezione.com/en/footer/egift.html
     label_localized:
       en: E-Gift
-    items:
+    items: 
