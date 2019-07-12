@@ -8,17 +8,18 @@ fr:
       get_directions: Get Directions
   instagram:
     tag_link: "@%{handle}"
-    profile_link: Our Instagram
+    profile_link: Notre Instagram
   book_now: Reserver
   search: Search
   find_rooms: Find Rooms
   cta:
     learn_more: Learn More
     read_more: Read More
-    book_now: Book Now
+    book_now: Reservez
     discover: Découvrir
     explore: Explorer
     select: Select
+    view_more: Plus de détails
   page_not_found:
     header: Page Not Found
 
@@ -27,7 +28,7 @@ fr:
     language: Language
     language_name: English
   brg:
-    label: Best Rate
+    label: Best Rate Guarantee
     tonights_rate: Tonight's Rate
   dining:
     none: Dining options coming soon!
@@ -43,8 +44,8 @@ fr:
     rate_post_label: " / night"
     not_available: ""
     cross_sell:
-      title: Featured Offers
-      description: Explore our one-of-a-kind offers
+      title: Special offers
+      description: Get a great deal at our Manhattan hotel
       link: View All Offers
     buttons:
       book: Book Offer
@@ -52,11 +53,17 @@ fr:
   posts:
     none: No Blog Posts Yet!
   rooms:
-    guest_size_max: Max %{size} Adults
+    max_guests: Max invités
+    guest_size_max: "%{size}"
     accessible: Accessible Rooms
     price_per_night: / Night
+    room_size: Surface m²
+    room_details: Détails de la chambre
+    room_features: Caractéristiques
+    complimentary_amenities: Complimentary Amenities
+    amenities_available: Amenities Available
     buttons:
-      book: Book Room
+      book: Book Now
   galleries:
     filters:
       all: All
@@ -66,3 +73,9 @@ fr:
   join_our_newsletter:  Join Our Newsletter
   newsletter_signup_intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   additional_links: Additional Links
+  your_reservartion: Votre réservation
+  arrival: Arrivée
+  departure: Départ
+  adults: Adultes
+  children: Enfants
+  check_availability: Vérifier la disponibilité
