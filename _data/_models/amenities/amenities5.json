@@ -4,7 +4,7 @@
     "en": "Fitness"
   },
   "description_localized": {
-    "en": "<p>A state-of-the art, 24-hour Executive Fitness Center, including free weights and other modern fitness amenities. The fitness center is accessible. For more information, please view our Accessibility Statement.</p>"
+    "en": "<p>A state-of-the art, 24-hour Executive Fitness Center, including free weights and other modern fitness amenities. The fitness center is accessible. For more information, please view our <a href=\"/accessibility-statement/\">Accessibility Statement</a>.</p>"
   },
   "images": {
     "name": "hotel-services-fitness",

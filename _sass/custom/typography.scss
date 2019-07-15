@@ -67,6 +67,10 @@ p {
     font-size: $display7-size;
     line-height: 18px;
   }
+
+  a {
+    text-decoration: underline;
+  }
 }
 
 .light {
