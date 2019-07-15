@@ -73,7 +73,7 @@ it:
   carousels:
     next: "Next"
     previous:  "Prev"
-  join_our_newsletter:  Join Our Newsletter
+  join_our_newsletter:  Iscriviti alla nostra newsletter
   newsletter_signup_intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   additional_links: Additional Links
   your_reservartion: La tua Prenotazione
@@ -91,3 +91,4 @@ it:
     your_email: La tua email
     place_comments_here: Inserire commenti qui...
     submit: Sottoscrivi
+    signup: Iscriviti

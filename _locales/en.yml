@@ -85,8 +85,9 @@ en:
     first_name: First Name
     last_name: Last Name
     phone_number: Phone Number
-    email: Email
+    email: Email Address
     comments: Comments
     your_email: Your Email
     place_comments_here: Place comments here...
     submit: Submit
+    signup: Sign Up
