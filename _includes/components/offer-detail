@@ -10,7 +10,7 @@
             {% t 'offers.buttons.book' %}
           </div>
         </div>
-        <h2 class="h2" tabindex="0">Offer Details</h2>
+        <h2 class="h2" tabindex="0">{% t 'offers.offer_details' %}</h2>
         <div class="seperator">&nbsp;</div>
         <div tabindex="0">
           <p class="p1" {% if sync %}ttweb-offer-component="OfferDescription"{% endif %}>{{ offer.description }}</p>
@@ -42,20 +42,20 @@
       </div>
 
       <div class="room-booking-widget pt-48 pb-48 hide-mobile">
-        <p class="h2 text-center" tabindex="0">Your Reservation</p>
-        <p class="overline text-center" tabindex="0">BEST RATE GUARANTEE</p>
+        <p class="h2 text-center" tabindex="0">{% t 'your_reservartion' %}</p>
+        <p class="overline text-center" tabindex="0">{% t 'brg.label' %}</p>
         <form class="room-booking-widget__form" action="https://michelangelohotel.reztrip.com/search" method="get">
           <div class="room-booking-widget__form__wrap">
             <div class="room-booking-widget__form__dates">
               <div class="full-width">
                 <div class="field-inner">
-                  <label for="arrival-date">Arrival</label>
+                  <label for="arrival-date">{% t 'arrival' %}</label>
                   <input type="date" id="arrival-date" name="arrival_date" aria-label="Enter Arrival Date" value="">
                 </div>
               </div>
               <div class="full-width">
                 <div class="field-inner">
-                  <label for="departure-date">Departure</label>
+                  <label for="departure-date">{% t 'departure' %}</label>
                   <input type="date" id="departure-date" name="departure_date" aria-label="Enter Departure Date">
                 </div>
               </div>
@@ -64,20 +64,20 @@
               <div class="field-wrap">
                 <div class="half-width">
                   <div class="field-inner">
-                    <label for="no-of-adults">Adults</label>
+                    <label for="no-of-adults">{% t 'adults' %}</label>
                     <input type="number" id="no-of-adults" name="adults" aria-label="Number of Adults" value="01" min="1">
                   </div>
                 </div>
                 <div class="half-width">
                   <div class="field-inner">
-                    <label for="no-of-children">Children</label>
+                    <label for="no-of-children">{% t 'children' %}</label>
                     <input type="number" id="no-of-children" name="children" aria-label="Number of Adults" value="00" min="0">
                   </div>
                 </div>
               </div>
               <div class="button-wrap">
                 <input type="hidden" name="selected_room" value="{{room.reztrip_room_id}}">
-                <button class="btn btn--secondary" type="submit" name="button">Check Availability</button>
+                <button class="btn btn--secondary" type="submit" name="button">{% t 'check_availability' %}</button>
               </div>
             </div>
           </div>

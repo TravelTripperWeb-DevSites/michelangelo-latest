@@ -43,6 +43,7 @@ fr:
     rate_pre_label: "avg. "
     rate_post_label: " / night"
     not_available: ""
+    offer_details: Détails de l'offre
     cross_sell:
       title: Special offers
       description: Get a great deal at our Manhattan hotel
