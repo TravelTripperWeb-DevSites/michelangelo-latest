@@ -3,7 +3,7 @@
 {% endcomment %}
 <nav class="navbar greedy is-fixed-top nav--main {% if page.url != '/' %}inner-page-nav{% endif %}" id="js-navbar--main">
   <div class="container brand-bar">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="{% if site.active_lang != site.default_lang %}/{{ site.active_lang }}/{% else %}/{% endif %}">
       <span class="nav__logo"
         data-live-edit-settings='hotel_settings'
         data-live-edit-settings-field='logo'
