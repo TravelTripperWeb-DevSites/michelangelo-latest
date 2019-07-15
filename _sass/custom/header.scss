@@ -96,7 +96,7 @@
       position: absolute;
       top: 7px;
       font-family: 'Font Awesome 5 Pro';
-      font-size: 18px;
+      font-size: $display6-size;
       font-weight: 400;
       color: $primary;
       content: '\f0c9';
@@ -408,7 +408,7 @@
     }
 
     .nav {
-      
+
       &__logo {
         display: none;
       }
