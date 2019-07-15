@@ -1,7 +1,7 @@
 <form class="form-section__wrap" action="https://submit.jotform.me/submit/{{ site.data.forms.jotform.rfp-id }}/" method="post" name="form_{{ site.data.forms.jotform.rfp-id }}" id="{{ site.data.forms.jotform.rfp-id }}"
     accept-charset="utf-8" autocomplete="off">
     <input type="hidden" name="formID" value="{{ site.data.forms.jotform.rfp-id }}">
-
+    <input type="hidden" name="q30_language" value="{{ site.active_lang }}" />
     <div class="col-md-12 mb-3"><h3 class="h3 text-center text-md-left" tabindex="0">Event details</h3></div>
     <div class="col-md-12">
       <label for="input_15">Meeting Room Capacity</label>

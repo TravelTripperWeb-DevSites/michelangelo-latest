@@ -1,6 +1,7 @@
 <form class="form-section__wrap" action="https://submit.jotform.me/submit/{{ site.data.forms.jotform.contact-id }}/" method="post" name="form_{{ site.data.forms.jotform.contact-id }}"
     id="{{ site.data.forms.jotform.contact-id }}" accept-charset="utf-8">
     <input type="hidden" name="formID" value="{{ site.data.forms.jotform.contact-id }}">
+    <input type="hidden" name="q9_language" value="{{ site.active_lang }}" />
     <div class="col-md-6">
       <label for="input_5">First Name</label>
       <input class="form-control custom-input" type="text" id="input_5" name="q5_firstName"  placeholder="John" required>
