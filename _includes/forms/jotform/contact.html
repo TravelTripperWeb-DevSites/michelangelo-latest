@@ -3,24 +3,24 @@
     <input type="hidden" name="formID" value="{{ site.data.forms.jotform.contact-id }}">
     <input type="hidden" name="q9_language" value="{{ site.active_lang }}" />
     <div class="col-md-6">
-      <label for="input_5">First Name</label>
+      <label for="input_5">{% t 'forms.first_name' %}</label>
       <input class="form-control custom-input" type="text" id="input_5" name="q5_firstName"  placeholder="John" required>
     </div>
     <div class="col-md-6">
-      <label for="input_6">Last Name</label>
+      <label for="input_6">{% t 'forms.last_name' %}</label>
       <input class="form-control custom-input" type="text" id="input_6" name="q6_lastName" placeholder="Doe" >
     </div>
     <div class="col-md-6">
-      <label for="input_7">Phone Number</label>
+      <label for="input_7">{% t 'forms.phone_number' %}</label>
       <input class="form-control custom-input" type="text" id="input_7" name="q7_phone" placeholder="555-555-5555" >
     </div>
     <div class="col-md-6">
-      <label for="input_3">Email Address*</label>
-      <input class="form-control custom-input" type="email" id="input_3" name="q3_emailAddress" placeholder="Your Email" required>
+      <label for="input_3">{% t 'forms.email' %}*</label>
+      <input class="form-control custom-input" type="email" id="input_3" name="q3_emailAddress" placeholder="{% t 'forms.your_email' %}" required>
     </div>
     <div class="col-md-12">
-      <label for="input_8">Comments</label>
-      <textarea class="form-control" id="input_8" name="q8_comment" cols="40" rows="8" placeholder="Place comments here…"></textarea>
+      <label for="input_8">{% t 'forms.comments' %}</label>
+      <textarea class="form-control" id="input_8" name="q8_comment" cols="40" rows="8" placeholder="{% t 'forms.place_comments_here' %}"></textarea>
     </div>
     <div class="form-check mb-3 col-md-12 pl-4">
     <input class="form-check-input" type="checkbox" aria-label="agree"  name="q4_agreeTo[]" value="Yes" required>
@@ -29,7 +29,7 @@
     </p>
   </div>
   <div class="col-md-12">
-    <button class="btn btn--primary" type="submit" id="input_2">Submit</button>
+    <button class="btn btn--primary" type="submit" id="input_2">{% t 'forms.submit' %}</button>
   </div>
     <input type="hidden" id="simple_spc" name="simple_spc" value="{{ site.data.forms.jotform.contact-id }}">
     <script type="text/javascript">

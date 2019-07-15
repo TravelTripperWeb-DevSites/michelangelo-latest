@@ -81,3 +81,12 @@ en:
   adults: Adults
   children: Children
   check_availability: Check Availability
+  forms:
+    first_name: First Name
+    last_name: Last Name
+    phone_number: Phone Number
+    email: Email
+    comments: Comments
+    your_email: Your Email
+    place_comments_here: Place comments here...
+    submit: Submit

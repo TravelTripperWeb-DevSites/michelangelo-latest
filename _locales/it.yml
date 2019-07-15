@@ -81,4 +81,13 @@ it:
   departure: Partenza
   adults: Adulti
   children: Bambini
-  check_availability: Prenota
+  check_availability: Verificare la disponibilità
+  forms:
+    first_name: Nome di battesimo
+    last_name: Cognome
+    phone_number: Numero di telefono
+    email: E-mail
+    comments: Commenti
+    your_email: La tua email
+    place_comments_here: Inserire commenti qui...
+    submit: Sottoscrivi

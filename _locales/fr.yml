@@ -79,4 +79,13 @@ fr:
   departure: Départ
   adults: Adultes
   children: Enfants
-  check_availability: Vérifier la disponibilité
+  check_availability: Voir les disponibilités
+  forms:
+    first_name: Prénom
+    last_name: Nom de famille
+    phone_number: Numéro de téléphone
+    email: Email
+    comments: commentaires
+    your_email: Votre email
+    place_comments_here: Placez les commentaires ici...
+    submit: Soumettre
