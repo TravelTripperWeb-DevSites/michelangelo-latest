@@ -4,9 +4,9 @@
   z-index: 31;
   width: 100%;
   height: 24px;
-  padding: 6px 0 8px;
+  padding: 5px 0 9px;
   overflow: visible;
-  font-size: $display11-size;
+  font-size: $display9-size;
   font-weight: $display3-weight;
   background: $terciary;
 
@@ -28,7 +28,7 @@
     @include transition(all .3s ease);
 
     &.closed {
-      height: 10px;
+      height: 12px;
 
       li {
         &:first-child {
@@ -57,10 +57,11 @@
       }
 
       &:first-child {
+        margin-top: -1px;
         margin-bottom: 15px;
         padding: 0 10px;
         font-family: $family-primary;
-        font-size: $display11-size;
+        font-size: $display9-size;
         cursor: pointer;
 
         a {
