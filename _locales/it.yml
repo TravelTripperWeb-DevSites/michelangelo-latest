@@ -73,7 +73,7 @@ it:
   carousels:
     next: "Next"
     previous:  "Prev"
-  join_our_newsletter:  Join Our Newsletter
+  join_our_newsletter:  Iscriviti alla nostra newsletter
   newsletter_signup_intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   additional_links: Additional Links
   your_reservartion: La tua Prenotazione
@@ -81,4 +81,14 @@ it:
   departure: Partenza
   adults: Adulti
   children: Bambini
-  check_availability: Prenota
+  check_availability: Verificare la disponibilità
+  forms:
+    first_name: Nome di battesimo
+    last_name: Cognome
+    phone_number: Numero di telefono
+    email: E-mail
+    comments: Commenti
+    your_email: La tua email
+    place_comments_here: Inserire commenti qui...
+    submit: Sottoscrivi
+    signup: Iscriviti

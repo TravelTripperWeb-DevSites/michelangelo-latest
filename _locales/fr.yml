@@ -71,7 +71,7 @@ fr:
   carousels:
     next: "Next"
     previous:  "Prev"
-  join_our_newsletter:  Join Our Newsletter
+  join_our_newsletter:  Rejoignez notre newsletter
   newsletter_signup_intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   additional_links: Additional Links
   your_reservartion: Votre réservation
@@ -79,4 +79,14 @@ fr:
   departure: Départ
   adults: Adultes
   children: Enfants
-  check_availability: Vérifier la disponibilité
+  check_availability: Voir les disponibilités
+  forms:
+    first_name: Prénom
+    last_name: Nom de famille
+    phone_number: Numéro de téléphone
+    email: Email
+    comments: commentaires
+    your_email: Votre email
+    place_comments_here: Placez les commentaires ici...
+    submit: Soumettre
+    signup: S'inscrire
