@@ -13,7 +13,7 @@
     "col2_type": "html",
     "container_classes": "container-fluid",
     "col2_html": {
-      "content": "<h2 class=\"h2  text-center text-md-left mb-3 \" tabindex=\"0\">Contact Us</h2>\n<hr />\n<div class=\" text-center text-md-left\" tabindex=\"0\">\n<p>We&rsquo;re standing by to answer all your questions and provide you with more information on our accommodations, services, dining, location and much more. Contact us today!</p>\n</div>"
+      "content": "<h2 class=\"h2  text-center text-md-left mb-3 \" tabindex=\"0\">Contact Us</h2>\n<hr />\n<div class=\" text-center text-md-left\" tabindex=\"0\">\n<p>We&rsquo;re standing by to answer all your questions and provide you with more information on our accommodations, services, dining, location and much more. Contact us today!</p>\n<p>You can find detailed information about accessibility in our Accessibility Statement.</p>\n</div>"
     }
   }
 ]
