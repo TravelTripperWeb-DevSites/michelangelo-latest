@@ -137,7 +137,6 @@ footer {
   }
 
   ul {
-    max-width: 850px;
     margin: 0 auto;
     padding: 30px 15px;
 
@@ -162,7 +161,13 @@ footer {
       color: $primary;
 
       @include media-breakpoint-up(md) {
-        padding: 0;
+        padding: 0 5px;
+        font-size: $display8-size;
+      }
+
+      @include media-breakpoint-up(xl) {
+        padding: 0 10px;
+        font-size: $display10-size;
       }
     }
   }
