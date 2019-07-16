@@ -3,6 +3,41 @@
     "col1_html": {
       "content": "<h2 class=\"h2 mb-3\" tabindex=\"0\">Soggiorna a due passi da Time Square</h2>\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Raffinato stile Italiano in un ambiente Cosmopolita.</h3>\n<div class=\"seperator\">&nbsp;</div>\n<p tabindex=\"0\">The Michelangelo New York - Starhotels Collezione unisce l'eleganza e l'attenzione ai dettagli di un albergo di lusso con una Classicita' di altri tempi. L'Hotel riflette lo stile eclettico di una citta' Cosmopolita. Nel cuore di Manhattan, vicino a Time Square e Rockefeller Center, l'Hotel offre un servizio impeccabile che lo definisce come uno dei migliori Hotel di lusso a New York.</p>"
     },
-    "_template": "2_col"
+    "_template": "2_col",
+    "advanced_options": {
+      "custom_classes": "pageintro",
+      "tabindex": "-1"
+    },
+    "include_gap": true,
+    "col1_type": "html",
+    "col2_type": "html",
+    "col2_image": {
+      "content": {
+        "name": "the-michelangelo-new-york",
+        "content_type": "image/jpeg",
+        "date_added": "2019-07-04-081656",
+        "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,g_faces,h_140,w_140/v1562242616/iebrqzustacrm56l1lm9.jpg",
+        "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_300,w_300/v1562242616/iebrqzustacrm56l1lm9.jpg",
+        "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_768,w_768/v1562242616/iebrqzustacrm56l1lm9.jpg",
+        "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_992,w_992/v1562242616/iebrqzustacrm56l1lm9.jpg",
+        "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562242616/iebrqzustacrm56l1lm9.jpg",
+        "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_1920,w_1920/v1562242616/iebrqzustacrm56l1lm9.jpg",
+        "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562242616/iebrqzustacrm56l1lm9.jpg",
+        "width": 1256,
+        "height": 960,
+        "format": "jpg",
+        "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1562242616/iebrqzustacrm56l1lm9.jpg",
+        "resource_type": "image",
+        "size": 153639,
+        "git_file_name": "_assets/image_data/the-michelangelo-new-york.jpg.json",
+        "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562242616/iebrqzustacrm56l1lm9.jpg",
+        "file_size": null,
+        "alt": "The Empire State Building"
+      },
+      "_template": "image"
+    },
+    "col2_html": {
+      "content": "<p tabindex=\"0\"><img id=\"1562242661432\" class=\" \" src=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562242616/iebrqzustacrm56l1lm9.jpg\" alt=\"Empire State Building\" data-image-large=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562242616/iebrqzustacrm56l1lm9.jpg\" data-image-medium=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_992,w_992/v1562242616/iebrqzustacrm56l1lm9.jpg\" data-image-small=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_768,w_768/v1562242616/iebrqzustacrm56l1lm9.jpg\" data-image-xsmall=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_300,w_300/v1562242616/iebrqzustacrm56l1lm9.jpg\" data-image-thumb=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fill,g_faces,h_140,w_140/v1562242616/iebrqzustacrm56l1lm9.jpg\" /></p>"
+    }
   }
 ]
