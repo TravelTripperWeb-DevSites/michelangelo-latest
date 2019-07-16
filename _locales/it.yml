@@ -47,8 +47,8 @@ it:
     not_available: ""
     offer_details: Dettagli dell'offerta
     cross_sell:
-      title: Special offers
-      description: Get a great deal at our Manhattan hotel
+      title: Offerte Speciali
+      description: Avvantaggiatevi delle offerte speciali del nostro Hotel a Manhattan
       link: View All Offers
     buttons:
       book: Prenota ora
@@ -75,7 +75,7 @@ it:
     next: "Next"
     previous:  "Prev"
   join_our_newsletter:  Iscriviti alla nostra newsletter
-  newsletter_signup_intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  newsletter_signup_intro: Condividi la Tua esperienza nel sito Starhotels Collezione
   additional_links: Additional Links
   your_reservartion: La tua Prenotazione
   arrival: Arrivo
