@@ -39,7 +39,7 @@
       </div>
     </div>
     <div class="c-room__buttons">
-      <a class="btn btn--primary" href="/rooms/room_{{ room.reztrip_room_id | downcase }}/">{% t 'cta.discover' %}</a>
+      <a class="btn btn--primary" href="{{ room.id | permalink: model_dir: 'rooms' | downcase }}">{% t 'cta.discover' %}</a>
       <div data-tt-class-name="btn btn--secondary" ttweb-room-component="BookingButton">
         {% t 'cta.book_now' %}
       </div>
