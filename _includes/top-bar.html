@@ -1,19 +1,19 @@
 <section class="top-bar">
   <div class="top-bar__wrap d-flex justify-content-start align-items-top">
     <ul class="drop-down closed">
-      <li class="p-0"><a class="dropnav-button">Starhotels Collezione</a></li>
-      <li><a class="overline" href="{{ site.data.hotel_settings.organization_url }}">HOME COLLEZIONE</a><hr class="mt-2"></li>
+      <li class="p-0"><a class="dropnav-button" tabindex="-1">Starhotels Collezione</a></li>
+      <li><a class="overline" href="{{ site.data.hotel_settings.organization_url }}" tabindex="-1">HOME COLLEZIONE</a><hr class="mt-2"></li>
       {% assign items = site.data._models.starhotels | sort: "order" %}
       {% for item in items %}
         <li>
           <p class="overline">{{ item.title }}</p>
           {% for menu in item.menus %}
-            <a class="d-block" href="{{ menu.url}}" target="_blank">{{ menu.name }}</a>
+            <a class="d-block" href="{{ menu.url}}" target="_blank" tabindex="-1">{{ menu.name }}</a>
           {% endfor %}
         </li>
       {% endfor %}
     </ul>
-    <a class="lnk pl-1" href="{{ site.data.hotel_settings.organization_url }}" target="_blank">{{ site.data.hotel_settings.organization_name }}.com</a>
-    <a class="lnk br-0" href="https://www.iamstar.it/" target="_blank">I Am Star</a>
+    <a class="lnk pl-1" href="{{ site.data.hotel_settings.organization_url }}" target="_blank" tabindex="-1">{{ site.data.hotel_settings.organization_name }}.com</a>
+    <a class="lnk br-0" href="https://www.iamstar.it/" target="_blank" tabindex="-1">I Am Star</a>
   </div>
 </section>
