@@ -83,6 +83,9 @@ it:
   adults: Adulti
   children: Bambini
   check_availability: Verificare la disponibilità
+  event_details: Dettagli dell'evento
+  rooms: Camere
+  contact_details: Contact Details
   forms:
     first_name: Nome di battesimo
     last_name: Cognome
@@ -93,3 +96,35 @@ it:
     place_comments_here: Inserire commenti qui...
     submit: Sottoscrivi
     signup: Iscriviti
+    meeting_room_capacity: Capacità sala
+    meeting_room_setup: Allestimento sala
+    theatre: Teatro
+    classroom: Banchi Scuola
+    ushape: Ferro di cavallo
+    cabaret_style: Cabaret Style
+    cocktail: Cocktail
+    banquet: Banchetto
+    tell_us_about_your_event: Parlaci del tuo evento
+    event_start_date: Data di inizio dell'evento
+    event_end_date: Data di fine dell'evento
+    flexible_dates: Sono date flessibili?
+    alternative_dates: Date alternative
+    enter_the_dates_here: Inserisci qui le date
+    dining_servics: Servizi ristorativi
+    enter_the_dine_services_here: Enter the dine services here
+    rooms_requested: Numero camere richieste
+    no_of_rooms: No delle camere
+    estimated_budget: Indicazioni di budget
+    enter_budget: Inserisci Budget
+    other_info_requests: Ulteriori informazioni
+    tell_us_other_info_requests: Ulteriori informazioni
+    attach_document: Allega informazioni e dettagli del tuo evento
+    company_name: Nome della ditta
+    company_type: Tipologia di azienda
+    company: Azienda
+    travel_agent: Agente di viaggi
+    country: Paese
+    city: Città
+    fax: Fax
+    website: Sito web
+    send: Invia

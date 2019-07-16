@@ -82,6 +82,9 @@ en:
   adults: Adults
   children: Children
   check_availability: Check Availability
+  event_details: Event Details
+  rooms: Rooms
+  contact_details: Contact Details
   forms:
     first_name: First Name
     last_name: Last Name
@@ -92,3 +95,35 @@ en:
     place_comments_here: Place comments here...
     submit: Submit
     signup: Sign Up
+    meeting_room_capacity: Meeting Room Capacity
+    meeting_room_setup: Meeting Room Setup
+    theatre: Theatre
+    classroom: Class Room
+    ushape: U-Shape
+    cabaret_style: Cabaret Style
+    cocktail: Cocktail
+    banquet: Banquet
+    tell_us_about_your_event: Tell Us About Your Event
+    event_start_date: Event Start Date
+    event_end_date: Event End Date
+    flexible_dates: Flexible Dates?
+    alternative_dates: Alternative Dates
+    enter_the_dates_here: Enter the dates here
+    dining_servics: Dining Services
+    enter_the_dine_services_here: Enter the dine services here
+    rooms_requested: Rooms Requested
+    no_of_rooms: No of Rooms
+    estimated_budget: Estimated Budget
+    enter_budget: Enter Budget
+    other_info_requests: Other Info/Requests
+    tell_us_other_info_requests: Other Info/Requests
+    attach_document: Attach any document you have with details or specifications for your meeting
+    company_name: Company Name
+    company_type: Company Type
+    company: Company
+    travel_agent: Travel Agent
+    country: country
+    city: City
+    fax: Fax
+    website: Website
+    send: Send
