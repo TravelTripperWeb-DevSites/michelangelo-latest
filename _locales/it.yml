@@ -1,6 +1,7 @@
 ---
 it:
   language_name: IT
+  language_fullname: Italian
   attractions:
     categories:
       all: All

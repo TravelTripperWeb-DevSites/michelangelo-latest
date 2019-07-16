@@ -1,6 +1,7 @@
 ---
 en:
   language_name: EN
+  language_fullname: English
   attractions:
     categories:
       all: All

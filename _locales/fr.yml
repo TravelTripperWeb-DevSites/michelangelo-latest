@@ -1,6 +1,7 @@
 ---
 fr:
   language_name: FR
+  language_fullname: French
   attractions:
     categories:
       all: All

@@ -1,4 +1,16 @@
 .booking-widget-button {
+  position: absolute;
+  top: 9px;
+  right: 15px;
+
+  @include media-breakpoint-up(sm) {
+    top: 25px;
+  }
+
+  @include media-breakpoint-up(md) {
+    top: 30px;
+  }
+
   .btn {
     @include media-breakpoint-only(xs) {
       padding: 10px 15px 8px;
@@ -96,7 +108,7 @@
       position: absolute;
       top: 7px;
       font-family: 'Font Awesome 5 Pro';
-      font-size: 18px;
+      font-size: $display6-size;
       font-weight: 400;
       color: $primary;
       content: '\f0c9';
@@ -408,14 +420,14 @@
     }
 
     .nav {
-      
+
       &__logo {
         display: none;
       }
 
       &__logo-secondary {
         display: inline-block;
-        margin-top: 0;
+
       }
 
       &__link {
@@ -456,9 +468,17 @@
     }
 
     .booking-widget-button {
-      position: relative;
-      top: inherit;
-      right: inherit;
+      position: absolute;
+      top: 9px;
+      right: 15px;
+
+      @include media-breakpoint-up(sm) {
+        top: 5px;
+      }
+
+      @include media-breakpoint-up(md) {
+        top: 25px;
+      }
     }
   }
 }
@@ -478,6 +498,18 @@
 
 .is-fixed-top {
   top: 24px !important;
+
+  .booking-widget-button {
+    top: 9px;
+
+    @include media-breakpoint-up(sm) {
+      top: 5px;
+    }
+
+    @include media-breakpoint-up(md) {
+      top: 25px;
+    }
+  }
 
   .languages {
     li,a {
