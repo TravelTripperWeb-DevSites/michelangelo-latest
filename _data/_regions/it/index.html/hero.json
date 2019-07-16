@@ -5,7 +5,8 @@
     },
     "_template": "hero",
     "advanced_options": {
-      "custom_classes": "home-hero"
+      "custom_classes": "home-hero",
+      "tabindex": "-1"
     },
     "hero_image": {
       "image": {
