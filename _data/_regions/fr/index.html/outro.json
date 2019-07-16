@@ -1,0 +1,25 @@
+[
+  {
+    "_template": "2_col",
+    "advanced_options": {
+      "custom_classes": "homelocation",
+      "tabindex": "-1"
+    },
+    "container_classes": "container-fluid",
+    "include_gap": true,
+    "col1_type": "html",
+    "col2_type": "html",
+    "col1_html": {
+      "content": "<p class=\"mb-0\" tabindex=\"0\"><img id=\"1562323918835\" class=\" \" src=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562322333/b0yhn1z5t2bfmu5v9zuk.jpg\" alt=\"The Michelangelo New York Map\" data-image-large=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562322333/b0yhn1z5t2bfmu5v9zuk.jpg\" data-image-medium=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_992,w_992/v1562322333/b0yhn1z5t2bfmu5v9zuk.jpg\" data-image-small=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_768,w_768/v1562322333/b0yhn1z5t2bfmu5v9zuk.jpg\" data-image-xsmall=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_300,w_300/v1562322333/b0yhn1z5t2bfmu5v9zuk.jpg\" data-image-thumb=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fill,g_faces,h_140,w_140/v1562322333/b0yhn1z5t2bfmu5v9zuk.jpg\" /></p>",
+      "custom_classes": [
+        "inner: w-100 d-flex flex-column h-100 justify-content-center"
+      ]
+    },
+    "col2_html": {
+      "content": "<h4 class=\"overline mb-3\" tabindex=\"0\">Le Michelangelo à un emplacement idéal</h4>\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Destination de vacances incontournable</h3>\n<div class=\"seperator\">&nbsp;</div>\n<p tabindex=\"0\">L'hôtel Michelangelo est situé au cœur de Manhattan, à l'angle de la 51ème rue et de la 7ème avenue dans le quartier de Midtown proche des principaux sites touristiques. Le Rockefeller Center et la fameuse 5ème avenue, rue incontournable pour une séance shopping, sont à seulement quelques pas. Central Park se trouve à moins de 10 min à pieds, et de l'autre cote de la rue vous trouverez Times Square et Broadway, rendus célèbre pour leurs théâtres et spectacles.</p>\n<p><a class=\"btn btn--primary\" href=\"contact/\">Explore</a></p>",
+      "custom_classes": [
+        "inner: w-100 d-flex flex-column h-100 justify-content-center align-items-start"
+      ]
+    }
+  }
+]
