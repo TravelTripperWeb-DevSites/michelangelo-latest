@@ -16,29 +16,24 @@
           <div tabindex="0">
             <p class="p1" {% if sync %}ttweb-offer-component="OfferDescription"{% endif %}>{{ offer.description }}</p>
           </div>
-          <p tabindex="0" class="overline">Terms & Conditions</p>
-          <p tabindex="0" class="p1" {% if sync %}ttweb-offer-component=“OfferPolicyDescription”{% endif %}>{{ offer.policy_description }}</p>
+          <p tabindex="0" class="overline mb-2">Terms & Conditions</p>
+          <p tabindex="0" class="p1" {% if sync %}ttweb-offer-component="OfferPolicyDescription"{% endif %}>{{ offer.policy_description }}</p>
         </div>
-
         <p class="overline" tabindex="0">SHARE</p>
         <ul>
         {% assign title = offer.name | replace: "'", "" %}
         {% assign siteurl = site.data.hotel_settings.site_url %}
         <li>
-          <a href="https://facebook.com/sharer.php?u={{ siteurl }}{{ offer.id | permalink: model_dir: 'offers' }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fab fa-facebook"></i>
-          </a>
+          <a href="https://facebook.com/sharer.php?u={{ siteurl }}{{ offer.id | permalink: model_dir: 'offers' }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fab fa-facebook"></i></a>
         </li>
         <li>
-          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ siteurl }}{{ offer.id | permalink: model_dir: 'offers' }}&via={{ site.data.social.twitter.username }}&related={{ site.data.social.twitter.username }}" rel="nofollow" target="_blank" title="Share on Twitter"> <i class="fab fa-twitter"></i> </a>
-        </li>
-
-        <li onclick="pinterestShare('{{offer.image.url}}', '{{ title }}')">
-          <a title="Share on Pinterest"> <i class="fab fa-pinterest"></i></a>
+          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ siteurl }}{{ offer.id | permalink: model_dir: 'offers' }}&via={{ site.data.social.twitter.username }}&related={{ site.data.social.twitter.username }}" rel="nofollow" target="_blank" title="Share on Twitter"> <i class="fab fa-twitter"></i></a>
         </li>
         <li>
-          <a href="javascript:void(0)" onclick="window.open( 'http://www.linkedin.com/shareArticle?mini=true&url={{ siteurl }}{{ offer.id | permalink: model_dir: 'offers' }}', 'sharer', 'toolbar=0, status=0, width=626, height=436');return false;" title="Linkedin"> <i class="fab fa-linkedin"></i></a>
-
-          <a href="" target="_blank" title="Share on Linkdin"> </a>
+          <a href="javascript:void(0);" title="Share on Pinterest" onclick="pinterestShare('{{offer.image.url}}', '{{ title }}')"> <i class="fab fa-pinterest"></i></a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" onclick="window.open( 'http://www.linkedin.com/shareArticle?mini=true&url={{ siteurl }}{{ offer.id | permalink: model_dir: 'offers' }}', 'sharer', 'toolbar=0, status=0');return false;" title="Linkedin"> <i class="fab fa-linkedin"></i></a>
         </li>
       </ul>
       </div>

@@ -1,5 +1,9 @@
 [
   {
+    "hero_html": {
+      "content": "<h1 class=\"h1 light\" tabindex=\"0\">The Michelangelo, Hotel ispirato al piu' raffinato stile Italiano</h1>"
+    },
+    "_template": "hero",
     "advanced_options": {
       "custom_classes": "home-hero"
     },
@@ -24,17 +28,13 @@
         "git_file_name": "_assets/image_data/michelangelo-exterior.jpg.json",
         "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562065538/ecbcgrmkkmn4hkgzukmh.jpg",
         "file_size": null,
-        "alt": "Michelangelo New York",
+        "alt": "Michelangelo Exterior",
         "caption": "",
         "description": ""
       },
       "mask_color": "#000000",
-      "mask_opacity": ".5"
+      "mask_opacity": "0.5"
     },
-    "skip_h1": true,
-    "_template": "hero",
-    "hero_html": {
-      "content": "<h1 class=\"h1 light\" tabindex=\"0\">The Michelangelo, Italian-Inspired Hotel in Manhattan</h1>"
-    }
+    "skip_h1": true
   }
 ]
