@@ -49,10 +49,10 @@ it:
     cross_sell:
       title: Offerte Speciali
       description: Avvantaggiatevi delle offerte speciali del nostro Hotel a Manhattan
-      link: View All Offers
+      link: Visualizza tutte le offerte
     buttons:
       book: Prenota ora
-      view_all: View All Special Offers
+      view_all: Visualizza tutte le offerte speciali
   posts:
     none: No Blog Posts Yet!
   rooms:
