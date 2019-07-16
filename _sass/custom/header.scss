@@ -419,6 +419,12 @@
       }
     }
 
+    &.inner-page-nav {
+      .nav__logo-secondary {
+        margin-top: 0;
+      }
+    }
+
     .nav {
 
       &__logo {
