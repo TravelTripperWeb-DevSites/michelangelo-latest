@@ -50,11 +50,11 @@
   <div class="booking-widget-button d-flex justify-content-end align-items-center">
     <div class="languages d-none d-sm-block">
       {% if site.languages.size > 1 %}
-        <ul class="languages__nav mb-0 mr-3">
-          <li>{% t 'language_name', site.active_lang %}</li>
+        <ul class="languages__nav mb-0 mr-3" role="listbox" aria-label="Choose Other Language">
+          <li role="listitem">{% t 'language_name', site.active_lang %}</li>
           {% for lang in site.languages %}
             {% if lang != site.active_lang %}
-              <li>
+              <li role="listitem" aria-label="{% t 'language_fullname', lang %}">
                 <a href="{{page | permalink, locale: lang}}">{% t 'language_name', lang %}</a>
               </li>
             {% endif %}
@@ -72,7 +72,7 @@
           {% for lang in site.languages %}
             {% if lang != site.active_lang %}
               <li>
-                <a href="{{page | permalink, locale: lang}}">{% t 'language_name', lang %}</a>
+                <a href="{{page | permalink, locale: lang}}">{% t 'language_name', lang %}<span class=""></span></a>
               </li>
             {% endif %}
           {% endfor %}
