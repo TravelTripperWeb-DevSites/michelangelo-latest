@@ -86,6 +86,8 @@ en:
   rooms_heading: Rooms
   contact_details: Contact Details
   hotel_amenities: Hotel Amenities
+  primary_phone: Primary Phone
+  alternate_phone: Alternate Phone
   forms:
     first_name: First Name
     last_name: Last Name

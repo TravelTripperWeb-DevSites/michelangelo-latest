@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="newsletter-signup__intro">
-        <p class="h4 light mb-2">{% t 'join_our_newsletter' %}</p>
-        <p class="uppercase mb-3 mb-md-0 light">{% t 'newsletter_signup_intro' %}</p>
+        <p class="h4 light mb-2" tabindex="0">{% t 'join_our_newsletter' %}</p>
+        <p class="uppercase mb-3 mb-md-0 light" tabindex="0">{% t 'newsletter_signup_intro' %}</p>
       </div>
       <div class="newsletter-signup__form">
         {% include forms/jotform/newsletter.html %}
@@ -19,9 +19,9 @@
         <div class="d-block d-lg-flex justify-content-between py-3 py-lg-5 mw-475">
           <p class="mb-0"><a href="{{ site.data.hotel_settings.get_directions_url }}" target="_blank"><span class="uppercase">{{ site.data.hotel_settings.name }}</span><br />{{ site.data.hotel_settings.address.street1 }}<br>{{ site.data.hotel_settings.address.state }}, {{ site.data.hotel_settings.address.city }} {{ site.data.hotel_settings.address.zip_code }}<br>{{ site.data.hotel_settings.address.country }}</a></p>
           <p class="mb-0 mt-3 mt-lg-0">
-            <a href="tel:{{ site.data.hotel_settings.phone_number }}">{{ site.data.hotel_settings.phone_number }}</a><br />
-            <a href="tel:{{ site.data.hotel_settings.alternate_number }}">{{ site.data.hotel_settings.alternate_number }}</a><br />
-            <a href="mailto:{{ site.data.hotel_settings.email }}">{{ site.data.hotel_settings.email }}</a>
+            <a href="tel:{{ site.data.hotel_settings.phone_number }}" aria-label="{% t 'primary_phone' %} {{ site.data.hotel_settings.phone_number }}">{{ site.data.hotel_settings.phone_number }}</a><br />
+            <a href="tel:{{ site.data.hotel_settings.alternate_number }}" aria-label="{% t 'alternate_phone' %} {{ site.data.hotel_settings.alternate_number }}">{{ site.data.hotel_settings.alternate_number }}</a><br />
+            <a href="mailto:{{ site.data.hotel_settings.email }}" aria-label="{% t 'forms.email' %}, {{ site.data.hotel_settings.email }}">{{ site.data.hotel_settings.email }}</a>
           </p>
         </div>
       </div>
@@ -107,7 +107,7 @@
 </section>
 
 <div class="copyright d-block d-md-flex justify-content-between align-items-center">
-  <span class="mb-3 mb-md-0 d-block">STARHOTELS INTERNATIONAL CORPORATION - {{ "now" | date: "%Y" }} ALL RIGHTS RESERVED<br>REGISTERED OFFICE 152 WEST 51ST STREET - NEW YORK, NY 10019 USA<br>TAX ID 13-3661271</span>
+  <span class="mb-3 mb-md-0 d-block" tabindex="0">STARHOTELS INTERNATIONAL CORPORATION - {{ "now" | date: "%Y" }} ALL RIGHTS RESERVED<br>REGISTERED OFFICE 152 WEST 51ST STREET - NEW YORK, NY 10019 USA<br>TAX ID 13-3661271</span>
   <div class="social">
     <ul class="d-flex justify-content-between">
       {% if site.data.social.facebook.username %}
