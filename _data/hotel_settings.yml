@@ -63,7 +63,7 @@ __EDITABLE_FIELDS__:
     type: float
   longitude:
     type: float
-get_directions_url: https://goo.gl/maps/wDPkcHicBJu58JB3A
+get_directions_url: https://goo.gl/maps/yBbkehVCCnZg8nTSA
 email_concierge: themichelangelo@cityexperts.com
 alternate_number: "+1 212 5416604"
 concierge_number: "+1 212-261-8920"

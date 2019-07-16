@@ -48,6 +48,14 @@ footer {
 .contact-block {
   background: $terciary;
 
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   &__address {
     @include make-col-ready;
     text-align: center;

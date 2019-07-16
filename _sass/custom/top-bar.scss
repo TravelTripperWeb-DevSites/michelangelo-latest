@@ -18,17 +18,22 @@
   .drop-down {
     position: relative;
     width: auto;
-    height: 600px;
+    height: calc(100vh);
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-y: scroll;
     text-align: center;
     list-style: none;
     background: $terciary;
     @include transition(all .3s ease);
 
+    @include media-breakpoint-up(md) {
+      height: 600px;
+    }
+
     &.closed {
       height: 12px;
+      overflow: hidden;
 
       li {
         &:first-child {
@@ -101,5 +106,19 @@
       content: '';
       background: $primary;
     }
+  }
+}
+
+.s-logo {
+  display: block;
+  width: 120px;
+  max-height: 14px;
+
+  @include media-breakpoint-up(sm) {
+    width: auto;
+  }
+
+  img {
+    height: 100%;
   }
 }
