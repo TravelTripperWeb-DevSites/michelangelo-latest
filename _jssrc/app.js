@@ -168,6 +168,16 @@ readyDoc(function() {
 
 });
 
+// Pinterest Share
+
+function pinterestShare(img, desc) {
+  window.open("//www.pinterest.com/pin/create/button/" +
+    "?url=" + window.location.href +
+    "&media=" + img +
+    "&description=" + desc, "pinIt", "toolbar=no, scrollbars=no, resizable=no, top=0, right=0");
+  return false;
+}
+
 
 function formatDate(date) {
   var d = new Date(date),
@@ -179,19 +189,4 @@ function formatDate(date) {
   if (day.length < 2) day = '0' + day;
 
   return [year, month, day].join('-');
-}
-
-function pinterestShare(img, desc) {
-  window.open(
-    "//www.pinterest.com/pin/create/button/" +
-    "?url=" +
-    window.location.href +
-    "&media=" +
-    img +
-    "&description=" +
-    desc,
-    "pinIt",
-    "toolbar=no, scrollbars=no, resizable=no, top=0, right=0"
-  );
-  return false;
 }
