@@ -85,6 +85,8 @@ fr:
   rooms_heading: Chambres
   contact_details: Coordonnées
   hotel_amenities: Services de l'hôtel
+  primary_phone: Téléphone primaire
+  alternate_phone: Autre numéro de téléphone
   forms:
     first_name: Prénom
     last_name: Nom de famille

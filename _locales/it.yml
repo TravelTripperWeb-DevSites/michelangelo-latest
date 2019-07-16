@@ -87,6 +87,8 @@ it:
   rooms_heading: Camere
   contact_details: Contact Details
   hotel_amenities: Servizi dell'hotel
+  primary_phone: Telefono principale
+  alternate_phone: Telefono alternativo
   forms:
     first_name: Nome di battesimo
     last_name: Cognome
