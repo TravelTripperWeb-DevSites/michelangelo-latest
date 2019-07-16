@@ -16,7 +16,7 @@
           <p class="p1" {% if sync %}ttweb-offer-component="OfferDescription"{% endif %}>{{ offer.description }}</p>
         </div>
         <p tabindex="0" class="overline">Terms & Conditions</p>
-        <p tabindex="0" class="p1" {% if sync %}ttweb-offer-component=“OfferPolicyDescription”{% endif %}>{{ offer.policy_description }}</p>
+        <p tabindex="0" class="p1" {% if sync %}ttweb-offer-component="OfferPolicyDescription"{% endif %}>{{ offer.policy_description }}</p>
         <p class="overline" tabindex="0">SHARE</p>
         <ul>
         {% assign title = offer.name | replace: "'", "" %}
