@@ -46,12 +46,12 @@ fr:
     not_available: ""
     offer_details: Détails de l'offre
     cross_sell:
-      title: Special offers
-      description: Get a great deal at our Manhattan hotel
-      link: View All Offers
+      title: Offres spéciales
+      description: Profitez d'une promotion exceptionnelle au cœur de Manhattan
+      link: Voir toutes les offres
     buttons:
       book: Reservez
-      view_all: View All Special Offers
+      view_all: Voir toutes les offres spéciales
   posts:
     none: No Blog Posts Yet!
   rooms:
@@ -73,7 +73,7 @@ fr:
     next: "Next"
     previous:  "Prev"
   join_our_newsletter:  Rejoignez notre newsletter
-  newsletter_signup_intro: Partagez votre expérience auprès de Star Hotel Collezione 
+  newsletter_signup_intro: Partagez votre expérience auprès de Star Hotel Collezione
   additional_links: Additional Links
   your_reservartion: Votre réservation
   arrival: Arrivée
