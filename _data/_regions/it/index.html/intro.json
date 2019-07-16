@@ -10,7 +10,7 @@
     },
     "include_gap": true,
     "col1_type": "html",
-    "col2_type": "image",
+    "col2_type": "html",
     "col2_image": {
       "content": {
         "name": "the-michelangelo-new-york",
