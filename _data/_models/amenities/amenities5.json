@@ -1,10 +1,14 @@
 {
   "order": 5,
   "name_localized": {
-    "en": "Fitness"
+    "en": "Fitness",
+    "fr": "Fitness",
+    "it": "Fitness"
   },
   "description_localized": {
-    "en": "<p>A state-of-the art, 24-hour Executive Fitness Center, including free weights and other modern fitness amenities. The fitness center is accessible. For more information, please view our <a href=\"/accessibility-statement/\">Accessibility Statement</a>.</p>"
+    "en": "<p>A state-of-the art, 24-hour Executive Fitness Center, including free weights and other modern fitness amenities. The fitness center is accessible. For more information, please view our <a href=\"/accessibility-statement/\">Accessibility Statement</a>.</p>",
+    "fr": "<p>Un centre de remise en forme exécutif ultramoderne, ouvert 24h / 24, comprenant des haltères et d'autres équipements de remise en forme modernes</p>",
+    "it": "<p>A state-of-the art, 24-hour Executive Fitness Center, including free weights and other modern fitness amenities. The fitness center is accessible. For more information, please view our <a href=\"/accessibility-statement/\">Accessibility Statement</a>.</p>"
   },
   "images": {
     "name": "hotel-services-fitness",

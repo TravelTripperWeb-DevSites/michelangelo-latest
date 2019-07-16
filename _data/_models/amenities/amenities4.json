@@ -1,10 +1,14 @@
 {
   "order": 4,
   "name_localized": {
-    "en": "Hotel Services"
+    "en": "Hotel Services",
+    "fr": "Services de l'hôtel",
+    "it": "Hotel Services"
   },
   "description_localized": {
-    "en": "<ul>\n<li>100% smoke-free property</li>\n<li>The Lobby Lounge</li>\n<li>Newspaper of your choice</li>\n<li>Laundry/dry cleaning service (a fee may apply)</li>\n</ul>"
+    "en": "<ul>\n<li>100% smoke-free property</li>\n<li>The Lobby Lounge</li>\n<li>Newspaper of your choice</li>\n<li>Laundry/dry cleaning service (a fee may apply)</li>\n</ul>",
+    "fr": "<ul>\n<li>Propriété 100% non fumeur</li>\n<li>Le Lounge du lobby</li>\n<li>Journal de votre choix</li>\n<li>Blanchisserie / service de nettoyage à sec (des frais supplémentaires peuvent s'appliquer)</li>\n</ul>",
+    "it": "<ul>\n<li>Concierge multilingue</li>\n<li>Struttura interamente non fumatori</li>\n<li>Lounge Bar</li>\n<li>Lobby Lounge</li>\n<li>Quotidiani (su richiesta)</li><li>Lavanderia e stireria (a pagamento)</li></ul>"
   },
   "images": {
     "name": "hotel-services-services",

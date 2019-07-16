@@ -82,8 +82,9 @@ fr:
   children: Enfants
   check_availability: Voir les disponibilités
   event_details: Détails de l'événement
-  rooms: Chambres
+  rooms_heading: Chambres
   contact_details: Coordonnées
+  hotel_amenities: Services de l'hôtel
   forms:
     first_name: Prénom
     last_name: Nom de famille

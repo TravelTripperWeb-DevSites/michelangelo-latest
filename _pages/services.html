@@ -64,7 +64,7 @@ meta_tags:
     </div>
     <div class="pagecopy__right">
       {% regionblock amenities_intro_heading, type:header %}
-      <p class="h3">Hotel Amenities</p>
+      <p class="h3">{% t 'hotel_amenities' %}</p>
       {% endregionblock %}
       <div class="amenities-slider">
         {% assign hotel-amenities = site.data._models.amenities | sort: 'order' %}

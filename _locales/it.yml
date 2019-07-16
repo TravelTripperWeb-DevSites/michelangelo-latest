@@ -84,8 +84,9 @@ it:
   children: Bambini
   check_availability: Verificare la disponibilità
   event_details: Dettagli dell'evento
-  rooms: Camere
+  rooms_heading: Camere
   contact_details: Contact Details
+  hotel_amenities: Servizi dell'hotel
   forms:
     first_name: Nome di battesimo
     last_name: Cognome

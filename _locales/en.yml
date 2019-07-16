@@ -83,8 +83,9 @@ en:
   children: Children
   check_availability: Check Availability
   event_details: Event Details
-  rooms: Rooms
+  rooms_heading: Rooms
   contact_details: Contact Details
+  hotel_amenities: Hotel Amenities
   forms:
     first_name: First Name
     last_name: Last Name
