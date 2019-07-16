@@ -34,7 +34,7 @@
     "skip_h1": true,
     "_template": "hero",
     "hero_html": {
-      "content": "<h1 class=\"h1 light\">The Michelangelo, Italian-Inspired Hotel in Manhattan</h1>"
+      "content": "<h1 class=\"h1 light\" tabindex=\"0\">The Michelangelo, Italian-Inspired Hotel in Manhattan</h1>"
     }
   }
 ]
