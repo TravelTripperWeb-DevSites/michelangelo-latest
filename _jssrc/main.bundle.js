@@ -65,6 +65,7 @@ readyDoc(function () {
       } else {
         event.target.parentNode.classList.add("expanded");
         event.target.innerHTML = "Read Less <span class='far fa-minus'></span>";
+        event.target.parentNode.getElementsByClassName("morecontent")[0].focus();
       }
     }
 
