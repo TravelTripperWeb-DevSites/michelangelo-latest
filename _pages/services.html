@@ -51,9 +51,9 @@ meta_tags:
           <div class="slider-control">
             <a href="javascript:void(0);" class="slide-prev" id="servicesSliderPrev" aria-label="Press enter for previous slide"><span><i class="far fa-chevron-left"></i></span></a>
             <div class="slider-nav" id="servicesSlider">
+              {% for carousel in item.images %}
               <span></span>
-              <span></span>
-              <span></span>
+              {% endfor %}
             </div>
             <a href="javascript:void(0);" class="slide-next" id="servicesSliderNext" aria-label="Press enter for next slide"><span><i class="far fa-chevron-right"></i></span></a>
           </div>
