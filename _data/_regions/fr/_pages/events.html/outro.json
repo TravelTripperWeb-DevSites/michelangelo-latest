@@ -1,0 +1,39 @@
+[
+  {
+    "_template": "2_col",
+    "advanced_options": {
+      "tabindex": "-1",
+      "custom_classes": "rfp"
+    },
+    "container_classes": " ",
+    "col2_type": "html",
+    "col1_type": "html",
+    "col1_html": {
+      "content": "<div class=\"rfp__contant ml-auto\">\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Request for Proposal</h3>\n<hr />\n<p tabindex=\"0\">We would be delighted to provide you with a meeting or event proposal for our hotel. Submit a request to find out more about our opulent NYC corporate event venue, and look forward to an exciting affair.</p>\n<a class=\"btn btn--secondary\" href=\"/request-for-proposal/\">Submit Your RFP</a></div>",
+      "custom_classes": [
+        "inner: w-100 d-flex flex-column h-100 justify-content-center"
+      ]
+    },
+    "col2_html": {
+      "content": "<picture class=\"objectfit mb-3 mb-md-0 d-block\" tabindex=\"0\"><img id=\"1562309821202\" class=\" \" src=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562309760/snuhygxv51mtwusae6su.jpg\" alt=\"Michelangelo Meeting Space\" data-image-large=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562309760/snuhygxv51mtwusae6su.jpg\" data-image-medium=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_992,w_992/v1562309760/snuhygxv51mtwusae6su.jpg\" data-image-small=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_768,w_768/v1562309760/snuhygxv51mtwusae6su.jpg\" data-image-xsmall=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_300,w_300/v1562309760/snuhygxv51mtwusae6su.jpg\" data-image-thumb=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fill,g_faces,h_140,w_140/v1562309760/snuhygxv51mtwusae6su.jpg\" /></picture>"
+    }
+  },
+  {
+    "_template": "2_col",
+    "advanced_options": {
+      "tabindex": "-1",
+      "custom_classes": "pagecontent"
+    },
+    "col1_type": "html",
+    "col2_type": "html",
+    "include_gap": true,
+    "container_classes": "container-fluid",
+    "col1_html": {
+      "content": "<div class=\"col-html-content__inner mb-3\"><img id=\"1562331259179\" class=\" \" src=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562331223/htxssqqo9wblijewkpoa.jpg\" alt=\"Michelangelo Meeting Space Capacity\" data-image-large=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562331223/htxssqqo9wblijewkpoa.jpg\" data-image-medium=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_992,w_992/v1562331223/htxssqqo9wblijewkpoa.jpg\" data-image-small=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_768,w_768/v1562331223/htxssqqo9wblijewkpoa.jpg\" data-image-xsmall=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_300,w_300/v1562331223/htxssqqo9wblijewkpoa.jpg\" data-image-thumb=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fill,g_faces,h_140,w_140/v1562331223/htxssqqo9wblijewkpoa.jpg\" />\n<div class=\"col-html-content__floating d-flex flex-column justify-content-center\">\n<h3 class=\"h3 light mb-2\" tabindex=\"0\">Capacity Chart</h3>\n<div class=\"seperator-white\">&nbsp;</div>\n<p tabindex=\"0\">Our exclusive meeting space in New York offers you a wide choice of options.</p>\n<p><a class=\"btn btn--primary\" href=\"rooms/\">Download</a></p>\n</div>\n</div>\n<div class=\"col-html-content__inner mb-3 mb-md-0\"><img id=\"1562331406388\" class=\" \" src=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562331223/jtu0gt07locgnbk4sm7s.jpg\" alt=\"Michelangelo Business Meeting Space\" data-image-large=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562331223/jtu0gt07locgnbk4sm7s.jpg\" data-image-medium=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_992,w_992/v1562331223/jtu0gt07locgnbk4sm7s.jpg\" data-image-small=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_768,w_768/v1562331223/jtu0gt07locgnbk4sm7s.jpg\" data-image-xsmall=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_300,w_300/v1562331223/jtu0gt07locgnbk4sm7s.jpg\" data-image-thumb=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fill,g_faces,h_140,w_140/v1562331223/jtu0gt07locgnbk4sm7s.jpg\" />\n<div class=\"col-html-content__floating d-flex flex-column justify-content-center\">\n<h3 class=\"h3 light mb-2\" tabindex=\"0\">Call Back</h3>\n<div class=\"seperator-white\">&nbsp;</div>\n<p tabindex=\"0\">Business or pleasure, guests at The Michelangelo start their day off with a handful of Luxury Italian Services.</p>\n<p><a class=\"btn btn--primary\" href=\"../request-for-proposal/\">Discover</a></p>\n</div>\n</div>"
+    },
+    "col2_html": {
+      "content": "<div class=\"col-html-content__inner mb-3\"><img id=\"1562330339448\" class=\" \" src=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562330250/nppem4z7vkx2qan5khds.jpg\" alt=\"Newyork City Near by Locations\" data-image-large=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562330250/nppem4z7vkx2qan5khds.jpg\" data-image-medium=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_992,w_992/v1562330250/nppem4z7vkx2qan5khds.jpg\" data-image-small=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_768,w_768/v1562330250/nppem4z7vkx2qan5khds.jpg\" data-image-xsmall=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_300,w_300/v1562330250/nppem4z7vkx2qan5khds.jpg\" data-image-thumb=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fill,g_faces,h_140,w_140/v1562330250/nppem4z7vkx2qan5khds.jpg\" />\n<div class=\"col-html-content__floating d-flex flex-column justify-content-center\">\n<h3 class=\"h3 light mb-2\" tabindex=\"0\">Location</h3>\n<div class=\"seperator-white\">&nbsp;</div>\n<p tabindex=\"0\">You&rsquo;ll find The Michelangelo right in the lively center of New York, with many of the city&rsquo;s must-see sights all within easy reach.</p>\n<p><a class=\"btn btn--primary\" href=\"../contact/\">Explore</a></p>\n</div>\n</div>"
+    },
+    "style": "white text-primary"
+  }
+]
