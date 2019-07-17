@@ -1,5 +1,10 @@
 .home-hero {
-  height: calc(100vh - 103px);
+  height: calc(100vh - 127px);
+  border-bottom: solid 5px $secondary;
+
+  @include media-breakpoint-up(md) {
+    height: calc(100vh);
+  }
 
   .hero__body {
     z-index: 1;
