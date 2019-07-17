@@ -132,10 +132,9 @@
     }
 
     &__item {
-      margin-bottom: 24px;
-      padding-bottom: 24px;
-
       @include media-breakpoint-up(md) {
+        margin-bottom: 24px;
+        padding-bottom: 24px;
         border-bottom: solid 1px $primary;
       }
 
