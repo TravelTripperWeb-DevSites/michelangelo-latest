@@ -67,7 +67,8 @@
       "git_file_name": "_assets/image_data/the-michelangelo-new-york-meeting-room.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562314536/jibitlbccukjy3bhg7vz.jpg",
       "file_size": null,
-      "alt": "The Michelangelo Newyork Meeting Room"
+      "alt": "The Michelangelo Board Room",
+      "caption": "The Michelangelo Board Room"
     }
   ],
   "description": "",
