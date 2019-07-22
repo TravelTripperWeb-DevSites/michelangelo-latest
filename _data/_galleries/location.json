@@ -21,7 +21,8 @@
       "git_file_name": "_assets/image_data/near-by-newyork-city-locations.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562330250/nppem4z7vkx2qan5khds.jpg",
       "file_size": null,
-      "alt": "Newyork City Location"
+      "alt": "New York City Skyline",
+      "caption": "New York City Skyline"
     },
     {
       "name": "nyc-empire-state-building",
