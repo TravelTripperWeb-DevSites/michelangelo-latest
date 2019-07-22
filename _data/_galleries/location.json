@@ -44,7 +44,8 @@
       "git_file_name": "_assets/image_data/nyc-empire-state-building.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562314536/pkdfzj40grpm9dx1cf0b.jpg",
       "file_size": null,
-      "alt": "NYC Empire State Building"
+      "alt": "NYC Empire State Building",
+      "caption": "NYC Empire State Building"
     }
   ],
   "description": "",
