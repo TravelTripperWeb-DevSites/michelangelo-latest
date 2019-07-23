@@ -1,12 +1,18 @@
 {
   "name_localized": {
-    "en": "Sweet Suite Package"
+    "en": "Sweet Suite Package",
+    "fr": "Sweet Suite Package",
+    "it": "Sweet Suite "
   },
   "short_description_localized": {
-    "en": "Experience our luxury appointed suites at The Michelangelo.\r\n"
+    "en": "Experience our luxury appointed suites at The Michelangelo.\r\n",
+    "fr": "Experience our luxury appointed suites at The Michelangelo.\r\n",
+    "it": "Prova a vivere nelle lussuose suites del The Michelangelo "
   },
   "description_localized": {
-    "en": null
+    "en": null,
+    "fr": null,
+    "it": null
   },
   "image": {
     "name": "Sweet-Suite-Package-Grand-One-Bedroom-Suite",

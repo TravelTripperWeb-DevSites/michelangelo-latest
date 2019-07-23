@@ -1,12 +1,18 @@
 {
   "name_localized": {
-    "en": "Breakfast Included - Pay Later"
+    "en": "Breakfast Included - Pay Later",
+    "fr": "Breakfast Included - Pay Later",
+    "it": "Il Pacchetto Prima Colazione"
   },
   "short_description_localized": {
-    "en": "Breakfast Package includes one breakfast entree, regular coffee, decaf, hot tea, or milk, and a choice of fruit juice. Breakfast vouchers can be used in room service - does not include delivery charge of $3.25."
+    "en": "Breakfast Package includes one breakfast entree, regular coffee, decaf, hot tea, or milk, and a choice of fruit juice. Breakfast vouchers can be used in room service - does not include delivery charge of $3.25.",
+    "fr": "Breakfast Package includes one breakfast entree, regular coffee, decaf, hot tea, or milk, and a choice of fruit juice. Breakfast vouchers can be used in room service - does not include delivery charge of $3.25.",
+    "it": "Il Pacchetto Prima Colazione include una American Breakfast entree, caffe’, caffe’ decaffeinato, the, latte ed un succo di frutta a scelta. I voucher della prima colazione possono essere utilizzati anche per ordinazioni attraverso il servizio in camera.  Un costo aggiuntivo di $3.25 per colazione e’ previsto per il servizio in camera. "
   },
   "description_localized": {
-    "en": null
+    "en": null,
+    "fr": null,
+    "it": null
   },
   "image": {
     "name": "Breakfast-Included---Pay-Later-Hotel-Lounge",
