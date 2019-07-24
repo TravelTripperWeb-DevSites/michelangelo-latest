@@ -2,7 +2,7 @@
   {
     "_template": "2_col",
     "col1_html": {
-      "content": "<h2 class=\"h2 mb-3\" tabindex=\"0\">Séjournez à Times Square</h2>\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Le style et l'élégance Italienne et le charme cosmopolite.</h3>\n<div class=\"seperator\">&nbsp;</div>\n<p tabindex=\"0\">Le Michelangelo New York - Starhotels Collezione conjugue avec élégance, design et classicisme ; une représentation du multiculturalisme de cette ville. Au cœur de Manhattan, proche de Times Square et Rockefeller Center, son unique mélange entre opulence et authentique savoir Italien, en fait l'un des plus luxueux hôtels de New York.</p>",
+      "content": "<h2 class=\"h2 mb-3\" tabindex=\"0\">Starhotels Collezione</h2>\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Le style et l'&eacute;l&eacute;gance Italienne et le charme cosmopolite.</h3>\n<div class=\"seperator\">&nbsp;</div>\n<p tabindex=\"0\">Le Michelangelo New York - Starhotels Collezione conjugue avec &eacute;l&eacute;gance, design et classicisme ; une repr&eacute;sentation du multiculturalisme de cette ville. Au c&oelig;ur de Manhattan, proche de Times Square et Rockefeller Center, son unique m&eacute;lange entre opulence et authentique savoir Italien, en fait l'un des plus luxueux h&ocirc;tels de New York.</p>",
       "custom_classes": [
         "inner: w-100 d-flex flex-column h-100 justify-content-center align-items-start"
       ]
