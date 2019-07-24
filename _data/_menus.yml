@@ -30,7 +30,6 @@ main:
       en: Dining
       fr: Dining
       it: Dining
-    items:
   - folder: false
     url_localized: ''
     page_id: _pages/events.html
