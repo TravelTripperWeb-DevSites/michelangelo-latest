@@ -9,7 +9,7 @@
     "col2_type": "html",
     "col1_type": "html",
     "col1_html": {
-      "content": "<div class=\"rfp__contant ml-auto\">\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Demande de devis</h3>\n<hr />\n<p tabindex=\"0\">Nous serons ravis de vous envoyer notre meilleure offre pour l&rsquo;organisation de vos &eacute;v&eacute;nements dans notre h&ocirc;tel. Veuillez remplir le formulaire et nous vous enverrons notre r&eacute;ponse dans les meilleurs d&eacute;lais.</p>\n<a class=\"btn btn--secondary\" href=\"../../request-for-proposal/\">Submit Your RFP</a></div>",
+      "content": "<div class=\"rfp__contant ml-auto\">\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Demande de devis</h3>\n<hr />\n<p tabindex=\"0\">Nous serons ravis de vous envoyer notre meilleure offre pour l&rsquo;organisation de vos &eacute;v&eacute;nements dans notre h&ocirc;tel. Veuillez remplir le formulaire et nous vous enverrons notre r&eacute;ponse dans les meilleurs d&eacute;lais.</p>\n<a class=\"btn btn--secondary\" href=\"../request-for-proposal/\">Submit Your RFP</a></div>",
       "custom_classes": [
         "inner: w-100 d-flex flex-column h-100 justify-content-center"
       ]
