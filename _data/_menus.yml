@@ -25,14 +25,13 @@ main:
       en: Specials
       fr: Offres
       it: Offerte
-  - folder: false
+  - page_id: _pages/dining.html
+    items:
     url_localized: ''
-    page_id: _pages/dining.html
     label_localized:
       en: Dining
       fr: Dining
       it: Dining
-    items:
   - folder: false
     url_localized: ''
     page_id: _pages/events.html
