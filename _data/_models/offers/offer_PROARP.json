@@ -1,12 +1,18 @@
 {
   "name_localized": {
-    "en": "AARP Rate"
+    "en": "AARP Rate",
+    "fr": "AARP Rate",
+    "it": "AARP Rate"
   },
   "short_description_localized": {
-    "en": "Special rate for members of AARP"
+    "en": "Special rate for members of AARP",
+    "fr": "Special rate for members of AARP",
+    "it": "Special rate for members of AARP"
   },
   "description_localized": {
-    "en": null
+    "en": null,
+    "fr": null,
+    "it": null
   },
   "image": {
     "name": "AARP-Rate-Hotel-Lobby",

@@ -21,7 +21,8 @@
       "git_file_name": "_assets/image_data/michelangelo-business-meeting-space.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562331223/jtu0gt07locgnbk4sm7s.jpg",
       "file_size": null,
-      "alt": "Michelangelo  Business Meeting Space"
+      "alt": "Michelangelo Business Meeting Space",
+      "caption": "Michelangelo Business Meeting Space"
     },
     {
       "name": "michelangelo-meeting-space-capacity",
@@ -43,7 +44,8 @@
       "git_file_name": "_assets/image_data/michelangelo-meeting-space-capacity.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562331223/htxssqqo9wblijewkpoa.jpg",
       "file_size": null,
-      "alt": "Michelangelo Meeting Space Capacity"
+      "alt": "The Michelangelo Meeting Space",
+      "caption": "The Michelangelo Meeting Space"
     },
     {
       "name": "the-michelangelo-new-york-meeting-room",
@@ -65,7 +67,8 @@
       "git_file_name": "_assets/image_data/the-michelangelo-new-york-meeting-room.jpg.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562314536/jibitlbccukjy3bhg7vz.jpg",
       "file_size": null,
-      "alt": "The Michelangelo Newyork Meeting Room"
+      "alt": "The Michelangelo Board Room",
+      "caption": "The Michelangelo Board Room"
     }
   ],
   "description": "",

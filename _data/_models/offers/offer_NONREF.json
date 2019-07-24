@@ -1,12 +1,18 @@
 {
   "name_localized": {
-    "en": "Best Available Rate - Pay Now"
+    "en": "Best Available Rate - Pay Now",
+    "fr": "Best Available Rate - Pay Now",
+    "it": "Best Available Rate - Pay Now"
   },
   "short_description_localized": {
-    "en": "Book now and save for your stay.   Pre-paid non-refundable at the time of booking."
+    "en": "Book now and save for your stay.   Pre-paid non-refundable at the time of booking.",
+    "fr": "Book now and save for your stay.   Pre-paid non-refundable at the time of booking.",
+    "it": "Book now and save for your stay.   Pre-paid non-refundable at the time of booking."
   },
   "description_localized": {
-    "en": null
+    "en": null,
+    "fr": null,
+    "it": null
   },
   "image": {
     "name": "Best-Available-Rate---Pay-Now-Hotel-Lobby-Staircase",

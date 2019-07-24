@@ -2,7 +2,7 @@
   {
     "_template": "1_col",
     "html": {
-      "content": "<h1 class=\"h1 text-center  my-md-3 my-5\">Privacy Policy</h1>"
+      "content": "<h1 class=\"h1 text-center  my-md-3 my-5\">Politique De Confidentialit&eacute;</h1>"
     },
     "advanced_options": {
       "tabindex": "0",

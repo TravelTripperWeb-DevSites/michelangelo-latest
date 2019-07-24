@@ -1,12 +1,18 @@
 {
   "name_localized": {
-    "en": "Italian Immersion Package "
+    "en": "Italian Immersion Package ",
+    "fr": "Italian Immersion Package ",
+    "it": "Italian Immersion Package "
   },
   "short_description_localized": {
-    "en": "Italian Immersion Package - Context Travel tours give travelers access to places and cultures that might otherwise remain out of sight to the casual visitor – all led by local experts. "
+    "en": "In collaboration with Context Travel, The Michelangelo New York offers guest an in-depth experience of the food and culture of New York’s vibrant Little Italy and Chinatown. ",
+    "fr": "In collaboration with Context Travel, The Michelangelo New York offers guest an in-depth experience of the food and culture of New York’s vibrant Little Italy and Chinatown. ",
+    "it": "In collaboration with Context Travel, The Michelangelo New York offers guest an in-depth experience of the food and culture of New York’s vibrant Little Italy and Chinatown. "
   },
   "description_localized": {
-    "en": null
+    "en": null,
+    "fr": null,
+    "it": null
   },
   "image": {
     "name": "Italian-Immersion-Package--Lobby",

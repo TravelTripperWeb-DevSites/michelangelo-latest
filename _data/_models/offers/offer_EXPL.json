@@ -1,12 +1,18 @@
 {
   "name_localized": {
-    "en": "The New York Explorer Package"
+    "en": "The New York Explorer Package",
+    "fr": "The New York Explorer Package",
+    "it": "The New York Explorer Package"
   },
   "short_description_localized": {
-    "en": "Explore the city with your Handy smartphone."
+    "en": "Have you ever wanted to experience all of the iconic sights of New York City in an epic scavenger hunt? ",
+    "fr": "Have you ever wanted to experience all of the iconic sights of New York City in an epic scavenger hunt? ",
+    "it": "Have you ever wanted to experience all of the iconic sights of New York City in an epic scavenger hunt? "
   },
   "description_localized": {
-    "en": null
+    "en": null,
+    "fr": null,
+    "it": null
   },
   "image": {
     "name": "The-New-York-Explorer-Package-",

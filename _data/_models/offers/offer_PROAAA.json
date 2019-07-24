@@ -1,12 +1,18 @@
 {
   "name_localized": {
-    "en": "AAA Rate"
+    "en": "AAA Rate",
+    "fr": "AAA Rate",
+    "it": "AAA Rate"
   },
   "short_description_localized": {
-    "en": "AAA Rate\r\n\r\nComplimentary WiFi\r\nID required"
+    "en": "AAA Rate\r\n\r\nComplimentary WiFi\r\nID required",
+    "fr": "AAA Rate\r\n\r\nComplimentary WiFi\r\nID required",
+    "it": "AAA Rate\r\n\r\nComplimentary WiFi\r\nID required"
   },
   "description_localized": {
-    "en": null
+    "en": null,
+    "fr": null,
+    "it": null
   },
   "image": {
     "name": "AAA-Rate-AAA-Logo",
