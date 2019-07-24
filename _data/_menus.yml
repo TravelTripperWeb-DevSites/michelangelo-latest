@@ -25,9 +25,7 @@ main:
       en: Specials
       fr: Offres
       it: Offerte
-  - folder: false
-    url_localized: ''
-    page_id: _pages/dining.html
+  - page_id: _pages/dining.html
     label_localized:
       en: Dining
       fr: Dining
