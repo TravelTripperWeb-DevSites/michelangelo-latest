@@ -48,6 +48,14 @@ footer {
 .contact-block {
   background: $terciary;
 
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   &__address {
     @include make-col-ready;
     text-align: center;
@@ -137,7 +145,6 @@ footer {
   }
 
   ul {
-    max-width: 850px;
     margin: 0 auto;
     padding: 30px 15px;
 
@@ -162,7 +169,13 @@ footer {
       color: $primary;
 
       @include media-breakpoint-up(md) {
-        padding: 0;
+        padding: 0 5px;
+        font-size: $display8-size;
+      }
+
+      @include media-breakpoint-up(xl) {
+        padding: 0 10px;
+        font-size: $display10-size;
       }
     }
   }
@@ -223,6 +236,7 @@ footer {
 }
 
 .social {
+  padding: 0 15px;
 
   ul {
     width: 300px;
@@ -246,5 +260,19 @@ footer {
         opacity: .6;
       }
     }
+  }
+}
+
+.credits {
+  max-width: 230px;
+  margin: 20px auto 0;
+  text-align: center;
+
+  @include media-breakpoint-up(md) {
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
   }
 }

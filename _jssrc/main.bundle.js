@@ -20,6 +20,8 @@ readyDoc(function () {
     }
   });
 
+  // converting room size from square feet to square meters in room listing page
+
   // Prevent Double Click on ipad and iphone devices
   if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
     var elements = document.getElementsByClassName('btn--secondary');
@@ -45,16 +47,25 @@ readyDoc(function () {
     }
   }, 5500);
 
+  // converting room size from square feet to square meters in room details page
+
+  setTimeout(function () {
+    if (document.querySelector(".room-details-intro")) {
+      document.querySelector(".room-details-intro .size_in_meters").innerText = Math.round(document.querySelector(".room-details-intro .size_in_feet").innerText.match(/\d+/g).map(Number)[0] / 10.764);
+    }
+  }, 2000);
+
   document.addEventListener('click', function (event) {
 
     //For Readmore hidden text
     if (event.target.classList.contains('readmore-btn')) {
       if (event.target.parentNode.classList.contains("expanded")) {
         event.target.parentNode.classList.remove("expanded");
-        event.target.innerHTML = "Read More +";
+        event.target.innerHTML = "Read More <span class='far fa-plus'></span>";
       } else {
         event.target.parentNode.classList.add("expanded");
-        event.target.innerHTML = "Read Less -";
+        event.target.innerHTML = "Read Less <span class='far fa-minus'></span>";
+        event.target.parentNode.getElementsByClassName("morecontent")[0].focus();
       }
     }
 
@@ -76,6 +87,50 @@ readyDoc(function () {
     }
   }, false);
 
+  //TopBar DropDown
+  document.querySelector('.dropnav-button').addEventListener('click', function () {
+    // Toggle the CSS closed class which reduces the height of the UL thus
+    // hiding all LI apart from the first
+    this.parentNode.parentNode.classList.toggle('closed');
+  }, false);
+
+  setTimeout(function () {
+    if (document.getElementsByClassName("room-item")[0]) {
+      var bannerSlider = tns({
+        container: '.room-item',
+        "items": 1,
+        "slideBy": "page",
+        "mouseDrag": true,
+        "swipeAngle": false,
+        "speed": 400,
+        navContainer: "#bannerSlider",
+        prevButton: "#bannerSliderPrev",
+        nextButton: "#bannerSliderNext"
+      });
+    }
+  }, 2000);
+  setTimeout(function () {
+    if (document.getElementById("arrival-date")) {
+      var arrivalDateField = document.getElementById("arrival-date");
+      var departureDateField = document.getElementById("departure-date");
+
+      var todaysDate = new Date();
+      var todaysDateFormatted = formatDate(todaysDate);
+
+      var tomorrowsDate = todaysDate.setDate(todaysDate.getDate() + 1);
+      var tomorrowsDateFormatted = formatDate(tomorrowsDate);
+
+      arrivalDateField.value = todaysDateFormatted;
+      departureDateField.value = tomorrowsDateFormatted;
+
+      arrivalDateField.onchange = function () {
+        var updatedArrivalDate = new Date(arrivalDateField.value);
+        var updatedDepartureDate = updatedArrivalDate.setDate(updatedArrivalDate.getDate() + 1);
+        var updatedDepartureDateFormatted = formatDate(updatedDepartureDate);
+        departureDateField.value = updatedDepartureDateFormatted;
+      };
+    }
+  }, 2000);
   if (document.getElementsByClassName("services-slider__wrap")[0]) {
     var roomSlider = tns({
       container: '.services-slider__wrap',
@@ -111,7 +166,21 @@ readyDoc(function () {
   }
 });
 
+// Pinterest Share
+
 function pinterestShare(img, desc) {
   window.open("//www.pinterest.com/pin/create/button/" + "?url=" + window.location.href + "&media=" + img + "&description=" + desc, "pinIt", "toolbar=no, scrollbars=no, resizable=no, top=0, right=0");
   return false;
+}
+
+function formatDate(date) {
+  var d = new Date(date),
+      month = '' + (d.getMonth() + 1),
+      day = '' + d.getDate(),
+      year = d.getFullYear();
+
+  if (month.length < 2) month = '0' + month;
+  if (day.length < 2) day = '0' + day;
+
+  return [year, month, day].join('-');
 }

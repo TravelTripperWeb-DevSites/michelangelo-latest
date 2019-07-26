@@ -2,25 +2,29 @@
 layout: default
 ---
 
+<div class="preloader" id="preloader">
+  <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562590704/tndaevvgo7mu12l67egq.gif" alt="Loading">
+</div>
+
 {% assign room = page.data %}
 {% include components/room-details %}
 
 <section class="room-booking-widget pt-48 pb-48 hide-mobile">
-  <p class="h2 text-center">Your Reservation</p>
-  <p class="overline text-center">BEST RATE GUARANTEE</p>
+  <p class="h2 text-center" tabindex="0">{% t 'your_reservartion' %}</p>
+  <p class="overline text-center" tabindex="0">{% t 'brg.label' %}</p>
 <!-- https://michelangelohotel.reztrip.com/search?arrival_date=2019-07-08&departure_date=2019-07-09&adults%5B%5D=1&children%5B%5D=0&currency=USD&locale=en&selected_room=TK -->
   <form class="room-booking-widget__form" action="https://michelangelohotel.reztrip.com/search" method="get">
     <div class="room-booking-widget__form__wrap">
       <div class="room-booking-widget__form__dates">
         <div class="full-width">
           <div class="field-inner">
-            <label for="arrival-date">Arrival</label>
+            <label for="arrival-date">{% t 'arrival' %}</label>
             <input type="date" id="arrival-date" name="arrival_date" aria-label="Enter Arrival Date" value="">
           </div>
         </div>
         <div class="full-width">
           <div class="field-inner">
-            <label for="departure-date">Departure</label>
+            <label for="departure-date">{% t 'departure' %}</label>
             <input type="date" id="departure-date" name="departure_date" aria-label="Enter Departure Date">
           </div>
         </div>
@@ -29,20 +33,20 @@ layout: default
         <div class="field-wrap">
           <div class="half-width">
             <div class="field-inner">
-              <label for="no-of-adults">Adults</label>
+              <label for="no-of-adults">{% t 'adults' %}</label>
               <input type="number" id="no-of-adults" name="adults" aria-label="Number of Adults" value="01" min="1">
             </div>
           </div>
           <div class="half-width">
             <div class="field-inner">
-              <label for="no-of-children">Children</label>
+              <label for="no-of-children">{% t 'children' %}</label>
               <input type="number" id="no-of-children" name="children" aria-label="Number of Adults" value="00" min="0">
             </div>
           </div>
         </div>
         <div class="button-wrap">
           <input type="hidden" name="selected_room" value="{{room.reztrip_room_id}}">
-          <button class="btn btn--secondary" type="submit" name="button">Check Availability</button>
+          <button class="btn btn--secondary" type="submit" name="button">{% t 'check_availability' %}</button>
         </div>
       </div>
     </div>

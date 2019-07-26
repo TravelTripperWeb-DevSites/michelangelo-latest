@@ -1,10 +1,14 @@
 {
   "order": 1,
   "name_localized": {
-    "en": "24h Free Internet Wi-Fi"
+    "en": "24h Free Internet Wi-Fi",
+    "fr": "24h Wi-Fi Gratuit",
+    "it": "24h Free Internet Wi-Fi"
   },
   "description_localized": {
-    "en": "<p>Complimentary WiFi available throughout the hotel</p>"
+    "en": "<p>Complimentary WiFi available throughout the hotel</p>",
+    "fr": "<p>WiFi gratuit disponible dans tout l'hôtel</p>",
+    "it": "<p>Connessione Wi-Fi ad alta velocità</p>"
   },
   "images": {
     "name": "hotel-services-wifi",

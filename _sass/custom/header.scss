@@ -1,4 +1,16 @@
 .booking-widget-button {
+  position: absolute;
+  top: 9px;
+  right: 15px;
+
+  @include media-breakpoint-up(sm) {
+    top: 25px;
+  }
+
+  @include media-breakpoint-up(md) {
+    top: 30px;
+  }
+
   .btn {
     @include media-breakpoint-only(xs) {
       padding: 10px 15px 8px;
@@ -47,16 +59,16 @@
     border-top: solid 1px $secondary;
 
     @include media-breakpoint-up(md) {
-      max-width: 400px;
+      max-width: 350px;
       border-top: 0;
     }
 
     @include media-breakpoint-up(lg) {
-      max-width: 80%;
+      max-width: 50%;
     }
 
     @include media-breakpoint-up(xl) {
-      max-width: 800px;
+      max-width: 900px;
     }
 
   }
@@ -96,7 +108,7 @@
       position: absolute;
       top: 7px;
       font-family: 'Font Awesome 5 Pro';
-      font-size: 18px;
+      font-size: $display6-size;
       font-weight: 400;
       color: $primary;
       content: '\f0c9';
@@ -140,6 +152,7 @@
       font-size: $display7-size;
       font-weight: $display3-weight;
       color: $primary;
+      text-transform: uppercase;
       letter-spacing: normal;
 
       @include media-breakpoint-up(md) {
@@ -213,8 +226,9 @@
 
     &--device {
       top: 100px;
-      height: calc(100vh - 103px);
+      height: calc(100vh - 153px);
       overflow-y: scroll;
+      background: $terciary;
       border: 0;
       @include transition(.3s);
 
@@ -222,8 +236,12 @@
         top: 169px;
       }
 
+      li {
+        padding-bottom: 0;
+      }
+
       .nav__link {
-        padding: 10px 15px;
+        padding: 0 15px;
         font-family: $family-secondary;
         font-size: $display3-size;
         font-weight: $display3-weight;
@@ -285,6 +303,12 @@
       background: $quaternary;
     }
 
+    .languages__nav {
+      li, a {
+        color: $primary;
+      }
+    }
+
     .navbar__burger {
       &:before {
         color: $primary;
@@ -334,17 +358,19 @@
       }
     }
 
+    .languages {
+      li,a {
+        color: $primary;
+      }
+    }
+
   }
 
   .greedy__hidden-links {
     right: 0;
     left: 0;
     text-align: center;
-    background: $quaternary;
-
-    @include media-breakpoint-up(md) {
-      background: $white;
-    }
+    background: $terciary;
   }
 
   &.sticky {
@@ -394,14 +420,23 @@
       }
     }
 
+    &.inner-page-nav {
+      .nav__logo-secondary {
+        margin-top: 0;
+      }
+    }
+
     .nav {
+
       &__logo {
         display: none;
       }
+
       &__logo-secondary {
         display: inline-block;
-        margin-top: 0;
+
       }
+
       &__link {
         color: $primary !important;
 
@@ -413,13 +448,18 @@
           color: $primary !important;
         }
       }
+
       &--device {
-        top: 100px;
+        top: 103px;
         right: 0;
         left: 0;
         width: 100%;
         opacity: 0;
         @include transition(.3s);
+
+        @include media-breakpoint-up(md) {
+          top: 100px;
+        }
 
         &.is-active {
           opacity: 1;
@@ -435,15 +475,23 @@
     }
 
     .booking-widget-button {
-      position: relative;
-      top: inherit;
-      right: inherit;
+      position: absolute;
+      top: 9px;
+      right: 15px;
+
+      @include media-breakpoint-up(sm) {
+        top: 5px;
+      }
+
+      @include media-breakpoint-up(md) {
+        top: 25px;
+      }
     }
   }
 }
 
 .is-fixed-top+.main {
-  padding-top: 103px;
+  padding-top: 127px;
   @include transition(all .3s);
 
   @include media-breakpoint-up(md) {
@@ -456,9 +504,27 @@
 }
 
 .is-fixed-top {
+  top: 24px !important;
+
+  .booking-widget-button {
+    top: 9px;
+
+    @include media-breakpoint-up(sm) {
+      top: 5px;
+    }
+
+    @include media-breakpoint-up(md) {
+      top: 25px;
+    }
+  }
+
   .languages {
     li,a {
       color: $primary;
+
+      @include media-breakpoint-up(md) {
+        color: $white;
+      }
     }
   }
 }
@@ -477,4 +543,23 @@
 
 body, a {
   color: $primary;
+}
+
+.lang-mobile {
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  background: $terciary;
+  box-shadow: 0 -1px 9px rgba(0,0,0,.1);
+
+  ul {
+    margin: 15px 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  li, a {
+    color: $primary !important;
+  }
 }

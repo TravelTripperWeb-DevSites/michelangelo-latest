@@ -1,0 +1,10 @@
+{
+  "order": 5,
+  "title": "Newyork",
+  "menus": [
+    {
+      "url": "http://www.michelangelohotel.com/en/",
+      "name": "The Michelangelo"
+    }
+  ]
+}

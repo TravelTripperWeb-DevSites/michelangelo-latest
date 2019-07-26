@@ -1,0 +1,25 @@
+[
+  {
+    "_template": "2_col",
+    "advanced_options": {
+      "custom_classes": "homelocation",
+      "tabindex": "-1"
+    },
+    "container_classes": "container-fluid",
+    "include_gap": true,
+    "col1_type": "html",
+    "col2_type": "html",
+    "col1_html": {
+      "content": "<p class=\"mb-0\"><a href=\"https://goo.gl/maps/yBbkehVCCnZg8nTSA/\" target=\"_blank\" rel=\"noopener noreferrer\"><img id=\"1562323918835\" class=\" \" src=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562322333/b0yhn1z5t2bfmu5v9zuk.jpg\" alt=\"Ottieni indicazioni per l'hotel\" data-image-large=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_1200,w_1200/v1562322333/b0yhn1z5t2bfmu5v9zuk.jpg\" data-image-medium=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_992,w_992/v1562322333/b0yhn1z5t2bfmu5v9zuk.jpg\" data-image-small=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_768,w_768/v1562322333/b0yhn1z5t2bfmu5v9zuk.jpg\" data-image-xsmall=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fit,h_300,w_300/v1562322333/b0yhn1z5t2bfmu5v9zuk.jpg\" data-image-thumb=\"//res.cloudinary.com/traveltripperweb/image/upload/c_fill,g_faces,h_140,w_140/v1562322333/b0yhn1z5t2bfmu5v9zuk.jpg\" /></a></p>",
+      "custom_classes": [
+        "inner: w-100 d-flex flex-column h-100 justify-content-center"
+      ]
+    },
+    "col2_html": {
+      "content": "<h4 class=\"overline mb-3\" tabindex=\"0\">The Michelangelo e' convenientemente situato</h4>\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Perfetta destinazione per la tua vacanza a New York</h3>\n<div class=\"seperator\">&nbsp;</div>\n<p tabindex=\"0\">The Michelangelo Hotel e' nel cuore di Manhattan, all'intersezione della 51 Strada e la 7th Avenue nel Midtown District, circondato da tutte le migliori attrazioni di New York. The Rockefeller Center e la famosissima 5th Avenue, la tua destinazione per fare shopping. Central Park e' solo a pochi isolati di distanza ed a pochi passi potete immergervi nelle fantastiche luci di Time Square e Broadway con i suoi splendidi Teatri e Shows.</p>",
+      "custom_classes": [
+        "inner: w-100 d-flex flex-column h-100 justify-content-center align-items-start"
+      ]
+    }
+  }
+]

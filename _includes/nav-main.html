@@ -3,7 +3,7 @@
 {% endcomment %}
 <nav class="navbar greedy is-fixed-top nav--main {% if page.url != '/' %}inner-page-nav{% endif %}" id="js-navbar--main">
   <div class="container brand-bar">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="{% if site.active_lang != site.default_lang %}/{{ site.active_lang }}/{% else %}/{% endif %}">
       <span class="nav__logo"
         data-live-edit-settings='hotel_settings'
         data-live-edit-settings-field='logo'
@@ -29,23 +29,6 @@
         {% endif %}
       </span>
     </a>
-    <div class="booking-widget-button d-flex justify-content-end align-items-center">
-      <div class="languages d-none d-sm-block">
-        {% if site.languages.size > 1 %}
-          <ul class="languages__nav mb-0 mr-3">
-            <li>{% t 'language_name', site.active_lang %}</li>
-            {% for lang in site.languages %}
-              {% if lang != site.active_lang %}
-                <li>
-                  <a href="{{page | permalink, locale: lang}}">{% t 'language_name', lang %}</a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        {% endif %}
-      </div>
-      {% include components/booking-widget-button %}
-    </div>
   </div>
   <div class="container p-0 flex-wrap flex-md-nowrap greedy-bar">
     <div class="d-flex w-100 justify-content-between justify-content-md-center py-md-0">
@@ -56,7 +39,6 @@
       <ul class="nav d-flex d-sm-none justify-content-between">
         {% assign items = site.data._menus.mobile.items %}
         {% include nav/nav-item-list.html items=items %}
-        {% include nav/language-nav.html %}
       </ul>
       <a role="button" aria-label="menu" aria-expanded="false" data-target="navMenu" class="navbar__burger greedy-nav--menu">
         <!-- <span aria-hidden="true"></span>
@@ -65,6 +47,37 @@
       </a>
     </div>
   </div>
+  <div class="booking-widget-button d-flex justify-content-end align-items-center">
+    <div class="languages d-none d-sm-block">
+      {% if site.languages.size > 1 %}
+        <ul class="languages__nav mb-0 mr-3" role="listbox" aria-label="Choose Other Language">
+          <li role="listitem">{% t 'language_name', site.active_lang %}</li>
+          {% for lang in site.languages %}
+            {% if lang != site.active_lang %}
+              <li role="listitem" aria-label="{% t 'language_fullname', lang %}">
+                <a href="{{page | permalink, locale: lang}}">{% t 'language_name', lang %}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+    {% include components/booking-widget-button %}
+  </div>
   <ul class="nav--device greedy__hidden-links" navMenu>
+    <div class="d-block d-md-none lang-mobile">
+      {% if site.languages.size > 1 %}
+        <ul class="languages__nav">
+          <li>{% t 'language_name', site.active_lang %}</li>
+          {% for lang in site.languages %}
+            {% if lang != site.active_lang %}
+              <li>
+                <a href="{{page | permalink, locale: lang}}">{% t 'language_name', lang %}<span class=""></span></a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
   </ul>
 </nav>

@@ -14,6 +14,12 @@
     margin: 48px 0;
   }
 
+  .morecontent {
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+  }
+
   h1 {
     @include media-breakpoint-down(sm) {
       margin-bottom: 20px;
@@ -40,7 +46,9 @@
   }
 
   p {
-    margin: 0;
+    @include media-breakpoint-up(md) {
+      margin: 0;
+    }
   }
 }
 
@@ -71,6 +79,15 @@
         min-height: 72px;
       }
     }
+
+    .btn--primary {
+      @media (min-width: 768px) and (max-width: 829px) {
+        display: block;
+      }
+      @media (min-width: 280px) and (max-width: 414px) {
+        display: block;
+      }
+    }
   }
 
   &__select {
@@ -79,6 +96,19 @@
     display: inline-block;
     margin-left: 20px;
 
+    @media (min-width: 768px) and (max-width: 829px) {
+      position: static;
+      display: block;
+      margin-top: 10px;
+      margin-left: 0;
+    }
+    @media (min-width: 280px) and (max-width: 414px) {
+      position: static;
+      display: block;
+      margin-top: 10px;
+      margin-left: 0;
+    }
+
     span {
       display: none;
     }
@@ -86,8 +116,13 @@
 }
 
 .offer-detail {
-  margin-top: 210px;
   margin-bottom: 40px;
+
+  .col--left {
+    @include media-breakpoint-down(sm) {
+      order: 2;
+    }
+  }
 
   .content-block {
     @include media-breakpoint-up(xl) {
@@ -96,6 +131,7 @@
     }
 
     .h1 {
+      margin-top: 40px;
       margin-bottom: 24px;
     }
 
@@ -134,5 +170,16 @@
 
   .col--right {
     padding: 0;
+
+    @include media-breakpoint-down(sm) {
+      height: 240px;
+      order: 1;
+    }
+
+    div {
+      @include media-breakpoint-down(sm) {
+        height: inherit;
+      }
+    }
   }
 }

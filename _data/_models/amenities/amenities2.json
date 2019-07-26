@@ -1,7 +1,9 @@
 {
-  "order": 2,
+  "order": 3,
   "name_localized": {
-    "en": "Rooms"
+    "en": "Rooms",
+    "fr": "Chambres",
+    "it": "Camere"
   },
   "images": {
     "name": "hotel-services-room",
@@ -28,6 +30,8 @@
     "description": ""
   },
   "description_localized": {
-    "en": "<ul>\n<li>In-room movies with complimentary international satellite stations</li>\n<li>In-room laptop safes</li>\n<li>ADA-compliant rooms</li>\n<li>Complimentary handy smartphone for use throughout your stay. No need to purchase an international plan!</li>\n</ul>"
+    "en": "<ul>\n<li>In-room movies with complimentary international satellite stations</li>\n<li>In-room laptop safes</li>\n<li>ADA-compliant rooms</li>\n<li>Complimentary handy smartphone for use throughout your stay. No need to purchase an international plan!</li>\n</ul>",
+    "fr": "<ul>\n<li>Films en chambre avec des stations satellites internationales gratuites</li>\n<li>Coffre-fort pour ordinateur portable en chambre</li>\n<li>Chambres conformes à l'ADA</li>\n</ul>",
+    "it": "<ul>\n<li>Camere per disabili</li>\n<li>Cassette di sicurezza in camera</li>\n<li>Film in camera con canali satellitari internazionali gratuiti</li>\n<li>Handy smartphone</li>\n</ul>"
   }
 }

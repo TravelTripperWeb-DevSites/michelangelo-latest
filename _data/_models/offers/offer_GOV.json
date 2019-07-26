@@ -1,12 +1,18 @@
 {
   "name_localized": {
-    "en": "Government &amp; Military Rate"
+    "en": "Government &amp; Military Rate",
+    "fr": "Government &amp; Military Rate",
+    "it": "Government &amp; Military Rate"
   },
   "short_description_localized": {
-    "en": "U.S. government employees, active servicemen and servicewomen, and veterans save 10% off our Best Available Rate. Must present valid government ID at time of check-in. This rate plan is fully flexible."
+    "en": "U.S. government employees, active servicemen and servicewomen, and veterans save 10% off our Best Available Rate. Must present valid government ID at time of check-in. This rate plan is fully flexible.",
+    "fr": "Les membres du AAA ont une réduction sur nos meilleurs tarifs disponibles. Il faut présenter une carte d'adhésion AAA valide au moment de l'enregistrement. Ce tarif spécial n'est pas cumulable avec une autre réduction ou offre.",
+    "it": "I soci AAA hanno diritto al 10% di sconto sulla nostra migliore tariffa disponibile. È necessario presentare una carta AAA valida al momento del check-in. La promozione potrebbe non essere cumulabile con altri sconti o altre offerte."
   },
   "description_localized": {
-    "en": null
+    "en": null,
+    "fr": null,
+    "it": null
   },
   "image": {
     "name": "Government--amp--Military-Rate-Executive-King-Room",
@@ -28,7 +34,8 @@
     "caption": "Executive King Room",
     "description": "This photo showcases our 450 square foot room, featuring one King size bed against the side wall with two night stands on each side. Across from the bed there is an armoire with dresser drawers and a 43 inch flat screen TV. Next to the armoire you will find a fully stocked mini bar, including wine, bottled beverages and assorted snacks available for purchase. Located near the window there is a comfortable armchair with an additional side table next to it.  The room also features a full size work desk, an Italian marble bathroom with a 55 gallon soaking tub and a vanity.",
     "alt": "Executive King Room",
-    "original_url": "https://d31f902anbz5po.cloudfront.net/966/47874_5_master.jpg"
+    "original_url": "https://d31f902anbz5po.cloudfront.net/966/47874_5_master.jpg",
+    "git_file_name": "_assets/image_data/Government--amp--Military-Rate-Executive-King-Room.json"
   },
   "reztrip_offer_id": "GOV"
 }

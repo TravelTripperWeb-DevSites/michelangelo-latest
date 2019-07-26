@@ -1,28 +1,33 @@
 ---
 layout: home
 title_localized:
-  en: Home
-meta_description:
+  en: Hotel in Manhattan | The Michelangelo Hotel, Italian-Inspired
+  fr: Hotel à Manhattan | L'hôtel Michelangelo, inspiré du style italien
+  it: Hotel situato in Manhattan ! The Michelangelo Hotel delicatamente ispirato al raffinato stile Italiano
+meta_description_localized:
+  en: Look no further for a hotel in Manhattan that ticks off all the marks. Experience The Michelangelo’s prime Times Square location, coupled with Italian flair.
+  fr: Convenientemente situato al Centro di Manhattan, l'Hotel e' perfetto per ogni occasione. Il Michelangelo unisce la convenienza della sua posizione, vicinissmo alla famosa Time Square, con la rinomata eleganza Italiana.
+  it: Plus besoin de chercher, l'hôtel Michelangelo correspond  à tous vos critères recherchés et répond  à vos attentes. Vivez l'experience Michelangelo, au coeur de Times Square, allié au savoir-faire Italien.
 permalink:
 meta_tags:
   robots:
 ---
 
-<div class="video-container mt-48">
+<div class="video-container mt-48" aria-label="The Michelangelo New York Walk Through" tabindex="0">
   <div class="video-wrap">
-    <iframe id="hotel-video" width="100%" height="599px" src="https://player.vimeo.com/video/272169546?title=0&amp;portrait=0&amp;byline=0&amp;badge=0" title="The Michelangelo New York Video" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+    <iframe id="hotel-video" width="100%" height="599px" src="https://player.vimeo.com/video/272169546?title=0&amp;portrait=0&amp;byline=0&amp;badge=0" title="The Michelangelo New York Walk Through" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
   </div>
 </div>
 
 <section class="specialoffers mt-48">
   <div class="specialoffers__wrap">
     <div class="specialoffers__intro">
-      <h4 class="overline" tabindex="0">Get a great deal at our Manhattan hotel</h4>
-      <h3 class="h3" tabindex="0">Special Offers</h3>
+      <h4 class="overline" tabindex="0">{% t 'offers.cross_sell.description' %}</h4>
+      <h3 class="h3" tabindex="0">{% t 'offers.cross_sell.title' %}</h3>
     </div>
     <div class="specialoffers__row">
-      {% assign offers = site.data._models.offers | sort: 'order' | limit: 3 %}
-      {% for offer in offers %}
+      {% assign offers = site.data._models.offers | sort: 'order' %}
+      {% for offer in offers limit: 3 %}
       <div class="specialoffers__item">
         <a href="{{ offer.id | permalink: model_dir: 'offers' }}">
           {% assign featured_image = offer.image | default: offer.image %}
@@ -30,7 +35,7 @@ meta_tags:
         </a>
         <h3 class="h4"><a href="{{ offer.id | permalink: model_dir: 'offers' }}">{{ offer.name }}</a></h3>
         <p tabindex="0">{{ offer.short_description }}</p>
-        <a class="btn btn--primary" href="{{ offer.id | permalink: model_dir: 'offers' }}">View More</a>
+        <a class="btn btn--primary" href="{{ offer.id | permalink: model_dir: 'offers' }}">{% t 'cta.view_more' %}</a>
       </div>
       {% endfor %}
     </div>
