@@ -152,6 +152,7 @@
       font-size: $display7-size;
       font-weight: $display3-weight;
       color: $primary;
+      text-transform: uppercase;
       letter-spacing: normal;
 
       @include media-breakpoint-up(md) {

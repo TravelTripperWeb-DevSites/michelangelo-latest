@@ -16,7 +16,7 @@
       ]
     },
     "col2_html": {
-      "content": "<h4 class=\"overline mb-3\" tabindex=\"0\">The Michelangelo is perfectly located</h4>\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Iconic New York City Vacation Destination</h3>\n<div class=\"seperator\">&nbsp;</div>\n<p tabindex=\"0\">The Michelangelo hotel is in the heart of Manhattan, on the corner of 51st Street and 7th Avenue in the Midtown District, surrounded by New York&rsquo;s top attractions. The Rockefeller Center and the famous 5th Avenue, the ultimate exclusive shopping destination, are close by. Central Park is within easy reach and just a block away there is the glitter of Times Square and Broadway, with its famous theatres and shows.</p>\n<p><a class=\"btn btn--primary\" href=\"#\">Explore</a></p>",
+      "content": "<h4 class=\"overline mb-3\" tabindex=\"0\">The Michelangelo is perfectly located</h4>\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Iconic New York City Vacation Destination</h3>\n<div class=\"seperator\">&nbsp;</div>\n<p tabindex=\"0\">The Michelangelo hotel is in the heart of Manhattan, on the corner of 51st Street and 7th Avenue in the Midtown District, surrounded by New York&rsquo;s top attractions. The Rockefeller Center and the famous 5th Avenue, the ultimate exclusive shopping destination, are close by. Central Park is within easy reach and just a block away there is the glitter of Times Square and Broadway, with its famous theatres and shows.</p>",
       "custom_classes": [
         "inner: w-100 d-flex flex-column h-100 justify-content-center align-items-start"
       ]

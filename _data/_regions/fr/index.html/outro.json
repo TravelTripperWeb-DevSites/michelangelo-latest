@@ -16,7 +16,7 @@
       ]
     },
     "col2_html": {
-      "content": "<h4 class=\"overline mb-3\" tabindex=\"0\">Le Michelangelo à un emplacement idéal</h4>\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Destination de vacances incontournable</h3>\n<div class=\"seperator\">&nbsp;</div>\n<p tabindex=\"0\">L'hôtel Michelangelo est situé au cœur de Manhattan, à l'angle de la 51ème rue et de la 7ème avenue dans le quartier de Midtown proche des principaux sites touristiques. Le Rockefeller Center et la fameuse 5ème avenue, rue incontournable pour une séance shopping, sont à seulement quelques pas. Central Park se trouve à moins de 10 min à pieds, et de l'autre cote de la rue vous trouverez Times Square et Broadway, rendus célèbre pour leurs théâtres et spectacles.</p>\n<p><a class=\"btn btn--primary\" href=\"contact/\">Explore</a></p>",
+      "content": "<h4 class=\"overline mb-3\" tabindex=\"0\">Le Michelangelo à un emplacement idéal</h4>\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Destination de vacances incontournable</h3>\n<div class=\"seperator\">&nbsp;</div>\n<p tabindex=\"0\">L'hôtel Michelangelo est situé au cœur de Manhattan, à l'angle de la 51ème rue et de la 7ème avenue dans le quartier de Midtown proche des principaux sites touristiques. Le Rockefeller Center et la fameuse 5ème avenue, rue incontournable pour une séance shopping, sont à seulement quelques pas. Central Park se trouve à moins de 10 min à pieds, et de l'autre cote de la rue vous trouverez Times Square et Broadway, rendus célèbre pour leurs théâtres et spectacles.</p>",
       "custom_classes": [
         "inner: w-100 d-flex flex-column h-100 justify-content-center align-items-start"
       ]

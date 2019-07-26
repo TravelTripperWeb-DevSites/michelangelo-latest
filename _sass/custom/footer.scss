@@ -236,6 +236,7 @@ footer {
 }
 
 .social {
+  padding: 0 15px;
 
   ul {
     width: 300px;
@@ -259,5 +260,19 @@ footer {
         opacity: .6;
       }
     }
+  }
+}
+
+.credits {
+  max-width: 230px;
+  margin: 20px auto 0;
+  text-align: center;
+
+  @include media-breakpoint-up(md) {
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
   }
 }
