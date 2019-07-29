@@ -3,6 +3,9 @@
     "_template": "2_col"
   },
   {
-    "_template": "1_col"
+    "_template": "1_col",
+    "html": {
+      "content": "<p class=\"h4\" style=\"text-align: center;\">We will get back to you soon.</p>"
+    }
   }
 ]
