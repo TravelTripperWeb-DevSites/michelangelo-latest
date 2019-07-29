@@ -34,7 +34,8 @@
     "caption": "Pizza Dough Picture",
     "description": "This Picture shows the fresh Pizza dough.",
     "alt": "Pizza Dough Picture",
-    "original_url": "https://d31f902anbz5po.cloudfront.net/966/80494_2_master.jpg"
+    "original_url": "https://d31f902anbz5po.cloudfront.net/966/80494_2_master.jpg",
+    "git_file_name": "_assets/image_data/The-Michelangelo-Pizza-Academy--Pizza-Dough-Picture.json"
   },
   "reztrip_offer_id": "PIZACA"
 }

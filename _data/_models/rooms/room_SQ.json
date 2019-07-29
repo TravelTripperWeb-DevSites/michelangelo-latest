@@ -1,12 +1,18 @@
 {
   "name_localized": {
-    "en": "Superior Room"
+    "en": "Superior Room",
+    "fr": "Superior Room",
+    "it": "Superior Room"
   },
   "short_description_localized": {
-    "en": ""
+    "en": "",
+    "fr": "",
+    "it": ""
   },
   "description_localized": {
-    "en": ""
+    "en": "",
+    "fr": "",
+    "it": ""
   },
   "amenities": [
     "room_amenities22",
@@ -37,7 +43,8 @@
       "caption": "",
       "description": "This photo showcases our 325 square foot room, featuring one Queen size bed against the side wall with two night stands on each side. Across from the bed there is an armoire with dresser drawers and a 43 inch flat screen TV. Next to the armoire you will find a fully stocked mini bar, including wine, bottled beverages and assorted snacks available for purchase. Located near the window there is a comfortable armchair with an additional side table next to it.  The room also features a full size work desk, an Italian marble bathroom with a 55 gallon soaking tub and a vanity.",
       "alt": "This photo showcases our 325 square foot room, featuring one Queen size bed against the side wall with two night stands on each side. Across from the bed there is an armoire with dresser drawers and a 43 inch flat screen TV. Next to the armoire you will find a fully stocked mini bar, including wine, bottled beverages and assorted snacks available for purchase. Located near the window there is a comfortable armchair with an additional side table next to it.  The room also features a full size work desk, an Italian marble bathroom with a 55 gallon soaking tub and a vanity.",
-      "original_url": "https://d31f902anbz5po.cloudfront.net/966/45682_1_master.jpg"
+      "original_url": "https://d31f902anbz5po.cloudfront.net/966/45682_1_master.jpg",
+      "git_file_name": "_assets/image_data/Superior-Room-.json"
     }
   ],
   "reztrip_room_id": "SQ",

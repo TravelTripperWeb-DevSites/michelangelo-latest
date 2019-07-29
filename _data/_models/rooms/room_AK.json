@@ -1,12 +1,18 @@
 {
   "name_localized": {
-    "en": "Accessible Room 2 Queen Beds - Roll-In Shower"
+    "en": "Accessible Room 2 Queen Beds - Roll-In Shower",
+    "fr": "Accessible Room 2 Queen Beds - Roll-In Shower",
+    "it": "Accessible Room 2 Queen Beds - Roll-In Shower"
   },
   "short_description_localized": {
-    "en": "Studio Double Double Room - ADA Compliant - 495 sq. ft. - Marble Bath - Roll-In shower - Work area includes large desk - View"
+    "en": "Our Accessible Studio room with two queen size beds is thoughtfully designed to create a spacious, 46-square-meter/495-square-foot sanctuary for your vacation in New York.",
+    "fr": "Our Accessible Studio room with two queen size beds is thoughtfully designed to create a spacious, 46-square-meter/495-square-foot sanctuary for your vacation in New York.",
+    "it": "Our Accessible Studio room with two queen size beds is thoughtfully designed to create a spacious, 46-square-meter/495-square-foot sanctuary for your vacation in New York."
   },
   "description_localized": {
-    "en": "Chic Italian style unlike other hotels in Manhattan, our Accessible Studio room with two queen size beds are thoughtfully designed to create a spacious sanctuary for your vacation in New York. There’s are two queen size beds, comfortable armchairs and an Italian marble bathroom with roll in shower, grab bars, with all ADA code requirements. The room is complemented by Empire-style cherry wood furniture and elegant furnishings. Studio Room are located on floor 3 and 4."
+    "en": "Our Accessible Studio room with two queen size beds is thoughtfully designed to create a spacious 46-square-meter/495-square-foot sanctuary for your vacation in New York. There are two queen size beds, comfortable armchairs and an Italian marble bathroom with roll in shower and grab bars, meeting all ADA code requirements. The room is complemented by Empire-style cherry wood furniture and elegant furnishings.",
+    "fr": "Our Accessible Studio room with two queen size beds is thoughtfully designed to create a spacious 46-square-meter/495-square-foot sanctuary for your vacation in New York. There are two queen size beds, comfortable armchairs and an Italian marble bathroom with roll in shower and grab bars, meeting all ADA code requirements. The room is complemented by Empire-style cherry wood furniture and elegant furnishings.",
+    "it": "Our Accessible Studio room with two queen size beds is thoughtfully designed to create a spacious 46-square-meter/495-square-foot sanctuary for your vacation in New York. There are two queen size beds, comfortable armchairs and an Italian marble bathroom with roll in shower and grab bars, meeting all ADA code requirements. The room is complemented by Empire-style cherry wood furniture and elegant furnishings."
   },
   "amenities": [
     "room_amenities10",
@@ -38,7 +44,8 @@
       "caption": "",
       "description": "This photo showcases our 495 square foot room, featuring two Queen size beds against the side wall separated by an elegant table with a table lamp, phone and alarm clock. A sitting bench is also situated at the foot of the bed.  Located near the window there are two comfortable armchair with an additional side table and standing lamp. The room also features an armoire, 37 inch flat screen TV and a full stocked mini bar.  The bathroom is made with Italian marble and features a roll in shower.",
       "alt": "This photo showcases our 495 square foot room, featuring two Queen size beds against the side wall separated by an elegant table with a table lamp, phone and alarm clock. A sitting bench is also situated at the foot of the bed.  Located near the window there are two comfortable armchair with an additional side table and standing lamp. The room also features an armoire, 37 inch flat screen TV and a full stocked mini bar.  The bathroom is made with Italian marble and features a roll in shower.",
-      "original_url": "https://d31f902anbz5po.cloudfront.net/966/43643_4_master.jpg"
+      "original_url": "https://d31f902anbz5po.cloudfront.net/966/43643_4_master.jpg",
+      "git_file_name": "_assets/image_data/Accessible-Room-2-Queen-Beds---Roll-In-Shower-.json"
     }
   ],
   "reztrip_room_id": "AK",
