@@ -5,7 +5,11 @@
   {
     "_template": "1_col",
     "html": {
-      "content": "<p class=\"h4 my-3 my-md-5\" style=\"text-align: center;\">We will get back to you soon.</p>"
+      "content": "<p class=\"h4 my-3 my-md-5\" style=\"text-align: center;\">We will get back to you soon.</p>",
+      "custom_classes": [
+        "inner: p-4",
+        "inner: w-100 d-flex flex-column h-100 justify-content-center"
+      ]
     }
   }
 ]
