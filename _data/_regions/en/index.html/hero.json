@@ -35,7 +35,7 @@
     "skip_h1": true,
     "_template": "hero",
     "hero_html": {
-      "content": "<h1 class=\"h1 light\" tabindex=\"0\">Italian Flair and Cosmopolitan Appeal</h1>\n<h1 class=\"h1 light\" tabindex=\"0\">in Times Square</h1>"
+      "content": "<h1 class=\"h1 light\" tabindex=\"0\">Italian Flair and Cosmopolitan Appeal in Times Square</h1>"
     }
   }
 ]
