@@ -16,7 +16,7 @@
       ]
     },
     "col2_html": {
-      "content": "<h4 class=\"overline mb-3\" tabindex=\"0\">The Michelangelo e' convenientemente situato</h4>\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Perfetta destinazione per la tua vacanza a New York</h3>\n<div class=\"seperator\">&nbsp;</div>\n<p tabindex=\"0\">The Michelangelo Hotel e' nel cuore di Manhattan, all'intersezione della 51 Strada e la 7th Avenue nel Midtown District, circondato da tutte le migliori attrazioni di New York. The Rockefeller Center e la famosissima 5th Avenue, la tua destinazione per fare shopping. Central Park e' solo a pochi isolati di distanza ed a pochi passi potete immergervi nelle fantastiche luci di Time Square e Broadway con i suoi splendidi Teatri e Shows.</p>",
+      "content": "<h2 class=\"overline mb-3\" tabindex=\"0\">The Michelangelo e' convenientemente situato</h2>\n<h3 class=\"h3 mb-3\" tabindex=\"0\">Perfetta destinazione per la tua vacanza a New York</h3>\n<div class=\"seperator\">&nbsp;</div>\n<p tabindex=\"0\">The Michelangelo Hotel e' nel cuore di Manhattan, all'intersezione della 51 Strada e la 7th Avenue nel Midtown District, circondato da tutte le migliori attrazioni di New York. The Rockefeller Center e la famosissima 5th Avenue, la tua destinazione per fare shopping. Central Park e' solo a pochi isolati di distanza ed a pochi passi potete immergervi nelle fantastiche luci di Time Square e Broadway con i suoi splendidi Teatri e Shows.</p>",
       "custom_classes": [
         "inner: w-100 d-flex flex-column h-100 justify-content-center align-items-start"
       ]

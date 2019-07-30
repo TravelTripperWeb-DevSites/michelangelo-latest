@@ -22,7 +22,7 @@
   </div>
   <div class="c-room__text-group">
     <div class="c-room__name" tabindex="0">
-      <a class="h3" href="/rooms/room_{{ room.reztrip_room_id | downcase }}/" {% if sync %}ttweb-room-component="RoomName"{% endif %} >{{ room.name }}</a>
+      <h3><a class="h3" href="/rooms/room_{{ room.reztrip_room_id | downcase }}/" {% if sync %}ttweb-room-component="RoomName"{% endif %} >{{ room.name }}</a></h3>
     </div>
     <div class="c-room__info">
       <div class="c-room__info__size" tabindex="0" aria-label="Room Size in Square Feet {{ room.size | replace:'ft<sup>2</sup>', ''  }}">
