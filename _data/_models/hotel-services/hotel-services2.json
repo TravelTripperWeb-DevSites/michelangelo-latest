@@ -2,11 +2,13 @@
   "order": 2,
   "title_localized": {
     "en": "Ticket To The Town",
-    "it": "Biglietto per la città"
+    "it": "Biglietto per la città",
+    "fr": "Billet pour la ville"
   },
   "description_localized": {
     "en": "<p>Take advantage of our exclusive Ticket to the Town and explore a number of local restaurants, clubs and attractions, all with special discounts and perks. This ticket is included in your Residence Fee, allowing you to experience the best of the area during your stay.</p>",
-    "it": "<p>Approfitta del nostro esclusivo biglietto per la citt&agrave; ed esplora numerosi ristoranti, club e attrazioni locali, tutti con sconti e vantaggi speciali. Questo biglietto &egrave; incluso nel prezzo del soggiorno e ti consente di provare il meglio della zona durante il tuo soggiorno.</p>"
+    "it": "<p>Approfitta del nostro esclusivo biglietto per la citt&agrave; ed esplora numerosi ristoranti, club e attrazioni locali, tutti con sconti e vantaggi speciali. Questo biglietto &egrave; incluso nel prezzo del soggiorno e ti consente di provare il meglio della zona durante il tuo soggiorno.</p>",
+    "fr": "<p>Profitez de notre billet exclusif pour la ville et explorez de nombreux restaurants, clubs et attractions locaux, le tout avec des r&eacute;ductions et des avantages sp&eacute;ciaux. Ce billet est inclus dans vos frais de r&eacute;sidence, vous permettant de d&eacute;couvrir le meilleur de la r&eacute;gion pendant votre s&eacute;jour.</p>"
   },
   "images": [
     {
@@ -31,7 +33,7 @@
       "file_size": null,
       "alt": "B & H Photo Video Pro Audio",
       "caption": "",
-      "description": "Regalo gratuito con l'acquisto di almeno $ 50 - 420 9th Ave, New York, NY"
+      "description": "B & H Photo Video Pro Audio"
     },
     {
       "name": "daves-buster",
@@ -52,9 +54,9 @@
       "size": 5545,
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1563358467/szdgwlha1p7dvkmgx7q9.jpg",
       "file_size": null,
-      "alt": "Daves Buster",
+      "alt": "Dave & Buster's",
       "caption": "",
-      "description": "Sconto del 20% su F&B e Power Card - 234 w 42nd Street, 3rd Floor, New York, NY"
+      "description": "Dave & Buster's"
     },
     {
       "name": "Follow Me NYC Walking Tours",
@@ -77,7 +79,7 @@
       "file_size": null,
       "alt": "Follow Me NYC Walking Tours",
       "caption": "",
-      "description": " Sconto del 20% su Times Square Tour con Promo. Codice: Michelangelo"
+      "description": "Follow Me NYC Walking Tours"
     },
     {
       "name": "rc-steak-house",
@@ -100,7 +102,7 @@
       "file_size": null,
       "alt": "Ruth's Chris Steak House",
       "caption": "",
-      "description": " Dessert gratuito con acquisto di Entrée - 148 w 51st Street, New York, NY"
+      "description": "Ruth's Chris Steak House"
     },
     {
       "name": "lol",
@@ -123,7 +125,7 @@
       "file_size": null,
       "alt": "LOL Times Square Comedy Club",
       "caption": "",
-      "description": " Ingresso gratuito - 711 7th Avenue, New York, NY"
+      "description": "LOL Times Square Comedy Club"
     },
     {
       "name": "sugar-factory",
@@ -146,7 +148,7 @@
       "file_size": null,
       "alt": "Sugar Factory",
       "caption": "",
-      "description": "Acquista un contenitore per caramelle Acquista uno gratis - 700 8th Avenue, New York, NY"
+      "description": "Sugar Factory"
     }
   ]
 }
