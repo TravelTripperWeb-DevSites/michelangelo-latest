@@ -1,10 +1,12 @@
 {
   "order": 2,
   "title_localized": {
-    "en": "Ticket To The Town"
+    "en": "Ticket To The Town",
+    "it": "Biglietto per la città"
   },
   "description_localized": {
-    "en": "<p>Take advantage of our exclusive Ticket to the Town and explore a number of local restaurants, clubs and attractions, all with special discounts and perks. This ticket is included in your Residence Fee, allowing you to experience the best of the area during your stay.</p>"
+    "en": "<p>Take advantage of our exclusive Ticket to the Town and explore a number of local restaurants, clubs and attractions, all with special discounts and perks. This ticket is included in your Residence Fee, allowing you to experience the best of the area during your stay.</p>",
+    "it": "<p>Approfitta del nostro esclusivo biglietto per la citt&agrave; ed esplora numerosi ristoranti, club e attrazioni locali, tutti con sconti e vantaggi speciali. Questo biglietto &egrave; incluso nel prezzo del soggiorno e ti consente di provare il meglio della zona durante il tuo soggiorno.</p>"
   },
   "images": [
     {
@@ -29,7 +31,7 @@
       "file_size": null,
       "alt": "B & H Photo Video Pro Audio",
       "caption": "",
-      "description": "Free Gift w/ Purchase $50 or More - 420 9th Ave, New York, NY"
+      "description": "Regalo gratuito con l'acquisto di almeno $ 50 - 420 9th Ave, New York, NY"
     },
     {
       "name": "daves-buster",
@@ -52,7 +54,7 @@
       "file_size": null,
       "alt": "Daves Buster",
       "caption": "",
-      "description": "20% Discount of F&B and Power Cards - 234 w 42nd Street, 3rd Floor, New York, NY"
+      "description": "Sconto del 20% su F&B e Power Card - 234 w 42nd Street, 3rd Floor, New York, NY"
     },
     {
       "name": "Follow Me NYC Walking Tours",
@@ -75,7 +77,7 @@
       "file_size": null,
       "alt": "Follow Me NYC Walking Tours",
       "caption": "",
-      "description": "20% off Times Square Tour w/ Promo. Code: Michelangelo"
+      "description": " Sconto del 20% su Times Square Tour con Promo. Codice: Michelangelo"
     },
     {
       "name": "rc-steak-house",
@@ -98,7 +100,7 @@
       "file_size": null,
       "alt": "Ruth's Chris Steak House",
       "caption": "",
-      "description": "Free Dessert w/ Purchase of Entrée - 148 w 51st Street, New York, NY"
+      "description": " Dessert gratuito con acquisto di Entrée - 148 w 51st Street, New York, NY"
     },
     {
       "name": "lol",
@@ -121,7 +123,7 @@
       "file_size": null,
       "alt": "LOL Times Square Comedy Club",
       "caption": "",
-      "description": "Free Admission - 711 7th Avenue, New York, NY"
+      "description": " Ingresso gratuito - 711 7th Avenue, New York, NY"
     },
     {
       "name": "sugar-factory",
@@ -144,7 +146,7 @@
       "file_size": null,
       "alt": "Sugar Factory",
       "caption": "",
-      "description": "Buy One Candy Container Get One Free  - 700 8th Avenue, New York, NY"
+      "description": "Acquista un contenitore per caramelle Acquista uno gratis - 700 8th Avenue, New York, NY"
     }
   ]
 }
