@@ -7,10 +7,10 @@
     },
     "layout": "7_5",
     "col1_html": {
-      "content": "<h1 class=\"h1\" tabindex=\"0\">Explore Our New York Vacation Packages</h1>"
+      "content": "<h1 class=\"h1\" tabindex=\"0\">Explorez Nos Forfaits Vacances &agrave; New York</h1>"
     },
     "col2_html": {
-      "content": "<h2 class=\"h2\" tabindex=\"0\">Special Offers</h2>\n<div class=\"morecontent\" tabindex=\"0\">\n<p>Profitez de nos offres fantastiques pour un s&eacute;jour agr&eacute;able au coeur de la Big Apple.</p>\n</div>\n<p><a class=\"btn btn--readmore readmore-btn d-block d-md-none\">Read More <span class=\"far fa-plus\"></span></a></p>"
+      "content": "<h2 class=\"h2\" tabindex=\"0\">Offres sp&eacute;ciales</h2>\n<div class=\"morecontent\" tabindex=\"0\">\n<p>Au Michelangelo, vous ferez l'exp&eacute;rience de notre service attentionn&eacute; avant m&ecirc;me de r&eacute;server. Parcourez nos forfaits de vacances et offres sp&eacute;ciales &agrave; New York, soigneusement con&ccedil;us, pour trouver une offre sp&eacute;ciale d'h&ocirc;tel &agrave; Manhattan pour chaque type de voyageur, ainsi que tous les objectifs de vacances.</p>\n</div>\n<p><a class=\"btn btn--readmore readmore-btn d-block d-md-none\">Read More <span class=\"far fa-plus\"></span></a></p>"
     },
     "style": ""
   }

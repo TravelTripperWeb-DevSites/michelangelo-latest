@@ -3,12 +3,12 @@
   "name_localized": {
     "en": "Corporate Events",
     "fr": "Événements d'entreprise",
-    "it": "Meeting"
+    "it": "Eventi aziendali"
   },
   "description_localized": {
     "en": "<p>As one of the best hotels in NYC, the Michelangelo&rsquo;s flexible event space can host events ranging from special dinners in one of the sumptuous private dining rooms, to confidential board meetings using all the latest technology.</p>",
-    "fr": "<p>As one of the best hotels in NYC, the Michelangelo&rsquo;s flexible event space can host events ranging from special dinners in one of the sumptuous private dining rooms, to confidential board meetings using all the latest technology.</p>",
-    "it": "<p>As one of the best hotels in NYC, the Michelangelo&rsquo;s flexible event space can host events ranging from special dinners in one of the sumptuous private dining rooms, to confidential board meetings using all the latest technology.</p>"
+    "fr": "<p>En tant que l&rsquo;un des meilleurs h&ocirc;tels de New York, l&rsquo;espace de r&eacute;union modulable de Michelangelo peut accueillir des &eacute;v&eacute;nements allant de d&icirc;ners sp&eacute;ciaux dans l&rsquo;une des somptueuses salles &agrave; manger priv&eacute;es, &agrave; des r&eacute;unions de conseil confidentielles utilisant les derni&egrave;res technologies.</p>",
+    "it": "<p>Essendo uno dei migliori hotel di New York, lo spazio flessibile per eventi del Michelangelo pu&ograve; ospitare eventi che vanno dalle cene speciali in una delle sontuose sale da pranzo private, alle riunioni riservate del consiglio di amministrazione utilizzando le ultime tecnologie.</p>"
   },
   "images": {
     "name": "hotel-services-meeting",

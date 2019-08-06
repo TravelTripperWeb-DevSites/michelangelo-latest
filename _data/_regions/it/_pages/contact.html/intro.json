@@ -2,7 +2,7 @@
   {
     "_template": "2_col",
     "col1_html": {
-      "content": "<h1 class=\"h1 text-center text-md-left mb-3 mb-md-0\" tabindex=\"0\" >Contact the Michelangelo Hotel<br /> New York</h1>"
+      "content": "<h1 class=\"h1 text-center text-md-left mb-3 mb-md-0\" tabindex=\"0\">Contatta l'Hotel Michelangelo</h1>\n<h1 class=\"h1 text-center text-md-left mb-3 mb-md-0\" tabindex=\"0\">New York</h1>"
     },
     "advanced_options": {
       "custom_classes": "twocol-content",
@@ -13,7 +13,7 @@
     "col2_type": "html",
     "container_classes": "container-fluid",
     "col2_html": {
-      "content": "<h2 class=\"h2  text-center text-md-left mb-3 \" tabindex=\"0\">Contact Us</h2>\n<hr />\n<div class=\" text-center text-md-left\" tabindex=\"0\">\n<p>We&rsquo;re standing by to answer all your questions and provide you with more information on our accommodations, <a href=\"/it/services/\">services</a>, dining, location and much more. Contact us today!</p>\n<p>You can find detailed information about accessibility in our <a href=\"../accessibility-statement/\">Accessibility Statement</a>.</p>\n</div>"
+      "content": "<h2 class=\"h2  text-center text-md-left mb-3 \" tabindex=\"0\">Contattaci</h2>\n<hr />\n<div class=\" text-center text-md-left\" tabindex=\"0\">\n<p>Siamo pronti a rispondere a tutte le tue domande e a fornirti ulteriori informazioni su alloggi, servizi, ristorazione, posizione e molto altro. Contattaci oggi!</p>\n<p>Puoi trovare informazioni dettagliate sull'accessibilit&agrave; nella nostra <a href=\"../accessibility-statement/\">Dichiarazione sull'accessibilit&agrave;</a>.</p>\n</div>"
     }
   }
 ]

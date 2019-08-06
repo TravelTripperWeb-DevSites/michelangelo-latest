@@ -8,10 +8,10 @@
     "container_classes": "container-fluid",
     "include_gap": false,
     "col1_html": {
-      "content": "<h1 class=\"h1\" tabindex=\"0\">Accessibility Statement</h1>"
+      "content": "<h1 class=\"h1\" tabindex=\"0\">D&eacute;claration D'Accessibilit&eacute;</h1>\n<p>&nbsp;</p>"
     },
     "col2_html": {
-      "content": "<div tabindex=\"0\">\n<p>The Michelangelo New York (sometimes hereinafter referred to as &ldquo;Hotel&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) is dedicated to providing exceptional service to guests of all abilities. We strive to provide online content that provides an excellent user experience for visitors of all abilities, using any type of assistive technology to access the website.</p>\n<p>We base our website accessibility standards on the Web Content Accessibility Guidelines 2.1, level A + AA success criteria. In addition, we actively work to maintain, assess and improve the usability and accessibility of our website through training of our personnel, engagement of experts and regular testing of our digital accessibility.</p>\n</div>"
+      "content": "<div tabindex=\"0\">Le Michelangelo New York (parfois appel&eacute; ci-apr&egrave;s &laquo;h&ocirc;tel&raquo;, &laquo;nous&raquo;, &laquo;notre&raquo; ou &laquo;notre&raquo;) se consacre &agrave; fournir un service exceptionnel aux clients de tous niveaux. Nous nous effor&ccedil;ons de fournir un contenu en ligne qui offre une excellente exp&eacute;rience utilisateur aux visiteurs de toutes capacit&eacute;s, en utilisant tout type de technologie d'assistance pour acc&eacute;der au site Web.</div>\n<div tabindex=\"0\">&nbsp;</div>\n<div tabindex=\"0\">Nous fondons les normes d&rsquo;accessibilit&eacute; de nos sites Web sur les crit&egrave;res de r&eacute;ussite des Directives d&rsquo;accessibilit&eacute; des contenus Web 2.1, niveaux A + AA. De plus, nous travaillons activement &agrave; maintenir, &eacute;valuer et am&eacute;liorer la convivialit&eacute; et l'accessibilit&eacute; de notre site Web gr&acirc;ce &agrave; la formation de notre personnel, &agrave; l'engagement d'experts et &agrave; des tests r&eacute;guliers de notre accessibilit&eacute; num&eacute;rique.</div>\n<div tabindex=\"0\">&nbsp;</div>"
     }
   }
 ]
