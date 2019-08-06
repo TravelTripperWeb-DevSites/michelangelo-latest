@@ -2,7 +2,7 @@
   {
     "_template": "2_col",
     "col1_html": {
-      "content": "<h1 class=\"h1 text-center text-md-left mb-3 mb-md-0\" tabindex=\"0\" >Contact the Michelangelo Hotel<br /> New York</h1>"
+      "content": "<h1 class=\"h1 text-center text-md-left mb-3 mb-md-0\" tabindex=\"0\">Contatta l'Hotel Michelangelo</h1>\n<h1 class=\"h1 text-center text-md-left mb-3 mb-md-0\" tabindex=\"0\">New York</h1>"
     },
     "advanced_options": {
       "custom_classes": "twocol-content",
