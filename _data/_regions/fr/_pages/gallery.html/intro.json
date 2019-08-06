@@ -2,10 +2,10 @@
   {
     "_template": "2_col",
     "col1_html": {
-      "content": "<h1 class=\"h1 text-center text-md-left mb-3 mb-md-0\" tabindex=\"0\">Take a Look at our Luxury Hotel in NYC</h1>"
+      "content": "<h1 class=\"h1 text-center text-md-left mb-3 mb-md-0\" tabindex=\"0\">Jetez Un Coup d'&oelig;il &agrave; Notre H&ocirc;tel de Luxe &agrave; New York</h1>"
     },
     "col2_html": {
-      "content": "<h2 class=\"h2 mb-3 text-center text-md-left\" tabindex=\"0\">The Michelangelo is Uniquely Opulent</h2>\n<hr />\n<div tabindex=\"0\" class=\"text-center text-md-left\"><p>Nothing quite compares to the <a href=\"/fr/dining/\">Italian essence</a> of our iconic luxury hotel in Manhattan. Experience the city like never before, with <a href=\"/fr/rooms/\">spacious accommodations</a> and inviting hospitality. These images are just a taste of what&rsquo;s to come during your stay.</p></div>"
+      "content": "<h2 class=\"h2 mb-3 text-center text-md-left\" tabindex=\"0\">Le Michelangelo Est Unique et Opulent</h2>\n<hr />\n<div class=\"text-center text-md-left\" tabindex=\"0\">\n<p>Rien de comparable &agrave; l'essence italienne de notre h&ocirc;tel de luxe embl&eacute;matique de Manhattan. D&eacute;couvrez la ville comme jamais auparavant, avec des logements spacieux et une hospitalit&eacute; invitante. Ces images ne sont qu&rsquo;un avant-go&ucirc;t de ce qui vous attend pendant votre s&eacute;jour.</p>\n</div>"
     },
     "advanced_options": {
       "tabindex": "-1",
