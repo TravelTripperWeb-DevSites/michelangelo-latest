@@ -10,7 +10,7 @@
       "content": "<h1 class=\"h1\" tabindex=\"0\">Explore Our New York Vacation Packages</h1>"
     },
     "col2_html": {
-      "content": "<h2 class=\"h2\" tabindex=\"0\">Offerte Speciali</h2>\n<div class=\"morecontent\" tabindex=\"0\">\n<p>Approfittate delle fantastiche offerte per un piacevole soggiorno nel cuore della Grande Mela.</p>\n</div>\n<p><a class=\"btn btn--readmore readmore-btn d-block d-md-none\">Read More <span class=\"far fa-plus\"></span></a></p>"
+      "content": "<h2 class=\"h2\" tabindex=\"0\">Offerte Speciali</h2>\n<div class=\"morecontent\" tabindex=\"0\">\n<p>Al Michelangelo, sperimenterai il nostro servizio premuroso ancor prima di prenotare. Sfoglia i nostri pacchetti vacanza e gli speciali di New York attentamente progettati per trovare un hotel creativo a Manhattan per ogni tipo di viaggiatore e tutti gli obiettivi di vacanza.</p>\n</div>\n<p><a class=\"btn btn--readmore readmore-btn d-block d-md-none\">Read More <span class=\"far fa-plus\"></span></a></p>"
     },
     "style": ""
   }
