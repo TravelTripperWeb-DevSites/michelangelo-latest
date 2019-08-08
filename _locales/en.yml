@@ -1,0 +1,132 @@
+---
+en:
+  language_name: EN
+  language_fullname: English
+  attractions:
+    categories:
+      all: All
+    buttons:
+      get_directions: Get Directions
+  instagram:
+    tag_link: "@%{handle}"
+    profile_link: Our Instagram
+  book_now: Book Now
+  search: Search
+  find_rooms: Find Rooms
+  cta:
+    learn_more: Learn More
+    read_more: Read More
+    book_now: Book Now
+    discover: Discover
+    discover_more: Discover More
+    explore: Explore
+    select: Select
+    view_more: View More
+  page_not_found:
+    header: Page Not Found
+
+  header:
+    book_now_button: Book Now
+    language: Language
+    language_name: English
+  brg:
+    label: Best Rate Guarantee
+    tonights_rate: Tonight's Rate
+  dining:
+    none: Dining options coming soon!
+    buttons:
+      make_a_reservation: Make a Reservation
+      view_menu: View Menu
+      view_all: View All Dining Options
+  events:
+    none: No Events Yet!
+  offers:
+    none: No Offers Available.
+    rate_pre_label: "avg. "
+    rate_post_label: " / night"
+    not_available: ""
+    offer_details: Offer Details
+    cross_sell:
+      title: Special offers
+      description: Get a great deal at our Manhattan hotel
+      link: View All Offers
+    buttons:
+      book: Book Now
+      view_all: View All Special Offers
+  posts:
+    none: No Blog Posts Yet!
+  rooms:
+    max_guests: Max Guests
+    guest_size_max: "%{size}"
+    accessible: Accessible Rooms
+    price_per_night: / Night
+    room_size: SQM/SQF
+    room_details: Room Details
+    room_features: Room Features
+    complimentary_amenities: Complimentary Amenities
+    amenities_available: Amenities Available
+    buttons:
+      book: Book Room
+  galleries:
+    filters:
+      all: All
+  carousels:
+    next: "Next"
+    previous:  "Prev"
+  join_our_newsletter:  Join Our Newsletter
+  newsletter_signup_intro: Share your experiences at Star Hotels Collezione
+  additional_links: Additional Links
+  your_reservartion: Your Reservation
+  arrival: Arrival
+  departure: Departure
+  adults: Adults
+  children: Children
+  check_availability: Check Availability
+  event_details: Event Details
+  rooms_heading: Rooms
+  contact_details: Contact Details
+  hotel_amenities: Hotel Amenities
+  primary_phone: Primary Phone
+  alternate_phone: Alternate Phone
+  forms:
+    first_name: First Name
+    last_name: Last Name
+    phone_number: Phone Number
+    email: Email Address
+    comments: Comments
+    your_email: Your Email
+    place_comments_here: Place comments here...
+    submit: Submit
+    signup: Sign Up
+    meeting_room_capacity: Meeting Room Capacity
+    meeting_room_setup: Meeting Room Setup
+    theatre: Theatre
+    classroom: Class Room
+    ushape: U-Shape
+    cabaret_style: Cabaret Style
+    cocktail: Cocktail
+    banquet: Banquet
+    tell_us_about_your_event: Tell Us About Your Event
+    event_start_date: Event Start Date
+    event_end_date: Event End Date
+    flexible_dates: Flexible Dates?
+    alternative_dates: Alternative Dates
+    enter_the_dates_here: Enter the dates here
+    dining_servics: Dining Services
+    enter_the_dine_services_here: Enter the dine services here
+    rooms_requested: Rooms Requested
+    no_of_rooms: No of Rooms
+    estimated_budget: Estimated Budget
+    enter_budget: Enter Budget
+    other_info_requests: Other Info/Requests
+    tell_us_other_info_requests: Other Info/Requests
+    attach_document: Attach any document you have with details or specifications for your meeting
+    company_name: Company Name
+    company_type: Company Type
+    company: Company
+    travel_agent: Travel Agent
+    country: country
+    city: City
+    fax: Fax
+    website: Website
+    send: Send

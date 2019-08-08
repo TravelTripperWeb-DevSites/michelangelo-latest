@@ -1,0 +1,17 @@
+[
+  {
+    "_template": "2_col",
+    "col1_html": {
+      "content": "<h1 class=\"h1 text-center text-md-left\" tabindex=\"0\">Sede Di Eventi Aziendali Presso The Michelangelo Hotel a Midtown</h1>"
+    },
+    "col2_html": {
+      "content": "<h2 class=\"h2  text-center text-md-left  mb-3 mt-3 mt-md-0  mb-3 mt-3 mt-md-0\" tabindex=\"0\">Riunioni Ed Eventi di Lusso</h2>\n<hr class=\"d-none d-md-block\" />\n<div class=\"morecontent\">Con quattro sale riunioni che possono ospitare fino a 80 persone, The Michelangelo &egrave; una sofisticata sede di eventi aziendali per un evento prestigioso nel cuore di New York. Opere d'arte autentica, vetro di Murano, splendidi pavimenti in marmo, imponenti lampadari, meravigliosi velluti e preziose sete importate accolgono gli ospiti in un'atmosfera calda ed elegante con autentico lusso italiano. Il servizio di catering dell'hotel, uno staff professionale dedicato e l'ambiente elegante e incantevole rendono ogni evento un successo clamoroso.</div>\n<div class=\"morecontent\">&nbsp;</div>\n<div class=\"morecontent\">Sono accessibili gli spazi per riunioni e eventi aziendali di Michelangelo New York a New York. Per ulteriori informazioni, consultare la nostra Dichiarazione di accessibilit&agrave;.</div>\n<div class=\"morecontent\">&nbsp;</div>\n<p><a class=\"btn btn--readmore readmore-btn d-block d-md-none\">Read More <span class=\"far fa-plus\"></span></a></p>"
+    },
+    "advanced_options": {
+      "custom_classes": "twocol-content",
+      "tabindex": "-1"
+    },
+    "include_gap": true,
+    "container_classes": "container-fluid"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "_template": "2_col",
+    "col1_html": {
+      "content": "<h1 class=\"h1 text-center text-md-left mb-3 mb-md-0\" tabindex=\"0\" >Send Your RFP  the Michelangelo Hotel<br /> New York</h1>"
+    },
+    "advanced_options": {
+      "custom_classes": "twocol-content",
+      "tabindex": "-1"
+    },
+    "include_gap": false,
+    "col1_type": "html",
+    "col2_type": "html",
+    "container_classes": "container-fluid",
+    "col2_html": {
+      "content": "<h2 class=\"h2  text-center text-md-left mb-3 \" tabindex=\"0\">Demande de devis</h2>\n<hr />\n<div class=\"text-center text-md-left\" tabindex=\"0\">\n<p>Remplissez le formulaire ci-dessous pour trouver la salle de r&eacute;union parfaite pour votre parfaite r&eacute;ception &agrave; Times Square.</p>\n</div>"
+    }
+  }
+]

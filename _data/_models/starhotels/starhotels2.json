@@ -1,0 +1,18 @@
+{
+  "order": 2,
+  "title": "London",
+  "menus": [
+    {
+      "url": "https://www.starhotelscollezione.com/en/our-hotels/the-franklin-london/",
+      "name": "The Franklin"
+    },
+    {
+      "name": "The Gore",
+      "url": "https://www.starhotelscollezione.com/en/our-hotels/the-gore-london/"
+    },
+    {
+      "name": "The Pelham",
+      "url": "https://www.starhotelscollezione.com/en/our-hotels/the-pelham-london/"
+    }
+  ]
+}

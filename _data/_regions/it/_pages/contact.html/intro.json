@@ -1,0 +1,19 @@
+[
+  {
+    "_template": "2_col",
+    "col1_html": {
+      "content": "<h1 class=\"h1 text-center text-md-left mb-3 mb-md-0\" tabindex=\"0\">Contatta l'Hotel Michelangelo</h1>\n<h1 class=\"h1 text-center text-md-left mb-3 mb-md-0\" tabindex=\"0\">New York</h1>"
+    },
+    "advanced_options": {
+      "custom_classes": "twocol-content",
+      "tabindex": "-1"
+    },
+    "include_gap": false,
+    "col1_type": "html",
+    "col2_type": "html",
+    "container_classes": "container-fluid",
+    "col2_html": {
+      "content": "<h2 class=\"h2  text-center text-md-left mb-3 \" tabindex=\"0\">Contattaci</h2>\n<hr />\n<div class=\" text-center text-md-left\" tabindex=\"0\">\n<p>Siamo pronti a rispondere a tutte le tue domande e a fornirti ulteriori informazioni su alloggi, servizi, ristorazione, posizione e molto altro. Contattaci oggi!</p>\n<p>Puoi trovare informazioni dettagliate sull'accessibilit&agrave; nella nostra <a href=\"../accessibility-statement/\">Dichiarazione sull'accessibilit&agrave;</a>.</p>\n</div>"
+    }
+  }
+]

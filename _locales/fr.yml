@@ -1,0 +1,131 @@
+---
+fr:
+  language_name: FR
+  language_fullname: French
+  attractions:
+    categories:
+      all: All
+    buttons:
+      get_directions: Get Directions
+  instagram:
+    tag_link: "@%{handle}"
+    profile_link: Notre Instagram
+  book_now: Reserver
+  search: Search
+  find_rooms: Find Rooms
+  cta:
+    learn_more: Learn More
+    read_more: Read More
+    book_now: Reservez
+    discover: Découvrir
+    explore: Explorer
+    select: Select
+    view_more: Plus de détails
+  page_not_found:
+    header: Page Not Found
+
+  header:
+    book_now_button: Book Now
+    language: Language
+    language_name: English
+  brg:
+    label: Best Rate Guarantee
+    tonights_rate: Tonight's Rate
+  dining:
+    none: Dining options coming soon!
+    buttons:
+      make_a_reservation: Make a Reservation
+      view_menu: View Menu
+      view_all: View All Dining Options
+  events:
+    none: No Events Yet!
+  offers:
+    none: No Offers Available.
+    rate_pre_label: "avg. "
+    rate_post_label: " / night"
+    not_available: ""
+    offer_details: Détails de l'offre
+    cross_sell:
+      title: Offres spéciales
+      description: Profitez d'une promotion exceptionnelle au cœur de Manhattan
+      link: Voir toutes les offres
+    buttons:
+      book: Reservez
+      view_all: Voir toutes les offres spéciales
+  posts:
+    none: No Blog Posts Yet!
+  rooms:
+    max_guests: Max invités
+    guest_size_max: "%{size}"
+    accessible: Accessible Rooms
+    price_per_night: / Night
+    room_size: Surface m²
+    room_details: Détails de la chambre
+    room_features: Caractéristiques
+    complimentary_amenities: Complimentary Amenities
+    amenities_available: Amenities Available
+    buttons:
+      book: Reservez
+  galleries:
+    filters:
+      all: Tous
+  carousels:
+    next: "Next"
+    previous:  "Prev"
+  join_our_newsletter:  Rejoignez notre newsletter
+  newsletter_signup_intro: Partagez votre expérience auprès de Star Hotel Collezione
+  additional_links: Additional Links
+  your_reservartion: Votre réservation
+  arrival: Arrivée
+  departure: Départ
+  adults: Adultes
+  children: Enfants
+  check_availability: Voir les disponibilités
+  event_details: Détails de l'événement
+  rooms_heading: Chambres
+  contact_details: Coordonnées
+  hotel_amenities: Services de l'hôtel
+  primary_phone: Téléphone primaire
+  alternate_phone: Autre numéro de téléphone
+  forms:
+    first_name: Prénom
+    last_name: Nom de famille
+    phone_number: Numéro de téléphone
+    email: Email
+    comments: commentaires
+    your_email: Votre email
+    place_comments_here: Placez les commentaires ici...
+    submit: Soumettre
+    signup: S'inscrire
+    meeting_room_capacity: Capacité de la salle de réunion
+    meeting_room_setup: Configuration de la salle de réunion
+    theatre: Théâtre
+    classroom: Classe
+    ushape: En forme de U
+    cabaret_style: Style cabaret
+    cocktail: Cocktail
+    banquet: Banquet
+    tell_us_about_your_event: Parlez-nous de votre événement
+    event_start_date: Date de début de l'événement
+    event_end_date: Date de fin de l'événement
+    flexible_dates: Mes dates sont flexibles?
+    alternative_dates: Autres dates
+    enter_the_dates_here: Entrez les dates ici
+    dining_servics: Services de restauration
+    enter_the_dine_services_here: Entrez les services de dîner ici
+    rooms_requested: chambres sélectionnées
+    no_of_rooms: Nombre de chambres
+    estimated_budget: Budget prévisionnel
+    enter_budget: Entrez le budget
+    other_info_requests: Autres infos/ demandes
+    tell_us_other_info_requests: Autres infos/ demandes
+    attach_document: Joindre tout document que vous avez avec les détails et les spécifications de votre réunion
+    company_name: Enterprise
+    company_type: Type d'entreprise
+    company: Entreprise
+    travel_agent: Agent de Voyage
+    country: Pays
+    city: Ville
+    fax: Fax
+    website: Site Web
+    send: Envoyer

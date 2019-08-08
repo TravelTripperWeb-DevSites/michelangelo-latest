@@ -1,0 +1,17 @@
+[
+  {
+    "_template": "2_col",
+    "col1_html": {
+      "content": "<h1 class=\"h1 text-center text-md-left\" tabindex=\"0\">Lieu de l'&eacute;v&eacute;nement d'entreprise &agrave; l'h&ocirc;tel Michelangelo &agrave; Midtown</h1>"
+    },
+    "col2_html": {
+      "content": "<h2 class=\"h2  text-center text-md-left  mb-3 mt-3 mt-md-0  mb-3 mt-3 mt-md-0\" tabindex=\"0\">R&eacute;unions et &eacute;v&eacute;nements de luxe</h2>\n<hr class=\"d-none d-md-block\" />\n<div class=\"morecontent\">\n<p>Avec ses quatre salles de r&eacute;union pouvant accueillir jusqu'&agrave; 80 personnes, The Michelangelo est un lieu &eacute;v&eacute;nementiel sophistiqu&eacute; destin&eacute; aux entreprises pour un &eacute;v&eacute;nement prestigieux au c&oelig;ur de New York. Des &oelig;uvres d'art authentiques, du verre de Murano, de splendides sols en marbre, des lustres impressionnants, de magnifiques velours et des soies pr&eacute;cieuses import&eacute;es invitent les invit&eacute;s &agrave; une atmosph&egrave;re chaleureuse et &eacute;l&eacute;gante au luxe italien authentique. Le service de restauration de l'h&ocirc;tel, un personnel professionnel d&eacute;vou&eacute; et l'ambiance &eacute;l&eacute;gante et enchanteresse font de chaque &eacute;v&eacute;nement un succ&egrave;s retentissant.</p>\n<p>Les espaces de r&eacute;union et &eacute;v&eacute;nement d'entreprise Michelangelo &agrave; New York &agrave; New York sont accessibles. Pour plus d'informations, veuillez consulter notre <a href=\"../accessibility-statement/\">d&eacute;claration d'accessibilit&eacute;</a>.</p>\n</div>\n<p><a class=\"btn btn--readmore readmore-btn d-block d-md-none\">Read More <span class=\"far fa-plus\"></span></a></p>"
+    },
+    "advanced_options": {
+      "custom_classes": "twocol-content",
+      "tabindex": "-1"
+    },
+    "include_gap": true,
+    "container_classes": "container-fluid"
+  }
+]

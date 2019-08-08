@@ -1,2 +1,77 @@
 // Contact Page Elements
 // ==========================================================================
+
+.contact-page {
+  padding-bottom: 50px;
+  background-color: $terciary;
+
+  &__wrap {
+    @include make-container;
+    max-width: 1064px;
+  }
+
+  &__row {
+    @include make-row;
+  }
+
+  &__map {
+    @include make-col-ready;
+    margin-bottom: 30px;
+
+    @include media-breakpoint-up(md) {
+      @include make-col(5);
+      margin-bottom: 0;
+    }
+
+    img {
+      width: 100%;
+      object-fit: none;
+
+      @include media-breakpoint-up(md) {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  &__form {
+    @include make-col-ready;
+    @include media-breakpoint-up(md) {
+      @include make-col(7);
+    }
+  }
+}
+
+.form-section {
+
+  &__wrap {
+    @include make-row();
+    max-width: 650px;
+    margin: auto;
+    .form-control {
+      margin-bottom: 24px;
+    }
+
+    input[type='checkbox']{
+      margin: 10px;
+      vertical-align: middle;
+    }
+    input[type='radio']{
+      margin: 10px;
+      vertical-align: middle;
+    }
+
+
+    .form-check {
+      p,
+      a {
+        font-size: .625rem;
+        color: #535353;
+      }
+      input[type='checkbox']{
+        margin-top: .3rem;
+        margin-left: -1.25rem;
+      }
+    }
+  }
+}

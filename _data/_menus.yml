@@ -1,28 +1,163 @@
+---
 main:
   depth: 2
   name: Top Menu
   items:
-    - page_id: index.html
-    - page_id: _pages/about.html
-    - page_id: _pages/rooms.html
-    - page_id: _pages/offers.html
-    - page_id: _pages/gallery.html
-    - page_id: _pages/contact.html
-    # - url_localized:
-    #     en: https://www.google.com
-    #     es: https://www.google.es
-    #   label_localized:
-    #     en: g-US
-    #     es: g-ES
-    #   target: _NEW
-    # - label_localized:
-    #     en: Group
-    #     es: Group (ES)
-    #   folder: true
-    #   items:
-    #     - page_id: _pages/about.html
-    #     - url: /test/
-    #       label_localized:
-    #         en: Test
-    #         es: Prueba
-    
+  - folder: false
+    url_localized: ''
+    page_id: _pages/services.html
+    label_localized:
+      en: Services
+      fr: Services
+      it: Servizi
+    items:
+  - page_id: _pages/rooms.html
+    items:
+    url_localized: ''
+    label_localized:
+      en: Rooms & Suites
+      fr: Chambre & Suites
+      it: Camere & Suite
+  - page_id: _pages/offers.html
+    items:
+    url_localized: ''
+    label_localized:
+      en: Specials
+      fr: Offres
+      it: Offerte
+  - page_id: _pages/dining.html
+    label_localized:
+      en: Dining
+      fr: Dining
+      it: Dining
+  - folder: false
+    url_localized: ''
+    page_id: _pages/events.html
+    label_localized:
+      en: Corporate Events
+      fr: Événements d'entreprise
+      it: Meeting ed Eventi
+    items:
+  - page_id: _pages/gallery.html
+    label_localized:
+      en: Gallery
+      fr: Galerie
+      it: Gallery
+    items:
+  - page_id: _pages/contact.html
+    label_localized:
+      en: Contact
+      fr: Contact
+      it: Contatti
+    items:
+mobile:
+  depth: 2
+  name: Mobile Menu
+  items:
+  - folder: false
+    url_localized: ''
+    page_id: _pages/amenities.html
+    label_localized:
+      en: Services
+    items:
+  - page_id: _pages/rooms.html
+    items:
+    url_localized: ''
+    label_localized:
+      en: Rooms & Suites
+  - page_id: _pages/offers.html
+    items:
+    url_localized: ''
+    label_localized:
+      en: Specials
+footer:
+  depth: 2
+  name: Footer Menu
+  items:
+  - folder: false
+    target: _blank
+    url_localized:
+      en: https://www.starhotelscollezione.com/en/footer/media-centre/
+      fr: https://www.starhotelscollezione.com/fr/footer/salle-de-presse/
+      it: https://www.starhotelscollezione.com/it/f/media-centre/
+    label_localized:
+      en: Press
+      fr: Salle de Presse
+      it: Press
+    items:
+  - folder: false
+    target: _blank
+    url_localized:
+      en: https://www.starhotelscollezione.com/en/footer/partners/
+      fr: https://www.starhotelscollezione.com/fr/footer/partenaires/
+      it: https://www.starhotelscollezione.com/it/f/partners/
+    label_localized:
+      en: Partners
+      fr: Partenaires
+      it: Partners
+    items:
+  - folder: false
+    target: _blank
+    url_localized:
+      en: https://www.starhotelscollezione.com/en/footer/egift.html
+      fr: https://www.starhotelscollezione.com/en/footer/egift.html
+      it: https://www.starhotelscollezione.com/it/f/egift.html
+    label_localized:
+      en: E-Gift
+      fr: E-cadeau
+      it: E-Gift
+    items:
+  - folder: false
+    target: _blank
+    url_localized:
+      en: https://starhotelsspa.altamiraweb.com/
+      fr: https://starhotelsspa.altamiraweb.com/
+      it: https://starhotelsspa.altamiraweb.com/
+    label_localized:
+      en: Careers
+      fr: Carréries
+      it: Careers
+    items:
+  - folder: false
+    url_localized: ''
+    page_id: _pages/sitemap.html
+    label_localized:
+      en: Sitemap
+      fr: Plan du site
+      it: Mappa del sito
+    items:
+  - folder: false
+    url_localized: ''
+    page_id: _pages/accessibility-statement.html
+    label_localized:
+      en: Accessibility Statement
+      fr: Déclaration d'accessibilité
+      it: Dichiarazione di accessibilità
+    items:
+  - folder: false
+    url_localized: ''
+    page_id: _pages/terms.html
+    label_localized:
+      en: Terms of Use
+      fr: Conditions d'utilisation
+      it: Termini di utilizzo
+    items:
+  - folder: false
+    url_localized: ''
+    page_id: _pages/privacy.html
+    label_localized:
+      en: Privacy Policy
+      fr: Politique de confidentialité
+      it: Privacy Policy
+    items:
+  - folder: false
+    target: _blank
+    url_localized:
+      en: https://www.starhotelscollezione.com/en/footer/note-legali/
+      fr: https://www.starhotelscollezione.com/fr/footer/mentions-legales.html
+      it: https://www.starhotelscollezione.com/en/footer/note-legali/
+    label_localized:
+      en: Legal Notice (Italy)
+      fr: Mentions légales - Italie
+      it: Note Legali - Italia
+    items:

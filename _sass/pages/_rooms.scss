@@ -1,2 +1,430 @@
 // Rooms & Room Details Page Elements
 // ==========================================================================
+.rooms-list-wrap {
+  background-color: $terciary;
+  .c-room-list {
+    max-width: 1090px;
+    padding: 0;
+    &__items {
+      @include make-row();
+      margin: 0;
+      .c-room {
+        @include make-col-ready;
+        @include media-breakpoint-up(md) {
+          @include make-col(6);
+        }
+        display: block;
+        margin: 0 0 24px;
+        padding: 0 12px;
+        text-align: center;
+        &__featured-image {
+          display: block;
+        }
+        &__image-group {
+          display: block;
+          flex: none;
+          max-width: 100%;
+          padding: 0;
+          order: 0 !important;
+          picture {
+            display: block;
+            line-height: 0;
+          }
+        }
+        &__text-group {
+          display: block;
+          flex: none;
+          max-width: 100%;
+          padding: 20px 15px 24px;
+          background-color: $white;
+          order: 1 !important;
+          @include media-breakpoint-up(sm) {
+            padding: 20px 24px 24px;
+          }
+        }
+        &__name {
+          min-height: auto;
+          margin-bottom: 25px;
+
+          @include media-breakpoint-up(md) {
+            min-height: 100px;
+          }
+
+          @include media-breakpoint-up(lg) {
+            min-height: 72px;
+          }
+        }
+        &__info {
+          display: block;
+          @include media-breakpoint-up(sm) {
+            display: flex;
+            margin-bottom: 24px;
+          }
+          &__size, &__guests {
+            display: flex;
+            width: 100%;
+            margin-bottom: 24px;
+            font-size: $display7-size;
+            line-height: $display5-size;
+            color: $primary;
+            text-transform: uppercase;
+            border-bottom: 1px solid $primary;
+            @include media-breakpoint-up(sm) {
+              width: 50%;
+              margin-bottom: 0;
+            }
+          }
+          &__size {
+            @include media-breakpoint-up(sm) {
+              margin-right: 12px;
+            }
+          }
+          &__guests {
+            @include media-breakpoint-up(sm) {
+              margin-left: 12px;
+            }
+          }
+          &__field {
+            display: block;
+            width: 50%;
+            text-align: left;
+          }
+          &__value {
+            display: block;
+            width: 50%;
+            text-align: right;
+          }
+        }
+        &__buttons {
+          .btn--primary {
+            margin-right: 5px;
+            font-size: $display7-size;
+            @include media-breakpoint-up(sm) {
+              margin-right: 12px;
+              font-size: $base-font-size;
+            }
+          }
+          .btn--secondary {
+            margin-left: 5px;
+            font-size: $display7-size;
+            @include media-breakpoint-up(sm) {
+              margin-left: 12px;
+              font-size: $base-font-size;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.room-booking-widget {
+  max-width: 630px;
+  margin: auto;
+  .overline {
+    margin-bottom: 40px;
+  }
+  &__form {
+    &__wrap {
+      @include make-row();
+      margin: 0;
+      label {
+        display: block;
+        margin: 15px 0 5px;
+        text-align: center;
+      }
+      input {
+        display: block;
+        max-width: 214px;
+        height: 48px;
+        margin: auto;
+        padding: 0 0 10px;
+        font-size: $display3-size;
+        line-height: $display3-size;
+        color: $primary;
+        text-align: center;
+        border: 0;
+      }
+      .full-width, .half-width {
+        margin-bottom: 0;
+        .field-inner {
+          margin: 0 0 2px 2px;
+          border: 1px solid $border-clr;
+
+          input {
+            font-family: $family-primary;
+            font-size: $display3-size;
+            font-weight: 300;
+            line-height: $display3-size;
+            color: $primary;
+            text-transform: uppercase;
+          }
+        }
+      }
+      .half-width {
+        display: inline-block;
+        width: 50%;
+        height: fit-content;
+        input {
+          max-width: 100%;
+        }
+      }
+      .field-wrap {
+        display: flex;
+      }
+    }
+    &__dates {
+      @include make-col-ready;
+      @include media-breakpoint-up(md) {
+        @include make-col(5.9);
+      }
+      padding: 0;
+    }
+    &__extra-fields {
+      @include make-col-ready;
+      @include media-breakpoint-up(md) {
+        @include make-col(6.1);
+      }
+      padding: 0;
+    }
+    .button-wrap {
+      margin: 0 0 0 2px;
+      button {
+        width: 100%;
+        height: 88px;
+      }
+    }
+  }
+  &.hide-mobile {
+    display: none;
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+  }
+}
+
+.room-details-hero {
+  position: relative;
+  height: 240px;
+  @include media-breakpoint-up(md) {
+    height: 400px;
+  }
+  @include media-breakpoint-up(lg) {
+    height: 600px;
+  }
+  .hero-banner {
+    display: block;
+    height: 100%;
+    div {
+      height: 100%;
+    }
+  }
+  .slider-control {
+    position: static;
+    a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 130px;
+      height: 100%;
+      font-size: 40px;
+      span {
+        position: absolute;
+        top: 50%;
+        right: 40px;
+        left: 0;
+        width: 30px;
+        margin: auto;
+        padding: 0;
+        transform: translateY(-50%);
+        .fas {
+          font-weight: 500;
+        }
+      }
+      &.next-slide {
+        right: 0;
+        left: auto;
+        span {
+          right: 0;
+          left: 40px;
+        }
+      }
+    }
+  }
+}
+
+.room-detils-banner {
+  padding: 27px 0;
+  background-color: $terciary;
+  &__inner {
+    @include make-container;
+    max-width: 1080px;
+    padding: 0 20px;
+    text-align: center;
+    @include media-breakpoint-up(md) {
+      padding: 0 12px;
+      text-align: left;
+    }
+    .h1 {
+      margin-bottom: 20px;
+    }
+  }
+  &__row {
+    @include make-row;
+    margin: 0;
+  }
+  &__left {
+    @include make-col-ready;
+    @include media-breakpoint-up(md) {
+      @include make-col(7);
+    }
+    padding: 0;
+  }
+  &__right {
+    @include make-col-ready;
+    @include media-breakpoint-up(md) {
+      @include make-col(5);
+      text-align: right;
+    }
+    padding: 0;
+    &__rate-section {
+      display: block;
+      margin-bottom: 20px;
+      @include media-breakpoint-up(md) {
+        display: inline-block;
+        margin-bottom: 0;
+      }
+    }
+    .ttweb-cross-out-rate {
+      display: inline-block;
+      span {
+        font-size: $display5-size;
+        font-weight: 700;
+        line-height: $display4-size;
+        color: $primary;
+      }
+      &__crossout {
+        display: none;
+      }
+    }
+    .btn--secondary {
+      width: 100%;
+      max-width: 320px;
+      @include media-breakpoint-up(md) {
+        width: auto;
+        max-width: none;
+      }
+    }
+    .rate-text {
+      display: inline-block;
+      margin: 0 20px 0 5px;
+      font-size: $display7-size;
+      font-weight: 300;
+      line-height: $display4-size;
+      color: $primary;
+    }
+  }
+}
+
+.room-details-intro {
+  @include make-container;
+  max-width: 1080px;
+  padding: 0 20px;
+  &__row {
+    @include make-row;
+    margin: 0;
+  }
+  &__left {
+    @include make-col-ready;
+    @include media-breakpoint-up(md) {
+      @include make-col(7);
+    }
+    padding: 0;
+    .h2 {
+      margin-bottom: 18px;
+    }
+    hr {
+      max-width: 400px;
+      margin-bottom: 18px;
+      background-color: $primary;
+    }
+  }
+  &__right {
+    @include make-col-ready;
+    @include media-breakpoint-up(md) {
+      @include make-col(5);
+      text-align: right;
+    }
+    padding: 0;
+  }
+  &__info {
+    display: inline-block;
+    width: 224px;
+    text-align: left;
+    &__size, &__guests {
+      display: flex;
+      padding: 14px 0 8px;
+      font-size: $display7-size;
+      font-weight: 300;
+      line-height: $display5-size;
+      color: $primary;
+      text-transform: uppercase;
+      border-bottom: 1px solid $primary;
+    }
+    &__field, &__value {
+      width: 50%;
+    }
+    &__value {
+      text-align: right;
+    }
+  }
+}
+
+.room-amenities {
+  @include make-container;
+  max-width: 1112px;
+  padding: 24px 12px;
+  @include media-breakpoint-up(md) {
+    padding: 30px 60px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding: 40px 120px;
+  }
+  background-color: $terciary;
+  .h3 {
+    margin-bottom: 45px;
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 70px;
+    }
+  }
+  .overline {
+    margin-bottom: 14px;
+    &.mt-48 {
+      margin-top: 48px;
+      @include media-breakpoint-up(md) {
+        margin-top: 0;
+      }
+    }
+  }
+  &__wrap {
+    @include make-row;
+    margin: 0;
+  }
+  ul {
+    margin-bottom: 0;
+    padding-left: 30px;
+    li {
+      font-size: $base-font-size;
+      font-weight: 300;
+      line-height: $display5-size;
+      color: $primary;
+    }
+  }
+  &__left, &__right {
+    @include make-col-ready;
+    @include media-breakpoint-up(md) {
+      @include make-col(6);
+    }
+    padding: 0;
+  }
+}

@@ -1,25 +1,20 @@
 ---
-layout: default
+layout: no_hero_layout
 ---
 
-{% comment %}
-
-  TODO: Optionally just change to "generic" layout?
-
-  Name:
-
-    Contact Page
-
-  Description:
-
-    Static content that can be modified by editable regions.
-
-  Usage:
-
-    Text   - {% regionblock region_name, type:html %}{% endregionblock %}
-
-    Header - {% regionblock region_name, type:header %}{% endregionblock %}
-
-    Image  - {% regionblock region_name, type:image %}{% endregionblock %}
-
-{% endcomment %}
+<div class="contact-page">
+  <div class="contact-page__wrap">
+    <div class="contact-page__row">
+      <div class="contact-page__map">
+        <a href="https://goo.gl/maps/yBbkehVCCnZg8nTSA/" target="_blank" rel="noopener noreferrer">
+          <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1564144118/cs8bgymjyq7l4axdlodn.jpg" alt="Get Directions">
+        </a>
+      </div>
+      <div class="contact-page__form">
+        <div class="form-section">
+          {% include forms/jotform/contact.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

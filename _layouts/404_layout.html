@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+
+
+
+{% comment %}
+
+  Name:
+
+    404 (Page Not Found)
+
+  Description:
+
+    404.html page is automatically generated as part of bedrock content. Use the editable region to customize generic content in this page.
+    Override this layout file to make more complicated changes to the page.
+
+    TODO: Can we customize this to look for things like the offers path with a custom response?
+
+{% endcomment %}
+
+{% region outro, type:mixed %}
+
+<div class="sitemap text-center m-auto pt-48 pb-48">
+  <h2 class="h2 mb-3" tabindex="0">Sitemap</h2>
+  <ul >
+    {% assign items = site.data._menus.main.items %}
+    {% include nav/nav-item-list.html items=items %}
+    {% assign items = site.data._menus.footer.items %}
+    {% include nav/nav-item-list.html items=items %}
+    </ul>
+</div>

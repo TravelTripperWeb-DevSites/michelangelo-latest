@@ -1,0 +1,17 @@
+{
+  "name": {
+    "required": true,
+    "localizable": true
+  },
+  "description": {
+    "type": "richtext",
+    "localizable": true
+  },
+  "images": {
+    "type": "image"
+  },
+  "order": {
+    "type": "integer",
+    "required": true
+  }
+}

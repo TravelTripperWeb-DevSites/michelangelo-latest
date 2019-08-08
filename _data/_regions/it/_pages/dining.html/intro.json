@@ -1,0 +1,14 @@
+[
+  {
+    "_template": "1_col",
+    "html": {
+      "content": "<h1 class=\"h1 text-center py-md-3 py-5\" tabindex=\"0\">Cenare al Michelangelo Hotel a New York</h1>",
+      "custom_classes": ""
+    },
+    "advanced_options": {
+      "tabindex": "-1",
+      "custom_classes": "innperpage-heading"
+    },
+    "container_classes": "container-fluid"
+  }
+]

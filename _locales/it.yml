@@ -1,0 +1,133 @@
+---
+it:
+  language_name: IT
+  language_fullname: Italian
+  attractions:
+    categories:
+      all: All
+    buttons:
+      get_directions: Get Directions
+  instagram:
+    tag_link: "@%{handle}"
+    profile_link: Il nostro Instagram
+  book_now: Prenota
+  search: Search
+  find_rooms: Find Rooms
+  cta:
+    learn_more: Learn More
+    read_more: Read More
+    book_now: Prenota ora
+    discover: Dettagli
+    discover_more: Discover More
+    explore: Explore
+    select: Select
+    view_more: Scopri di più
+  page_not_found:
+    header: Page Not Found
+
+  header:
+    book_now_button: Book Now
+    language: Language
+    language_name: English
+  brg:
+    label: Miglior Tariffa Garantita
+    tonights_rate: Tonight's Rate
+  dining:
+    none: Dining options coming soon!
+    buttons:
+      make_a_reservation: Make a Reservation
+      view_menu: View Menu
+      view_all: View All Dining Options
+  events:
+    none: No Events Yet!
+  offers:
+    none: No Offers Available.
+    rate_pre_label: "avg. "
+    rate_post_label: " / night"
+    not_available: ""
+    offer_details: Dettagli dell'offerta
+    cross_sell:
+      title: Offerte Speciali
+      description: Avvantaggiatevi delle offerte speciali del nostro Hotel a Manhattan
+      link: Visualizza tutte le offerte
+    buttons:
+      book: Prenota ora
+      view_all: Visualizza tutte le offerte speciali
+  posts:
+    none: No Blog Posts Yet!
+  rooms:
+    max_guests: N° Ospiti
+    guest_size_max: "%{size}"
+    accessible: Accessible Rooms
+    price_per_night: / Night
+    room_size: Area Mq
+    room_details: Dettagli della camera
+    room_features: Servizi in Camera
+    complimentary_amenities: Servizi inclusi
+    amenities_available: Servizi a pagamento
+    buttons:
+      book: Prenota ora
+      book_offer: Prenota ora
+  galleries:
+    filters:
+      all: Tutto
+  carousels:
+    next: "Next"
+    previous:  "Prev"
+  join_our_newsletter:  Iscriviti alla nostra newsletter
+  newsletter_signup_intro: Condividi la Tua esperienza nel sito Starhotels Collezione
+  additional_links: Additional Links
+  your_reservartion: La tua Prenotazione
+  arrival: Arrivo
+  departure: Partenza
+  adults: Adulti
+  children: Bambini
+  check_availability: Verificare la disponibilità
+  event_details: Dettagli dell'evento
+  rooms_heading: Camere
+  contact_details: Contact Details
+  hotel_amenities: Servizi dell'hotel
+  primary_phone: Telefono principale
+  alternate_phone: Telefono alternativo
+  forms:
+    first_name: Nome di battesimo
+    last_name: Cognome
+    phone_number: Numero di telefono
+    email: E-mail
+    comments: Commenti
+    your_email: La tua email
+    place_comments_here: Inserire commenti qui...
+    submit: Sottoscrivi
+    signup: Iscriviti
+    meeting_room_capacity: Capacità sala
+    meeting_room_setup: Allestimento sala
+    theatre: Teatro
+    classroom: Banchi Scuola
+    ushape: Ferro di cavallo
+    cabaret_style: Cabaret Style
+    cocktail: Cocktail
+    banquet: Banchetto
+    tell_us_about_your_event: Parlaci del tuo evento
+    event_start_date: Data di inizio dell'evento
+    event_end_date: Data di fine dell'evento
+    flexible_dates: Sono date flessibili?
+    alternative_dates: Date alternative
+    enter_the_dates_here: Inserisci qui le date
+    dining_servics: Servizi ristorativi
+    enter_the_dine_services_here: Enter the dine services here
+    rooms_requested: Numero camere richieste
+    no_of_rooms: No delle camere
+    estimated_budget: Indicazioni di budget
+    enter_budget: Inserisci Budget
+    other_info_requests: Ulteriori informazioni
+    tell_us_other_info_requests: Ulteriori informazioni
+    attach_document: Allega informazioni e dettagli del tuo evento
+    company_name: Nome della ditta
+    company_type: Tipologia di azienda
+    company: Azienda
+    travel_agent: Agente di viaggi
+    country: Paese
+    city: Città
+    fax: Fax
+    website: Sito web
+    send: Invia

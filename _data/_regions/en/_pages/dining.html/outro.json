@@ -1,0 +1,19 @@
+[
+  {
+    "_template": "2_col",
+    "col1_html": {
+      "content": "<h2 class=\"h2 mb-3\" tabindex=\"0\">Visit The Lounge</h2>\n<hr />\n<div tabindex=\"0\">\n<p>Drawing inspiration from the local Italian trattoria, our ospiti, or guests, are treated to an Italian culinary experience curated by the world renowned Chef Mara of Osteria Da Fiore in Venice. We invite you to sample our homemade mozzarella and indulge in one of our famous Neapolitan pizzas. The Lounge at The Michelangelo Hotel in NYC is also the perfect place to enjoy a perfect espresso or sip a glass of vino after a day out in Manhattan.</p>\n<p>Start your day with a delightful breakfast, quick lunch or pre-theatre dinner. Enjoy classic favorites from morning to night with a tastefully-designed in room dining menu.</p>\n</div>"
+    },
+    "col2_html": {
+      "content": "<p><a href=\"//res.cloudinary.com/traveltripperweb/raw/upload/v1562247478/hh7aomh9kun1zev5swzi.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Click Here For Our Full Lounge Menu</a><br /><a href=\"//res.cloudinary.com/traveltripperweb/raw/upload/v1562247478/q4wtwoqr40rdz0wn34ca.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Click Here For Our In Room Dining Menu</a></p>\n<p tabindex=\"0\"><strong>Opening Hours</strong><br />2pm-1am (Last call at 12:30am)</p>\n<p tabindex=\"0\"><strong>Contacts</strong><br />152 West 51st Street New York, NY 10019.<br /> <a href=\"tel:212-261-8892\">(212) 261-8892</a>.<br /> <strong><a href=\"mailto:tdespirt@michelangelohotel.com\">tdespirt@michelangelohotel.com</a></strong></p>\n<p tabindex=\"0\">The Lounge at The Michelangelo Hotel is accessible. For more information, please view our <a href=\"/accessibility-statement/\">Accessibility Statement</a>.</p>"
+    },
+    "advanced_options": {
+      "tabindex": "-1",
+      "custom_classes": "dine__content"
+    },
+    "layout": "8_4",
+    "col1_type": "html",
+    "col2_type": "html",
+    "include_gap": true
+  }
+]

@@ -1,11 +1,23 @@
 ---
-layout: sitemap_page_layout
-title_localized: 
+layout: default
+title_localized:
   en: Sitemap
 meta_description_localized:
   en:
-permalink_localized: 
+permalink_localized:
   en: /sitemap/
+  fr: /sitemap/
+  it: /sitemap/
 meta_tags:
   robots: noindex, follow
 ---
+
+<div class="sitemap text-center m-auto pt-48 pb-48">
+  <h1 class="h2 mb-3" tabindex="0">Sitemap</h1>
+  <ul >
+    {% assign items = site.data._menus.main.items %}
+    {% include nav/nav-item-list.html items=items %}
+    {% assign items = site.data._menus.footer.items %}
+    {% include nav/nav-item-list.html items=items %}
+    </ul>
+</div>

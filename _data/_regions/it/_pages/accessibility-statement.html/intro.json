@@ -1,0 +1,17 @@
+[
+  {
+    "_template": "2_col",
+    "advanced_options": {
+      "custom_classes": "twocol-content",
+      "tabindex": "-1"
+    },
+    "container_classes": "container-fluid",
+    "include_gap": false,
+    "col1_html": {
+      "content": "<h1 class=\"h1\" tabindex=\"0\">Dichiarazione Di</h1>\n<h1 class=\"h1\" tabindex=\"0\">Accessibilit&agrave;</h1>"
+    },
+    "col2_html": {
+      "content": "<div tabindex=\"0\">\n<p>Il Michelangelo New York (a volte indicato di seguito come \"Hotel\", \"noi\", \"noi\" o \"nostro\") &egrave; dedicato a fornire un servizio eccezionale agli ospiti di tutte le abilit&agrave;. Ci impegniamo a fornire contenuti online che offrano un'esperienza utente eccellente ai visitatori di tutte le abilit&agrave;, utilizzando qualsiasi tipo di tecnologia di assistenza per accedere al sito Web.</p>\n<p>Basiamo i nostri standard di accessibilit&agrave; del sito Web sulle Linee guida per l'accessibilit&agrave; dei contenuti Web 2.1, livello A + AA criteri di successo. Inoltre, lavoriamo attivamente per mantenere, valutare e migliorare l'usabilit&agrave; e l'accessibilit&agrave; del nostro sito Web attraverso la formazione del nostro personale, il coinvolgimento di esperti e test regolari della nostra accessibilit&agrave; digitale.</p>\n</div>"
+    }
+  }
+]
