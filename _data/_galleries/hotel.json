@@ -1,5 +1,9 @@
 {
-  "name": "Hotel",
+  "name_localized": {
+    "en": "Hotel",
+    "fr": "Un hôtel",
+    "it": "Hotel"
+  },
   "photos": [
     {
       "name": "michelangelo-exterior",
@@ -22,7 +26,11 @@
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562065538/ecbcgrmkkmn4hkgzukmh.jpg",
       "file_size": null,
       "alt": "Michelangelo Hotel Entrance",
-      "caption": "Michelangelo Hotel Entrance"
+      "caption_localized": {
+        "en": "Michelangelo Hotel Entrance",
+        "fr": "Entrée de l'hôtel Michelangelo",
+        "it": "Ingresso dell'hotel Michelangelo"
+      }
     }
   ],
   "description": "",

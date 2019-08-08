@@ -1,5 +1,10 @@
 {
   "name": "Rooms",
+  "name_localized": {
+    "en": "Rooms",
+    "fr": "Pièces",
+    "it": "Camere"
+  },
   "photos": [
     {
       "name": "the-michelangelo-new-york-room-interior",
@@ -22,7 +27,11 @@
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562311622/nf07fqdmojrvocxlhzdp.jpg",
       "file_size": null,
       "alt": "The Michelangelo Hotel Grand One Bedroom Suite",
-      "caption": "Grand One Bedroom Suite"
+      "caption_localized": {
+        "en": "Grand One Bedroom Suite",
+        "fr": "Suite Grand 1 Chambre",
+        "it": "Suite grand con 1 camera da letto"
+      }
     },
     {
       "name": "One-Bedroom-Suite-King---600sqf---56sqm-",
@@ -41,13 +50,17 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1562310638/tkopgg5nxtd6wvf72anc.jpg",
       "resource_type": "image",
       "size": 91688,
-      "caption": "One Bedroom Suite",
       "description": "",
       "alt": "The Michelangelo Hotel One Bedroom Suite",
       "original_url": "https://d31f902anbz5po.cloudfront.net/966/271041_1_master.jpg",
       "git_file_name": "_assets/image_data/One-Bedroom-Suite-King---600sqf---56sqm-.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562310638/tkopgg5nxtd6wvf72anc.jpg",
-      "file_size": null
+      "file_size": null,
+      "caption_localized": {
+        "en": "One Bedroom Suite",
+        "fr": "Suite con una camera da letto",
+        "it": "Suite à une chambre"
+      }
     },
     {
       "name": "Superior-Room-",
@@ -66,13 +79,17 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1562310667/vekmcv1rrtcobvvj5fep.jpg",
       "resource_type": "image",
       "size": 66211,
-      "caption": " Superior Room",
       "description": "This photo showcases our 325 square foot room, featuring one Queen size bed against the side wall with two night stands on each side. Across from the bed there is an armoire with dresser drawers and a 43 inch flat screen TV. Next to the armoire you will find a fully stocked mini bar, including wine, bottled beverages and assorted snacks available for purchase. Located near the window there is a comfortable armchair with an additional side table next to it.  The room also features a full size work desk, an Italian marble bathroom with a 55 gallon soaking tub and a vanity.",
       "alt": "Michelangelo Hotel NY Superior Room",
       "original_url": "https://d31f902anbz5po.cloudfront.net/966/45682_1_master.jpg",
       "git_file_name": "_assets/image_data/Superior-Room-.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562310667/vekmcv1rrtcobvvj5fep.jpg",
-      "file_size": null
+      "file_size": null,
+      "caption_localized": {
+        "en": "Superior Room",
+        "fr": "Chambre supérieure",
+        "it": "Camera superior"
+      }
     },
     {
       "name": "Accessible-Room-2-Queen-Beds---Roll-In-Shower-",
@@ -91,13 +108,17 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1562310657/lcjaiku41dgmhel0tfp0.jpg",
       "resource_type": "image",
       "size": 98361,
-      "caption": "Studio Room 2 Queen Beds",
       "description": "This photo showcases our 495 square foot room, featuring two Queen size beds against the side wall separated by an elegant table with a table lamp, phone and alarm clock. A sitting bench is also situated at the foot of the bed.  Located near the window there are two comfortable armchair with an additional side table and standing lamp. The room also features an armoire, 37 inch flat screen TV and a full stocked mini bar.  The bathroom is made with Italian marble and features a roll in shower.",
       "alt": "Michelangelo Hotel NY Studio Room 2 Queen Beds - 495sqf 46sqm",
       "original_url": "https://d31f902anbz5po.cloudfront.net/966/43643_4_master.jpg",
       "git_file_name": "_assets/image_data/Accessible-Room-2-Queen-Beds---Roll-In-Shower-.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562310657/lcjaiku41dgmhel0tfp0.jpg",
-      "file_size": null
+      "file_size": null,
+      "caption_localized": {
+        "en": "Studio Room 2 Queen Beds",
+        "fr": "Chambres Studio 2 Lits Queen",
+        "it": "Monolocale con 2 letti queen size"
+      }
     },
     {
       "name": "Junior-Suite---550sqf---51sqm-",
@@ -116,13 +137,17 @@
       "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1562310585/skp0s1czk52dxs2xnw8n.jpg",
       "resource_type": "image",
       "size": 96295,
-      "caption": "Junior Suite",
       "description": "",
       "alt": "Michelangelohotel NY Junior Suite - 550sqf / 51sqm",
       "original_url": "https://d31f902anbz5po.cloudfront.net/966/271035_1_master.jpg",
       "git_file_name": "_assets/image_data/Junior-Suite---550sqf---51sqm-.json",
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562310585/skp0s1czk52dxs2xnw8n.jpg",
-      "file_size": null
+      "file_size": null,
+      "caption_localized": {
+        "en": "Junior Suite",
+        "fr": "Suite junior",
+        "it": "Junior Suite"
+      }
     }
   ],
   "description": "",
