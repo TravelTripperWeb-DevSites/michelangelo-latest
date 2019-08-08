@@ -68,7 +68,7 @@ fr:
       book: Reservez
   galleries:
     filters:
-      all: All
+      all: Tous
   carousels:
     next: "Next"
     previous:  "Prev"

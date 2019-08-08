@@ -1,5 +1,9 @@
 {
-  "name": "Meeting Spaces",
+  "name_localized": {
+    "en": "Meeting Spaces",
+    "fr": "Espaces de réunion",
+    "it": "Spazi d'Incontro"
+  },
   "photos": [
     {
       "name": "michelangelo-business-meeting-space",
@@ -22,7 +26,11 @@
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562331223/jtu0gt07locgnbk4sm7s.jpg",
       "file_size": null,
       "alt": "Michelangelo Business Meeting Space",
-      "caption": "Michelangelo Business Meeting Space"
+      "caption_localized": {
+        "en": "Michelangelo Business Meeting Space",
+        "fr": "L'espace de réunion d'affaires Michelangelo",
+        "it": "Lo spazio per riunioni d'affari Michelangelo"
+      }
     },
     {
       "name": "michelangelo-meeting-space-capacity",
@@ -45,7 +53,11 @@
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562331223/htxssqqo9wblijewkpoa.jpg",
       "file_size": null,
       "alt": "The Michelangelo Meeting Space",
-      "caption": "The Michelangelo Meeting Space"
+      "caption_localized": {
+        "en": "The Michelangelo Meeting Space",
+        "fr": "L'espace de rencontre Michelangelo",
+        "it": "Lo spazio di incontro di Michelangelo"
+      }
     },
     {
       "name": "the-michelangelo-new-york-meeting-room",
@@ -68,7 +80,11 @@
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562314536/jibitlbccukjy3bhg7vz.jpg",
       "file_size": null,
       "alt": "The Michelangelo Board Room",
-      "caption": "The Michelangelo Board Room"
+      "caption_localized": {
+        "en": "The Michelangelo Board Room",
+        "fr": "La salle de conseil de Michelangelo",
+        "it": "La sala riunioni Michelangelo"
+      }
     }
   ],
   "description": "",

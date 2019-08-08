@@ -1,5 +1,9 @@
 {
-  "name": "Location",
+  "name_localized": {
+    "en": "Location",
+    "fr": "Emplacement",
+    "it": "Posizione"
+  },
   "photos": [
     {
       "name": "near-by-newyork-city-locations",
@@ -22,7 +26,11 @@
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562330250/nppem4z7vkx2qan5khds.jpg",
       "file_size": null,
       "alt": "New York City Skyline",
-      "caption": "New York City Skyline"
+      "caption_localized": {
+        "en": "New York City Skyline",
+        "fr": "Ligne d'horizon de New York City",
+        "it": "Skyline di New York City"
+      }
     },
     {
       "name": "nyc-empire-state-building",
@@ -45,7 +53,11 @@
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562314536/pkdfzj40grpm9dx1cf0b.jpg",
       "file_size": null,
       "alt": "NYC Empire State Building",
-      "caption": "NYC Empire State Building"
+      "caption_localized": {
+        "en": "Empire State Building",
+        "fr": "Empire State Building",
+        "it": "Empire State Building"
+      }
     }
   ],
   "description": "",

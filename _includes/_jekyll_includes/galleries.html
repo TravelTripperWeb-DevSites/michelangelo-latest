@@ -8,7 +8,7 @@
       {% assign selected_gallery = site.data._galleries[gallery.gallery]  %}
       {% if selected_gallery != nil %}
         <li>
-          <a href="javascript:;" data-rel="{{gallery.gallery}}" class="filter filter--option" data-filter="{{gallery.gallery}}">{{gallery.label | default: selected_gallery.name }}</a>
+          <a href="javascript:;" data-rel="{{gallery.gallery}}" class="filter filter--option" data-filter="{{gallery.gallery}}">{{ selected_gallery.name }}</a>
         </li>
 
         {% capture gallery_items %}

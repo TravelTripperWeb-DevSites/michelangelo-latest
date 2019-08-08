@@ -70,7 +70,7 @@ it:
       book_offer: Prenota ora
   galleries:
     filters:
-      all: All
+      all: Tutto
   carousels:
     next: "Next"
     previous:  "Prev"

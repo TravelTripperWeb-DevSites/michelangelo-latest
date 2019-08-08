@@ -1,5 +1,9 @@
 {
-  "name": "Dining",
+  "name_localized": {
+    "en": "Dining",
+    "fr": "À manger",
+    "it": "Cenare"
+  },
   "photos": [
     {
       "name": "michelangelo-dining-lounge",
@@ -22,7 +26,11 @@
       "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1562239755/yfwqc77hal1gsvbmp3p3.jpg",
       "file_size": null,
       "alt": "Michelangelo Dining Lounge",
-      "caption": "Michelangelo Dining Lounge"
+      "caption_localized": {
+        "en": "Michelangelo Dining Lounge",
+        "fr": "La salle à manger Michelangelo",
+        "it": "Il Michelangelo Dining Lounge"
+      }
     }
   ],
   "description": "",
