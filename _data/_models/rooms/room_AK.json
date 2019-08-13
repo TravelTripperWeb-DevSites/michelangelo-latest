@@ -1,8 +1,8 @@
 {
   "name_localized": {
     "en": "Accessible Room 2 Queen Beds - Roll-In Shower",
-    "fr": "Accessible Room 2 Queen Beds - Roll-In Shower",
-    "it": "Accessible Room 2 Queen Beds - Roll-In Shower"
+    "fr": "Studio Accessible Aux Personnes à Deux Lits Queen",
+    "it": "Camera Accessibile Cue Letti Da Una Piazza e Mezzo - Doccia Con Maniglia Interna"
   },
   "short_description_localized": {
     "en": "Our Accessible Studio room with two queen size beds is thoughtfully designed to create a spacious, 46-square-meter/495-square-foot sanctuary for your vacation in New York.",
@@ -11,8 +11,8 @@
   },
   "description_localized": {
     "en": "Our Accessible Studio room with two queen size beds is thoughtfully designed to create a spacious 46-square-meter/495-square-foot sanctuary for your vacation in New York. There are two queen size beds, comfortable armchairs and an Italian marble bathroom with roll in shower and grab bars, meeting all ADA code requirements. The room is complemented by Empire-style cherry wood furniture and elegant furnishings.",
-    "fr": "Our Accessible Studio room with two queen size beds is thoughtfully designed to create a spacious 46-square-meter/495-square-foot sanctuary for your vacation in New York. There are two queen size beds, comfortable armchairs and an Italian marble bathroom with roll in shower and grab bars, meeting all ADA code requirements. The room is complemented by Empire-style cherry wood furniture and elegant furnishings.",
-    "it": "Our Accessible Studio room with two queen size beds is thoughtfully designed to create a spacious 46-square-meter/495-square-foot sanctuary for your vacation in New York. There are two queen size beds, comfortable armchairs and an Italian marble bathroom with roll in shower and grab bars, meeting all ADA code requirements. The room is complemented by Empire-style cherry wood furniture and elegant furnishings."
+    "fr": "Notre chambre Studio accessible avec deux lits queen-size est soigneusement conçue pour créer un sanctuaire spacieux de 46 mètres carrés / 495 pieds carrés pour vos vacances à New York. Il y a deux lits queen size, des fauteuils confortables et une salle de bain en marbre italien avec douche accessible en fauteuil roulant et barres d'appui, qui répondent à toutes les exigences du code ADA. La chambre est complétée par un mobilier en bois de cerisier de style Empire et un mobilier élégant.",
+    "it": "La nostra camera Studio accessibile con due letti queen size è pensata per creare uno spazioso santuario di 46 metri quadrati per una vacanza a New York. Ci sono due letti queen size, comode poltrone e un bagno in marmo italiano con doccia a pavimento e maniglioni, che soddisfano tutti i requisiti del codice ADA La camera è completata da mobili in legno di ciliegio in stile impero e mobili eleganti."
   },
   "amenities": [
     "room_amenities10",
@@ -44,7 +44,8 @@
       "caption": "",
       "description": "",
       "alt": "",
-      "original_url": "https://d31f902anbz5po.cloudfront.net/966/285071_1_master.jpg"
+      "original_url": "https://d31f902anbz5po.cloudfront.net/966/285071_1_master.jpg",
+      "git_file_name": "_assets/image_data/Accessible-Room-2-Queen-Beds---Roll-In-Shower-.json"
     }
   ],
   "reztrip_room_id": "AK",

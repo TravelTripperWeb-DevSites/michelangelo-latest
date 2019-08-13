@@ -1,7 +1,7 @@
 {
   "name_localized": {
     "en": "Junior Suite",
-    "fr": "Junior Suite",
+    "fr": "Suite Junior",
     "it": "Junior Suite"
   },
   "short_description_localized": {
@@ -11,8 +11,8 @@
   },
   "description_localized": {
     "en": "Measuring 51 square metres/549 square feet, The Michelangelo Hotel’s Junior Suites combine comfort and elegance with perfection. They are tastefully decorated, with ornate fabrics, luxurious king-size beds, marble bathrooms and large living areas. Max 2 guests. \r\n",
-    "fr": "Measuring 51 square metres/549 square feet, The Michelangelo Hotel’s Junior Suites combine comfort and elegance with perfection. They are tastefully decorated, with ornate fabrics, luxurious king-size beds, marble bathrooms and large living areas. Max 2 guests. \r\n",
-    "it": "Measuring 51 square metres/549 square feet, The Michelangelo Hotel’s Junior Suites combine comfort and elegance with perfection. They are tastefully decorated, with ornate fabrics, luxurious king-size beds, marble bathrooms and large living areas. Max 2 guests. \r\n"
+    "fr": "Mesurant 51 mètres carrés, les suites junior de l’hôtel Michelangelo allient confort et élégance à la perfection. Elles sont décorées avec goût, avec des tissus ornés, de luxueux lits king-size, des salles de bains en marbre et de grands espaces de vie. Max 2 invités.",
+    "it": "Misura 51 metri quadrati / 549 piedi quadrati, le Junior Suite del Michelangelo Hotel combinano comfort ed eleganza con la perfezione. Sono decorate con gusto, con tessuti decorati, lussuosi letti king-size, bagni in marmo e ampie zone giorno. Max 2 ospiti."
   },
   "amenities": [
     "room_amenities12",
@@ -44,7 +44,8 @@
       "caption": "",
       "description": "",
       "alt": "",
-      "original_url": "https://d31f902anbz5po.cloudfront.net/966/285008_1_master.jpg"
+      "original_url": "https://d31f902anbz5po.cloudfront.net/966/285008_1_master.jpg",
+      "git_file_name": "_assets/image_data/Junior-Suite-.json"
     }
   ],
   "reztrip_room_id": "JK",
