@@ -11,3 +11,14 @@
 - en/f/privacy/: privacy/
 - en/f/terms-of-use.html: terms/
 - en/location.html: contact/
+- en/mediagallery.html: gallery/
+- en/rooms-and-suites/: rooms/
+- en/rooms-and-suites/accessible-room.html: rooms/room_ak/
+- en/rooms-and-suites/grand-one-bedroom-suite.html: rooms/room_gpk/
+- en/rooms-and-suites/junior-suite.html: rooms/room_jk/
+- en/rooms-and-suites/one-bedroom-suite.html: rooms/room_qp/
+- en/rooms-and-suites/studio-rooms.html: rooms/room_tk/
+- en/services.html: services/
+- en/specials/: offers/
+- en/specials/breakfast-package.html: offers/offer_mktbb1/
+- en/specials/feeling-lucky-puzzle-package.html: offers/
