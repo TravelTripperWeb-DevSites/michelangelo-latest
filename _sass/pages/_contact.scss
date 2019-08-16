@@ -50,6 +50,7 @@
     margin: auto;
     .form-control {
       margin-bottom: 24px;
+      border: solid 1px $border-clr;
     }
 
     input[type='checkbox']{
