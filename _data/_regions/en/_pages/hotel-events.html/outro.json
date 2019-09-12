@@ -1,5 +1,12 @@
 [
   {
-    "_template": "2_col"
+    "_template": "2_col",
+    "advanced_options": {
+      "tabindex": "-1",
+      "custom_classes": "dine__content"
+    },
+    "include_gap": true,
+    "col1_type": "html",
+    "col2_type": "html"
   }
 ]
