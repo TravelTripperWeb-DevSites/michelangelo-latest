@@ -25,11 +25,18 @@ main:
       en: Specials
       fr: Offres
       it: Offerte
+  - folder: false
+    url_localized: ''
+    page_id: _pages/hotel-events.html
+    label_localized:
+      en: Hotel Events
+    items: 
   - page_id: _pages/dining.html
     label_localized:
       en: Dining
       fr: Dining
       it: Dining
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/events.html
@@ -50,11 +57,6 @@ main:
       fr: Contact
       it: Contatti
     items: 
-  - folder: false
-    url_localized: ''
-    page_id: _pages/hotel-events.html
-    label_localized:
-      en: Hotel Events
 mobile:
   depth: 2
   name: Mobile Menu
