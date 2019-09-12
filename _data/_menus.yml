@@ -52,7 +52,7 @@ main:
     items: 
   - folder: false
     url_localized: ''
-    page_id: _pages/dining.html
+    page_id: _pages/hotel-events.html
     label_localized:
       en: Hotel Events
 mobile:
