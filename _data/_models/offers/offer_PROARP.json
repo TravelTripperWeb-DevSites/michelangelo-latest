@@ -37,5 +37,6 @@
     "original_url": "https://d31f902anbz5po.cloudfront.net/966/44417_2_master.jpg",
     "git_file_name": "_assets/image_data/AARP-Rate-Hotel-Lobby.json"
   },
-  "reztrip_offer_id": "PROARP"
+  "reztrip_offer_id": "PROARP",
+  "featured_order": 8
 }
