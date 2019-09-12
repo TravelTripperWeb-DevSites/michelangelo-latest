@@ -4,6 +4,9 @@
     "advanced_options": {
       "custom_classes": "innperpage-heading",
       "tabindex": "-1"
+    },
+    "html": {
+      "content": "<h1 class=\"h1 text-center py-md-3 py-5\" tabindex=\"0\">Paint Like Michelangelo at the Michelangelo</h1>"
     }
   }
 ]
