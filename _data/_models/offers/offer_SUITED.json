@@ -38,5 +38,6 @@
     "git_file_name": "_assets/image_data/Sweet-Suite-Package-Grand-One-Bedroom-Suite.json"
   },
   "reztrip_offer_id": "SUITED",
-  "featured_order": 0
+  "featured_order": 0,
+  "order": 0
 }

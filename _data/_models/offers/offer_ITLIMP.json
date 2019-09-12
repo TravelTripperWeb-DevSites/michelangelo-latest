@@ -38,5 +38,6 @@
     "git_file_name": "_assets/image_data/Italian-Immersion-Package--Lobby.json"
   },
   "reztrip_offer_id": "ITLIMP",
-  "featured_order": 1
+  "featured_order": 1,
+  "order": 1
 }

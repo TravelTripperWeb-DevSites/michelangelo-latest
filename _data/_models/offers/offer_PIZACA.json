@@ -38,5 +38,6 @@
     "git_file_name": "_assets/image_data/The-Michelangelo-Pizza-Academy--Pizza-Dough-Picture.json"
   },
   "reztrip_offer_id": "PIZACA",
-  "featured_order": 3
+  "featured_order": 3,
+  "order": 2
 }

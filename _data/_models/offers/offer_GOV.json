@@ -38,5 +38,6 @@
     "git_file_name": "_assets/image_data/Government--amp--Military-Rate-Executive-King-Room.json"
   },
   "reztrip_offer_id": "GOV",
-  "featured_order": 4
+  "featured_order": 4,
+  "order": 5
 }
