@@ -1,6 +1,6 @@
 {
   "name_localized": {
-    "en": "Government &amp; Military Rate",
+    "en": "Government & Military Rate",
     "fr": "Government &amp; Military Rate",
     "it": "Government &amp; Military Rate"
   },
@@ -37,5 +37,6 @@
     "original_url": "https://d31f902anbz5po.cloudfront.net/966/47874_5_master.jpg",
     "git_file_name": "_assets/image_data/Government--amp--Military-Rate-Executive-King-Room.json"
   },
-  "reztrip_offer_id": "GOV"
+  "reztrip_offer_id": "GOV",
+  "featured_order": 4
 }
