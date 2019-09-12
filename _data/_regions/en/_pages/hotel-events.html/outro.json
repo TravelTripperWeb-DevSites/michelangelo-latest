@@ -6,7 +6,7 @@
       "custom_classes": "dine__content"
     },
     "include_gap": true,
-    "col1_type": "html",
+    "col1_type": "image",
     "col2_type": "html",
     "col1_html": {
       "content": ""
