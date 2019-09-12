@@ -10,16 +10,16 @@ main:
       en: Services
       fr: Services
       it: Servizi
-    items:
+    items: 
   - page_id: _pages/rooms.html
-    items:
+    items: 
     url_localized: ''
     label_localized:
       en: Rooms & Suites
       fr: Chambre & Suites
       it: Camere & Suite
   - page_id: _pages/offers.html
-    items:
+    items: 
     url_localized: ''
     label_localized:
       en: Specials
@@ -37,19 +37,24 @@ main:
       en: Corporate Events
       fr: Événements d'entreprise
       it: Meeting ed Eventi
-    items:
+    items: 
   - page_id: _pages/gallery.html
     label_localized:
       en: Gallery
       fr: Galerie
       it: Gallery
-    items:
+    items: 
   - page_id: _pages/contact.html
     label_localized:
       en: Contact
       fr: Contact
       it: Contatti
-    items:
+    items: 
+  - folder: false
+    url_localized: ''
+    page_id: _pages/dining.html
+    label_localized:
+      en: Hotel Events
 mobile:
   depth: 2
   name: Mobile Menu
@@ -59,14 +64,14 @@ mobile:
     page_id: _pages/amenities.html
     label_localized:
       en: Services
-    items:
+    items: 
   - page_id: _pages/rooms.html
-    items:
+    items: 
     url_localized: ''
     label_localized:
       en: Rooms & Suites
   - page_id: _pages/offers.html
-    items:
+    items: 
     url_localized: ''
     label_localized:
       en: Specials
@@ -84,7 +89,7 @@ footer:
       en: Press
       fr: Salle de Presse
       it: Press
-    items:
+    items: 
   - folder: false
     target: _blank
     url_localized:
@@ -95,7 +100,7 @@ footer:
       en: Partners
       fr: Partenaires
       it: Partners
-    items:
+    items: 
   - folder: false
     target: _blank
     url_localized:
@@ -106,7 +111,7 @@ footer:
       en: E-Gift
       fr: E-cadeau
       it: E-Gift
-    items:
+    items: 
   - folder: false
     target: _blank
     url_localized:
@@ -117,7 +122,7 @@ footer:
       en: Careers
       fr: Carréries
       it: Careers
-    items:
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/sitemap.html
@@ -125,7 +130,7 @@ footer:
       en: Sitemap
       fr: Plan du site
       it: Mappa del sito
-    items:
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/accessibility-statement.html
@@ -133,7 +138,7 @@ footer:
       en: Accessibility Statement
       fr: Déclaration d'accessibilité
       it: Dichiarazione di accessibilità
-    items:
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/terms.html
@@ -141,7 +146,7 @@ footer:
       en: Terms of Use
       fr: Conditions d'utilisation
       it: Termini di utilizzo
-    items:
+    items: 
   - folder: false
     url_localized: ''
     page_id: _pages/privacy.html
@@ -149,7 +154,7 @@ footer:
       en: Privacy Policy
       fr: Politique de confidentialité
       it: Privacy Policy
-    items:
+    items: 
   - folder: false
     target: _blank
     url_localized:
@@ -160,4 +165,4 @@ footer:
       en: Legal Notice (Italy)
       fr: Mentions légales - Italie
       it: Note Legali - Italia
-    items:
+    items: 
