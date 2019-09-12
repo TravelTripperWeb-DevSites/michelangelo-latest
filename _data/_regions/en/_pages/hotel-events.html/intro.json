@@ -1,5 +1,9 @@
 [
   {
-    "_template": "1_col"
+    "_template": "1_col",
+    "advanced_options": {
+      "custom_classes": "innperpage-heading",
+      "tabindex": "-1"
+    }
   }
 ]
