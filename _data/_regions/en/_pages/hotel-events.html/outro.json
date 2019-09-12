@@ -7,6 +7,9 @@
     },
     "include_gap": true,
     "col1_type": "html",
-    "col2_type": "html"
+    "col2_type": "html",
+    "col1_html": {
+      "content": "<h2 class=\"h2\">September 19, 2019 | 6:00pm</h2>\n<hr />\n<p><a title=\"Buy Tickets\" href=\"https://www.rezclick.com/paintinglounge/index.php\" target=\"_blank\" rel=\"noopener noreferrer\">Buy Tickets</a></p>"
+    }
   }
 ]
