@@ -24,7 +24,7 @@
     <div class="c-room__name" tabindex="0">
       <h3><a class="h3" href="/rooms/room_{{ room.reztrip_room_id | downcase }}/" {% if sync %}ttweb-room-component="RoomName"{% endif %} >{{ room.name }}</a></h3>
     </div>
-    <div class="c-room__info">
+    <div class="c-room__info room-details-intro">
       <div class="c-room__info__size" tabindex="0" aria-label="Room Size in Square Feet {{ room.size | replace:'ft<sup>2</sup>', ''  }}">
         <span class="c-room__info__field">{% t 'rooms.room_size' %}</span>
         <span class="c-room__info__value"><span class="size_in_meters"></span> / <span class="size_in_feet" {% if sync %}ttweb-room-component="RoomSize"{% endif %}>{{ room.size }}</span></span>

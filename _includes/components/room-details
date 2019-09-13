@@ -61,7 +61,7 @@
     </div>
     <div class="room-details-intro__right">
       <div class="room-details-intro__info">
-        <div class="room-details-intro__info__size" tabindex="0" aria-label="Room Size in Square Feet {{ room.size | replace:'ft<sup>2</sup>', ''  }}">
+        <div class="room-details-intro__info__size" tabindex="0" aria-label="Room Size in Square Feet {{ room.size }}">
           <span class="room-details-intro__info__field">{% t 'rooms.room_size' %}</span>
           <span class="room-details-intro__info__value"><span class="size_in_meters"></span> / <span class="size_in_feet" {% if sync %}ttweb-room-component="RoomSize"{% endif %}>{{ room.size }}</span></span>
         </div>
