@@ -28,10 +28,12 @@ readyDoc(function() {
     }
   }
 
+
+
   setTimeout(function() {
     var roomsList = document.querySelectorAll(".c-room");
     for (let i = 0; i < roomsList.length; i++) {
-      var sizeInFeet = Number(roomsList[i].querySelector(".ttweb-room-size__value").innerHTML);
+      var sizeInFeet = Number(roomsList[i].querySelector(".size_in_feet").innerHTML);
       var sizeInMeters = Math.round(sizeInFeet / 10.764);
       //log(sizeInMeters);
       roomsList[i].querySelector(".size_in_meters").innerHTML = sizeInMeters;
