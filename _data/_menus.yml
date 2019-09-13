@@ -35,15 +35,16 @@ main:
     label_localized:
       en: Dining
       fr: Dining
-      it: Dining
+      it: RISTORAZIONE
     items: 
+    url_localized: ''
   - folder: false
     url_localized: ''
     page_id: _pages/events.html
     label_localized:
       en: Corporate Events
       fr: Événements d'entreprise
-      it: Meeting ed Eventi
+      it: MEETING & EVENTI
     items: 
   - page_id: _pages/gallery.html
     label_localized:
@@ -55,8 +56,9 @@ main:
     label_localized:
       en: Contact
       fr: Contact
-      it: Contatti
+      it: CONTATTI
     items: 
+    url_localized: ''
 mobile:
   depth: 2
   name: Mobile Menu
