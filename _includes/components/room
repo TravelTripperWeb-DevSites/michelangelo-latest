@@ -27,7 +27,7 @@
     <div class="c-room__info">
       <div class="c-room__info__size" tabindex="0" aria-label="Room Size in Square Feet {{ room.size | replace:'ft<sup>2</sup>', ''  }}">
         <span class="c-room__info__field">{% t 'rooms.room_size' %}</span>
-        <span class="c-room__info__value"><span class="size_in_meters"></span> - <span class="size_in_feet" {% if sync %}ttweb-room-component="RoomSize"{% endif %}>{{ room.size }}</span></span>
+        <span class="c-room__info__value"><span class="size_in_meters"></span> / <span class="size_in_feet" {% if sync %}ttweb-room-component="RoomSize"{% endif %}>{{ room.size }}</span></span>
       </div>
       <div class="c-room__info__guests">
         <span class="c-room__info__field" tabindex="0">{% t 'rooms.max_guests' %}</span>
