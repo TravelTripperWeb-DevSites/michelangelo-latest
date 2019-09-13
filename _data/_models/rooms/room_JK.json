@@ -10,7 +10,7 @@
     "it": "Misurando 51 metri quadrati / 549 piedi quadrati, con un letto king-size, le Junior Suite del Michelangelo Hotel combinano comfort ed eleganza con la perfezione."
   },
   "description_localized": {
-    "en": "Measuring 51 square metres/549 square feet, The Michelangelo Hotel’s Junior Suites combine comfort and elegance with perfection. They are tastefully decorated, with ornate fabrics, luxurious king-size beds, marble bathrooms and large living areas. Max 2 guests. ",
+    "en": "Measuring 51 square metres/549 square feet, The Michelangelo Hotel’s Junior Suites combine comfort and elegance with perfection. They are tastefully decorated, with ornate fabrics, luxurious king-size beds, marble bathrooms and large living areas.",
     "fr": "Mesurant 51 mètres carrés, les suites junior de l’hôtel Michelangelo allient confort et élégance à la perfection. Elles sont décorées avec goût, avec des tissus ornés, de luxueux lits king-size, des salles de bains en marbre et de grands espaces de vie. Max 2 invités.",
     "it": "Misura 51 metri quadrati / 549 piedi quadrati, le Junior Suite del Michelangelo Hotel combinano comfort ed eleganza con la perfezione. Sono decorate con gusto, con tessuti decorati, lussuosi letti king-size, bagni in marmo e ampie zone giorno. Max 2 ospiti."
   },
@@ -50,7 +50,7 @@
   ],
   "reztrip_room_id": "JK",
   "order": 4,
-  "guest_size_max": 3,
+  "guest_size_max": 2,
   "size": "550 ft<sup>2</sup>",
   "room_category": "Suites",
   "ada_room": false,

@@ -1,13 +1,13 @@
 {
   "name_localized": {
     "en": "The Michelangelo Pizza Academy ",
-    "fr": "The Michelangelo Pizza Academy ",
-    "it": "The Michelangelo Pizza Academy "
+    "fr": "L'Académie Michelangelo Pizza",
+    "it": "La Michelangelo Pizza Academy"
   },
   "short_description_localized": {
     "en": "The Michelangelo Pizza Academy ",
-    "fr": "The Michelangelo Pizza Academy ",
-    "it": "The Michelangelo Pizza Academy "
+    "fr": "L'Académie Michelangelo Pizza",
+    "it": "La Michelangelo Pizza Academy"
   },
   "description_localized": {
     "en": null,
@@ -37,5 +37,7 @@
     "original_url": "https://d31f902anbz5po.cloudfront.net/966/80494_2_master.jpg",
     "git_file_name": "_assets/image_data/The-Michelangelo-Pizza-Academy--Pizza-Dough-Picture.json"
   },
-  "reztrip_offer_id": "PIZACA"
+  "reztrip_offer_id": "PIZACA",
+  "featured_order": 3,
+  "order": 2
 }
