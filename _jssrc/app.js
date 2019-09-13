@@ -29,7 +29,7 @@ readyDoc(function() {
   }
 
   setTimeout(function() {
-    var roomsList = document.querySelectorAll(".c-room-list__items .c-room");
+    var roomsList = document.querySelectorAll(".c-room");
     for (let i = 0; i < roomsList.length; i++) {
       var sizeInFeet = Number(roomsList[i].querySelector(".ttweb-room-size__value").innerHTML);
       var sizeInMeters = Math.round(sizeInFeet / 10.764);
