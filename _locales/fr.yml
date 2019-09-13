@@ -59,7 +59,7 @@ fr:
     guest_size_max: "%{size}"
     accessible: Accessible Rooms
     price_per_night: / Night
-    room_size: SURFACE M² - FT²
+    room_size: SQM/SQF 
     room_details: Détails de la chambre
     room_features: Caractéristiques
     complimentary_amenities: Complimentary Amenities
