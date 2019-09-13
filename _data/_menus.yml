@@ -44,7 +44,7 @@ main:
     label_localized:
       en: Corporate Events
       fr: Événements d'entreprise
-      it: Meeting ed Eventi
+      it: MEETING & EVENTI
     items: 
   - page_id: _pages/gallery.html
     label_localized:
