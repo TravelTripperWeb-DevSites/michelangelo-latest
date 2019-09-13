@@ -1,7 +1,7 @@
 [
   {
     "hero_html": {
-      "content": "<h1 class=\"h1 light\" tabindex=\"0\">Une Oasis Italienne au C&oelig;ur de New York</h1>"
+      "content": "<h1 class=\"h1 light\" tabindex=\"0\">Une oasis Italienne au c&oelig;ur</h1>\n<h1 class=\"h1 light\" tabindex=\"0\">de New York</h1>"
     },
     "_template": "hero",
     "advanced_options": {

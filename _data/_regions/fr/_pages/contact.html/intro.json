@@ -13,7 +13,7 @@
     "col2_type": "html",
     "container_classes": "container-fluid",
     "col2_html": {
-      "content": "<h2 class=\"h2  text-center text-md-left mb-3 \" tabindex=\"0\">Contactez Nous</h2>\n<hr />\n<div class=\" text-center text-md-left\" tabindex=\"0\">\n<p>Nous sommes pr&ecirc;ts &agrave; r&eacute;pondre &agrave; toutes vos questions et &agrave; vous fournir plus d'informations sur nos h&eacute;bergements, nos services, nos restaurants, notre emplacement et bien plus encore. Contactez-nous aujourd'hui!</p>\n<p>Vous trouverez des informations d&eacute;taill&eacute;es sur l'accessibilit&eacute; dans notre <a href=\"fr/accessibility-statement/\">d&eacute;claration d'accessibilit&eacute;</a>.</p>\n</div>"
+      "content": "<h2 class=\"h2  text-center text-md-left mb-3 \" tabindex=\"0\">Contactez nous</h2>\n<hr />\n<div class=\" text-center text-md-left\" tabindex=\"0\">\n<p>Nous sommes pr&ecirc;ts &agrave; r&eacute;pondre &agrave; toutes vos questions et &agrave; vous fournir plus d'informations sur nos h&eacute;bergements, nos services, nos restaurants, notre emplacement et bien plus encore. Contactez-nous aujourd'hui!</p>\n<p>Vous trouverez des informations d&eacute;taill&eacute;es sur l'accessibilit&eacute; dans notre <a href=\"fr/accessibility-statement/\">d&eacute;claration d'accessibilit&eacute;</a>.</p>\n</div>"
     }
   }
 ]
