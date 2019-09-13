@@ -35,8 +35,9 @@ main:
     label_localized:
       en: Dining
       fr: Dining
-      it: Dining
+      it: RISTORAZIONE
     items: 
+    url_localized: ''
   - folder: false
     url_localized: ''
     page_id: _pages/events.html
