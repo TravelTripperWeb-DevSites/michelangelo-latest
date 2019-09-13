@@ -1,13 +1,13 @@
 {
   "name_localized": {
     "en": "Sweet Suite Package",
-    "fr": "Sweet Suite Package",
-    "it": "Sweet Suite "
+    "fr": "Forfait Sweet Suite",
+    "it": "Pacchetto Sweet Suite"
   },
   "short_description_localized": {
     "en": "Experience our luxury appointed suites at The Michelangelo.\r\n",
-    "fr": "Experience our luxury appointed suites at The Michelangelo.\r\n",
-    "it": "Prova a vivere nelle lussuose suites del The Michelangelo "
+    "fr": "Les voyageurs peuvent passer des vacances sans soucis ou un voyage d'affaires avec cette offre exceptionnelle à l'hôtel Michelangelo de New York. ",
+    "it": "I viaggiatori possono godersi una vacanza spensierata o un viaggio d'affari con questa eccezionale offerta al Michelangelo New York. "
   },
   "description_localized": {
     "en": null,
@@ -38,5 +38,6 @@
     "git_file_name": "_assets/image_data/Sweet-Suite-Package-Grand-One-Bedroom-Suite.json"
   },
   "reztrip_offer_id": "SUITED",
-  "featured_order": 0
+  "featured_order": 0,
+  "order": 0
 }

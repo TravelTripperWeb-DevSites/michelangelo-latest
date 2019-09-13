@@ -1,13 +1,13 @@
 {
   "name_localized": {
-    "en": "Best Available Rate - Pay Now",
-    "fr": "Best Available Rate - Pay Now",
-    "it": "Best Available Rate - Pay Now"
+    "en": "Advance Purchase Non-Refundable",
+    "fr": "Meilleur Tarif Disponible - Payer Maintenant",
+    "it": "Migliore Tariffa Disponibile - Paga Ora"
   },
   "short_description_localized": {
     "en": "Book now and save for your stay.   Pre-paid non-refundable at the time of booking.",
-    "fr": "Book now and save for your stay.   Pre-paid non-refundable at the time of booking.",
-    "it": "Book now and save for your stay.   Pre-paid non-refundable at the time of booking."
+    "fr": "Planifiez votre voyage à New York à l'avance et profitez de notre offre Early Booker. ",
+    "it": "Pianifica in anticipo il tuo viaggio a New York e goditi la nostra offerta Prenota in anticipo. "
   },
   "description_localized": {
     "en": null,
@@ -38,5 +38,6 @@
     "git_file_name": "_assets/image_data/Best-Available-Rate---Pay-Now-Hotel-Lobby-Staircase.json"
   },
   "reztrip_offer_id": "NONREF",
-  "featured_order": 6
+  "featured_order": 6,
+  "order": 3
 }
