@@ -2,9 +2,11 @@
 title: The Michelangelo Hotel
 title_separator: "|"
 name: The Michelangelo Hotel
-description: Look no further for a hotel in Manhattan that ticks off all the marks. Experience The Michelangelo’s prime Times Square location, coupled with Italian flair.
+description: Look no further for a hotel in Manhattan that ticks off all the marks.
+  Experience The Michelangelo’s prime Times Square location, coupled with Italian
+  flair.
 url: https://www.michelangelohotel.com
-repository:
+repository: 
 default_lang: en
 languages:
 - en
@@ -73,7 +75,7 @@ sass:
   - _sass
   style: compressed
 permalink: pretty
-timezone:
+timezone: 
 page_gen:
 - data: offers
   template: offer_layout
