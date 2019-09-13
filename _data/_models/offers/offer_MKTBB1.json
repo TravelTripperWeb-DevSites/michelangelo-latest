@@ -1,7 +1,7 @@
 {
   "name_localized": {
-    "en": "Breakfast Included - Pay Later",
-    "fr": "Breakfast Included - Pay Later",
+    "en": "Bed & Breakfast",
+    "fr": "Bed & Breakfast",
     "it": "Il Pacchetto Prima Colazione"
   },
   "short_description_localized": {
@@ -38,5 +38,6 @@
     "git_file_name": "_assets/image_data/Breakfast-Included---Pay-Later-Hotel-Lounge.json"
   },
   "reztrip_offer_id": "MKTBB1",
-  "featured_order": 5
+  "featured_order": 5,
+  "order": 4
 }

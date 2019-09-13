@@ -1,13 +1,13 @@
 {
   "name_localized": {
     "en": "Italian Immersion Package ",
-    "fr": "Italian Immersion Package ",
-    "it": "Italian Immersion Package "
+    "fr": "Forfait d'immersion italienne",
+    "it": "Pacchetto Immersione Italiana"
   },
   "short_description_localized": {
     "en": "In collaboration with Context Travel, The Michelangelo New York offers guest an in-depth experience of the food and culture of New York’s vibrant Little Italy and Chinatown. ",
-    "fr": "In collaboration with Context Travel, The Michelangelo New York offers guest an in-depth experience of the food and culture of New York’s vibrant Little Italy and Chinatown. ",
-    "it": "In collaboration with Context Travel, The Michelangelo New York offers guest an in-depth experience of the food and culture of New York’s vibrant Little Italy and Chinatown. "
+    "fr": "En collaboration avec Context Travel, le Michelangelo New York propose désormais à ses clients une expérience thématique approfondie de la gastronomie et de la culture de la petite Italie et du quartier chinois animés de New York.",
+    "it": "En collaborazione con Context Travel, The Michelangelo New York offre ora agli ospiti un'esperienza tematica e approfondita del cibo e della cultura della vibrante Little Italy e Chinatown di New York."
   },
   "description_localized": {
     "en": null,
@@ -38,5 +38,6 @@
     "git_file_name": "_assets/image_data/Italian-Immersion-Package--Lobby.json"
   },
   "reztrip_offer_id": "ITLIMP",
-  "featured_order": 1
+  "featured_order": 1,
+  "order": 1
 }
