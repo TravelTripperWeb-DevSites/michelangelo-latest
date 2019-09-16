@@ -33,7 +33,7 @@ readyDoc(function () {
   setTimeout(function () {
     var roomsList = document.querySelectorAll(".c-room");
     for (var _i = 0; _i < roomsList.length; _i++) {
-      var sizeInFeet = Number(roomsList[_i].querySelector(".ttweb-room-size__value").innerHTML);
+      var sizeInFeet = Number(roomsList[_i].querySelector(".c-room .size_in_feet").innerHTML);
       var sizeInMeters = Math.round(sizeInFeet / 10.764);
       //log(sizeInMeters);
       roomsList[_i].querySelector(".size_in_meters").innerHTML = sizeInMeters;
