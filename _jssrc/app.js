@@ -33,11 +33,13 @@ readyDoc(function() {
   setTimeout(function() {
     var roomsList = document.querySelectorAll(".c-room");
     for (let i = 0; i < roomsList.length; i++) {
-      var sizeInFeet = Number(roomsList[i].querySelector(".c-room .size_in_feet").innerHTML);
+      var sizeInFeet = roomsList[i].querySelector(".c-room .size_in_feet .ttweb-room-size__value").innerHTML;
+      //console.log(roomsList[i].querySelector(".c-room .size_in_feet").innerHTML);
+      console.log(roomsList[i].querySelector(".c-room .size_in_feet .ttweb-room-size__value").innerHTML);
       var sizeInMeters = Math.round(sizeInFeet / 10.764);
       //log(sizeInMeters);
-      roomsList[i].querySelector(".size_in_meters").innerHTML = sizeInMeters;
-      roomsList[i].querySelector(".ttweb-room-size__units").innerHTML = "";
+      roomsList[i].querySelector(".size_in_meters").innerHTML = sizeInMeters+"M<sup>2</sup>";
+    //  roomsList[i].querySelector(".ttweb-room-size__units").innerHTML = "";
     }
   }, 5000);
 
@@ -51,9 +53,9 @@ readyDoc(function() {
 
   setTimeout(function() {
     if (document.querySelector(".room-details-intro")) {
-      document.querySelector(".room-details-intro .size_in_meters").innerText = Math.round(document.querySelector(".room-details-intro .size_in_feet")
+      document.querySelector(".room-details-intro .size_in_meters").innerHTML = Math.round(document.querySelector(".room-details-intro .size_in_feet")
         .innerText.match(/\d+/g)
-        .map(Number)[0] / 10.764);
+        .map(Number)[0] / 10.764)+"M<sup>2</sup>";
     }
   }, 2000);
 
