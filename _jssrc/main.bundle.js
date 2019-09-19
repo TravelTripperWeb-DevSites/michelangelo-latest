@@ -32,27 +32,27 @@ readyDoc(function () {
 
   setTimeout(function () {
     var roomsList = document.querySelectorAll(".c-room");
-    for (var _i = 0; _i < roomsList.length; _i++) {
+    for (var i = 0; i < roomsList.length; i++) {
       var sizeInFeet = "";
-      if (roomsList[_i].querySelector(".c-room .size_in_feet .ttweb-room-size__value")) {
-        sizeInFeet = roomsList[_i].querySelector(".c-room .size_in_feet .ttweb-room-size__value").innerHTML;
+      if (roomsList[i].querySelector(".c-room .size_in_feet .ttweb-room-size__value")) {
+        sizeInFeet = roomsList[i].querySelector(".c-room .size_in_feet .ttweb-room-size__value").innerText.replace(" FT2", "");
       } else {
-        sizeInFeet = roomsList[_i].querySelector(".c-room .size_in_feet").innerHTML;
+        sizeInFeet = roomsList[i].querySelector(".c-room .size_in_feet").innerText.replace(" FT2", "");
       }
-      //console.log(roomsList[i].querySelector(".c-room .size_in_feet").innerHTML);
+      //  console.log(sizeInFeet);
       //console.log(roomsList[i].querySelector(".c-room .size_in_feet .ttweb-room-size__value").innerHTML);
       var sizeInMeters = Math.round(sizeInFeet / 10.764);
       //log(sizeInMeters);
-      roomsList[_i].querySelector(".size_in_meters").innerHTML = sizeInMeters + "M<sup>2</sup>";
+      roomsList[i].querySelector(".size_in_meters").innerHTML = sizeInMeters + "M<sup>2</sup>";
       //  roomsList[i].querySelector(".ttweb-room-size__units").innerHTML = "";
     }
-  }, 8000);
+  }, 7000);
 
   setTimeout(function () {
     if (document.getElementById("preloader")) {
       document.getElementById("preloader").style.display = "none";
     }
-  }, 8500);
+  }, 7500);
 
   // converting room size from square feet to square meters in room details page
 

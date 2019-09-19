@@ -32,14 +32,14 @@ readyDoc(function() {
 
   setTimeout(function() {
     var roomsList = document.querySelectorAll(".c-room");
-    for (let i = 0; i < roomsList.length; i++) {
+    for (var i = 0; i < roomsList.length; i++) {
       var sizeInFeet = "";
       if(roomsList[i].querySelector(".c-room .size_in_feet .ttweb-room-size__value")) {
-        sizeInFeet = roomsList[i].querySelector(".c-room .size_in_feet .ttweb-room-size__value").innerHTML;
+        sizeInFeet = roomsList[i].querySelector(".c-room .size_in_feet .ttweb-room-size__value").innerText.replace(" FT2", "");
       } else {
-        sizeInFeet = roomsList[i].querySelector(".c-room .size_in_feet").innerHTML;
+        sizeInFeet = roomsList[i].querySelector(".c-room .size_in_feet").innerText.replace(" FT2", "");
       }
-      //console.log(roomsList[i].querySelector(".c-room .size_in_feet").innerHTML);
+    //  console.log(sizeInFeet);
       //console.log(roomsList[i].querySelector(".c-room .size_in_feet .ttweb-room-size__value").innerHTML);
       var sizeInMeters = Math.round(sizeInFeet / 10.764);
       //log(sizeInMeters);
