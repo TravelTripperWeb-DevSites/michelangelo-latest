@@ -46,13 +46,13 @@ readyDoc(function() {
       roomsList[i].querySelector(".size_in_meters").innerHTML = sizeInMeters+"M<sup>2</sup>";
     //  roomsList[i].querySelector(".ttweb-room-size__units").innerHTML = "";
     }
-  }, 6000);
+  }, 7000);
 
   setTimeout(function() {
     if (document.getElementById("preloader")) {
       document.getElementById("preloader").style.display = "none";
     }
-  }, 6500);
+  }, 7500);
 
   // converting room size from square feet to square meters in room details page
 
