@@ -60,7 +60,7 @@ it:
     guest_size_max: "%{size}"
     accessible: Accessible Rooms
     price_per_night: / Night
-    room_size: AREA MQ - SFT
+    room_size: SQM/SQF
     room_details: Dettagli della camera
     room_features: Servizi in Camera
     complimentary_amenities: Servizi inclusi
