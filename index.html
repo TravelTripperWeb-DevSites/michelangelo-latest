@@ -25,20 +25,20 @@ meta_tags:
       <h2 class="overline" tabindex="0">{% t 'offers.cross_sell.description' %}</h2>
       <h3 class="h3" tabindex="0">{% t 'offers.cross_sell.title' %}</h3>
     </div>
-    <div class="specialoffers__row">
-      {% assign offers = site.data._models.offers | sort: 'order' %}
-      {% for offer in offers limit: 3 %}
-      <div class="specialoffers__item">
-        <a href="{{ offer.id | permalink: model_dir: 'offers' }}">
-          {% assign featured_image = offer.image | default: offer.image %}
-          {% include components/image image=featured_image max_width=600 %}
+    <div data-tt-class-name="specialoffers__row" ttweb-component="OfferList">
+      <div class="specialoffers__item" data-tt-offer-template="true" data-tt-offers-limit="3">
+        <a data-tt-url-format="{{permalink}}offers/offer/#<offercode>" ttweb-offer-component="OfferViewButton">
+          <div ttweb-offer-component="OfferImage" ></div>
         </a>
-        <h3 class="h4"><a href="{{ offer.id | permalink: model_dir: 'offers' }}">{{ offer.name }}</a></h3>
-        <p tabindex="0">{{ offer.short_description }}</p>
-        <a class="btn btn--primary" href="{{ offer.id | permalink: model_dir: 'offers' }}">{% t 'cta.view_more' %}</a>
+        <h3 class="h4">
+          <a data-tt-url-format="{{permalink}}offers/offer/#<offercode>" ttweb-offer-component="OfferViewButton">
+           <span ttweb-offer-component="OfferTitle"></span>
+          </a>
+        </h3>
+        <p tabindex="0" ttweb-offer-component="OfferShortDescription"></p>
+        <a class="btn btn--primary" data-tt-url-format="{{permalink}}offers/offer/#<offercode>" ttweb-offer-component="OfferViewButton">{% t 'cta.view_more' %}</a>
       </div>
-      {% endfor %}
     </div>
-    <a href="/offers/" class="btn btn--readmore">See More <span class="far fa-plus"></span></a>
+    <a href="{{ permalink}}offers" class="btn btn--readmore">{% t 'cta.see_more' %} <span class="far fa-plus"></span></a>
   </div>
 </section>

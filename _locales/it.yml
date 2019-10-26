@@ -22,6 +22,7 @@ it:
     explore: Explore
     select: Select
     view_more: Scopri di più
+    see_more: Vedi altro
   page_not_found:
     header: Page Not Found
 

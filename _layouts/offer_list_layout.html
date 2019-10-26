@@ -3,19 +3,13 @@ layout: no_hero_layout
 ---
 
 
-{% if site.data._models.offers %}
-  {% assign offers = site.data._models.offers | sort:"order" %}
-  <section class="c-offer-list">
+  <section class="c-offer-list" ttweb-component="OfferList">
     <div class="c-offer-list__items">
-      {% for offer in offers %}
-        {% include components/offer sync_content=page.sync_offer_content %}
-      {% endfor %}
+      <div data-tt-class-name="c-offer" data-tt-offer-template="true">
+        {% include components/offer sync_content=true %}
+      </div>
     </div>
   </section>
-{% else %}
-  {% regionblock no_list_items, type:html %}
-    {% t 'offers.none' %}
-  {% endregionblock %}
-{% endif %}
+
 
 {{ content }}
