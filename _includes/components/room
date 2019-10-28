@@ -24,7 +24,7 @@
     </div>
     <div class="c-room__buttons">
       <a data-tt-class-name="btn btn--primary" data-tt-url-format="{{permalink}}room/#<roomcode>" ttweb-room-component="RoomViewButton">{% t 'cta.discover' %}</a>
-      <div data-tt-class-name="btn btn--secondary" ttweb-room-component="BookingButton">
+      <div data-tt-class-name="btn btn--secondary" ttweb-room-component="RoomBookingButton">
         {% t 'cta.book_now' %}
       </div>
     </div>

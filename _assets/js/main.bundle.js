@@ -257,8 +257,21 @@ readyDoc(function () {
       }
     }
   });
+  redirectRoomOfferNoHashUrls();
 });
 
+function redirectRoomOfferNoHashUrls() {
+  var pageUrl = window.location.href;
+  var pageHash = window.location.hash;
+  if (pageUrl.indexOf('/rooms/room/') != -1 && pageHash == '') {
+    pageUrl = pageUrl.replace('/rooms/room/', '/rooms/');
+    console.log('NOHSH', pageUrl);
+    window.location.href = pageUrl;
+  } else if (pageUrl.indexOf('/offers/offer/') != -1 && pageHash == '') {
+    pageUrl = pageUrl.replace('/offers/offer/', '/offers/');
+    window.location.href = pageUrl;
+  }
+}
 // Pinterest Share
 
 function pinterestShare(img, desc) {
