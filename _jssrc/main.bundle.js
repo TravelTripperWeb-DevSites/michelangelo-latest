@@ -46,13 +46,13 @@ readyDoc(function () {
       roomsList[i].querySelector(".size_in_meters").innerHTML = sizeInMeters + "M<sup>2</sup>";
       //  roomsList[i].querySelector(".ttweb-room-size__units").innerHTML = "";
     }
-  }, 7000);
+  }, 3000);
 
   setTimeout(function () {
     if (document.getElementById("preloader")) {
       document.getElementById("preloader").style.display = "none";
     }
-  }, 7500);
+  }, 2500);
 
   // converting room size from square feet to square meters in room details page
 
@@ -101,21 +101,25 @@ readyDoc(function () {
     this.parentNode.parentNode.classList.toggle('closed');
   }, false);
 
-  setTimeout(function () {
-    if (document.getElementsByClassName("room-item")[0]) {
-      var bannerSlider = tns({
-        container: '.room-item',
-        "items": 1,
-        "slideBy": "page",
-        "mouseDrag": true,
-        "swipeAngle": false,
-        "speed": 400,
-        navContainer: "#bannerSlider",
-        prevButton: "#bannerSliderPrev",
-        nextButton: "#bannerSliderNext"
-      });
-    }
-  }, 2000);
+  function roomSlider() {
+    setTimeout(function () {
+      if (document.getElementsByClassName("room-item")[0]) {
+        var bannerSlider = tns({
+          container: '.room-item',
+          "items": 1,
+          "slideBy": "page",
+          "mouseDrag": true,
+          "swipeAngle": false,
+          "speed": 400,
+          navContainer: "#bannerSlider",
+          prevButton: "#bannerSliderPrev",
+          nextButton: "#bannerSliderNext"
+        });
+      }
+    }, 2000);
+  };
+  roomSlider();
+
   setTimeout(function () {
     if (document.getElementById("arrival-date")) {
       var arrivalDateField = document.getElementById("arrival-date");
@@ -171,6 +175,83 @@ readyDoc(function () {
       });
     }
   }
+
+  ttwebHotel.ready(function () {
+    // dynamic offer details
+    if (window.location.href.indexOf('/offers/offer/#') != -1) {
+      var dynamicOfferCode = window.location.hash.toString().replace("#", "");
+      var offerDetailComponentDivs = document.querySelectorAll('[data-dynamic-offer-details=true]');
+      if (offerDetailComponentDivs && offerDetailComponentDivs.length > 0 && dynamicOfferCode && dynamicOfferCode != '') {
+
+        var offers = ttwebHotel.offersList;
+        var nextOffer = null;
+        if (offers.length > 1) {
+          for (var i = 0, ii = offers.length; i < ii; i++) {
+            if (offers[i].ratePlanCode == dynamicOfferCode) {
+              var pinterestLink = document.querySelector(".pinterestShare");
+              // for(var k=0,kk=links.length;k<kk;k++) {
+              pinterestLink.addEventListener('click', function (event) {
+                pinterestShare(offers[i].images[0].url, offers[i].ratePlanName);
+              }, false);
+              // }
+            }
+          }
+        }
+        for (var i = 0, ii = offerDetailComponentDivs.length; i < ii; i++) {
+          var props = {
+            hotel: ttwebHotel,
+            rateCode: dynamicOfferCode,
+            innerHTML: offerDetailComponentDivs[i].innerHTML
+          };
+          var offerItem = TTRender.e(TTRender.Offer, props);
+          TTRender.renderInElement(offerDetailComponentDivs[i], offerItem);
+        }
+      }
+    }
+    // dynamic room details
+    if (window.location.href.indexOf('/rooms/room/#') != -1) {
+      var dynamicRoomCode = window.location.hash.toString().replace("#", "");
+      var roomDetailComponentDivs = document.querySelectorAll('[data-dynamic-room-details=true]');
+
+      var roomDetailADADivs = document.querySelectorAll('[data-dynamic-room-check-ada=true]');
+      var roomImageSlider = document.getElementById('bannerSlider');
+      var roomImageSliderNav = roomImageSlider.innerHTML.trim();
+
+      if (roomDetailComponentDivs && roomDetailComponentDivs.length > 0 && dynamicRoomCode && dynamicRoomCode != '') {
+        var rooms = ttwebHotel.roomsList;
+        if (rooms.length > 1) {
+          for (var i = 0, ii = rooms.length; i < ii; i++) {
+            if (rooms[i].code == dynamicRoomCode) {
+              var updatedNav = '';
+              for (var k = 0, kk = 3; k < kk; k++) {
+                updatedNav = updatedNav + roomImageSliderNav;
+              }
+              roomImageSlider.innerHTML = updatedNav;
+
+              var adaTextVisibility = rooms[i].category.toLowerCase().indexOf('accessible') == -1 ? 'hidden' : 'visible';
+              for (var i = 0, ii = roomDetailADADivs.length; i < ii; i++) {
+                roomDetailADADivs[i].style.visibility = adaTextVisibility;
+              }
+
+              var roomCodeInput = document.querySelector(".room-booking-widget [name='selected_room']");
+              if (roomCodeInput) {
+                roomCodeInput.value = dynamicRoomCode;
+              }
+            }
+          }
+        }
+        for (var i = 0, ii = roomDetailComponentDivs.length; i < ii; i++) {
+          var props = {
+            hotel: ttwebHotel,
+            selectedRoom: dynamicRoomCode,
+            innerHTML: roomDetailComponentDivs[i].innerHTML
+          };
+          var roomItem = TTRender.e(TTRender.Room, props);
+          TTRender.renderInElement(roomDetailComponentDivs[i], roomItem, roomSlider);
+        }
+      }
+    }
+  });
 });
 
 // Pinterest Share

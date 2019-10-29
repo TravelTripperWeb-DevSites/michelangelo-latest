@@ -1,20 +1,20 @@
 {% assign sync = include.sync_content %}
 
-<div class="c-offer" data-tt-rate-code="{{offer.reztrip_offer_id}}" ttweb-component="Offer">
   <div class="c-offer__image" {% if sync %}ttweb-offer-component="OfferImage"{% endif %}>
     {% include components/image image=offer.image max_width=600 %}
   </div>
   <div class="c-offer__content">
     <div class="c-offer__name">
       <h3 class="h3" tabindex="0">
-        <a href="{{ offer.id | permalink: model_dir: 'offers' }}" {% if sync %}ttweb-offer-component="OfferTitle"{% endif %}>{{ offer.name }}</a>
+        <a data-tt-url-format="{{permalink}}offer/#<offercode>" ttweb-offer-component="OfferViewButton"><span ttweb-offer-component="OfferTitle"></span></a>
       </h3>
     </div>
-    <a class="btn btn--primary" href="{{ offer.id | permalink: model_dir: 'offers' }}">{% t 'cta.discover' %}</a>
-    <div class="c-offer__select">
-      <div class="btn--secondary" data-tt-class-name="btn" ttweb-offer-component="OfferBookingButton">
-        {% t 'offers.buttons.book' %}
+    <a class="btn btn--primary" data-tt-url-format="{{permalink}}offer/#<offercode>" ttweb-offer-component="OfferViewButton">{% t 'cta.discover' %}</a>
+    <div class="c-offer__select ">
+      <div class="ttweb-booking-button-offer">
+        <a data-tt-class-name="btn btn--secondary" ttweb-offer-component="OfferBookingButton">
+          {% t 'offers.buttons.book' %}
+        </a>
       </div>
     </div>
   </div>
-</div>
