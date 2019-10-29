@@ -57,6 +57,7 @@
 }
 
 .c-offer {
+  display: block;
   margin-bottom: 18px !important;
   padding-right: 12px !important;
   padding-left: 12px !important;
@@ -147,6 +148,10 @@
 
     .seperator {
       padding-bottom: 24px;
+    }
+    
+    .overline{
+      margin-top: 1.5rem;
     }
 
     ul {

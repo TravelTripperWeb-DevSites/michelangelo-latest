@@ -1,10 +1,10 @@
-{% assign sync = include.sync_content %}
+{% assign sync = true %}
 
 <div class="offer-detail container-fluid">
   <div class="row c-2-col__row">
-    <div class="col-md-5 col--left">
+    <div class="col-md-5 col--left" data-dynamic-offer-details="true">
       <div class="content-block" >
-        <div  data-tt-rate-code="{{offer.reztrip_offer_id}}" ttweb-component="Offer">
+        <div>
           <h1 class="h1" tabindex="0" {% if sync %}ttweb-offer-component="OfferTitle"{% endif %}>{{ offer.name }}</h1>
           <div class="select">
             <div class="btn--secondary" data-tt-class-name="btn" ttweb-offer-component="OfferBookingButton">
@@ -17,29 +17,28 @@
             <p class="p1" {% if sync %}ttweb-offer-component="OfferDescription"{% endif %}>{{ offer.description }}</p>
           </div>
           <p tabindex="0" class="overline mb-2">Terms & Conditions</p>
-          <p tabindex="0" class="p1" {% if sync %}ttweb-offer-component="OfferPolicyDescription"{% endif %}>{{ offer.policy_description }}</p>
+          <div tabindex="0" class="p1" {% if sync %}ttweb-offer-component="OfferPolicyDescription"{% endif %}>{{ offer.policy_description }}</div>
         </div>
         <p class="overline" tabindex="0">SHARE</p>
         <ul>
-        {% assign title = offer.name | replace: "'", "" %}
-        {% assign siteurl = site.data.hotel_settings.site_url %}
-        <li>
-          <a href="https://facebook.com/sharer.php?u={{ siteurl }}{{ offer.id | permalink: model_dir: 'offers' }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fab fa-facebook"></i></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ siteurl }}{{ offer.id | permalink: model_dir: 'offers' }}&via={{ site.data.social.twitter.username }}&related={{ site.data.social.twitter.username }}" rel="nofollow" target="_blank" title="Share on Twitter"> <i class="fab fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="javascript:void(0);" title="Share on Pinterest" onclick="pinterestShare('{{offer.image.url}}', '{{ title }}')"> <i class="fab fa-pinterest"></i></a>
-        </li>
-        <li>
-          <a href="javascript:void(0);" onclick="window.open( 'http://www.linkedin.com/shareArticle?mini=true&url={{ siteurl }}{{ offer.id | permalink: model_dir: 'offers' }}', 'sharer', 'toolbar=0, status=0');return false;" title="Linkedin"> <i class="fab fa-linkedin"></i></a>
-        </li>
+          <li>
+            <a ttweb-offer-component="OfferViewButton" data-tt-url-format="https://www.facebook.com/sharer.php?u={{ site.data.hotel_settings.site_url }}/{% if site.active_lang != 'en' %}{{site.active_lang}}{% endif %}offers/offer/#<offercode>" title="Share on Facebook"><i
+                class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a ttweb-offer-component="OfferViewButton" data-tt-url-format="https://twitter.com/intent/tweet?text={{page.title}}&url={{ site.data.hotel_settings.site_url }}/{% if site.active_lang != 'en' %}{{site.active_lang}}/{% endif %}offers/offer/#<offercode>&via={{ site.data.social.twitter.username }}&related={{ site.data.social.twitter.username }}" rel="nofollow" target="_blank" title="Share on Twitter"> <i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" title="Share on Pinterest" class="pinterestShare"> <i class="fab fa-pinterest"></i></a>
+          </li>
+          <li>
+            <a ttweb-offer-component="OfferViewButton" data-tt-url-format="http://www.linkedin.com/shareArticle?mini=true&url={{ site.data.hotel_settings.site_url }}/{% if site.active_lang != 'en' %}{{site.active_lang}}/{% endif %}offers/offer/#<offercode>"  onClick="window.open( this.href, 'sharer', 'toolbar=0, status=0');return false;" title="Linkedin"> <i class="fab fa-linkedin"></i></a>
+          </li>
       </ul>
       </div>
     </div>
     <div class="col-md-7 col--right">
-      <div data-tt-rate-code="{{offer.reztrip_offer_id}}" ttweb-component="Offer">
+      <div data-dynamic-offer-details="true">
         <div class="image"{% if sync %}ttweb-offer-component="OfferImage"{% endif %}></div>
       </div>
 
@@ -67,18 +66,20 @@
                 <div class="half-width">
                   <div class="field-inner">
                     <label for="no-of-adults">{% t 'adults' %}</label>
-                    <input type="number" id="no-of-adults" name="adults" aria-label="Number of Adults" value="01" min="1">
+                    <input type="number" id="no-of-adults" name="adults[]" aria-label="Number of Adults" value="01" min="1">
                   </div>
                 </div>
                 <div class="half-width">
                   <div class="field-inner">
                     <label for="no-of-children">{% t 'children' %}</label>
-                    <input type="number" id="no-of-children" name="children" aria-label="Number of Adults" value="00" min="0">
+                    <input type="number" id="no-of-children" name="children[]" aria-label="Number of Adults" value="00" min="0">
                   </div>
                 </div>
               </div>
               <div class="button-wrap">
-                <input type="hidden" name="selected_room" value="{{room.reztrip_room_id}}">
+                <input type="hidden" name="rate_code" value="">
+                <input type="hidden" name="locale" value="{{site.active_lang}}">
+
                 <button class="btn btn--secondary" type="submit" name="button">{% t 'check_availability' %}</button>
               </div>
             </div>

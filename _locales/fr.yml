@@ -21,6 +21,7 @@ fr:
     explore: Explorer
     select: Select
     view_more: Plus de détails
+    see_more: Voir plus
   page_not_found:
     header: Page Not Found
 
@@ -59,7 +60,7 @@ fr:
     guest_size_max: "%{size}"
     accessible: Accessible Rooms
     price_per_night: / Night
-    room_size: SQM/SQF 
+    room_size: SQM/SQF
     room_details: Détails de la chambre
     room_features: Caractéristiques
     complimentary_amenities: Complimentary Amenities

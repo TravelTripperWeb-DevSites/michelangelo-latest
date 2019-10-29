@@ -1,5 +1,6 @@
 {% if site.data.hotel_settings._hotel_id != nil && site.data.hotel_settings._hotel_id != '' %}
   <script src="https://plugins.traveltripper.io/{{site.data.ttweb_plugins.version}}/rt3api.min.js" charset="UTF-8"></script>
+  <!-- <script src="/assets/js/rt3api.min.js" charset="UTF-8"></script> -->
   <script type="text/javascript">
 
     var rootPath = '{{site.data.ttweb_plugins.root_path}}';
@@ -20,16 +21,23 @@
       locale = 'en';
     }
 
-    var ttwebHotel = new TTWebHotel({
+    var ttwebHotel = new TTWebHotel(TTWebHotel.Reztrip, {
       hotelId: '{{site.data.hotel_settings._hotel_id}}',
       portalId: '{{site.data.hotel_settings._portal_id}}',
       rootPath: rootPath,
       defaultLocale: locale,
       defaultCurrency: defaultCurrency,
-      defaultTimezone: defaultTimezone
+      defaultTimezone: defaultTimezone,
+      localeOverrides: {
+        'room' : {
+          guest_size_max : "{% raw %}{{guest_size_max}}{% endraw %}"
+        }
+      }
     });
 
-    TTRender.initComponents(ttwebHotel);
+    TTRender.initComponents(ttwebHotel,{
+      theme: 'base-theme'
+    });
 
   </script>
 {% endif %}

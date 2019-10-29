@@ -33,7 +33,7 @@
       "file_size": null,
       "alt": "B & H Photo Video Pro Audio",
       "caption": "",
-      "description": "B & H Photo Video Pro Audio"
+      "description": "<a href=\"https://www.bhphotovideo.com/\" target=\"_blank\">B & H Photo Video Pro Audio</a>"
     },
     {
       "name": "daves-buster",
@@ -56,7 +56,7 @@
       "file_size": null,
       "alt": "Dave & Buster's",
       "caption": "",
-      "description": "Dave & Buster's"
+      "description": "<a href=\"https://www.daveandbusters.com\" target=\"_blank\">Dave & Buster's</a>"
     },
     {
       "name": "Follow Me NYC Walking Tours",
@@ -79,7 +79,7 @@
       "file_size": null,
       "alt": "Follow Me NYC Walking Tours",
       "caption": "",
-      "description": "Follow Me NYC Walking Tours"
+      "description": "<a href=\"https://followmenycadventures.com/\" target=\"_blank\">Follow Me NYC Walking Tours</a>"
     },
     {
       "name": "rc-steak-house",
@@ -102,7 +102,7 @@
       "file_size": null,
       "alt": "Ruth's Chris Steak House",
       "caption": "",
-      "description": "Ruth's Chris Steak House"
+      "description": "<a href=\"https://www.ruthschris.com/\" target=\"_blank\">Ruth's Chris Steak House</a>"
     },
     {
       "name": "lol",
@@ -125,7 +125,7 @@
       "file_size": null,
       "alt": "LOL Times Square Comedy Club",
       "caption": "",
-      "description": "LOL Times Square Comedy Club"
+      "description": "<a href=\"https://loltimessquare.com/\" target=\"_blank\">LOL Times Square Comedy Club</a>"
     },
     {
       "name": "sugar-factory",
@@ -148,7 +148,7 @@
       "file_size": null,
       "alt": "Sugar Factory",
       "caption": "",
-      "description": "Sugar Factory"
+      "description": "<a href=\"https://sugarfactory.com/\" target=\"_blank\">Sugar Factory</a>"
     }
   ]
 }
