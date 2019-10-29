@@ -59,7 +59,7 @@
             >
               {% if site.data.hotel_settings.iprefer_logo and site.data.hotel_settings.iprefer_logo.url and site.data.hotel_settings.iprefer_logo.url != '' %}
                 {% assign logo_url = site.data.hotel_settings.iprefer_logo.url_xsmall | default: site.data.hotel_settings.iprefer_logo.url %}
-                <a href="https://preferredhotels.com/iprefer" target="_blank"> <img src="{{logo_url}}" alt="{{site.data.hotel_settings.iprefer_logo.alt | default: 'Logo' }}" /> </a>
+                <a href="https://preferredhotels.com/iprefer" target="_blank"> <img src="{{logo_url}}" alt="{{site.data.hotel_settings.iprefer_logo.alt | default: 'Logo' }}" /></a>
               {% else %}
                 <span class="condensed-hotel-name">{{site.data.hotel_settings.name}}</span>
               {% endif %}
