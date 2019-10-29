@@ -91,7 +91,7 @@ it:
   primary_phone: Telefono principale
   alternate_phone: Telefono alternativo
   forms:
-    first_name: Nome di battesimo
+    first_name: Nome
     last_name: Cognome
     phone_number: Numero di telefono
     email: E-mail
