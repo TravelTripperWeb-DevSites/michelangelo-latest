@@ -44,7 +44,7 @@ main:
     url_localized: ''
     page_id: _pages/events.html
     label_localized:
-      en: Events
+      en: Meetings
       fr: Événements d'entreprise
       it: MEETING & EVENTI
     items: 
