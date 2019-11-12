@@ -81,3 +81,12 @@
     </div>
   </ul>
 </nav>
+<!-- special banner bar -->
+{% assign special = site.data.special-banner-bar %}
+{% if special.publish == true and special.title !='' %}
+<section class="special-banner-bar">
+  <h5 tabindex="0"><strong>{{ special.title }} {% if special.body!=''%} - {% endif %} </strong> {{ special.body }}</h5>
+   <a id="top_banner_offer" href="{{ special.booknow_link }}" class="btn-common btn-dark" title="{{ special.booknow_text }}" target="_blank">{{ special.booknow_text }}</a>
+ </section>
+{% endif %}
+<!-- end special banner bar -->

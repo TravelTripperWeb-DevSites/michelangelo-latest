@@ -130,3 +130,36 @@
     height: 100%;
   }
 }
+
+// special banner bar //
+
+.special-banner-bar {
+  width: 100%;
+  margin: 3px auto;
+  padding: 7px 0 5px;
+  text-align: center;
+  background-color: $primary;
+  a,
+  h5 {
+    display: inline-block;
+    margin: 0 15px;
+    vertical-align: middle;
+  }
+  h5 {
+    @media (max-width: 600px) {
+      padding: 10px 0;
+    }
+  }
+  .btn-common {
+    padding: 7px 15px;
+    font-size: $display3-size;
+    border-radius: 5px;
+    &:before {
+      border-radius: 5px;
+    }
+    &:focus {
+      color: $primary;
+      background-color: $white;
+    }
+  }
+}
