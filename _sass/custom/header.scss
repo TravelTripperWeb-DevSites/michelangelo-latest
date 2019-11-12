@@ -196,7 +196,7 @@
 
     &__logo {
       display: none;
-      margin-top: 25px;
+      margin-top: 5px;
 
       @include media-breakpoint-up(md) {
         display: inline-block;
