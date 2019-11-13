@@ -36,15 +36,18 @@
     line-height: 37px;
     color: $white;
     background-color: transparent;
-    border: 1px solid $gold;
+    border: 1px solid $white;
+    @include transition(.3s);
     @include media-breakpoint-down(xs) {
       padding: 8px;
       font-size: $display6-size;
       line-height: $display6-size;
     }
-    &:hover {
-      background-color: $gold;
-      border: 1px solid $gold;
+    &:hover, &:focus {
+      background-color: $white;
+      border: 1px solid $white;
+      color: $primary;
+      text-decoration: none;
     }
   }
 }
