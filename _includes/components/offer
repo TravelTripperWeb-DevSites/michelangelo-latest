@@ -12,7 +12,7 @@
     <a class="btn btn--primary" data-tt-url-format="{{permalink}}offer/#<offercode>" ttweb-offer-component="OfferViewButton">{% t 'cta.discover' %}</a>
     <div class="c-offer__select ">
       <div class="ttweb-booking-button-offer">
-        <a data-tt-class-name="btn btn--secondary" ttweb-offer-component="OfferBookingButton">
+        <a data-tt-class-name="btn btn--secondary" ttweb-offer-component="OfferBookingButton" data-tt-disabled="false">
           {% t 'offers.buttons.book' %}
         </a>
       </div>

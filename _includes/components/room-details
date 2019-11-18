@@ -38,7 +38,7 @@
             <div class="c-room__rate" ttweb-room-component="CrossOutRateContainer" data-tt-show-error="true"></div>
             <span class="rate-text"> | Tonight Only </span>
           </div>
-          <div data-tt-class-name="btn btn--secondary" ttweb-room-component="RoomBookingButton">
+          <div data-tt-class-name="btn btn--secondary" ttweb-room-component="RoomBookingButton" data-tt-disabled="false">
             {% t 'cta.book_now' %}
           </div>
         </div>
