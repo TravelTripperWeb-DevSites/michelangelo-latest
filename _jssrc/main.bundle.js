@@ -188,12 +188,17 @@ readyDoc(function () {
         if (offers.length > 1) {
           for (var i = 0, ii = offers.length; i < ii; i++) {
             if (offers[i].ratePlanCode == dynamicOfferCode) {
-              var pinterestLink = document.querySelector(".pinterestShare");
-              // for(var k=0,kk=links.length;k<kk;k++) {
-              pinterestLink.addEventListener('click', function (event) {
-                pinterestShare(offers[i].images[0].url, offers[i].ratePlanName);
-              }, false);
-              // }
+              setTimeout(function () {
+                var pinterestLink = document.querySelector(".pinterestShare");
+                pinterestLink.addEventListener('click', function (event) {
+                  pinterestShare(offers[i].images[0].urls.large, encodeURI(offers[i].ratePlanName));
+                });
+              }, 1000);
+
+              var offerCodeInput = document.querySelector(".room-booking-widget [name='rate_code']");
+              if (offerCodeInput) {
+                offerCodeInput.value = dynamicOfferCode;
+              }
             }
           }
         }
@@ -252,8 +257,21 @@ readyDoc(function () {
       }
     }
   });
+  redirectRoomOfferNoHashUrls();
 });
 
+function redirectRoomOfferNoHashUrls() {
+  var pageUrl = window.location.href;
+  var pageHash = window.location.hash;
+  if (pageUrl.indexOf('/rooms/room/') != -1 && pageHash == '') {
+    pageUrl = pageUrl.replace('/rooms/room/', '/rooms/');
+    console.log('NOHSH', pageUrl);
+    window.location.href = pageUrl;
+  } else if (pageUrl.indexOf('/offers/offer/') != -1 && pageHash == '') {
+    pageUrl = pageUrl.replace('/offers/offer/', '/offers/');
+    window.location.href = pageUrl;
+  }
+}
 // Pinterest Share
 
 function pinterestShare(img, desc) {

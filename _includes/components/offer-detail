@@ -7,7 +7,7 @@
         <div>
           <h1 class="h1" tabindex="0" {% if sync %}ttweb-offer-component="OfferTitle"{% endif %}>{{ offer.name }}</h1>
           <div class="select">
-            <div class="btn--secondary" data-tt-class-name="btn" ttweb-offer-component="OfferBookingButton">
+            <div class="btn--secondary" data-tt-class-name="btn" ttweb-offer-component="OfferBookingButton" data-tt-disabled="false">
               {% t 'offers.buttons.book' %}
             </div>
           </div>
