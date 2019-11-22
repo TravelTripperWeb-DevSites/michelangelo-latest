@@ -13,7 +13,8 @@
   text-align: center;
   background-color: $primary;
   @include media-breakpoint-down(sm) {
-    top: 200px;
+    position: relative;
+    top: 127px;
   }
   h4, a {
     display: inline-block;
@@ -44,10 +45,10 @@
       line-height: $display6-size;
     }
     &:hover, &:focus {
-      background-color: $white;
-      border: 1px solid $white;
       color: $primary;
       text-decoration: none;
+      background-color: $white;
+      border: 1px solid $white;
     }
   }
 }
