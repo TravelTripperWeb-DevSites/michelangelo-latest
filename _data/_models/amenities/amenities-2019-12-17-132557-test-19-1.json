@@ -1,0 +1,11 @@
+{
+  "order": 1,
+  "name_localized": {
+    "en": "test"
+  },
+  "description_localized": {
+    "en": "<p>test1</p>"
+  },
+  "Test1": "test1",
+  "Test2": "test1"
+}
