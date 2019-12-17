@@ -12,7 +12,7 @@
     "required": true
   },
   "Test2": {
-    "type": "string",
+    "type": "url",
     "required": true
   },
   "images": {
