@@ -7,6 +7,14 @@
     "type": "richtext",
     "localizable": true
   },
+  "Test1": {
+    "type": "text",
+    "required": true
+  },
+  "Test2": {
+    "type": "url",
+    "required": true
+  },
   "images": {
     "type": "image"
   },

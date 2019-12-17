@@ -25,7 +25,6 @@ en:
     see_more: See More
   page_not_found:
     header: Page Not Found
-
   header:
     book_now_button: Book Now
     language: Language
@@ -43,13 +42,13 @@ en:
     none: No Events Yet!
   offers:
     none: No Offers Available.
-    rate_pre_label: "avg. "
+    rate_pre_label: 'avg. '
     rate_post_label: " / night"
-    not_available: ""
+    not_available: ''
     offer_details: Offer Details
     cross_sell:
-      title: Special offers
-      description: Get a great deal at our Manhattan hotel
+      title: Special offersSSSS
+      description: Get a great deal at our Manhattan hotelS
       link: View All Offers
     buttons:
       book: Book Now
@@ -60,7 +59,7 @@ en:
     max_guests: Max Guests
     guest_size_max: "%{size}"
     accessible: Accessible Rooms
-    price_per_night: / Night
+    price_per_night: "/ Night"
     room_size: SQM/SQF
     room_details: Room Details
     room_features: Room Features
@@ -72,9 +71,9 @@ en:
     filters:
       all: All
   carousels:
-    next: "Next"
-    previous:  "Prev"
-  join_our_newsletter:  Join Our Newsletter
+    next: Next
+    previous: Prev
+  join_our_newsletter: Join Our Newsletter
   newsletter_signup_intro: SHARE YOUR EXPERIENCES AT STARHOTELS COLLEZIONE
   additional_links: Additional Links
   your_reservartion: Your Reservation
@@ -121,7 +120,8 @@ en:
     enter_budget: Enter Budget
     other_info_requests: Other Info/Requests
     tell_us_other_info_requests: Other Info/Requests
-    attach_document: Attach any document you have with details or specifications for your meeting
+    attach_document: Attach any document you have with details or specifications for
+      your meeting
     company_name: Company Name
     company_type: Company Type
     company: Company
